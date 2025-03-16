@@ -5,19 +5,9 @@ from src.utils import *
 from src.model import *
 
 st.set_page_config(page_title="Application", page_icon="📚")
-
-
 st.header("Chatbot")
-# chargement la base de données
-database_path = ""
 
-# initialisations
-if "messages" not in st.session_state:
-    st.session_state["messages"] = []
-if "model" not in st.session_state:
-    st.session_state["model"] = "gemma:2b"
 
-# fonctions
 def model_res_generator():
     stream = ollama.chat(
         model=st.session_state["model"],
@@ -29,6 +19,10 @@ def model_res_generator():
 
 def get_context_prompt(prompt):
     return prompt
+
+def evaluate_answer(answer):
+    st.session_state["good_answers"] += 1
+
 
 
 # affichage de l'historique des messages
@@ -50,3 +44,4 @@ if prompt := st.chat_input("Que voulez-vous savoir?"):
     with st.chat_message("assistant"):
         message = st.write_stream(model_res_generator())
         st.session_state["messages"].append({"role": "assistant", "content": message})
+        evaluate_answer(context_prompt)
