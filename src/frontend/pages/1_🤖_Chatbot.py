@@ -4,8 +4,13 @@ import ollama
 from src.utils import *
 from src.model import *
 
+
 st.set_page_config(page_title="Application", page_icon="📚")
+st.markdown(f'<style>{st.session_state["css"]}</style>', unsafe_allow_html=True)
+
 st.header("Chatbot")
+st.logo(st.session_state["logo"])
+
 
 
 def model_res_generator():

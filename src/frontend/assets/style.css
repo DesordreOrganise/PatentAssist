@@ -1,0 +1,45 @@
+
+body {
+    --background-color: #1e1e2e;
+    --secondary-background-color: #181825;
+    --primary-color: #cba6f7;
+    --text-color: #bac2de;
+    --title-color: #cdd6f4;
+    --user: #94e2d5;
+    --model: #cba6f7;
+    --font: Georgia, serif;;
+}
+
+.stApp {
+    color: var(--text-color);
+    font-family: var(--font);
+}
+
+h1, h2, h3, p {
+    font-family: var(--font) !important;
+}
+
+h2 {
+    color: var(--title-color) !important;
+}
+
+.stChatInput {
+    border: 2px solid var(--primary-color);
+    border-radius: 50px;
+}
+
+
+/* liens de navigation */
+.e1tphpha5 {
+    font-family: var(--font);
+}
+
+
+
+/* icons of user and model chat */
+.st-emotion-cache-jmw8un{
+    background-color: var(--model) !important;
+}
+.st-emotion-cache-4zpzjl{
+    background-color: var(--user) !important;
+}
