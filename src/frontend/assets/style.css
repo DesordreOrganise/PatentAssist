@@ -23,6 +23,13 @@ h2 {
     color: var(--title-color) !important;
 }
 
+.stMainBlockContainer{
+    width: 70em !important;
+}
+.st-emotion-cache-mtjnbi, .st-emotion-cache-1d2o6qs {
+    max-width: none !important;
+}
+
 .stChatInput {
     border: 2px solid var(--primary-color);
     border-radius: 50px;
