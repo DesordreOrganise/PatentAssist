@@ -21,15 +21,13 @@ col1, col2 = st.columns(2)
 
 with col1:
     # RADAR CHART
-    categories = ['c1','c2','c3','c4', 'c5'] # nom des catégories
-    scores = [4,8,2,6,7] # bonnes réponses pour chaque catégorie
+    categories = ['c1','c2','c3','c4', 'c5'] # categories name
+    scores = [4,8,2,6,7] # good answers for each category
     nb_questions = 15
 
-    # pour que la ligne soit fermée sur le graph
+    # for the connecting line to be closed on the chart
     categories += [categories[0]]
     scores += [scores[0]]
-
-
 
     colors = [
         'rgb(245, 194, 231)',
@@ -43,9 +41,7 @@ with col1:
         'rgb(180, 190, 254)'
     ]
 
-    # Créer un graphique radar avec des points colorés
     fig = go.Figure()
-
     fig.add_trace(go.Scatterpolar(
         r=scores,
         theta=categories,
@@ -54,7 +50,6 @@ with col1:
         line=dict(color='rgb(242, 205, 205)', width=2),  # line to connect points
         marker=dict(color=colors[:len(categories)], size=10)  # one color for each point
     ))
-
     fig.update_layout(
         polar=dict(
             radialaxis=dict(
@@ -75,11 +70,13 @@ with col1:
         ),
         template='plotly_dark'
     )
-
     st.plotly_chart(fig, use_container_width=True)
 
+
+
+
 with col2:
-    labels = ["Bonnes réponses",""] # deuxièle label = mauvaises réponses
+    labels = ["Bonnes réponses","Mauvaises réponses"]
     nb_bonnes_reponses = 12
 
     fig2 = make_subplots(rows=1, cols=2, specs=[[{'type':'domain'}, {'type':'domain'}]])
@@ -88,7 +85,7 @@ with col2:
         values=[nb_bonnes_reponses, nb_questions - nb_bonnes_reponses],
         name="Réponses",
         hole=.7,
-        marker=dict(colors=['green', 'rgba(0,0,0,0)']),  # couleur pour les bonnes réponses, transparent pour les mauvaises
+        marker=dict(colors=['rgb(166, 227, 161)', 'rgba(0,0,0,0)']),  # couleur pour les bonnes réponses, transparent pour les mauvaises
         hoverinfo="skip",
         showlegend=False,
         textinfo='none'
