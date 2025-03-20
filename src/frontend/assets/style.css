@@ -10,18 +10,6 @@ body {
     --font: Georgia, serif;;
 }
 
-.stApp {
-    color: var(--text-color);
-    font-family: var(--font);
-}
-
-h1, h2, h3, p {
-    font-family: var(--font) !important;
-}
-
-h2 {
-    color: var(--title-color) !important;
-}
 
 .stMainBlockContainer{
     width: 70em !important;
@@ -30,21 +18,10 @@ h2 {
     max-width: none !important;
 }
 
-.stChatInput {
-    border: 2px solid var(--primary-color);
-    border-radius: 50px;
-}
 
 
-/* liens de navigation */
-.e1tphpha5 {
-    font-family: var(--font);
-}
-
-
-
-/* icons of user and model chat */
-.st-emotion-cache-jmw8un{
+/* icons of user and model chat not working :( */
+.st-emotion-cache-jmw8un .st-emotion-cache-bho8sy{
     background-color: var(--model) !important;
 }
 .st-emotion-cache-4zpzjl{

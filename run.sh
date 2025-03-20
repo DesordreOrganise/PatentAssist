@@ -1,3 +1,10 @@
 #!/bin/bash
 export PYTHONPATH=$(pwd)
-streamlit run src/frontend/🏠_Menu.py  --theme.primaryColor="rgb(180, 190, 254)" --theme.backgroundColor="rgb(30, 30, 46)" --theme.secondaryBackgroundColor="rgb(24, 24, 37)" --theme.textColor="rgb(205, 214, 244)" --theme.base="dark" --theme.font="Georgia, serif"
+streamlit run src/frontend/🏠_Menu.py  \
+    --theme.primaryColor="rgb(140, 170, 238)" \
+    --theme.backgroundColor="rgb(244, 219, 214)" \
+    --theme.secondaryBackgroundColor="rgb(235, 160, 172)" \
+    --theme.textColor="rgb(49, 0, 85)" \
+    --theme.base="dark" \
+    --theme.font="Georgia, serif" \
+

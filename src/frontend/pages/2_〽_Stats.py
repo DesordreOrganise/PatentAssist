@@ -2,9 +2,21 @@ import streamlit as st
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
-
+# initialisations
+if "good_answers" not in st.session_state:
+    st.session_state["good_answers"] = 0
+if "css" not in st.session_state:
+    style_path = "src/frontend/assets/style.css"
+    with open(style_path) as f:
+        css = f.read()
+    st.session_state["css"] = css
+if "logo" not in st.session_state:
+    logo = "src/frontend/assets/bot.png"
+    st.session_state["logo"] = logo
 st.set_page_config(page_title="Application", page_icon="📚")
 st.markdown(f'<style>{st.session_state["css"]}</style>', unsafe_allow_html=True)
+st.sidebar.image("src/frontend/assets/logo.png", use_container_width=True)
+
 
 st.header("Statistiques")
 st.logo(st.session_state["logo"])

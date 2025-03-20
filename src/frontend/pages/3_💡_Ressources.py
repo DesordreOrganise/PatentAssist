@@ -1,13 +1,25 @@
 import streamlit as st
 import base64
 
+
+# initialisations
+if "css" not in st.session_state:
+    style_path = "src/frontend/assets/style.css"
+    with open(style_path) as f:
+        css = f.read()
+    st.session_state["css"] = css
+if "logo" not in st.session_state:
+    logo = "src/frontend/assets/bot.png"
+    st.session_state["logo"] = logo
 st.set_page_config(page_title="Application", page_icon="📚")
 st.markdown(f'<style>{st.session_state["css"]}</style>', unsafe_allow_html=True)
+st.sidebar.image("src/frontend/assets/logo.png", use_container_width=True)
+
 
 st.header("Ressources PDF")
 st.logo(st.session_state["logo"])
 
-st.markdown("Cliquer sur la 🡆 pour visualiser le PDF.")
+st.markdown("Cliquer sur la 🡆 pour visualiser le PDF. Les documents peuvent prendre quelques secondes à s'afficher.")
 
 st.divider()
 
