@@ -59,7 +59,13 @@ def evaluate_answer(answer):
     if True:
         st.session_state["good_answers"] += 1
 
+def generate_question(type, category):
+    """
+    Returns a prompt for a question with the right type and category
+    """
+    return f"Pose-moi une question {type} sur la catégorie {category}."
 
+type = "de QCM"
 # category selection option
 category = st.selectbox(
     "Select a specific category to train on :",
@@ -91,4 +97,18 @@ if prompt := st.chat_input("Que voulez-vous savoir?"):
         st.session_state["messages"].append({"role": "assistant", "content": message})
 
         # test for statistics variables (good answer or not)
+        evaluate_answer(context_prompt)
+
+
+if st.button("Pose-moi une question !"):
+    context_prompt = generate_question(type, category)
+
+    st.session_state["messages"].append({"role": "user", "content": context_prompt})
+    with st.chat_message("user"):
+        st.markdown(context_prompt)
+
+    with st.chat_message("assistant"):
+        message = st.write_stream(model_res_generator())
+        st.session_state["messages"].append({"role": "assistant", "content": message})
+
         evaluate_answer(context_prompt)
