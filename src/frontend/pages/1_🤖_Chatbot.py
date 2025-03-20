@@ -8,7 +8,7 @@ from src.model import *
 # INITIALISATIONS
 database_path = ""
 if "model" not in st.session_state:
-    st.session_state["model"] = "gemma:2b"   # MODELE
+    st.session_state["model"] = "gemma3:4b"   # MODELE
 
 if "messages" not in st.session_state:
     st.session_state["messages"] = []
