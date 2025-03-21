@@ -58,12 +58,13 @@ with col1:
         r=scores,
         theta=categories,
         fill='tonext',
-        fillcolor='rgba(242, 205, 205,0.2)',
-        line=dict(color='rgb(242, 205, 205)', width=2),  # line to connect points
+        fillcolor='rgba(242, 205, 205,0.7)',
+        line=dict(color='rgb(49, 0, 85)', width=2),  # line to connect points
         marker=dict(color=colors[:len(categories)], size=10)  # one color for each point
     ))
     fig.update_layout(
         polar=dict(
+            bgcolor = "rgba(242, 205, 205,0)",
             radialaxis=dict(
                 visible=True,
                 range=[0, nb_questions],
