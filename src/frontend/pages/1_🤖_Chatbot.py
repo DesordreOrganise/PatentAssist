@@ -1,5 +1,6 @@
 import streamlit as st
 import ollama
+import numpy as np
 
 from src.utils import *
 from src.model import *
@@ -81,7 +82,15 @@ with left:
             key="type_question",
             horizontal=True,
         )
-    type = st.session_state.type_question
+    if st.session_state.type_question == "Peu importe":
+        random = np.random.random()
+        if random < 0.5:
+            type = "QCM"
+        else:
+            type = "Ouverte"
+    else:
+        type = st.session_state.type_question
+
 
 st.divider()
 
