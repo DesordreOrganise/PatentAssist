@@ -66,20 +66,22 @@ def generate_question(type, category):
     return f"Pose-moi une question de type {type} sur la catégorie {category}."
 
 
-# category selection option
-category = st.selectbox(
-    "Choisissez une catégorie sur laquelle vous entraîner :",
-    ("Toutes les catégories", "c1", "c2"),
-)
-st.write("Catégorie sélectionnée :", category)
-
-st.radio(
-        "Sélectionnez le type de question",
-        ["QCM", "Ouverte", "Peu importe"],
-        key="type_question",
-        horizontal=True,
+# question category and type selection
+right, left = st.columns(2,gap='large')
+with right: 
+    category = st.selectbox(
+        "Choisissez une catégorie sur laquelle vous entraîner :",
+        ("Toutes les catégories", "c1", "c2"),
     )
-type = st.session_state.type_question
+    st.write("Catégorie sélectionnée :", category)
+with left:
+    st.radio(
+            "Sélectionnez le type de question",
+            ["QCM", "Ouverte", "Peu importe"],
+            key="type_question",
+            horizontal=True,
+        )
+    type = st.session_state.type_question
 
 st.divider()
 
