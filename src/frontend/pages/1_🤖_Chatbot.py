@@ -63,15 +63,23 @@ def generate_question(type, category):
     """
     Returns a prompt for a question with the right type and category
     """
-    return f"Pose-moi une question {type} sur la catégorie {category}."
+    return f"Pose-moi une question de type {type} sur la catégorie {category}."
 
-type = "de QCM"
+
 # category selection option
 category = st.selectbox(
     "Choisissez une catégorie sur laquelle vous entraîner :",
     ("Toutes les catégories", "c1", "c2"),
 )
 st.write("Catégorie sélectionnée :", category)
+
+st.radio(
+        "Sélectionnez le type de question",
+        ["QCM", "Ouverte", "Peu importe"],
+        key="type_question",
+        horizontal=True,
+    )
+type = st.session_state.type_question
 
 st.divider()
 
