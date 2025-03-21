@@ -68,10 +68,10 @@ def generate_question(type, category):
 type = "de QCM"
 # category selection option
 category = st.selectbox(
-    "Select a specific category to train on :",
-    ("All categories", "c1", "c2"),
+    "Choisissez une catégorie sur laquelle vous entraîner :",
+    ("Toutes les catégories", "c1", "c2"),
 )
-st.write("Category selected:", category)
+st.write("Catégorie sélectionnée :", category)
 
 st.divider()
 
