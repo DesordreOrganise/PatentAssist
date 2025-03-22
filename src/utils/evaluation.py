@@ -4,6 +4,7 @@ from src.utils.preprocessing import Dataset
 import pandas as pd
 import numpy as np
 
+
 class Metric(ABC):
 
     def __init__(self):
@@ -16,13 +17,13 @@ class Metric(ABC):
     def _compute_specific(self, model_output: str, ground_truth: str) -> float:
         pass
 
-    @abstractmethod
+
     def compute(self, model_output: str, ground_truth: str):
         result = self._compute_specific(model_output, ground_truth)
         self.values.append(result)
         return result
-    
-    @abstractmethod
+
+
     def produce(self) -> float:
         return np.mean(self.values) if self.values else 0
 
