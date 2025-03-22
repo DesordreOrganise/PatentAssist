@@ -1,14 +1,17 @@
 from abc import ABC, abstractmethod
 from langchain_chroma import Chroma
 from langchain_ollama import OllamaEmbeddings
+from langchain_core.documents import Document
 import networkx as nx
+from typing import Tuple
 from os import PathLike
 import yaml
+
 
 class BaseSystem(ABC):
 
     @abstractmethod
-    def run(input:str) -> str:
+    def run(input: str) -> str:
         pass
 
 
@@ -42,13 +45,17 @@ class RAG(BaseSystem):
 
 
     def run(self, input: str) -> str:
-        #documents = retriever.retrieve()
+        prompt, query = self._parse_input(input)
+        documents = self.retriever.retrieve_documents(input)
         context = self._format_context(input, documents)
-        #documents.get_text()
         
         return self.LLM(context)
     
     
-    def _format_context(self, input: str, documents):
+    def _format_context(self, input: str, documents: list[Document]):
         #ici formatter le contexte selon un template?
+        pass
+
+    def _parse_input(self, input: str) -> Tuple[str]:
+        #essayer de différencier la question du prompt
         pass
