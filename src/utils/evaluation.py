@@ -28,6 +28,16 @@ class Metric(ABC):
         return np.mean(self.values) if self.values else 0
 
 
+class ROUGE(Metric):
+
+    def __init__(self):
+        super.__init__()
+
+    def _compute_specific(self, model_output: str, ground_truth: str) -> float:
+        #compute rouge score given model output and ground truth
+        pass
+
+
 class EvaluationFramework():
 
     def __init__(self, metrics: list[Metric]):
