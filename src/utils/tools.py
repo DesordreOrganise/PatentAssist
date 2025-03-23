@@ -10,7 +10,7 @@ def extract_articles(text: str) -> list:
     article_pattern = r'Art\. \d+[\w\s\(\)]+(?:\sEPC|PCT|Paris Convention|OJ|Guidelines|Rfees)?'
     article_pattern = r'Art\. \d+[\w\s\(\)]+(?=\s|$)'
     article_pattern = r'Art\. \d+[\w\s\(\)]+'
-    article_pattern = r'Art(?:icle|icles|.)?\s*\d+[\w\s\(\),;.]*?(?:\sEPC|EPC|PCT|Paris Convention|OJ|Guidelines|Rfees)?'
+    article_pattern = re.compile(r'(?<![a-zA-Z0-9])Art(?:icle|icles|.)?\s*\d+[\w\s\(\),;.]*?(?:\sEPC|EPC|PCT|Paris Convention|OJ|Guidelines|Rfees)?', re.IGNORECASE)
     
 
     # replace \n | \r | \t | \s+ with space
@@ -38,7 +38,7 @@ def extract_articles(text: str) -> list:
 def extract_rules(text: str) -> list:
     # Définir le pattern de recherche
     rule_pattern = r'R\. \d+[\w\s\(\)]+'
-    rule_pattern = r'R(?:.|ule|ules|)\s*\d+[\w\s\(\),;.]*?(?:\sEPC|EPC|PCT|Paris Convention|OJ|Guidelines|Rfees)?'
+    rule_pattern = re.compile(r'(?<![a-zA-Z0-9])R(?:.|ule|ules|)\s*\d+[\w\s\(\),;.]*?(?:\sEPC|EPC|PCT|Paris Convention|OJ|Guidelines|Rfees)?', re.IGNORECASE)
     # rule_pattern = r'Rule \d+[\w\s\(\)]+'
 
     # replace \n | \r | \t | \s+ with space
