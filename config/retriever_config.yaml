@@ -1,1 +1,2 @@
-k: 4
+initial_k: 20
+rerank_k: 4
