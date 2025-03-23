@@ -2,6 +2,8 @@ from abc import ABC, abstractmethod
 from langchain_chroma import Chroma
 from langchain_ollama import OllamaEmbeddings
 from langchain_core.documents import Document
+from langchain_community.chat_models import ChatOllama
+from langchain_core.messages import SystemMessage, AIMessage, HumanMessage
 
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 import torch
@@ -42,6 +44,9 @@ class Reranker():
         with torch.no_grad():
             scores = self.model(**inputs).logits.squeeze()
 
+        if scores.ndim > 1 and scores.shape[1] > 1:
+            scores = F.softmax(scores, dim=1)[:, 1]
+
         reranked = sorted(zip(docs, scores.tolist()), key=lambda x: x[1], reverse=True)
 
         return [doc for doc, _ in reranked[:k]]
@@ -75,26 +80,24 @@ class Retriever():
 
 class RAG(BaseSystem):
 
-    def __init__(self, LLM, retriever: Retriever, database: nx.MultiDiGraph, st_memory, lt_memory):
+    def __init__(self, LLM: ChatOllama, retriever: Retriever, database: nx.MultiDiGraph, lt_memory):
         self.LLM = LLM
         self.retriever = retriever
         self.database = database
-        self.st_memory = st_memory
+        self.system_prompt = SystemMessage(content="You are a helpful assistant that answers based only on the provided context. If the answer is not in the context, say 'I don't know.'")
+        self.st_memory = [self.system_prompt]
         self.lt_memory = lt_memory
 
 
-    def run(self, input: str) -> str:
-        prompt, query = self._parse_input(input)
-        documents = self.retriever.retrieve_documents(input)
+    def run(self, input: str, rerank: bool=True) -> str:
+        documents = self.retriever.retrieve_documents(input, rerank=rerank)
         context = self._format_context(input, documents)
-        
+        self.st_memory.append(input)
+        response = self.LLM.invoke(self.st_memory)
+        self.st_memory.append(response)
         return self.LLM(context)
     
     
     def _format_context(self, input: str, documents: list[Document]):
         #ici formatter le contexte selon un template? CoT
-        pass
-
-    def _parse_input(self, input: str) -> Tuple[str]:
-        #essayer de différencier la question du prompt
         pass
