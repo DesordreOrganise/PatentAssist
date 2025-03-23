@@ -36,7 +36,7 @@ class Retriever():
 
 class RAG(BaseSystem):
 
-    def __init__(self, LLM, retriever, database: nx.MultiDiGraph, st_memory, lt_memory):
+    def __init__(self, LLM, retriever: Retriever, database: nx.MultiDiGraph, st_memory, lt_memory):
         self.LLM = LLM
         self.retriever = retriever
         self.database = database
@@ -53,7 +53,7 @@ class RAG(BaseSystem):
     
     
     def _format_context(self, input: str, documents: list[Document]):
-        #ici formatter le contexte selon un template?
+        #ici formatter le contexte selon un template? CoT
         pass
 
     def _parse_input(self, input: str) -> Tuple[str]:

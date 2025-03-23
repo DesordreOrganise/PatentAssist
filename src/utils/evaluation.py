@@ -43,6 +43,7 @@ class EvaluationFramework():
     def __init__(self, metrics: list[Metric]):
         self.metrics = metrics
         self.computed_metrics = pd.Series()
+        
 
     def evaluate(self, system: BaseSystem, test_data: pd.DataFrame):
         for metric in self.metrics:
