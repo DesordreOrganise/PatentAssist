@@ -1,0 +1,647 @@
+{
+    "exam_type": "EQE",
+    "year": "2012",
+    "exam_name": "PreEx",
+    "exercices": [
+        {
+            "question_number": "1",
+            "question_type": "True/False",
+            "context": "Bikeparts AS is a Danish company based in Copenhagen. Bikeparts AS validly filed a  Japanese patent application JP-X on 11 March 2011 at the Japanese Patent Office in  the Japanese language for invention X. Today, 5 March 2012, it is desired to file a  European patent application EP-X at the EPO claiming the priority of JP-X for  invention X.     For each of the statements 1.1 \u2013 1.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "EP-X can be filed in Danish.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "EP-X can be filed in Korean.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "EP-X can be filed in Japanese.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If EP-X is not filed in one of the official languages of the EPO, then a translation into an official language of the EPO must be filed within a time limit of one month.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "A European patent application may be filed in any language, such as in Danish, Koreanor  Japanese, Article 14(2) EPC. If a European patent application is not filed in one of the  official languages, a translation must be filed within two months of filing the application,  Rule 6(1) EPC."
+        },
+        {
+            "question_number": "2",
+            "question_type": "True/False",
+            "context": "Mr X validly filed a German patent application on 6 April 2011. He intends to claim  priority of this first application in a later European patent application.     For each of the statements 2.1 \u2013 2.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Mr X can validly claim priority if he files the European patent application on 10 April 2012.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The priority declaration must be made at the latest on 10 August 2012.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If Mr X had filed a German utility model application instead of a German patent application, it would have been possible to claim priority from the German utility model application.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Mr X can claim priority from the German patent application even if the German patent application is abandoned before filing of the European patent application.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Mr X can validly claim priority from the German patent application if he files the European  patent application on 10 April 2012 [6 April 2011 + 12 months (=6 April 2012), extended  due to Easter holidays to 10 April 2012], Article 87(1) EPC, Rule 131(4) EPC and  Rule 134(1) EPC. The priority declaration must be made within sixteen months from the  priority date claimed, i.e. latest on 6 August 2012, Rule 131(4) EPC. Also a utility model  application gives rise to a right of priority, Article 87(1) EPC. The outcome of the priority  application (such as a subsequent withdrawal)is irrelevant, Article 87(3) EPC."
+        },
+        {
+            "question_number": "3",
+            "question_type": "True/False",
+            "context": "Today, 5 March 2012, applicant Z wishes to file a PCT application with the EPO without  claiming priority. Applicant Z has filed no other patent application for this invention.     For each of the statements 3.1 \u2013 3.4, indicate on the answer sheet whether the  statement is true or false:    One of the elements that the EPO as receiving Office has to receive today in order to  accord today's date as the filing date for the PCT application is...",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "... the description.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "... the abstract.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "... one or more claims.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "... the title of the invention.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "An element that the receiving Office must be provided with for according an international  filing date to an international application is a description and one or more claims  (Article 11(iii)(d) and (e) PCT). The abstract and the title of the invention are not required  for obtaining an international filing date."
+        },
+        {
+            "question_number": "4",
+            "question_type": "True/False",
+            "context": "A PCT application was filed with the EPO. As the International Searching Authority, the  EPO considered that the application was not unitary. The invention first mentioned in the  claims was searched and an invitation to pay two additional international search fees  was sent to the applicant last week. The third invention, which has not yet been  searched, is the only invention that the applicant would like to pursue in the European  phase before the EPO.     For each of the statements 4.1 \u2013 4.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "In the international PCT phase, the applicant can file a protest with the EPO and request that a full search is made. The protest is free of charge, but it has to be supported by arguments.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The applicant can timely pay one additional fee for the third invention to be searched in the international PCT phase. In the European phase, the applicant can limit the application to the third invention.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The applicant can ignore the invitation. In the European phase, the applicant can file a divisional application directed to the third invention.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The applicant can ignore the invitation. In the European phase, the applicant will again receive an invitation to pay additional search fees.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "If an additional search fee is paid under protest, the EPO as the International Searching  Authority examines the protest in accordance with Rule 40.2(c) and (e) PCT provided that  the prescribed protest fee, Rule 158(3) EPC, is also paid. If the applicant chooses to pay  an additional fee for the third invention, the applicant can limit in the European phase the  application to an invention that was covered by the international search report, i.e. the third  invention, Rule 164(2) EPC. After entry into the European phase the applicant can file a  divisional application directed to the third invention, G 2/92 and Article 76(1) EPC.A  supplementary European search report is not drawn up where the international search  report was drawn up by the EPO, Article 153(7) EPC and Decision of the Administrative  Council of 28.10.2009 (OJ EPO 2009, 594).The applicant will have no opportunity to pay  additional search fees in the European phase."
+        },
+        {
+            "question_number": "5",
+            "question_type": "True/False",
+            "context": "On 1 February 2010 Document US1 was published. US1 discloses inventive feature A  but not feature B. On 1 June 2010 your client filed European patent application EP1  disclosing inventive feature B but not feature A. On 1 June 2011 your client filed  European patent application EP2 claiming priority from EP1. EP2 has the following  claims: Claim 1 is directed to feature B; claim 2 is directed to the combination of  features B and A. EP1 was published in December 2011. The combination of  features B and A would be obvious if the skilled person were aware of the disclosures of  EP1 and US1.    For each of the statements 5.1 \u2013 5.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The subject-matter of claim 2 of EP2 lacks inventive step.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If EP2 had not claimed priority from EP1, the patentability of claim 1 of EP2 would not change.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "A valid novelty objection can be made using EP1 against claim 1 of EP2.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The subject-matter of claim 2 of EP2 is novel.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Feature A is part of the state of the art under Article 54(2) EPC by publication of US1 on 1  February 2010. Feature B is part of the state of the art under Article 54(2) EPC by  publication of EP1 in December 2011. The subject-matter of claim 2 of EP2 is inventive as  it was not obvious to the skilled person until feature B became part of the prior art in  December 2011, Article 56 EPC, second sentence.If EP2 had not claimed priority from  EP1 the situation would have been as follows: the fiction under Article 89 EPC that 1 June  2010 counts as date of filing of EP2 for the purpose of Article 54, paragraphs 2 and 3, EPC  would not apply;EP1 would have been prior art under Article 54(3) EPC against EP2; and  the content of EP1 would have rendered claim 1 of EP2 not novel. However, as EP2  claims priority from EP1, the effective date for feature B is 1 June 2010, Article 89 EPC.  Thus no valid novelty objection against claim 1 of EP2 can be made using EP1. The  subject-matter of claim 2 is novel as it is not disclosed in the prior art: neither US1 nor EP1  disclose the combination of features B and A."
+        },
+        {
+            "question_number": "6",
+            "question_type": "True/False",
+            "context": "A divisional application EP-D was filed on 10 February 2012 with the EPO. The parent  application EP-P was filed on 14 December 2010 and was still pending on  10 February 2012. The claims of EP-D contain subject-matter that was not originally  disclosed in the parent application.     For each of the statements 6.1 \u2013 6.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The subject-matter that is common to EP-D and EP-P is deemed to have the date of filing of 14 December 2010 and the remaining subject-matter of EP-D is deemed to have 10 February 2012 as its date of filing.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "EP-D is deemed to have 10 February 2012 as its date of filing.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "It is mandatory for EP-D to have the same set of claims as EP-P.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "During examination the applicant can amend EP-D so that it does not extend beyond the content of EP-P as originally filed, provided that the amended EP-D does not extend beyond the content of EP-D as originally filed.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "If EP-D contains subject-matter extending over the earlier application it cannot be  converted into an independent application taking 10 February 2012 as its  date of filing for  all or part of its subject-matter.In such a case, EP-D can be amended to remove all  additional matter to comply with the requirements of Article 76(1) EPC. If the applicant is  unwilling to remedy the defect by removal of the additional subject-matter, the divisional  application is refused under Article 97(2) EPC due to non-compliance with Article 76(1) EPC.The claims of a divisional application need not be limited to subject-matter already  claimed in the earlier application. (Guidelines, C-VI, 9.1.4, G 1/05)."
+        },
+        {
+            "question_number": "7",
+            "question_type": "True/False",
+            "context": "A European patent application is filed today, 5 March 2012. It contains 1 abstract page,  28 description pages, 5 drawing pages and 4 claims pages. The application has  19 claims. Three of the 19 claims are independent claims. The applicant wishes to  proceed with all claims.     For each of the statements 7.1 \u2013 7.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Claims fees are due for 3 claims only.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If the application is filed online, no additional fee for pages has to be paid.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If the application is filed by post, the additional fee for 3 pages has to be paid.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If no claims fees are paid, the application will be deemed to be withdrawn.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The European patent application contains (including the abstract page) 38 pages and  19 claims. Claims fees are due in respect of the sixteenth and each subsequent claim, i.e.  for 4 claims, Rule 45(1) EPC. Irrespective of how the application was filed, an additional  fee for three pages has to be paid, Rule 38(2) EPC and Article 2(1), No.1a Rfees, see also  Guidelines, A-III, 13.2. If a claims fee is not paid in due time, the claim concerned is  deemed to be abandoned, Rule 45(3) EPC."
+        },
+        {
+            "question_number": "8",
+            "question_type": "True/False",
+            "context": "The publication of the mention of the grant of a European patent was made on  22 June 2011. The European patent includes independent claim 1 directed to a product  and independent claim 2 directed to a process. The two claims are not linked by a single  general inventive concept.   Your client wants the opposition division to revoke the patent in its entirety but so far he  has found state of the art that anticipates the subject-matter of product claim 1 only.     For each of the statements 8.1 \u2013 8.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "A notice of opposition must be filed at the latest by 22 March 2012.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If an opposition is filed against claim 1 only, the opposition can be extended by the opponent to claim 2 after the expiry of the opposition period.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The statement setting out the grounds for opposition must be filed at the latest by 22 May 2012.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "As claims 1 and 2 are not linked by a single general inventive concept, lack of unity of the invention is a valid ground for opposition.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "A notice of opposition must be filed within nine months of the publication of the mention of  the grant, i.e. by 22 March 2012, Article 99(1) EPC and Rule 131(4) EPC. The notice of  opposition shall, in particular, contain: a statement of the extent  to which the European  patent is opposed; and a statement of the grounds of opposition together with supportive  facts and evidence, Rule 76(2)(c) EPC. After expiry of the opposition period, it is not  possible to extend the opposition to independent claims that had not been attacked in the  notice of opposition, G9/91, see also Guidelines, D-V, 2.1. Lack of unity is not a valid  ground for opposition, Article 100 EPC and G1/91."
+        },
+        {
+            "question_number": "9",
+            "question_type": "True/False",
+            "context": "Your British client buys a French company with all its assets including an international  application PCT1 directed to a first invention and a French application FR2 directed to a  second invention. Both applications are in the French language. PCT1 was filed in  December 2009 and FR2 was filed in April 2011. Neither application claims an earlier  priority. Your client wants to pursue both inventions as European patent applications, by  entering the European phase with PCT1 and by filing a European application EP-FR  claiming the priority from FR2. However, he would prefer that the language of the  European proceedings of both applications be English.    For each of the statements 9.1 \u2013 9.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Upon entry of PCT1 into the European phase before the EPO, your client can file a translation of PCT1 into English, and English will become the language of the proceedings.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "A European patent application validly claiming priority from FR2 can be filed in English.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Today, on 5 March 2012, it is no longer possible to validly claim priority from FR2 for a European patent application.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The applicant can file EP-FR in French and then validly file a European divisional application of EP-FR in English.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "As PCT1 was filed in French it is not possible to change the language of proceedings to  English upon entry into the European phase, G4/08.On 5 March 2012 it was possible to  file a European application EP-FR validly claiming priority from FR2, as the period of  twelve months for claiming priority had not yet expired, Article 87(1) EPC. The language of  the priority document does not matter. If EP-FR is filed in French, its European divisional  application can only be filed in the language of the proceedings of the earlier application,  i.e. in French, Rule 36(2) EPC."
+        },
+        {
+            "question_number": "10",
+            "question_type": "True/False",
+            "context": "The applicant did not respond to a communication issued by the examining division  setting a two month time limit for bringing the description into conformity with the  amended claims. The EPO issued a notice of loss of rights by registered mail dated  23 November 2011. On Saturday 4 February 2012 the applicant discovered the notice of  loss of rights in an unrelated file.    For each of the statements 10.1 \u2013 10.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The time limit for requesting further processing expired on 3 February 2012.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The time limit for requesting re-establishment of rights expires on 6 April 2012.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "For requesting further processing of a European patent application following failure to observe a time limit, the applicant must have taken all due care required by the circumstances to observe the time limit.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "To save the application, it is sufficient to timely:  \u2014 file at the EPO a request for re-establishment of rights in respect of the time limit for requesting further processing;  \u2014 pay the fees for re-establishment of rights and for further processing; and  \u2014 demonstrate that all due care required by the circumstances to observe the time limit was taken. Questions 11-20 relate to a European patent application filed by your client with the following description and drawings:",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The time limit for requesting further processing expired on 3 February 2012  [23 November 2011 + 10 days (= 3 December 2011) + 2 months (= 3 February 2012)],  Rule 112(2) EPC, Rule 126(2) EPC and Rule 131(4) EPC. In accordance with  Article 122 EPC and Rule 136(1) EPC, the request for re-establishment of rights has to be filed within two months of the removal of the cause for non-compliance with the period (i.e. the discovery of the notice of loss of rights), which is latest on 4 April 2012 [4 February 2012 + 2 months (= 4 April 2012)], Rule 131(4) EPC. The criterion of all due  care is not required with regard to requests for further processing. This requirement only  applies to requests for re-establishment of rights. To save the application it is necessary to  comply with all requirements of Article 122 and Rule 136:Among others, the omitted act  has to be completed, in the present case filing of an adapted description, Rule 136(2) EPC."
+        },
+        {
+            "question_number": "11",
+            "question_type": "True/False",
+            "context": "For Question 11, assume that claim I is a single independent claim filed with the client\u2019s  patent application.    I.   A closure (10, 50) on a bottle (40), the closure comprising:   a sealing part (20) comprising a metal foil (24);   a thermoweldable material (26) on a first surface of the sealing part (20) for  attaching the closure (10, 50) to an opening (42) of the bottle (40); and   a tab part (12);   characterised in that   the tab part (12) extends over at least a part of a second surface of the  sealing part (20) and is arranged to be gripped to remove the closure (10, 50)  from the opening (42) of the bottle (40).    For each of the statements 11.1 \u2013 11.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "An embodiment of the closure shown in Figures 1\u20133 of the application falls within the scope of claim I.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The subject-matter of claim I is novel with respect to D1.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The subject-matter of claim I protects a closure independently of a bottle.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "An embodiment of the closure shown in Figure 4 of the application falls within the scope of claim I.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The subject-matter of Claim I reads on to a closure as shown in Figures 1-3 and in  Figure 4. The thermoweldable material is on a first surface of the sealing part.It is not  specified whether or not the sealing part includes the polyester film (22); both options are  possible.  The subject-matter of Claim I lacks novelty over D1. D1 also discloses a closure on a  bottle, the closure comprising an aluminium foil (6) with a thin layer of thermoweldable  material (9) on a first surface; the thermoweldable material allowing attaching of the  closure to an opening of a bottle; and a tab part (8) extending over part of the second  surface of the aluminium foil (6), the pull-tab (8)being arranged to be gripped to remove  the closure from the bottle.  The closure of Claim I is on a bottle; therefore the subject-matter of Claim I  does not  protect a closure independently of a bottle."
+        },
+        {
+            "question_number": "12",
+            "question_type": "True/False",
+            "context": "For Question 12, assume that claim II is a single independent claim filed with the client\u2019s  patent application.    II.  A closure (10, 50) attachable to a bottle (40), the closure comprising:   a sealing part (20) comprising at least a first sheet of material (24);   a thermoweldable material (26) on a first surface of the sealing part for  attaching the closure to an opening (42) of the bottle (40); and   a tab part (12);  characterised in that   the tab part (12) comprises at least a second sheet of material, the  tab part (12) being attached to a second surface of the sealing part (20) by a  first portion of the tab part (12), a second portion of the tab part serving as a  pull-tab (18).    For each of the statements 12.1 \u2013 12.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "An embodiment of the closure shown in Figures 1\u20133 of the application falls within the scope of claim II.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The subject-matter of claim II is novel with respect to D1.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The subject-matter of claim II protects a closure independently of a bottle.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "An embodiment of the closure shown in Figure 4 of the application falls within the scope of claim II.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The subject-matter of Claim II reads on to a closure as shown in Figures 1-3 and in  Figure 4. The thermoweldable material is on a first surface of the sealing part. It is not  specified whether or not the sealing partincludes the polyester film (22); both options are  possible.  The subject-matter of Claim II is novel over D1. D1 discloses only two layers of material  (6 and 9) but the closure of Claim II includes at least three material layers: a  thermoweldable material (26), a first sheet (24) and tab-part (12) comprising a second  sheet of material.  The closure of Claim II is attachable to a bottle as opposed to being attached. Therefore,  Claim II protects a closure independently of a bottle."
+        },
+        {
+            "question_number": "13",
+            "question_type": "True/False",
+            "context": "For Question 13, assume that claim III is a single independent claim filed with the client\u2019s  patent application.    III.  A closure (10, 50) for a bottle (40), the closure comprising:   a sealing part (20) comprising a metal foil (24);   a thermoweldable material (26) on a first surface of the metal foil (24)   for attaching the closure to an opening (42) of the bottle (40); and   a tab part (12);   characterised in that   the tab part (12) comprises a polyester film, a part of the polyester film being  attached to a second surface of the metal foil (24) and the remainder of the  polyester film serving as a pull-tab (18).    For each of the statements 13.1 \u2013 13.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "An embodiment of the closure shown in Figures 1\u20133 of the application falls within the scope of claim III.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The subject-matter of claim III is novel with respect to D1.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The subject-matter of claim III protects a closure independently of a bottle.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "An embodiment of the closure shown in Figure 4 of the application falls within the scope of claim III.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The subject-matter of Claim III reads on to a closure as shown in Figure 4 but not to a  closure as shown in Figures 1-3. The thermoweldable material is on a first surface of the  metal foil (24). On the second surface of the metal foil (24) the tab-part (12) is attached.  The polyester film (22) is excluded by the wording of Claim III.  The subject-matter of Claim III is novel over D1. D1 does not disclose a tab-part attached  to the second surface of the metal foil.  The closure of Claim III is (suitable) for a bottle; the bottle is not claimed as such.  Therefore, Claim III protects a closure independently of a bottle, see also Guidelines,  C-III, 4.13."
+        },
+        {
+            "question_number": "14",
+            "question_type": "True/False",
+            "context": "For each of the statements 14.1 \u2013 14.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "An embodiment of the closure shown in Figures 1\u20133 of the application falls within the scope of claim IV.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The subject-matter of claim IV is novel with respect to D1.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The subject-matter of claim IV is novel with respect to D2.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "An embodiment of the closure shown in Figure 4 of the application falls within the scope of claim IV.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The subject-matter of Claim IV reads on to a closure as shown in Figures 1-3 and in Figure  4. The thermoweldable material is on a first surface of the sealing part (20). It is not  specified whether or not the sealing part includes the polyester film (22); both options are  possible.  The subject-matter of Claim IV is novel over D1. D1 does not disclose a tabpart (12)  comprising a polyester film. The subject-matter of Claim IV is not novel over D2. D2 discloses all features of Claim IV  including a tabpart(6) comprising a polyesterfilm, a first portion of the polyesterfilm being  attached to a second surface of the sealingpart(2) and a second portion of the  polyesterfilm servingas apull-tab(9)."
+        },
+        {
+            "question_number": "15",
+            "question_type": "True/False",
+            "context": "Claim V forms a first proposal from your client for amending independent claim IV in  response to the European search report. Additions are shown underlined and deletions  crossed through.    V.  A closure (10, 50) for a bottle (40), the closure comprising:   a sealing part (20) comprising an aluminium a metal foil (24);   a thermoweldable material (26) on a first surface of the sealing part (20) for  attaching the closure (10, 50) to an opening (42) of the bottle (40) by heating  the aluminium metal foil (24); and   a tab part (12); characterised in that the tab part (12) comprises comprising a  polyester film, a first portion of the polyester film being attached to a second  surface of the sealing part (20) and a second portion of the polyester film  serving as a pull-tab (18);   characterised in that   the second portion of the polyester film is attached to the second surface of  the sealing part (20) by adhesive dots (36).    In claim V, the wording \u201caluminium foil\u201d has been changed to \u201cmetal foil\u201d. For each of the  statements 15.1 \u2013 15.4, indicate by marking true or false on the answer sheet whether  the statement forms at least part of an argument in support of this change being  allowable under Article 123(2) EPC:    Relevant to Article 123(2) EPC is that \u2026",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "\u2026 the application as filed did not present the use of aluminium for the metal foil as being essential.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "\u2026 an aluminium foil is not, as such, indispensable as the invention will work using a metal foil, as is also confirmed by D2.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "... replacement of an aluminium foil by a metal foil does not require modification of any other feature of the closure.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "\u2026 the amended claim relates to searched subject-matter.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Statements that form at least part of an argument in support of the modification by  replacement in Claim V being allowable under Article123(2)EPC are that  (i) the use of aluminium for the metalfoilwas not explained as essential in the application;  (ii) the aluminiumfoil is not, as such, indispensable as the invention will work using a  metalfoil, as is also confirmed byD2 (D2 provides evidence that the skilled person would  realise that the invention will work with a metal foil); and  (iii) the replacement of an aluminiumfoil by a metalfoil does not require modification of  any other feature of the closure (see also Guidelines, C-VI, 5.3.10). Whether the amended claim relates to searched subject-matter may be relevant in view of  the requirements of Rule 137(5) EPC. But it is irrelevant for deciding whether the  amendment adds subject-matter under Article 123(2) EPC."
+        },
+        {
+            "question_number": "16",
+            "question_type": "True/False",
+            "context": "Claim VI forms a second proposal from your client for amending independent claim IV in  response to the European search report. Additions are shown underlined and deletions  crossed through.    VI.  A closure (10, 50) for a bottle (40), the closure comprising:   a sealing part (20) comprising an aluminium foil (24);   a thermoweldable material (26) on a first surface of the sealing part (20) for  attaching the closure (10, 50) to an opening (42) of the bottle (40) by heating  the aluminium foil (24); and   a tab part (12); characterised in that the tab part (12) comprises comprising a  polyester film, a first portion of the polyester film being attached to a second  surface of the sealing part (20) by a complete layer (34) of adhesive covering  up to half of the area of the sealing part and a second portion of the  polyester film serving as a pull-tab (18);   characterised in that   the second portion of the polyester film is attached to the second surface of  the sealing part (20) by an incomplete layer of adhesive.    For each of the statements 16.1 \u2013 16.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The subject-matter of claim VI extends beyond the content of the application as filed.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "An embodiment of the closure shown in Figures 1\u20133 of the application falls within the scope of claim VI.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The two-part form (Rule 43(1) EPC) of claim VI is correctly set with respect to D1.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The subject-matter of claim VI is novel with respect to D2.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The subject-matter of Claim VI does not extend beyond the content of the application as  filed, as it is based on paragraph [008] of the description, first two sentences. The subject-matter of Claim VI reads on to a closure as shown in Figures 1-3. The  thermoweldable material (26) is on a first surface of the sealing part (20) and the sealing  part may contain the polyester layer (22).  The two-part form is incorrectly set with respect to D1, as the preamble of Claim VI  contains features not disclosed in D1, such as the tab part (12) comprising a polyester film. The subject-matter of Claim VI is not novel over D2. D2 also discloses: a  tabpartcomprising a polyesterfilm (6); a first portion of the polyesterfilm being attached  to a second surface of the sealingpart(2) by a layerof adhesive covering up to half of the  area of the sealingpart; a second portion of the polyesterfilm serving as a pull-tab (9). The  second portion of the polyester filmis attached to the second surface of the sealingpartby  a layer of adhesive that can be regarded as incomplete, as it does not cover the entire  second surface."
+        },
+        {
+            "question_number": "17",
+            "question_type": "True/False",
+            "context": "Claim VII forms a third proposal from your client for amending independent claim IV in  response to the European search report. Additions are shown underlined and deletions  crossed through.    VII. A closure (10, 50) for a bottle (40), the closure comprising:   a sealing part (20) comprising an aluminium foil (24);   a thermoweldable material (26) on a first surface of the sealing part (20) for  attaching the closure (10, 50) to an opening (42) of the bottle (40) by heating  the aluminium foil (24); and   a tab part (12); characterised in that the tab part (12) comprises comprising a  polyester film, a first portion of the polyester film being attached to a second  surface of the sealing part (20) and a second portion of the polyester film  serving as a pull-tab (18);   characterised in that   the sealing part (20) is configured to provide evidence of tampering on  removing the closure (10, 50) by pulling the pull-tab (18).    For each of the statements 17.1 \u2013 17.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The subject-matter of claim VII extends beyond the content of the application as filed.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "An embodiment of the closure shown in Figures 1\u20133 of the application falls within the scope of claim VII.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Claim VII lacks clarity as the characterising portion of the claim is defined in terms of a result to be achieved.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Claim VII lacks clarity as the characterising portion of the claim is defined in terms of a method step.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The subject-matter of Claim VII does not extend beyond the content of the application as  field, as it is based on paragraph [012] of the description, first sentence.   The subject-matter of Claim VIIdoes not read on to a closure as shown in Figures 1-3:  only the embodiment shown in Figure 4 without the polyester film 22 is configured to  provide evidence of tampering.  Claim VII lacks clarity as the characterising portion is defined as a result to be achieved: it  claims the underlying technical problem rather than the features that are essential for  solving the problem. However, it is not worded as a method step (an example of a method  step could be \"characterised by removing the closure by pulling the pull-tab so thatthe  sealing part provides evidence of tampering.\")."
+        },
+        {
+            "question_number": "18",
+            "question_type": "True/False",
+            "context": "Claim VIII forms a fourth proposal from your client for amending independent claim IV in  response to the European search report. Additions are shown underlined and deletions  crossed through.    VIII. A closure (10, 50) for a bottle (40), the closure comprising:   a sealing part (20) comprising an aluminium foil (24);   a thermoweldable material (26) on a first surface of the sealing part (20) for  attaching the closure (10, 50) to an opening (42) of the bottle (40) by heating  the aluminium foil (24); and   a tab part (12); characterised in that the tab part (12) comprises comprising a  polyester film, a first portion of the polyester film being attached to a second  surface of the sealing part (20) and a second portion of the polyester film  serving as a pull-tab (18);   characterised in that   the sealing part (20) consists solely of the aluminium foil (24), whereby the  aluminium foil (24) is configured to tear on removing the closure (10, 50) by  pulling the pull-tab (18).     Assume for this question that claim VIII is formulated in the two-part form with respect to  D2 as the closest prior art and that the technical effect of the characterising portion is  that the aluminium foil tears on removing the closure. For each of the   statements 18.1 \u2013 18.4, indicate by marking true or false on the answer sheet whether  the statement is a valid definition of the objective technical problem with respect to D2  based on this technical effect.    The objective technical problem with respect to D2 is to \u2026",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "\u2026 provide a closure that can tear more easily.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "\u2026 provide an improved manufacturing process.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "\u2026 enable the detection of tampering with the closure.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "\u2026 reduce the number of layers used to form the closure.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "In the context of the problem-solution approach, the objective technical problem means the  aim and task of modifying or adapting the closest prior art to provide the technical effect  that the invention provides over the closest prior art, see Guidelines, C-IV, 11.5.2, third  paragraph. The distinguishing feature over D2 (the sealing part consists solely of the  aluminium foil) provides the technical effect that the aluminium foil tears on removing the  closure. In view of this, the only valid definition of the objective technical problem is to  enable the detection of tampering. Statement 18.1 recites an effect of the distinguishing  feature and is a part of the solution, but is not an objective technical problem with respect  to D2. Statements 18.2 and 18.4 are at best speculative aspects that are not derivable  from the application as filed and are not related to the claimed distinguishing feature."
+        },
+        {
+            "question_number": "19",
+            "question_type": "True/False",
+            "context": "Claim IX forms a fifth proposal from your client for amending independent claim IV in  response to the European search report. Additions are shown underlined and deletions  crossed through.    IX.  A closure (10, 50) for a bottle (40), the closure comprising:   a sealing part (20) comprising an aluminium a metal foil (24);   a thermoweldable material (26) on a first surface of the sealing part (20) for  attaching the closure (10, 50) to an opening (42) of the bottle (40) by heating  the aluminium metal foil (24); and   a tab part (12); characterised in that the tab part (12) comprises comprising a  polyester film, a first portion of the polyester film being attached to a second  surface of the sealing part (20) by a continuous layer (34) of adhesive  extending over a first portion of the second surface of the sealing part (20)  and a second portion of the polyester film serving as a pull-tab (18);   characterised in that   the second portion of the polyester film is attached to the second surface of  the sealing part (20) by a discontinuous adhesive portion distributed over the  remainder of the second surface of the sealing part (20). For the purposes of question 19, assume that:  - D2 is the closest prior art, it being acknowledged that D2 discloses a closure  comprising features corresponding to those of the precharacterising part of claim IX;  - the objective technical problem is defined as being to improve the resistance to  separation of the pull tab from the sealing part during application of a screw cap.  For each of the statements 19.1 \u2013 19.4, indicate by marking true or false on the answer  sheet whether the statement is a valid argument why it is not obvious to solve the stated  objective technical problem by the features of claim IX.    The subject matter of claim IX involves an inventive step because \u2026",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "\u2026 D2 discloses a closure with a joined portion where a polyester film is attached to an aluminium foil, and a separated portion, forming a pull-tab, where the polyester film is separate and free from the aluminium foil.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "\u2026 D2 discloses that where a pull-tab is to be lightly attached to the sealing part, this should be achieved by a strip of adhesive.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "\u2026 the cited art does not disclose or suggest using a discontinuous adhesive portion distributed over the portion of the sealing part to which a pull-tab is attached, for lightly attaching the pull-tab to the sealing part.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "\u2026 the cited art does not disclose or suggest using dots of adhesive to lightly attach a pull-tab to a sealing part.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The closest prior art is the second embodiment of D2, where the pull tab is lightly attached  to the sealing part. The statement of 19.1,which is directed solely to the first embodiment  of D2 and does not acknowledge the second embodiment of D2, is not helpful to define  why it would not be obvious to provide the claimed features.  However, the statement 19.2  is relevant as it demonstrates that D2 teaches a different solution to that claimed in  Claim IX.A valid argument is necessarily directed to the features recitedin the  independent claim. The argument set out in 19.3 is therefore a valid argument in respect of  Claim IX.  However, as Claim IX does not recite dots of adhesive,the argument set out in  19.4 relating to dots of adhesive is irrelevant."
+        },
+        {
+            "question_number": "20",
+            "question_type": "True/False",
+            "context": "Claim X forms a sixth proposal from your client for amending independent claim IV in  response to the European search report. Additions are shown underlined and deletions  crossed through.    X.  A closure (10, 50) for a bottle (40), the closure comprising:   a sealing part (20) comprising an aluminium a metal foil (24);   a thermoweldable material (26) on a first surface of the sealing part (20) for  attaching the closure (10, 50) to an opening (42) of the bottle (40) by heating  the aluminium metal foil (24); and   a tab part (12); characterised in that the tab part (12) comprises comprising a  polyester film, a first portion of the polyester film being attached to a second  surface of the sealing part (20) by a continuous layer (34) of adhesive  extending over a first portion of the second surface of the sealing part (20)  and a second portion of the polyester film serving as a pull-tab (18);   characterised in that   the second portion of the polyester film is attached to the second surface of  the sealing part (20) by at least two adhesive dots (36). For the purposes of question 20, assume that:  - D2 is the closest prior art, it being acknowledged that D2 discloses a closure  comprising features corresponding to those of the precharacterising portion of claim X;  - the objective technical problem is defined as being to improve the resistance to  separation of the pull tab from the sealing part during application of a screw cap.     For each of the statements 20.1 \u2013 20.4, indicate by marking true or false on the answer  sheet whether the statement is a valid argument why it is not obvious to solve the stated  objective technical problem by the features of claim X.    The subject matter of claim X involves an inventive step because \u2026",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "\u2026 D2 discloses a closure with a joined portion where a polyester film is attached to an aluminium foil, and a separated portion, forming a pull-tab, where the polyester film is separate and free from the aluminium foil.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "\u2026 D2 discloses that where a pull-tab is to be lightly attached to the sealing part, this should be achieved by a strip of adhesive.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "\u2026 the cited art does not disclose or suggest using a discontinuous adhesive portion distributed over the portion of the sealing part to which a pull-tab is attached, for lightly attaching the pull-tab to the sealing part.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "\u2026 the cited art does not disclose or suggest using dots of adhesive to lightly attach a pull-tab to a sealing part. 2010            Jan  Feb  Mar Apr  May Jun Jul Aug Sep Oct  Nov Dec  Fri        01   Mon     01   Mon     01  Thu     01   Sat       01  Tue     01  Thu     01  Sun     01  Wed    01  Fri        01   Mon     01  Wed    01   Sat      02   Tue     02   Tue     02  Fri       02   Sun    02  Wed   02  Fri       02  Mon    02  Thu    02  Sat      02   Tue     02  Thu    02   Sun    03   Wed   03   Wed   03  Sat      03   Mon    03   Thu    03  Sat      03  Tue     03  Fri       03  Sun    03   Wed   03  Fri       03   Mon    04   Thu    04   Thu    04  Sun    04   Tue     04  Fri       04  Sun    04  Wed   04  Sat      04  Mon    04   Thu    04   Sat      04   Tue     05   Fri       05   Fri       05  Mon    05   Wed   05  Sat      05  Mon    05  Thu    05  Sun    05  Tue     05   Fri       05  Sun    05   Wed   06   Sat      06   Sat      06  Tue     06   Thu    06  Sun    06  Tue     06  Fri       06  Mon    06  Wed   06   Sat      06  Mon    06   Thu    07   Sun    07   Sun    07  Wed   07   Fri       07  Mon    07  Wed   07  Sat      07  Tue     07  Thu    07   Sun    07  Tue     07   Fri       08   Mon    08   Mon    08  Thu    08   Sat      08  Tue     08  Thu    08  Sun    08  Wed   08  Fri       08   Mon    08  Wed   08   Sat      09   Tue     09   Tue     09  Fri       09   Sun    09  Wed   09  Fri       09   Mon    09  Thu    09  Sat      09   Tue     09  Thu    09   Sun     10   Wed    10   Wed    10  Sat       10   Mon     10  Thu     10  Sat       10  Tue     10  Fri        10  Sun     10   Wed    10  Fri        10   Mon     11   Thu      11   Thu      11  Sun      11   Tue      11  Fri        11  Sun      11  Wed     11  Sat       11  Mon     11   Thu      11  Sat       11   Tue     12   Fri        12   Fri        12  Mon     12   Wed    12   Sat       12  Mon     12  Thu     12  Sun     12  Tue     12   Fri        12  Sun     12   Wed    13   Sat       13   Sat       13  Tue     13   Thu     13  Sun     13  Tue     13  Fri        13  Mon     13  Wed    13   Sat       13   Mon     13   Thu     14   Sun     14   Sun     14  Wed    14   Fri        14  Mon     14  Wed    14  Sat       14  Tue     14  Thu     14   Sun     14  Tue     14   Fri        15   Mon     15   Mon     15  Thu     15   Sat       15  Tue     15  Thu     15  Sun     15  Wed    15  Fri        15   Mon     15  Wed    15   Sat       16   Tue     16   Tue     16  Fri        16   Sun     16  Wed    16  Fri        16  Mon     16  Thu     16  Sat       16   Tue     16  Thu     16   Sun     17   Wed    17   Wed    17  Sat       17   Mon     17  Thu     17  Sat       17  Tue     17  Fri        17  Sun     17   Wed    17  Fri        17   Mon     18   Thu     18   Thu     18   Sun     18   Tue     18  Fri        18  Sun     18  Wed    18  Sat       18  Mon     18   Thu     18  Sat       18   Tue     19   Fri        19   Fri        19  Mon     19   Wed    19  Sat       19  Mon     19  Thu     19  Sun     19   Tue     19   Fri        19  Sun     19   Wed   20   Sat      20   Sat      20  Tue     20   Thu    20  Sun    20  Tue     20  Fri       20  Mon    20  Wed   20   Sat      20  Mon    20   Thu     21   Sun     21   Sun     21   Wed    21   Fri        21  Mon     21  Wed    21  Sat       21  Tue     21  Thu     21   Sun     21  Tue     21   Fri       22   Mon    22   Mon    22  Thu    22   Sat      22  Tue     22  Thu    22  Sun    22  Wed   22   Fri       22   Mon    22  Wed   22   Sat      23   Tue     23   Tue     23  Fri       23   Sun    23  Wed   23  Fri       23  Mon    23  Thu    23  Sat      23   Tue     23  Thu    23   Sun    24   Wed   24   Wed   24  Sat      24   Mon    24  Thu    24  Sat      24  Tue     24  Fri       24  Sun    24   Wed   24  Fri       24   Mon    25   Thu    25   Thu    25  Sun    25   Tue     25  Fri       25  Sun    25  Wed   25  Sat      25  Mon    25   Thu    25  Sat      25   Tue     26   Fri       26   Fri       26  Mon    26   Wed   26  Sat      26  Mon    26  Thu    26  Sun    26  Tue     26   Fri       26  Sun    26   Wed   27   Sat      27   Sat      27  Tue     27   Thu    27 Sun    27  Tue     27  Fri       27  Mon    27  Wed   27   Sat      27  Mon    27   Thu    28   Sun    28   Sun    28  Wed   28   Fri       28  Mon    28  Wed   28  Sat      28  Tue     28  Thu    28   Sun    28   Tue     28   Fri       29     Mon    29  Thu    29   Sat      29  Tue     29  Thu    29  Sun    29  Wed   29  Fri       29   Mon    29  Wed   29   Sat      30     Tue     30  Fri       30   Sun    30  Wed   30  Fri       30   Mon    30 Thu    30  Sat      30   Tue     30  Thu    30   Sun     31     Wed    31     Mon     31    Sat       31  Tue     31    Sun     31    Fri        31   Tage / Days / Jours M\u00fcnchen Munich Den Haag The Hague La Haye Berlin Neujahr - New Year's Day - Nouvel An 01.01.2010 x x x Heilige Drei K\u00f6nige - Epiphany - Epiphanie 06.01.2010 x   Karfreitag - Good Friday - Vendredi Saint 02.04.2010 x x x Ostermontag - Easter Monday - Lundi de P\u00e2ques 05.04.2010 x x x Nationalfeiertag - National Holiday - F\u00eate nationale 30.04.2010  x  Tag der Befreiung - Liberation Day - Journ\u00e9e de la Lib\u00e9ration 05.05.2010  x  Christi Himmelfahrt - Ascension Day - Ascension 13.05.2010 x x x Br\u00fcckentag - Bridging Day - Pont 14.05.2010 x x x Pfingstmontag - Whit Monday - Lundi de Pentec\u00f4te 24.05.2010 x x x Fronleichnam - Corpus Christi - F\u00eate-Dieu 03.06.2010 x   Allerheiligen - All Saints' Day - Toussaint 01.11.2010 x   Heiliger Abend - Christmas Eve - Veille de No\u00ebl 24.12.2010 x x x Silvester - New Year's Eve - Saint-Sylvestre 31.12.2010 x x x 2011            Jan  Feb  Mar  Apr  May Jun Jul Aug Sep  Oct  Nov Dec  Sat        01   Tue       01   Tue       01  Fri         01   Sun      01  Wed     01  Fri         01  Mon      01   Thu      01   Sat        01   Tue       01  Thu      01   Sun      02   Wed     02   Wed     02  Sat       02   Mon     02  Thu      02  Sat       02  Tue      02  Fri        02   Sun      02   Wed     02  Fri        02   Mon     03   Thu      03   Thu      03  Sun      03   Tue      03  Fri        03  Sun      03  Wed     03  Sat       03   Mon     03   Thu      03  Sat       03   Tue      04   Fri        04   Fri        04  Mon     04   Wed     04  Sat       04   Mon     04  Thu      04  Sun      04   Tue      04   Fri        04  Sun      04   Wed     05   Sat       05   Sat       05  Tue      05   Thu      05  Sun      05  Tue      05  Fri        05  Mon     05   Wed     05   Sat       05  Mon     05   Thu      06   Sun      06   Sun      06  Wed     06   Fri        06  Mon     06  Wed     06  Sat       06  Tue      06   Thu      06   Sun      06  Tue      06   Fri        07   Mon     07   Mon     07  Thu      07   Sat       07  Tue      07  Thu      07  Sun      07  Wed     07   Fri        07   Mon     07  Wed     07   Sat       08   Tue      08   Tue      08  Fri        08   Sun      08  Wed     08  Fri        08  Mon     08   Thu      08  Sat       08   Tue      08  Thu      08   Sun      09   Wed     09   Wed     09  Sat       09   Mon     09  Thu      09  Sat       09  Tue      09  Fri        09   Sun      09   Wed     09  Fri        09   Mon      10   Thu      10   Thu      10  Sun      10   Tue       10  Fri         10  Sun      10  Wed     10  Sat        10   Mon      10   Thu      10  Sat        10   Tue       11   Fri          11   Fri          11  Mon       11   Wed      11   Sat        11  Mon       11  Thu       11  Sun       11   Tue       11   Fri          11  Sun       11   Wed     12   Sat        12   Sat        12  Tue       12   Thu      12  Sun      12  Tue       12  Fri         12  Mon      12   Wed     12   Sat        12  Mon      12   Thu      13   Sun      13   Sun      13  Wed     13   Fri         13  Mon      13  Wed     13  Sat        13  Tue       13   Thu      13   Sun      13  Tue       13   Fri         14   Mon      14   Mon      14  Thu      14   Sat        14  Tue       14  Thu      14  Sun      14  Wed     14   Fri         14   Mon      14  Wed     14   Sat        15   Tue       15   Tue       15  Fri         15   Sun      15   Wed     15  Fri         15  Mon      15  Thu      15   Sat        15   Tue       15  Thu      15   Sun      16   Wed     16   Wed     16  Sat        16   Mon      16  Thu      16  Sat        16  Tue       16  Fri         16   Sun      16   Wed     16  Fri         16   Mon      17   Thu      17   Thu      17  Sun      17   Tue       17  Fri         17  Sun      17  Wed     17  Sat        17   Mon      17   Thu      17  Sat        17   Tue       18   Fri         18   Fri         18  Mon      18   Wed     18  Sat        18  Mon      18  Thu      18  Sun      18   Tue       18   Fri         18  Sun      18   Wed     19   Sat        19   Sat        19  Tue       19   Thu      19  Sun      19   Tue       19  Fri         19  Mon      19   Wed     19   Sat        19  Mon      19   Thu      20   Sun      20   Sun      20  Wed     20   Fri        20  Mon     20  Wed     20  Sat       20  Tue      20   Thu      20   Sun      20 Tue      20   Fri         21   Mon      21   Mon      21  Thu      21   Sat        21  Tue       21  Thu      21  Sun      21  Wed     21   Fri         21   Mon      21  Wed     21   Sat       22   Tue      22   Tue      22   Fri       22   Sun      22  Wed     22  Fri        22  Mon     22  Thu      22   Sat       22   Tue      22  Thu      22   Sun      23   Wed     23   Wed     23  Sat       23   Mon     23  Thu      23  Sat       23  Tue      23   Fri        23   Sun      23   Wed     23  Fri        23   Mon     24   Thu      24   Thu      24  Sun      24   Tue      24  Fri        24  Sun      24  Wed     24  Sat       24   Mon     24   Thu      24  Sat       24   Tue      25   Fri        25   Fri        25  Mon     25   Wed     25  Sat       25  Mon     25  Thu      25  Sun      25   Tue      25   Fri        25  Sun      25   Wed     26   Sat       26   Sat       26  Tue      26   Thu      26   Sun     26  Tue      26  Fri        26  Mon     26   Wed     26   Sat       26  Mon     26   Thu      27   Sun      27   Sun      27  Wed     27   Fri        27  Mon     27  Wed     27  Sat       27  Tue      27   Thu      27   Sun      27  Tue      27   Fri        28   Mon     28   Mon     28  Thu      28   Sat       28  Tue      28  Thu      28  Sun      28  Wed     28   Fri        28   Mon     28  Wed     28   Sat       29     Tue      29  Fri        29   Sun      29  Wed     29  Fri        29  Mon     29  Thu      29   Sat       29   Tue      29  Thu      29   Sun      30     Wed     30  Sat       30   Mon     30  Thu      30  Sat       30  Tue      30  Fri        30   Sun      30   Wed     30  Fri        30   Mon      31     Thu      31     Tue       31    Sun      31  Wed     31     Mon      31    Sat        31   Tage / Days / Jours M\u00fcnchen Munich Den Haag The Hague La Haye Berlin Heilige Drei K\u00f6nige - Epiphany - Epiphanie 06.01.2011 x   Karfreitag - Good Friday - Vendredi Saint 22.04.2011 x x x Ostermontag - Easter Monday - Lundi de P\u00e2ques 25.04.2011 x x x Tag der Befreiung - Liberation Day - Journ\u00e9e de la Lib\u00e9ration 05.05.2011  x  Christi Himmelfahrt - Ascension Day - Ascension 02.06.2011 x x x Br\u00fcckentag - Bridging Day - Pont 03.06.2011 x x x Pfingstmontag - Whit Monday - Lundi de Pentec\u00f4te 13.06.2011 x x x Fronleichnam - Corpus Christi - F\u00eate-Dieu 23.06.2011 x   Mari\u00e4 Himmelfahrt - Assumption Day - Assomption 15.08.2011 x   Tag der Deutschen Einheit - Day of German Unity - F\u00eate Nationale 03.10.2011 x  x Allerheiligen - All Saints' Day - Toussaint 01.11.2011 x   2. Weihnachtstag - Boxing Day - Lendemain de No\u00ebl 26.12.2011 x x x 2012            Jan  Feb  Mar Apr  May Jun Jul Aug Sep Oct  Nov Dec  Sun      01   Wed     01   Thu      01  Sun      01   Tue       01  Fri         01  Sun      01  Wed     01  Sat        01  Mon      01   Thu      01  Sat        01   Mon     02   Thu      02   Fri        02  Mon     02   Wed     02  Sat       02  Mon     02  Thu      02  Sun      02  Tue      02   Fri        02  Sun      02   Tue      03   Fri        03   Sat       03  Tue      03   Thu      03   Sun     03  Tue      03  Fri        03  Mon     03  Wed     03   Sat       03  Mon     03   Wed     04   Sat       04   Sun      04  Wed     04   Fri        04  Mon     04  Wed     04  Sat       04  Tue      04  Thu      04   Sun      04  Tue      04   Thu      05   Sun      05   Mon     05  Thu      05   Sat       05  Tue      05  Thu      05  Sun      05  Wed     05  Fri        05   Mon     05  Wed     05   Fri        06   Mon     06   Tue      06   Fri        06   Sun      06  Wed     06  Fri        06  Mon     06  Thu      06  Sat       06   Tue      06  Thu      06   Sat       07   Tue      07   Wed     07  Sat       07   Mon     07  Thu      07  Sat       07  Tue      07   Fri        07  Sun      07   Wed     07  Fri        07   Sun      08   Wed     08   Thu      08  Sun      08   Tue      08  Fri        08  Sun      08  Wed     08  Sat       08  Mon     08   Thu      08  Sat       08   Mon     09   Thu      09   Fri        09  Mon     09   Wed     09  Sat       09  Mon     09  Thu      09  Sun      09  Tue      09   Fri        09  Sun      09   Tue       10   Fri         10   Sat        10  Tue       10   Thu      10   Sun     10  Tue       10  Fri         10  Mon      10  Wed     10   Sat        10  Mon      10   Wed      11   Sat         11   Sun       11  Wed      11   Fri          11  Mon       11  Wed      11  Sat         11  Tue       11   Thu       11   Sun       11  Tue       11   Thu      12   Sun      12   Mon      12  Thu      12   Sat        12  Tue       12  Thu      12  Sun      12  Wed     12  Fri         12   Mon      12  Wed     12   Fri         13   Mon      13   Tue       13  Fri         13   Sun      13  Wed     13  Fri         13  Mon      13  Thu      13  Sat        13   Tue       13  Thu      13   Sat        14   Tue       14   Wed     14  Sat        14   Mon      14   Thu     14  Sat        14  Tue       14  Fri         14  Sun      14   Wed     14  Fri         14   Sun      15   Wed     15   Thu      15  Sun      15   Tue       15  Fri         15  Sun      15  Wed     15  Sat        15   Mon      15   Thu      15  Sat        15   Mon      16   Thu      16   Fri         16  Mon      16   Wed     16  Sat        16  Mon      16  Thu      16  Sun      16  Tue       16   Fri         16  Sun      16   Tue       17   Fri         17   Sat        17  Tue       17   Thu      17  Sun      17  Tue       17  Fri         17  Mon      17  Wed     17   Sat        17  Mon      17   Wed     18   Sat        18   Sun      18  Wed     18   Fri         18  Mon      18  Wed     18  Sat        18  Tue       18  Thu      18   Sun      18  Tue       18   Thu      19   Sun      19   Mon      19  Thu      19   Sat        19  Tue       19  Thu      19  Sun      19  Wed     19  Fri         19   Mon      19  Wed     19   Fri        20   Mon     20   Tue      20  Fri        20   Sun      20  Wed     20  Fri        20  Mon     20  Thu      20  Sat       20   Tue      20  Thu      20   Sat        21   Tue       21   Wed     21   Sat        21   Mon      21  Thu      21  Sat        21  Tue       21  Fri         21  Sun      21   Wed     21  Fri         21   Sun      22   Wed     22   Thu      22  Sun      22   Tue      22  Fri        22  Sun      22   Wed    22  Sat       22  Mon     22   Thu      22  Sat       22   Mon     23   Thu      23   Fri        23  Mon     23   Wed     23  Sat       23  Mon     23  Thu      23  Sun      23  Tue      23   Fri        23  Sun      23   Tue      24   Fri        24   Sat       24  Tue      24   Thu      24  Sun      24  Tue      24  Fri        24  Mon     24  Wed     24   Sat       24  Mon     24   Wed     25   Sat       25   Sun      25  Wed     25   Fri        25  Mon     25  Wed     25  Sat       25  Tue      25  Thu      25   Sun      25  Tue      25   Thu      26   Sun      26   Mon     26  Thu      26   Sat       26  Tue      26  Thu      26  Sun      26  Wed     26  Fri        26   Mon     26  Wed     26   Fri        27   Mon     27   Tue      27  Fri        27   Sun      27  Wed     27  Fri        27  Mon     27  Thu      27  Sat       27   Tue      27  Thu      27   Sat       28   Tue      28   Wed     28  Sat       28   Mon     28  Thu      28  Sat       28  Tue      28  Fri        28  Sun      28   Wed     28  Fri        28   Sun      29   Wed     29   Thu      29  Sun      29   Tue      29  Fri        29  Sun      29   Wed    29  Sat       29  Mon     29   Thu      29  Sat       29   Mon     30     Fri        30  Mon     30   Wed     30  Sat       30  Mon     30  Thu      30  Sun      30  Tue      30   Fri        30  Sun      30   Tue       31     Sat        31     Thu      31    Tue       31  Fri         31    Wed     31    Mon      31   Tage / Days / Jours M\u00fcnchen Munich Den Haag The Hague La Haye Berlin Heilige Drei K\u00f6nige - Epiphany - Epiphanie 06.01.2012 x   Karfreitag - Good Friday - Vendredi Saint 06.04.2012 x x x Ostermontag - Easter Monday - Lundi de P\u00e2ques 09.04.2012 x x x Nationalfeiertag - National Holiday -  F\u00eate Nationale 30.04.2012  x  Maifeiertag - Labour Day - F\u00eate du Travail 01.05.2012 x x x Christi Himmelfahrt - Ascension Day - Ascension 17.05.2012 x x x Pfingstmontag - Whit Monday - Lundi de Pentec\u00f4te 28.05.2012 x x x Fronleichnam - Corpus Christi - F\u00eate-Dieu 07.06.2012 x   Mari\u00e4 Himmelfahrt - Assumption Day - Assomption 15.08.2012 x   Tag der Deutschen Einheit - Day of German Unity - F\u00eate Nationale 03.10.2012 x  x Allerheiligen - All Saints' Day - Toussaint 01.11.2012 x   Heiliger Abend - Christmas Eve - Veille de No\u00ebl 24.12.2012 x x x 1. Weihnachtstag - Christmas Day - Jour de No\u00ebl 25.12.2012 x x x 2. Weihnachtstag - Boxing Day - Lendemain de No\u00ebl 26.12.2012 x x x Silvester - New Year's Eve - Saint-Sylvestre 31.12.2012 x x x",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The closest prior art is the second embodiment of D2, where the pull tab is lightly attached  to the sealing part. The statement of 20.1, which is directed solely to the first embodiment  of D2 and does not acknowledge the second embodiment of D2, is not helpful to define  why it would not be obvious to provide the claimed features.  However, the statement 20.2  is relevant as it demonstrates that D2 teaches a different solution to that claimed in  Claim X. A valid argument is necessarily directed to the features recited in the independent  claim. The argument set out in20.3 is not directed to the characterising features of  Claim X and is therefore not a valid argument in support of inventive step being provided  by the claimed features.  However, the argument set out in20.4 is a valid argument in the  light of the claimed features."
+        }
+    ]
+}

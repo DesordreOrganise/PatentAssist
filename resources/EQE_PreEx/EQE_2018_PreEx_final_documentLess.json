@@ -1,0 +1,327 @@
+{
+    "exam_type": "EQE",
+    "year": "2018",
+    "exam_name": "PreEx",
+    "exercices": [
+        {
+            "question_number": "1",
+            "question_type": "True/False",
+            "context": "For each of the statements 1.1 \u2013 1.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "During opposition proceedings, an amendment to a European patent introducing subject-matter which was present only in the priority document but not in the European patent application as filed is allowable under Article 123(2) EPC.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Intermediate generalisations are never allowable under Article 123(2) EPC.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "An amendment introducing subject-matter which was present only in the abstract of the application is allowable under Article 123(2) EPC.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "An amendment introducing subject-matter which was present only in the claims filed in reply to a communication under Rule 58 EPC in conjunction with Rule 57(c) EPC is allowable under Article 123(2) EPC.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Under Article 123(2) EPC, it is not allowable to add matter to a European  patent present only in the priority document for that patent, Guidelines,   H-IV 2.2.5. [Note that there is an exception under Rule 56(3) EPC].  Intermediate generalisations may be allowable under specific circumstances,  see Guidelines, H-V 3.2.1. The abstract may not be taken into account for any  purpose other than for technical information, Article 85 EPC. Subject-matter  present only in claims filed after the date of filing (as is the case for claims  filed in reply to a communication under Rule 58 in conjunction with Rule 57(c)  EPC) goes beyond the subject-matter of the application as filed (description  and drawings), see also Guidelines, H-IV 2.2.3."
+        },
+        {
+            "question_number": "2",
+            "question_type": "True/False",
+            "context": "Daniela is resident in Poland. On 13 February 2018, Daniela filed the European patent  application EP-D as a first filing. The EPO noticed that the drawings mentioned in the  description were evidently missing. With a communication dated 22 February 2018, the  EPO invited Daniela to file the missing drawings.    For each of the statements 2.1 \u2013 2.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "If Daniela ignores the invitation, EP-D will be deemed to be withdrawn.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If Daniela files the missing drawings on 3 May 2018, EP-D will receive 3 May 2018 as its date of filing.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Daniela may validly file the missing drawings for EP-D on 6 June 2018, provided she pays the fee for further processing.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If an applicant is not invited by the EPO to file missing parts of the description or missing drawings, he may validly file them within two months of the date of filing.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "If Daniela ignores the invitation, then any reference to the drawings will be  deemed to be deleted, Rule 56(4)(a) EPC (the legal consequence is not that  the application is deemed to be withdrawn). If the missing drawings are filed  within two months of the notification of that communication [22 February + 10  days (4 March 2018) + 2 months], i.e. 4 May 2018 (Rule 56(1) EPC,  Rule 126(2) EPC, Rule 131(4) EPC) the application shall be re-dated to the  date on which the missing drawings were filed, Rule 56(2) EPC. According to  Rule 135(2) EPC, further processing is ruled out in respect of the period under  Rule 56(2) EPC. An applicant may file missing parts of the description or  missing drawings of his own motion within two months of the date of filing,  Rule 56(2) EPC and Guidelines, A-II 5.2."
+        },
+        {
+            "question_number": "3",
+            "question_type": "True/False",
+            "context": "The European patent application EP-A was filed on 29 February 2016. EP-A claims  priority from an earlier patent application filed in March 2015. The mention of the grant of  a European patent based on EP-A was published in April 2017. An opposition against  this patent was validly filed in January 2018. The only ground for opposition raised by  the opponent is lack of novelty according to Article 100(a) EPC. The only document cited  is the French patent application FR-B published in July 2015 and filed in January 2014.  In the notice of opposition, the opponent argues that the priority claimed in EP-A is not  valid.     For each of the statements 3.1 \u2013 3.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The validity of the priority right as such is not a ground for opposition under Article 100 EPC.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "FR-B is state of the art under Article 54(2) EPC if the priority of EP-A is not valid.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If the priority of EP-A is valid, then FR-B belongs to the state of the art under Article 54(3) EPC in view of its earlier filing date.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If the opponent raises today, 26 February 2018, an objection of lack of sufficiency of disclosure against EP-A, then this is a fresh ground for opposition.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The validity of the priority right as such is not a ground for opposition, since it  is not mentioned in Article 100 EPC. If the priority of EP-A is not valid, then  the effective date of EP-A in accordance with Article 89 EPC is the filing date  of EP-A (29 February 2016). In such a case, FR-B is state of the art according  to Article 54(2) EPC, and it can be used to attack novelty (and inventive step)  of EP-A. The national application FR-B can only be prior art under  Article 54(2) EPC and not under Article 54(3) EPC. Lack of novelty and lack of  sufficiency of disclosure are separate grounds for opposition, Article 100 EPC.  Moreover, the objection of lack of sufficiency of disclosure was raised after the  expiration of the opposition period (see G10/91 and Guidelines, D-V, 2.2).  Thus, the objection of lack of sufficiency is considered to be a fresh ground for  opposition."
+        },
+        {
+            "question_number": "4",
+            "question_type": "True/False",
+            "context": "The examining division issued a communication informing the applicant of the text in  which it intends to grant European patent EP-F. The text contains: 10 pages of  description, 10 claims, amendments in the description proposed by the examining  division and no drawings. The communication is dated 22 October 2017. Today is  26 February 2018.    For each of the statements 4.1 \u2013 4.4 indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The time limit for filing a reply to the communication expires on 1 March 2018.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If the applicant disagrees with the amendments in EP-F, a valid option is to pay the fee for grant and publishing, to file the required translation of the claims and to file an appeal against the decision to grant after notification of the decision to grant.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If the applicant does not agree with the amendments in EP-F, a valid option is to request reasoned amendments to the communicated text.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If third party observations are filed after the decision to grant has been notified to an applicant, the observations cannot be considered by the examining division.",
+                    "answer": "True",
+                    "examiner_note": "or False"
+                }
+            ],
+            "examiner_note": "The time limit for replying to the communication under Rule 71(3) EPC expires  on [22 October 2017 + 10 days (1 November 2017) + 4 months] 1 March 2018  (Rule 71(3) EPC, Rule 126(2) EPC and Rule 131(4) EPC). If the applicant  pays the fee for grant and publishing and files the required translation of the  claims, then this is considered to be an approval of the text, Rule 71(5) EPC.  An appeal against the decision to grant would be an appeal of a not adversely  affected party. The applicant can disagree to the text proposed, provided he  requests reasoned amendments (Rule 71(6) EPC). The examining division  may not resume the examination proceedings (cf. GL edition 2016 C-V, 4.7)   and consequently may not consider third party observations after the decision  to grant has been handed over to the EPO's internal postal service, Rule  71a(2) EPC, see also G12/91 and GL edition 2016 E-V, 3. In the present case  of statement 4.4, the applicant has already received the decision to grant and  therefore it is correct to answer \u201ctrue\u201d. In view of arguments raised on appeal  the examining division responsible for issuing a technical opinion under Article  25 EPC may consider third party observations, which were filed after  notification of the decision to grant. On account of this rare possibility the  statement 4.4 has been neutralised and marks are awarded for both answers."
+        },
+        {
+            "question_number": "5",
+            "question_type": "True/False",
+            "context": "The international application PCT-E was filed on 10 July 2016. PCT-E claims priority  from an earlier patent application filed on 29 July 2015. The international search report  for PCT-E was published in November 2017.     For each of the statements 5.1 \u2013 5.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "One step that must be taken for validly entering the European phase with PCT-E today, 26 February 2018, is to pay the renewal fee.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The time limit for entry into the European phase with PCT-E expires on 1 March 2018.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "One step that must be taken for validly entering the European phase with PCT-E today, 26 February 2018, is to pay the filing fee.",
+                    "answer": "True",
+                    "examiner_note": "or False"
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "One step that must be taken for validly entering the European phase with PCT-E today, 26 February 2018, is to file the request for examination.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The renewal fee for the third year of the European patent application  stemming from PCT-E are only due on 31 July 2018 (Rule 159(1)(g) EPC,  Article 86(1) EPC, Rule 51(1) EPC). The time limit for entry into the European  phase expires on [29 July 2015 + 31 months =] 28 February 2018,  Rule 159(1) EPC and Rule 131(4) EPC). According to Rule 159(1)(c) EPC,  the filing fee must be paid on entry into the European phase. Hence, for  validly entering the European phase today, it is necessary to pay the filing fee.  In view of arguments raised on appeal it appears that the statement 5.3 could  be understood as referring to the concept of \u201centry\u201d versus \u201cearly entry\u201d into  the European phase with regard to 26 February 2018. This would additionally  require the lifting of the processing ban before the 31-month time limit has  expired by filing a request for early entry (cf. GL E-IX, 2.8 and OJ EPO 213,  156). Thus in view of this interpretation it was decided to neutralise the  statement 5.3 and award marks for both answers. According to Rule 159(1)(f)  EPC and Rule 70(1) EPC, the request for examination must be filed up to six  months after the date on which the European search report is published in the  European Patent Bulletin: the international publication of the search report  takes the place of the European search report and the mention of its  publication in the European Patent Bulletin, Article 153(6) EPC (see also GL  C-II, 1.2). The request for examination may be filed until May 2018  (November 2017 + 6 months)."
+        },
+        {
+            "question_number": "6",
+            "question_type": "True/False",
+            "context": "The Mexican applicant Juana wishes to enter the European phase with the international  application PCT-J today, 26 February 2018. Juana is resident in Mexico. PCT-J was  filed in Spanish in August 2015, without claiming any priority. PCT-J was published in  Spanish.    For each of the statements 6.1 \u2013 6.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "A translation of PCT-J must be filed with the EPO within two months from entry into the European phase.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If a translation of PCT-J is not filed in due time, a valid option is to request further processing.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "In proceedings before the EPO Juana must be represented by a professional representative.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Juana is entitled to a reduction of the examination fee.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Where no priority is claimed, the translation of an international application has  to be supplied within thirty-one months from the date of filing, i.e. sometime in  March 2018. If the translation is not filed in due time, the European patent  application is deemed to be withdrawn (Rule 160(1) and (2) EPC), and further  processing can be requested, Article 121(1) EPC and Rule 135(1) EPC. In  proceedings before the EPO, Juana must be represented by a professional  representative, Article 133(2) EPC. Juana is not entitled to a reduction of the  examination fee, since she is neither resident in nor a national of a contracting  state of the EPC, Rule 6(4) EPC and Article 14(4) EPC."
+        },
+        {
+            "question_number": "7",
+            "question_type": "True/False",
+            "context": "The mention of the grant of European patent EP-X was published in July 2017. The  single claim of EP-X is directed to a product. The patent was validated in Germany and  Italy. The date of filing of EP-X is 1 March 2014.    For each of the statements 7.1 \u2013 7.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Any infringement of European patent EP-X can be dealt with under the EPC and by the EPO, provided that opposition proceedings are pending.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The patent proprietor is entitled under all circumstances to produce in Germany any matter that is covered by the claim of EP-X.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The patent proprietor is entitled under all circumstances to sell in Italy any matter that is covered by the claim of EP-X.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The renewal fees for European patent EP-X that are due in 2018 cannot be validly paid to the EPO.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Any infringement of a European patent is dealt with by national law,  Article 64(3) EPC. A patent gives the patent proprietor the right to exclude  third parties from using the protected invention: it does not automatically allow  the patent proprietor to produce and sell matter that is protected by the patent.  The obligation to pay renewal fees to the EPO terminates in 2017, with the  payment of the renewal fee due in respect of the year in which the mention of  the grant of the European patent is published in the European Patent Bulletin,  Article 86(2) EPC."
+        },
+        {
+            "question_number": "8",
+            "question_type": "True/False",
+            "context": "The international application PCT-M was filed in August 2015 without claiming priority.  PCT-M was searched by the EPO as the International Searching Authority in  February 2016. The International Searching Authority raised non-unity objections with  respect to the subject-matter of claims 20 to 35. The applicant did not pay any additional  fees. The International Searching Authority issued a partial search report covering  claims 1-19. PCT-M entered the European phase today, 26 February 2018, and is  referred to in the following as Euro-PCT-M. No amendments have been filed.     For each of the statements 8.1 \u2013 8.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The applicant will have an opportunity to amend the claims of Euro-PCT-M, before substantive examination of Euro-PCT-M begins.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If in the application documents which are to serve as the basis of the examination of Euro-PCT-M an invention is claimed that was not searched by the EPO as the International Searching Authority, the applicant will be invited to pay a further search fee in respect of this invention.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If the applicant does not pay claims fees today, 26 February 2018, Euro-PCT-M will be deemed to be withdrawn.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If the applicant does not comment today, 26 February 2018, on the written opinion of the International Searching Authority, Euro-PCT-M will be deemed to be withdrawn.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The EPO has acted as the International Searching Authority. The EPO will,  among others, invite the applicant to amend the description and claims in  accordance with Rule 161(1) EPC soon after Euro-PCT-M enters the  European phase. Any amendment or comment can be filed within six months  of that communication. If in the application documents which are to serve as  the basis of the examination an invention is claimed that was not searched by  the EPO as the International Searching authority, the applicant will be invited  to pay further search fees in respect of any such invention, Rule 164(2)(a)  EPC. The present set of claims includes at present 35 claims, and therefore  claims fees are due in accordance with Rule 162(1) EPC: however, the legal  consequence of not paying claims fees for some claims is that these claims  shall be deemed to be abandoned, Rule 162 (4) EPC. The application is not       deemed to be withdrawn, if the applicant fails to comment today, since he may  do so within the period set in accordance with Rule 161(1) EPC."
+        },
+        {
+            "question_number": "9",
+            "question_type": "True/False",
+            "context": "A notice of appeal was validly filed on 1 February 2018 against the decision to refuse the  European patent application EP-B. The decision is dated 6 December 2017. According  to the decision, claim 1 of the sole request is not novel over D1 and is not inventive over  D2 in combination with the common general knowledge of the skilled person. The  statement setting out the grounds of appeal has not yet been filed.    For each of the statements 9.1 \u2013 9.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The statement setting out the grounds for the appeal must be filed at the latest on 6 April 2018.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "On 31 January 2018 EP-B was pending.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The examining division will grant interlocutory revision, if the applicant files an auxiliary request which is clearly allowable, novel and inventive.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The examining division will grant interlocutory revision, if the applicant can convince the examining division that claim 1 of the sole request is novel over D1.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The statement setting out the grounds for the appeal must be filed at the latest  on 16 April 2018 [6 December 2017 + 10 days (Rule 126(2) EPC) + 4 months  (Article 108 EPC and Rule 131(4) EPC) = 16 April 2018]. An application is  pending if it was refused and if no appeal has yet been filed until the expiry of  the time limit for filing the notice of appeal [6 December 2017 + 10 days  (Rule 126(2) EPC) + 2 months (Article 108 EPC and Rule 131(4) EPC) =  16 February 2018], see also G1/09. An interlocutory revision is never possible  on the basis of an auxiliary request, even if it would overcome the grounds for  refusal, Guidelines, E-XI, 7.4.3. If interlocutory revision is to be granted, the  applicant must address convincingly all grounds for refusal, i.e. novelty over  D1 and inventive step over D2."
+        },
+        {
+            "question_number": "10",
+            "question_type": "True/False",
+            "context": "The applicant of EP-S has been summoned to oral proceedings on 23 March 2018. The  final date for making written submissions was 23 February 2018. On 23 February 2018,  the applicant filed amended claims 1-9, that replace claims 1-10 previously on file. The  amended claims 1-9 change the focus of the discussion and raise completely new  issues. The applicant also informed the examining division that he will not attend the oral  proceedings.     For each of the statements 10.1 \u2013 10.4, indicate on the answer sheet whether the  statement is true or false:    In the present situation, the following reaction by the examining division complies with  the EPC:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The examining division performs today, 26 February 2018, an additional search and refuses today EP-S on the basis of a document found during this search.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The examining division does not admit amended claims 1-9 into the proceedings because the request is late filed under Rule 116 EPC.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The examining division holds oral proceedings for EP-S in the absence of the applicant.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The oral proceedings for EP-S are held by an examining division consisting of only one technically qualified examiner.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "A decision (such as a decision to refuse a patent application) may not be  based on facts and evidence (such as a new document) on which the  applicant did not have the opportunity to be heard, Article 113(1) EPC and  G4/92. The examining division can exercise the discretion not to admit  requests filed during prosecution of the application, such as after summons to  oral proceedings have been issued. However, the discretion is exercised  under Rule 137(3) EPC (see also Guidelines, H-II, 2.7.1), since the time frame  for filing amendments in respect of EP-S under Rule 116(1) and (2) EPC was  still open. The examining division may hold oral proceedings in the absence of  the party duly summoned, Rule 115(2) EPC. The examining division has three  technically qualified examiners, Article 18(2) EPC."
+        }
+    ]
+}

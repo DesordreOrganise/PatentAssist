@@ -1,0 +1,318 @@
+{
+    "exam_type": "EQE",
+    "year": "2022",
+    "exam_name": "PreEx",
+    "exercices": [
+        {
+            "question_number": "1",
+            "question_type": "True/False",
+            "context": "Francesca has filed a European patent application EP-F before the EPO. Francesca did  not develop the invention which is the subject of EP-F. In drafting EP-F Francesca used  information in Andrew\u2019s laboratory notebook, without Andrew\u2019s consent. EP-F was  published in December 2017 and is still pending.  For each of the statements 1.1\u20131.4, indicate on the answer sheet whether the statement is  true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Andrew can seek a stay of proceedings if he provides evidence that he has instituted proceedings against Francesca seeking a decision that Andrew is entitled to the grant of the European patent based on EP-F.",
+                    "answer": "True",
+                    "examiner_note": "Andrew can seek a stay of proceedings if Andrew proves that he has instituted proceedings against Francesca seeking a decision that Andrew is entitled to the grant of the European patent based on EP-F, Article 61(1) EPC and Rule 14(1) EPC."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Francesca can withdraw EP-F at any time from the date on which Andrew provides evidence to the EPO that he has instituted proceedings against Francesca seeking a decision that Andrew is entitled to the grant of the European patent based on  EP-F.",
+                    "answer": "False",
+                    "examiner_note": "From that date and up to the date on which the proceedings for grant are resumed, neither the European patent application nor the designation of any Contracting State may be withdrawn, Article 61(1) EPC and Rule 15 EPC."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "No renewal fee has to be paid during a stay of proceedings.",
+                    "answer": "False",
+                    "examiner_note": "All periods other than those for the payment of renewal fees, running at the date of the stay of proceedings, shall be interrupted by such stay, Rule 14(4) EPC and Guidelines A-IV, 2.2.4: hence renewal fees must be paid even during such stay."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Andrew can validly request that EP-F be refused no later than three months after the decision recognising his entitlement to EP-F has become final.",
+                    "answer": "True",
+                    "examiner_note": "Andrew has three months after the decision recognising his entitlement has become final for requesting that the European patent application filed by Francesca is refused, Article 61(1)(c) EPC and Rule 16 (1) EPC."
+                }
+            ]
+        },
+        {
+            "question_number": "2",
+            "question_type": "True/False",
+            "context": "Hans filed an admissible notice of opposition against European patent EP-1, which was  granted with two independent claims, namely claim 1 and claim 2 relating respectively to  two different parts of the patent. The only ground for opposition that he raised was lack  of inventive step in respect of claim 1. The opposition is not filed against the patent as a  whole, but only against claim 1. In particular, he argued in the notice of opposition that  the subject-matter of claim 1 lacked inventive step over the combination of D1 and D2,  both published before the effective date of EP-1. Theresa filed third-party observations  during the pending opposition proceedings, arguing that claim 2 lacked novelty over D3,  a Japanese patent application published before the effective date of EP-1.    For the following statements, assume that the right to be heard of all parties involved  has been respected and no amendments have been filed during the opposition  proceedings.    For each of the statements 2.1\u20132.4, indicate on the answer sheet whether the statement  is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "If the opposition division considers that the subject-matter of claim 1 lacks novelty over D1, the opposition division may revoke EP-1 for lack of novelty of the subject-matter of claim 1.",
+                    "answer": "True",
+                    "examiner_note": "Novelty and inventive step are separate grounds for opposition. However, novelty as a new ground may be considered in view of the same document used for deciding upon the ground of lack of inventive step (Article 114(1) EPC, Rule 81(1) EPC, G7/95)."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If the opposition division considers that the subject-matter of claim 2 lacks inventive step over D2 in combination with D3, the opposition division may revoke EP-1 for lack of inventive step of the subject-matter of claim 2 over D2 in combination with D3.",
+                    "answer": "False",
+                    "examiner_note": "The extent of the opposition defines the competence of the opposition division. Subject-matter of a claim not covered by the extent of the opposition may not be subject of the opposition (G9/91)."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If the opposition division considers that the subject-matter of claim 1 is not sufficiently disclosed, the opposition division may revoke EP-1 because the subject-matter of claim 1 is not disclosed in a manner sufficiently clear and complete for it to be carried out by a person skilled in the art.",
+                    "answer": "True",
+                    "examiner_note": "The opposition division may of its own motion raise a ground for opposition within the extent of the opposition (Article 114(1) EPC, Rule 81(1) EPC, G10/91, reason 16)."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "After the opposition division has considered Theresa\u2019s third-party observations, the opposition division may revoke EP-1 based on lack of novelty of the subject-matter of claim 2.",
+                    "answer": "False",
+                    "examiner_note": "The competence of the opposition division is limited to independent claim 1 (G9/91). Only subject- matters of claims depending on an independent claim, which falls in opposition proceedings, may be examined as to their patentability even if they have not been explicitly opposed (G9/91). This means that the independent claim 2 is not within the competence of the opposition division and can not be examined by it. Furthermore, third parties are not party to the opposition proceedings."
+                }
+            ]
+        },
+        {
+            "question_number": "3",
+            "question_type": "True/False",
+            "context": "For each of the statements 3.1\u20133.4, indicate on the answer sheet whether the statement  is true or false:    A board of appeal \u2026",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "\u2026 may decide in a three-member composition without a legally qualified member.",
+                    "answer": "False",
+                    "examiner_note": "The board of appeal requires the presence of at least one legally qualified member (Article 21(2), (3) and (4) EPC)."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "\u2026 may exercise any power within the competence of the department which was responsible for the decision appealed.",
+                    "answer": "True",
+                    "examiner_note": "The board of appeal may either exercise any power within the competence of the department which was responsible for the decision appealed or remit the case to that department for further prosecution (Article 111(1) EPC)."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "\u2026 may remit a case to the department which was responsible for the decision appealed for further prosecution.",
+                    "answer": "True",
+                    "examiner_note": "The board of appeal may remit the case to that department for further prosecution in accordance to Article 111(1) EPC."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "... may base its decision on a fresh ground for opposition only submitted during the appeal proceedings without the consent of the patentee.",
+                    "answer": "False",
+                    "examiner_note": "The board of appeal can not base their decision on a fresh ground for opposition during appeal proceedings without consent of the patentee (G10/91)."
+                }
+            ]
+        },
+        {
+            "question_number": "4",
+            "question_type": "True/False",
+            "context": "Company A has filed a European patent application EP-A with the EPO. Company B has  negotiated with Company A the transfer of European patent application EP-A to  Company B.    For each of the statements 4.1\u20134.4, indicate on the answer sheet whether the statement  is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "It is possible to validly transfer EP-A from Company A to Company B only for the designated contracting states FR and DE.",
+                    "answer": "True",
+                    "examiner_note": "According to Article 71 EPC, a European patent application can be transferred for one or more designated Contracting States (two or more applicants may be designated for different Contracting States, see also Article 59 EPC)."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The transfer of EP-A may be recorded in the European Patent Register at the request of Company B, upon production of documents providing evidence of such transfer and payment of an administration fee.",
+                    "answer": "True",
+                    "examiner_note": "For recording the transfer of right, Rule 143(1)(w) EPC, the EPO requires the submission of a request by an interested party, e.g. Company B, the payment of an administrative fee (Rule 22(2) EPC and also evidence of such transfer, Rule 22(1) EPC (e.g. an assignment, Article 72 EPC, which requires the signature of both parties to be effective)."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The transfer of a European patent application becomes effective vis-\u00e0-vis the EPO only when it is published in the European Patent Register.",
+                    "answer": "False",
+                    "examiner_note": "The transfer is effective vis-\u00e0-vis the EPO as soon as the documents according to Rule 22(1) EPC have been produced, Rule 22(3) EPC."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The transfer of a European patent may be recorded in the European Patent Register during the opposition period.",
+                    "answer": "True",
+                    "examiner_note": "A European patent can validly be transferred and the transfer can be recorded in the European Patent Register even during opposition period or during opposition proceedings, Rule 85 EPC in conjunction with Rule 22 EPC."
+                }
+            ]
+        },
+        {
+            "question_number": "5",
+            "question_type": "True/False",
+            "context": "Roberto and Mario are Brazilian citizens living in S\u00e3o Paolo, Brazil. They are the  applicants for European patent application EP1, which has been filed today in  Portuguese together with a French translation. EP1 claims the priority of a previous  Brazilian application P1.    For each of the statements 5.1\u20135.4, indicate on the answer sheet whether the statement  is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Roberto and Mario are entitled to a reduction of the filing fee.",
+                    "answer": "False",
+                    "examiner_note": "Roberto and Mario are not entitled to a reduction of the filing fee. Roberto and Mario do not have their place of residence or place of business within a contracting state and are not nationals of a contracting state being resident abroad (Article 14(4) EPC, R. 6(3) EPC)."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "EP1 will be accorded by the EPOa filing date, only if the content of EP1 does not extend beyond the content of P1 as originally filed.",
+                    "answer": "False",
+                    "examiner_note": "EP1 can contain additional subject-matter which is not included in P1 (Article 80 EPC, Rule 40 EPC). In that case, the right to priority shall, however, cover only the subject-matter of EP1 which is included in P1 (Article 88(3) EPC)."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If the French translation had not been filed in due time, EP1 would be deemed not to have been filed.",
+                    "answer": "False",
+                    "examiner_note": "The legal consequence is that EP1 is considered to be withdrawn (Article 14(2) EPC, last sentence), and not that it is deemed not to have been filed."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If EP1 is assigned to a British company, the language of the proceedings may be changed to English after registration of the transfer.  Part 2",
+                    "answer": "False",
+                    "examiner_note": "The language of the proceedings cannot be changed during the proceedings concerning an application, because this is not provided for in the EPC (G4/08). Part 2"
+                }
+            ]
+        },
+        {
+            "question_number": "6",
+            "question_type": "True/False",
+            "context": "Roberto and Mario are Brazilian citizens living in S\u00e3o Paolo, Brazil. They are the  applicants for European patent application EP1, which has been filed today in  Portuguese together with a French translation. EP1 claims the priority of a previous  Brazilian application P1. Starting from the same conditions as outlined above in  Question 5 and assuming now Assuming now that Roberto and Mario intend to file a  divisional application EP1-DIV relating to the pending patent application EP1, indicate  whether the following statements are true or false.",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "EP1-DIV may be validly filed with the EPO at the filing offices in Munich, The Hague and Vienna.",
+                    "answer": "False",
+                    "examiner_note": "Rule 36(2) EPC, last sentence mentions the EPO in Munich, The Hague or Berlin as places where to validly file a divisional application, but not Vienna."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "EP1-DIV may be validly filed in Portuguese.",
+                    "answer": "True",
+                    "examiner_note": "Rule 36(2) EPC, second sentence states that if the earlier application was not in an official language of the EPO, the divisional application can be filed in the language of the earlier application, i.e. in the present case in Portuguese,"
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "EP1-DIV may be validly filed in English.",
+                    "answer": "False",
+                    "examiner_note": "Rule 36(2) EPC, first sentence only allows the divisional application to be filed in the language of the proceedings for the earlier application, i.e. in the present case in French, but not English."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "EP1-DIV must be filed within 12 months from the filing date of EP1.",
+                    "answer": "False",
+                    "examiner_note": "There is no time limit for filing a divisional application other than the requirement that the parent application must be pending (Article 76 EPC and Rule 36(1) EPC)."
+                }
+            ]
+        },
+        {
+            "question_number": "7",
+            "question_type": "True/False",
+            "context": "The dimethyl fumarate molecule (DMF) is known from the prior art in the following  respects:  Document D1 discloses DMF as a biocide for the treatment of clothing, shoes and  furniture against mould growth.  Document D2 concerns a patent which discloses DMF for the treatment of the skin  disease psoriasis and of multiple sclerosis.  The prior art does not disclose any further disease that can be treated with DMF.    For each of the statements 7.1\u20137.4, indicate on the answer sheet whether the statement  is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The subject-matter of the claim \u201cDMF for use as a medicament\u201d in a European patent application filed today is novel over the above-mentioned prior art.",
+                    "answer": "False",
+                    "examiner_note": "A first medical use of DMF cannot be claimed, since DMF is already known as medicament."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The subject-matter of the claim \u201cDMF for use in the treatment of cancer\u201d in a European patent application filed today is novel over the above-mentioned prior art.",
+                    "answer": "True",
+                    "examiner_note": "The second medical use of DMF is new over the prior art documents mentioned above, since DMF is not known as a medicament for the treatment of cancer. Guidelines G-VI. 7.1"
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The following claim wording is allowable in a European patent application filed today: \u201cUse of DMF for the manufacture of a medicament for the treatment of cancer\u201d.",
+                    "answer": "False",
+                    "examiner_note": "The so-called Swiss-type claims are not allowed in applications having an effective date of 29.01.2011 or later (G2/08). Guidelines G-VI, 7.1"
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The subject-matter of the claim \u201cDMF for use in the treatment of skin diseases\u201d in a European patent application filed today is novel over the above-mentioned prior art.",
+                    "answer": "False",
+                    "examiner_note": "DMF is already known for the treatment of psoriasis (a skin disease)."
+                }
+            ]
+        },
+        {
+            "question_number": "8",
+            "question_type": "True/False",
+            "context": "Jan, a US national and resident of living in the USA, filed an international application  PCT-J with the USPTO on 10 January 2022. On filing, Jan indicated the EPO as one of  the designated Offices. The EPO was immediately informed of its designation.  The USPTO charges the late payment fee for a delayed payment of the international  filing fee as allowed under the PCT.    For each of the statements 8.1\u20138.4, indicate on the answer sheet whether the statement  is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Jan must pay the international filing fee to the International Bureau.",
+                    "answer": "False",
+                    "examiner_note": "For international application the fees have to be paid to the receiving Of-fice, not to the International Bureau (Rule 15.1 PCT)."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If the international filing fee is not paid in due time, Jan can validly pay the international filing fee together with the late payment fee within a time limit of one month from the date of the invitation sent by the receiving Office.",
+                    "answer": "True",
+                    "examiner_note": "If the filing fee is not paid in due time, then Jan can validly pay the filing fee with a late payment fee within a time limit of one month from the date of the invitation sent by the receiving Office (Rule 16bis.1 (a) PCT and Rule 16bis.2 PCT."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "A consequence of not paying the international filing fee with the late payment fee within the prescribed time limit is that the USPTO will declare that PCT-J is considered to be withdrawn.",
+                    "answer": "True",
+                    "examiner_note": "If the USPTO concludes that it did not receive the international filing fee with the late payment fee within the time limit, the USPTO will issue a declaration that PCT-J shall be considered withdrawn, Rule 16bis.1 (c) PCT and Article 14(3)(a) PCT."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "A consequence of not paying the international filing fee with the late payment fee within the prescribed time limit is that the USPTO will notify the EPO as the designated Office that PCT-J is considered to be withdrawn.",
+                    "answer": "False",
+                    "examiner_note": "It is the International Bureau that informs the designated offices of a declaration of withdrawal of the application and not the receiving Office (Rule 29.1 (ii) PCT)."
+                }
+            ],
+            "examiner_note": "Jan, a national and resident of the USA, filed an international application PCT-J with the  USPTO on 10 January 2022. On filing, Jan indicated the EPO as one of the designated  Offices. The EPO was immediately informed of its designation.  The USPTO charges the late payment fee for a delayed payment of the international  filing fee as allowed under the PCT."
+        },
+        {
+            "question_number": "9",
+            "question_type": "True/False",
+            "context": "For each of the statements 9.1\u20139.4, indicate on the answer sheet whether the statement  is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The EPO will accord a date of filing to a European patent application filed by an identifiable applicant using EPO Form 1001, even if the description is filed in Chinese.",
+                    "answer": "True",
+                    "examiner_note": "The date of filing is accorded irrespective of the language of the application documents, provided that the requirements of Rule 40(1)(a) to (c) EPC are complied with. It is not required to file the description in any particular language (Article 14(2) EPC)."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If a request for grant is not filed on a form drawn up by the EPO, an application filed together with that request will not be dealt with as a European patent application.",
+                    "answer": "False",
+                    "examiner_note": "According to Rule 41(1) EPC, the request for grant must be filed on a form drawn up by the EPO. If the request for grant does not satisfy the requirements of Rule 41 EPC, then the applicant is invited to correct the deficiency within two months from notification. This is done after the European application has been accorded a date of filing (Rule 57 (b) EPC, Rule 58 EPC, Article 90 (3) to (5) EPC)."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If an international application contains no part which on the face of it appears to be a claim or claims, a date of filing will not be accorded to that international application.",
+                    "answer": "True",
+                    "examiner_note": "According to Article 11(1)(iii)(e) PCT, a part, which is on the face of it appears to be a claim or claims,is required for obtaining a filing date for an international application."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "A Japanese citizen resident in Japan may validly file a European patent application without being represented by a professional representative.",
+                    "answer": "True",
+                    "examiner_note": "According to Article 133(2) EPC, natural or legal persons not having their residence or principal place of business in a Contracting State shall be represented by a professional representative and act through him in all proceedings established by this Convention, other than in filing a European patent application. So filing of a European patent application can be done without requiring a professional representative."
+                }
+            ]
+        },
+        {
+            "question_number": "10",
+            "question_type": "True/False",
+            "context": "A communication pursuant to Rule 71(3) EPC has been issued for a European patent  application. The applicant has fulfilled all the necessary requirements. The related  decision to grant a European patent has been despatched on the basis of the  documents (Druckexemplar) transmitted to the applicant with the communication under  Rule 71(3) EPC. The mention of the grant of the European patent has been published in  the European Patent Bulletin.    However, in the course of the preparation of the publication of the specification of this  European patent an error arose, whereby page 2 of the description is missing in the  published specification of this European patent. As a result of this error, the published  specification of this European patent as a whole does not disclose the claimed invention  in a manner sufficiently clear and complete for it to be carried out by a person skilled in  the art.    For each of the statements 10.1\u201310.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "This error in the published specification of this European patent may be corrected at any time.",
+                    "answer": "True",
+                    "examiner_note": "Errors in publication occur where the content of the printed specification differs from the documents transmitted to the applicant with the communication under Rule 71(3) EPC, which form the basis of the decision to grant. Errors of this kind can be corrected at any time (Guidelines C-V,10 and H-VI,6)."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The European patent could be revoked on the basis of an opposition based on the ground of Art. 100(b) EPC because in the published specification of this European patent the invention without page 2 of the description is not disclosed in a manner sufficiently clear and complete for it to be carried out by a person skilled in the art.",
+                    "answer": "False",
+                    "examiner_note": "Mistakes in the specification of a European patent arising in the course of its production (such as printing of the B publication) have no effect on the patent granted (Guidelines C-V, 10 and H-VI,6). The decisive text is the text forming the basis of the decision of the grant."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If the language of the grant proceedings for this European patent was English, a notice of opposition may be validly filed in German.",
+                    "answer": "True",
+                    "examiner_note": "In written proceedings before the EPO, any party may use any official language (Rule 3(1) EPC, first sentence)."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "In order to request a transfer of the status of opponent to a different person during opposition proceedings, it is sufficient to file a declaration including the names, addresses and signatures of both the original opponent and the person wishing to take over the status of opponent. Part 3",
+                    "answer": "False",
+                    "examiner_note": "Oppositions are not transferrable, but may be inherited or succeeded to as part of an overall succession in law (Guidelines D-I, 4, G4/88, G2/04)Part 3 Remark: There is a translation error in the German version [005] of the descrip-tion, second line. It should read Poly-Y and not Poly-X. Due to this translation error the Examination Board decided to award full marks to all candidates for questions 11 to 15."
+                }
+            ]
+        }
+    ]
+}

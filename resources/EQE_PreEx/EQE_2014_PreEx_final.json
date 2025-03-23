@@ -1,0 +1,647 @@
+{
+    "exam_type": "EQE",
+    "year": "2014",
+    "exam_name": "PreEx",
+    "exercices": [
+        {
+            "question_number": "1",
+            "question_type": "True/False",
+            "context": "You filed European patent application EP-A in April 2013 without claiming priority. The  search division considered that the claims lacked unity of invention. The invention first  mentioned in the claims was searched. In October 2013 you received an invitation to  pay one additional search fee for the second invention. Since then you have not taken  any action with respect to EP-A.    For each of the statements 1.1 \u2013 1.4, indicate on the answer sheet whether the  statement is true or false:    If today, 24 February 2014, you want to pursue the second invention, a valid option is to ...",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "... pay the additional search fee for EP-A with the further processing fee.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "... file a European divisional application to EP-A directed to the second invention.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "... file a European patent application EP-B claiming priority from EP-A, EP-B being directed to the second invention.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "... file an international application PCT-B claiming priority from EP-A, PCT-B being directed to the second invention.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Further processing is excluded in respect of the period under Rule 64 EPC for paying an  additional search fee, Article 121(4) EPC and Rule 135(2) EPC. In order to pursue the  second invention, the valid options include the following:   1) since you have not taken any action, the application is pending (and not withdrawn).  You can file a European divisional application to EP-A (Article 76(1) EPC and  Rule 36 EPC);  2) since the priority period has not yet expired (Article 87(1) EPC), you can file a European  patent application EP-B claiming priority from EP-A;  3) since the priority period has not yet expired (Article 8(2)(a) PCT and Article 4 C (1) of  the Stockholm Act of the Paris Convention for the protection of industrial property), you  can also file an international application PCT-B claiming priority from EP-A."
+        },
+        {
+            "question_number": "2",
+            "question_type": "True/False",
+            "context": "European patent application EP-P was filed as a first filing on 2 December 2011 and  was published on 13 June 2013. European patent application EP-D was filed with the  EPO on 6 December 2013 as a divisional application of EP-P. Today, 24 February 2014,  you received the first communication of the examining division under Article 94(3) EPC  regarding EP-P. EP-P is still pending. Some of the claims of EP-D contain subject- matter that was not originally disclosed in EP-P. The renewal fee for EP-D has not yet  been paid.    For each of the statements 2.1 \u2013 2.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "EP-D cannot be validly filed before the first communication under Article 94(3) EPC was issued in respect of EP-P; therefore EP-D was not validly filed.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "At present, EP-D is deemed to have 6 December 2013 as its date of filing.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The renewal fee for EP-D may be validly paid on 7 April 2014 without additional fee.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "In the present case EP-P will be regarded as prior art under Article 54(2) EPC against EP-D.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The European divisional application EP-D can be validly filed as long as the earlier  application (in this case EP-P) is pending, Rule 36(1) EPC. EP-D has to be filed before the  time limit of twenty-four months for filing a divisional application to EP-P has expired. This  time limit is triggered by the first communication under Article 94(3) EPC in respect of  EP-P, Rule 36(1)(a) EPC as entered into force on 26 October 2010. Even if EP-D contains  subject-matter extending beyond the content of the earlier application as originally filed, it  cannot be converted into an independent application taking 6 December 2013 as its date  of filing (Guidelines C-IX, 1.4 or G1/05, Reasons 11.1). Consequently, EP-P cannot be  prior art for EP-D. Although no renewal fee was due in respect of EP-P when EP-D was  filed, this fee for EP-P became due on 31 December 2013. The renewal fee due in respect  of EP-P shall be also paid for EP-D, Rule 51(3), second sentence, EPC. This fee can be  paid within four months from filing without an additional fee, i.e. on 7 April 2014  [6 December 2013 + 4 months (= 6 April 2014), extended to Monday 7 April 2014],  Rule 51(3) EPC, Rule 131(4) EPC and Rule 134(1) EPC)]."
+        },
+        {
+            "question_number": "3",
+            "question_type": "True/False",
+            "context": "On 11 January 2013 an applicant filed a European patent application EP-1 at the EPO.  EP-1 discloses subject-matter X but not subject-matter Y. On 6 September 2013 the  same applicant filed a US patent application US-1 at the USPTO claiming priority from  EP-1. Claim 1 of US-1 is directed to subject-matter X and claim 2 is directed to  subject-matter Y. EP-1 was withdrawn on 10 January 2014. European patent application  EP-2 was filed by the same applicant on 13 January 2014. EP-2 contains the same  description and the same claims as US-1.    For each of the statements 3.1 \u2013 3.4, indicate on the answer sheet whether the  statement is true or false:    If in EP-2 priority is claimed only from ...",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "... EP-1, the effective date for claim 1 of EP-2 is 13 January 2014.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "... EP-1, the effective date for claim 2 of EP-2 is 13 January 2014.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "... US-1, the effective date for claim 1 of EP-2 is 13 January 2014.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "... US-1, the effective date for claim 2 of EP-2 is 13 January 2014.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The right of priority can be enjoyed during a period of twelve months from the date of filing  of the first application, Article 87(1) EPC. The outcome of the first application plays no role.  For instance the first application can be withdrawn, Article 87(3) EPC. In respect of EP-1,  the priority period expires on 13 January 2014, [11 January 2013 + 12 months  (= 11 January 2014), extended to Monday 13 January 2014, Article 87(1) EPC, Rule  131(4) EPC and Rule 134(1) EPC)].  If in EP-2 priority is claimed only from EP-1, the effective date of claim 1 is  11 January 2013. If in EP-2 priority is claimed only from EP-1, the effective date of claim 2  is the date of filing of EP-2, 13 January 2014.   If in EP-2 priority is claimed only from US-1, the effective date of claim 1 is the date of filing  of EP-2, 13 January 2014: US-1 is not the first application in respect of the invention of  claim 1. If in EP-2 priority is claimed only from US-1, the effective date of claim 2 is  6 September 2013."
+        },
+        {
+            "question_number": "4",
+            "question_type": "True/False",
+            "context": "The European Patent Bulletin mentioned the publication of the European search report  of European patent application EP-G on 16 October 2013. EP-G has 20 claims. The  opinion accompanying the European search report mentions several deficiencies in   EP-G.    For each of the statements 4.1 \u2013 4.4, indicate on the answer sheet whether the  statement is true or false:    One of the actions that must be done at the latest on 16 April 2014 to avoid EP-G being  deemed withdrawn is to ...",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "... pay 5 claims fees.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "... correct the deficiencies mentioned in the opinion.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "... pay the examination fee.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "... pay the designation fee.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The applicant may request examination of European patent application EP-G up to  six months after the date on which the European Patent Bulletin mentions the publication  of the European search report of EP-G, i.e. on 16 April 2014 [16 October 2013 + 6 months  (= 16 April 2014), Rule 70(1) EPC, Rule 131(4) EPC]. To avoid the application being  deemed to be withdrawn, the applicant has to comply \u2013among others\u2013 with the  requirements of Rule 70a(1) and (3) EPC. However, the applicant is not obliged to correct  the deficiencies mentioned in the opinion as he may choose only to comment on the  opinion, for example if he disagrees with the finding of the Search Division. To avoid the  application being deemed to be withdrawn, the examination fee must be paid, Article 94(1)  and (2) EPC, and the designation fee must be paid, Rule 39(1) and (2) EPC. Claims fees  had to be dealt with at search stage (see Rule 45 EPC)."
+        },
+        {
+            "question_number": "5",
+            "question_type": "True/False",
+            "context": "An applicant validly filed a European patent application EP-Z on 15 March 2011 as a first  filing.    For each of the statements 5.1 \u2013 5.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The renewal fee for the third year for EP-Z is due on 31 March 2014.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "A renewal fee may be paid at the latest within four months of the due date, provided that an additional fee is also paid within that period.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If a renewal fee is not paid in due time, the application is deemed to be withdrawn.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If an applicant fails to observe the time limit for paying a renewal fee together with the additional fee, a valid option is to request further processing.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The renewal fee for the coming year is due on the last day of the month containing the  anniversary of the date of filing, Rule 51(1) EPC. On 31 March 2014, the renewal fee for  the fourth year is due. The renewal fee with an additional fee may still be paid within six  months of the due date, Rule 51(2) EPC. If a renewal fee is not paid in due time, the  application is deemed to be withdrawn, Article 86(1) EPC, third sentence. Further  processing for paying a renewal fee is excluded by the provisions of Article 121(4) EPC  and Rule 135(2) EPC."
+        },
+        {
+            "question_number": "6",
+            "question_type": "True/False",
+            "context": "The examining division issued a communication setting a two month time limit for  bringing the description of European patent application EP-XX into conformity with the  amended claims that the applicant had filed earlier. The communication is dated  10 December 2013. You received the communication on 16 December 2013. So far you  have not taken any action and you have not received any other communication from the  EPO with respect to EP-XX.    For each of the statements 6.1 \u2013 6.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The time limit for filing the requested adapted description expired on 20 February 2014.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If you file the requested adapted description today, 24 February 2014, it will be deemed received on time, as you have not received a notice of loss of rights.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Further processing of EP-XX must be requested at the latest on 22 April 2014.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "An extension of the time limit of two months can be validly requested as long as the written request is received by the EPO before the notice of loss of rights is issued.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The time limit for filing the requested adapted description expired on 20 February 2014  [10 December + 10 days (= 20 December 2013) + 2 months (= 20 February 2014),  Rule 126(2) EPC, Article 94(3) EPC and Rule 131(4) EPC]. If the applicant fails to reply in  due time, in this case on 20 February 2014, the application is deemed to be withdrawn,  Article 94(4) EPC. An extension may be requested before the expiry of the period only,  Rule 132(2) EPC, second sentence, see also Guidelines, E-VII 1.6. Further processing  may be requested within two months of the notice of loss of rights, Rule 135(1) EPC. This  notice not having been received yet, the period cannot be calculated. As it cannot be less  than 2 months from today, 24 February 2014, the last date for validly requesting further  processing must be after 22 April 2014."
+        },
+        {
+            "question_number": "7",
+            "question_type": "True/False",
+            "context": "Mr. Brown, an Irish citizen living in Dublin wants to obtain protection for his invention   X-1. Tomorrow, 25 February 2014, he will disclose for the first time his invention X-1 at a  public press conference. Mr. Brown therefore intends to file by fax a European patent  application EP-X as a first filing covering invention X-1.    For each of the statements 7.1 \u2013 7.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "In order to obtain a date of filing for EP-X, it is necessary to pay the filing fee.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If the requirements for obtaining a date of filing for EP-X are only fulfilled tomorrow, 25 February 2014, the disclosure of X-1 via tomorrow's press conference will become prior art for EP-X.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "In order to obtain a date of filing for EP-X, it is necessary that EP-X contains at least one claim.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If a date of filing is accorded to EP-X, Mr. Brown enjoys a right of priority from  EP-X under the Paris Convention for the Protection of Industrial Property.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The requirements for obtaining a date of filing are set forth in Rule 40 EPC: in particular  there is no obligation to pay any fee or to file at least one claim. Everything made available  to the public (e.g. by oral description) before the date of filing of EP-X is prior art. A  disclosure made on the same date as the date of filing of EP-X is not prior art for EP-X,  Article 54(2) EPC. If a date of filing is accorded to EP-X, right to priority under the  Paris Convention for the protection of industrial property (Article 4 A) can be derived from  EP-X, for instance for filing an international application."
+        },
+        {
+            "question_number": "8",
+            "question_type": "True/False",
+            "context": "Ms De Jong, a Dutch citizen resident in Berlin, filed on 4 February 2014 a European  patent application EP-Z and a notice of opposition against European patent EP-Y. The  mention of the grant of EP-Y was published on 26 June 2013. Both documents were  filed in the Dutch language.    For each of the statements 8.1 \u2013 8.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Regarding EP-Y: the prescribed translation of the notice of opposition must be filed at the latest within one month of filing of the notice of opposition.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Regarding EP-Z: the prescribed translation shall be filed within two months of filing EP-Z.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Ms De Jong is entitled to a reduction of the opposition fee.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Ms De Jong is entitled to a reduction of the filing fee for EP-Z.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Ms De Jong is a national of a contracting state not having English, French or German as  an official language, Article 14(4) EPC. She may file documents in Dutch, but has to  provide translations into one of the official languages of the EPO. The required translation  of the notice of opposition shall be filed within one month of filing the notice of opposition.  But it can be filed within the period for filing the notice of opposition, if that period expires  later, Rule 6(2) EPC. This is the case, as the period for filing the notice of opposition  expires on 26 March 2014 (26 June 2013 + 9 months, Article 99(1) EPC and Rule 131(4)  EPC). The required translation of EP-Z shall be filed within two months of filing EP-Z,  Article 14(2) EPC, Rule 6(1) EPC. As a Dutch citizen, Ms De Jong is entitled to a reduction  of both the filing and the opposition fees, Rule 6(3) EPC."
+        },
+        {
+            "question_number": "9",
+            "question_type": "True/False",
+            "context": "Applicant X filed a European patent application EP-N in January 2014 without claiming  priority.    For each of the statements 9.1 \u2013 9.4, indicate on the answer sheet whether the  statement is true or false:    The following represents state of the art under Article 54(2) EPC for EP-N:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "a blog entry posted by applicant X on the Internet on 29 December 2013.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "comparative tests filed by applicant X with respect to a European patent application EP-L, wherein EP-L was filed in May 2012, the tests were filed in July 2013 and EP-L was published in December 2013.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "comparative tests filed by applicant X with respect to an international application PCT-M, wherein PCT-M was filed in January 2012 without claiming priority, the tests were filed in September 2013 together with the demand for international preliminary examination and the international preliminary examination report has not yet been issued.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "an oral statement made by applicant X in November 2013 during oral proceedings in opposition against European patent EP-H.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The state of the art comprises anything made available to the public by means of a written  or oral disclosure, by use, or in any other way, before the date of filing of EP-N,  Article 54(2) EPC. Such a disclosure can be: a blog entry (see also Guidelines, G-IV  7.5.3.3 and 7.5.4 (c)); comparative tests that are made available to the public with the  publication of EP-L, since the files relating to EP-L are open to inspection, Article 128(4)  EPC; and statements made during oral proceedings in opposition proceedings, since  these proceedings are public, Article 116(4) EPC.   Due to the confidential nature of the international preliminary examination (Chapter II), no  access to the file of the international preliminary examination is given to the public before  the international preliminary examination report is established, Article 38(1) PCT."
+        },
+        {
+            "question_number": "10",
+            "question_type": "True/False",
+            "context": "An applicant filed in January 2013 a European patent application EP-T relating to  invention X. The application EP-T includes several embodiments. The applicant now  realises that, although most of the embodiments are sufficiently disclosed, the  embodiment X1 lacks essential technical information and is therefore not sufficiently  disclosed.    For each of the statements 10.1 \u2013 10.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "An objection of the examining division under Article 83 EPC regarding embodiment X1 can be overcome by filing additional technical information.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If the examining division does not raise any objections under Article 83 EPC, lack of sufficiency of disclosure will not be a valid ground for opposition against EP-T.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "A valid option is to correct the technical information under Rule 139 EPC before the publication of EP-T.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Before the publication of EP-T, it is not possible to amend the description of EP-T in order to delete embodiment X1.",
+                    "answer": "True",
+                    "examiner_note": "[*] Please see D 0002/14, D 0003/14, D0004/14, D 0005/14 and D0006/14"
+                }
+            ],
+            "examiner_note": "The European patent application must disclose the invention in a manner sufficiently clear  and complete for it to be carried out by a person skilled in the art, Article 83 EPC. A lack of  sufficiency of disclosure cannot be cured by filing additional technical information, since  this would offend the requirements of Article 123(2) EPC (see Guidelines, F-III 2). A  correction under Rule 139 EPC is not possible either: if it is obvious how the correction  reads, then there cannot be any issue of lack of sufficiency of disclosure. A valid ground  for opposition is lack of sufficiency of disclosure, Article 100(b) EPC. EP-T will be  published as filed, with embodiment X1, Rule 68(1) EPC. Even if the applicant filed  amended application documents with the EPO before the termination of the technical  preparations for publication, only amended claims would be included in the publication but  not an amended description, Rule 68(4) EPC.[*]"
+        },
+        {
+            "question_number": "11",
+            "question_type": "True/False",
+            "context": "For questions 11 and 12, assume that claim I is a single independent claim filed with the  client\u2019s patent application.    I.  Bottle for a liquid soap dispenser, the bottle having a base for touching a tube of a  liquid soap dispenser.    For each of the statements 11.1 \u2013 11.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The bottle of the first embodiment of the application is covered by the scope of claim I.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The bottle of the second embodiment of the application is covered by the scope of claim I.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The bottle of the third embodiment of the application is covered by the scope of claim I.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The bottle shown in FIG. 5 is covered by the scope of claim I.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The subject matter of claim I reads on a bottle having a base. The wording of claim I is  neither limited to comprise a liquid soap dispenser nor to comprise a tube. Hence, even  the bottle of Fig. 5 shown without a tube is covered by the scope of claim I."
+        },
+        {
+            "question_number": "12",
+            "question_type": "True/False",
+            "context": "For each of the statements 12.1 \u2013 12.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The subject-matter of claim I is novel with respect to D1.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The subject-matter of claim I is novel with respect to D2.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The subject-matter of claim I is novel with respect to D3.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The subject-matter of claim I is novel with respect to D4.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The bottle in accordance with claim I covers just a bottle with a base (see Question 11).  Such bottles are disclosed in each of documents D1 to D4. Any base of a bottle is suitable  for touching a tube, but claim I is not limited to comprise a tube. Hence, it is irrelevant if the  tubes described in D1 to D4 do touch the base or not."
+        },
+        {
+            "question_number": "13",
+            "question_type": "True/False",
+            "context": "For question 13, assume that claim II is a single independent claim filed with the client\u2019s  patent application.    II.  Soap dispenser comprising a hand pump, a bottle containing a liquid, for example  liquid soap, and a tube, wherein at least a portion of the tube extends along the  base of the bottle.    For each of the statements 13.1 \u2013 13.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The liquid soap dispenser of the first embodiment of the application is covered by the scope of claim II.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The subject-matter of claim II is limited to a soap dispenser containing a liquid.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The subject-matter of claim II is novel with respect to D2.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The subject-matter of claim II is novel with respect to D4.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The subject matter of claim II reads on a liquid soap dispenser with a portion of the tube  touching the base of the bottle as in the first embodiment (statement 13.1) and as in D2  (statement 13.3).  The bottle is defined to contain a liquid such as liquid soap, hence the subject matter of  claim II is limited to contain a liquid in general.  The tube 430 of D4 is parallel to the base of the bottle, but does not extend along the base  of the bottle."
+        },
+        {
+            "question_number": "14",
+            "question_type": "True/False",
+            "context": "For questions 14 to 16, assume that independent claim III was filed with the client's  patent application.    III.  Liquid soap composition comprising  (i)  water,  (ii) detergent, in particular a blend of palmitate and stearate soaps, and  (iii) 20 to 25 percent by weight of glycerine based on the total weight of the liquid    soap composition.    For each of the statements 14.1 \u2013 14.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The subject-matter of claim III is limited to a liquid soap composition comprising at least 75 percent by weight of water and detergent based on the total weight of the liquid soap composition.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The scope of claim III remains the same if the expression \"in particular\" is replaced by the expression \"preferably\".",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "A claim reading \"In a soap dispenser including a hand pump, a liquid soap composition in accordance with claim III.\" would be clear.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The subject-matter of claim III is limited to a liquid soap composition comprising at most 80 percent by weight of water and detergent based on the total weight of the liquid soap composition.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The liquid soap in accordance with claim III may comprise other components. Claim III is   not limited to liquid soap compositions comprising at least 75% water and detergent, since  the open wording of the claim covers compositions containing further ingredients  (statement 14.1), but water and detergent can be at most 80% (statement 14.4).  For statement 14.2 \u201cpreferably\u201d is equivalent to \u201din particular\u201d (see Guidelines F-IV, 4.9).  \u201cIn a bottle...\u201d is considered to be unclear (see Guidelines F-IV, 4.15) since it is  ambiguous, if protection is sought for the soap dispenser including the liquid soap  composition or for the liquid soap composition only."
+        },
+        {
+            "question_number": "15",
+            "question_type": "True/False",
+            "context": "For each of the statements 15.1 \u2013 15.4, indicate on the answer sheet whether the  statement is true or false:    Claim III is novel with respect to a liquid soap composition which includes:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "water, detergent, in particular a blend of palmitate and stearate soaps, and 22 percent by weight of glycerine based on the total weight of the liquid soap composition.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "water, detergent, in particular a blend of palmitate and stearate soaps, perfume and 20 to 25 percent by weight of glycerine based on the total weight of the liquid soap composition.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "water, non-ionic detergent and 20 to 25 percent by weight of glycerine based on the total weight of the liquid soap composition.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "water, detergent, in particular a blend of palmitate and stearate soaps and about 20 percent by weight of glycerine based on the total weight of the liquid soap composition.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "All the liquid soap compositions are within the scope of claim III, since they relate to more  specific amounts of detergent (22 percent by weight or about 20 percent by weight of  glycerine) or to more specific compositions (additionally including a perfume or non-ionic  detergent rather than any detergent), i.e. Claim III is not novel over any of the  compositions."
+        },
+        {
+            "question_number": "16",
+            "question_type": "True/False",
+            "context": "For each of the statements 16.1 \u2013 16.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "There is basis in the application as filed for amending claim III to exclude from the scope of said claim compositions including non-ionic detergents.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "It would be allowable under Article 123(2) EPC to replace the expression \"water\" in claim III by the expression \"aqueous suspension\".",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "A claim reading: \"Liquid soap composition consisting of water, detergent  and 20 to 25 percent by weight of glycerine based on the total weight of the liquid soap composition.\" has a narrower scope than that of claim III.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "It would be allowable under Article 123(2) EPC to exclude from the scope of claim III compositions comprising 23 percent by weight of glycerine based on the total weight of the liquid soap composition, to render the subject-matter of claim III novel over a prior art document under Article 54(3) EPC disclosing a liquid soap composition comprising water, detergent and 23 percent by weight of glycerine based on the total weight of the liquid soap composition.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "For statement 16.1, the last sentence of paragraph [010] of the description of the  application explicitly excludes non-ionic detergents.  For statement 16.2 \u201caqueous suspension\u201d is disclosed only in connection with the prior art  discussed in the application in paragraph [002] and in paragraph [002] of D1.  For statement 16.3 note \u201cconsisting\u201d which limits the liquid soap composition to the sole  listed components, see Guidelines, F-IV, 4.21.  For statement 16.4, it is noted that the mentioned document is prior art under  Article 54(3) EPC. Furthermore, no other cited document defines any value or range of  glycerine in the liquid soap composition, i.e. this disclaimer does not have the effect to  single out specific compositions or to render the subject-matter novel or inventive over  these documents (see Guidelines, H-V, 4.1)."
+        },
+        {
+            "question_number": "17",
+            "question_type": "True/False",
+            "context": "For questions 17 to 20, assume that independent claim IV.1 and dependent claims IV.2,  IV.3 and IV.4 were filed with the client's patent application:    IV.1  A dispensing system comprising:    (a) a hand pump;    (b) a bottle for liquid soap;    (c) a tube,    characterised in that the bottle comprises a base which is in contact with a part of  the tube.  IV.2  A dispensing system according to claim IV.1, wherein the base of the bottle is  dome-shaped for guiding away the tube from the top of the dome.  IV.3  A dispensing system according to claim IV.1, wherein the tube has a right angled  portion and an end of the tube is in contact with the base of the bottle.  IV.4  A dispensing system according to claim IV.1, wherein the base of the bottle has a  V-shaped well that guides an end of the tube into the lowest part of the base of  the bottle.    For each of the statements 17.1 \u2013 17.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Claim IV.1 covers the dispensing system of the second embodiment of the application when the bottle contains hand cream instead of liquid soap.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Claim IV.2 unambiguously defines that the tube ends in the lowest part of the bottle.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Claim IV.2 covers the dispensing system of the second embodiment of the application.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The scope of claim IV.3 is limited to an embodiment wherein the right angled portion of the tube is positioned inside the bottle.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "For 17.1 it is considered that claim IV.1 is not limited to contain a liquid soap, only that it  must be suitable for it, i.e. the dispensing system may also contain hand cream.  For 17.2 it is considered that the wording of the characterizing part of claim IV.1 is not  limited to the end part of the tube, but may also refer to any intermediate part of the tube.  The second embodiment shown in Fig. 2 shows all the features defined in claim IV.2.  The right-angled portion as defined in claim IV.3 need not to be the end of the tube being  in contact with the base, i.e. the right-angled portion could also be positioned outside the  bottle."
+        },
+        {
+            "question_number": "18",
+            "question_type": "True/False",
+            "context": "For each of the statements 18.1 \u2013 18.4, indicate on the answer sheet whether the  statement is true or false:    With respect to D1 as the closest prior art, a technical effect, which is achieved by the  features of the characterising portion of claim IV.1, is that",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "... the tube is flexible.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "... the tube is longer than in the prior art.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "... the tube cannot be straight.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "... the amount of the product remaining at the base of the bottle is reduced.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "For statements 18.1 and 18.2 no technical effects can be derived from features which are  undefined or unspecified in claim IV.1. The term \u201cflexible\u201d is not defined in claim IV.1 and  the tube is not further specified to imply any flexibility. Further claim IV.1 does not define or  specify any dimension.  For statement 18.3 the fact that a part of tube is in contact with the base does not imply  that the tube cannot have straight parts.  For statement 18.4 it is noted that the wording of claim IV.1 also covers embodiments in  which intermediate parts of the tube may contact the base. The technical effect of  statement 18.4 is achieved, however, only when the end part of the tube is in contact with  the base. Claim IV.1 does not define where the end part of the tube is positioned with  respect to the base of the bottle."
+        },
+        {
+            "question_number": "19",
+            "question_type": "True/False",
+            "context": "For each of the statements 19.1 \u2013 19.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Since D1 discloses all of the features of the pre-characterising part of claim IV.1, D1 is the closest prior art for claim IV.1.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Since the bottle of D2 does not have a dome-shaped base, D2 is not the closest prior art for claim IV.2.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Since the bottle of D3 has a dome-shaped base, D3 is the closest prior art for claim IV.2.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Since D4 discloses a tube that has a right angled portion, D4 is the closest prior art for claim IV.3.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "A full overlap of features of the prior art with those of the preamble of the claim to be  assessed is not a sufficient criterion to justify the selection of that prior art as the closest  prior art (see Guidelines G-VII, 5.1).  Identifying structural differences is a question of novelty and is not a criterion for excluding  a document as the closest prior art.  For statement 19.3, D3 does not represent a promising starting point, because there is no  functional relation between the tube and the dome-shaped base: there is no contact  between the tube and the dome-shaped base and the remainder of the soap is suggested  to be washed out with water.  D4 does not represent a promising starting point, because the right-angled portion of the  tube of D4 has a completely different function, i.e. to connect the bottle being distant from  the hand pump."
+        },
+        {
+            "question_number": "20",
+            "question_type": "True/False",
+            "context": "For question 20 assume that:  (a) D2 is the closest prior art for claim IV.4; and  (b) the distinguishing feature of claim IV.4 over D2 is that D2 does not disclose that the    base of the bottle has a V-shaped well that guides the end of the tube into the well;    and  (c)  the problem solution approach is used for assessing inventive step of claim IV.4.    For each of the statements 20.1 \u2013 20.4, indicate on the answer sheet whether the  statement is true or false:    Given (a), (b) and (c) ...",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "... the technical problem can be formulated as: how to reduce the amount of liquid soap remaining in the bottle.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "... the technical effect of the distinguishing feature is that the remainder of the liquid soap collects in the well.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "... the technical problem can be formulated as: how to ensure that all liquid soap is completely removed from the bottle.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "... a valid argument as to why D3 cannot be combined with D2 is that D3 does not disclose expensive liquid soaps but only washing up liquids. 2013 Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec 01   Tue        01   Fri        01   Fri        01   Mon      01   Wed     01   Sat       01   Mon      01   Thu      01   Sun      01   Tue      01   Fri        01   Sun      02   Wed      02   Sat       02   Sat       02   Tue      02   Thu      02   Sun      02   Tue      02   Fri        02   Mon      02   Wed     02   Sat       02   Mon      03   Thu        03   Sun      03   Sun      03   Wed     03   Fri        03   Mon      03   Wed     03   Sat       03   Tue      03   Thu      03   Sun      03   Tue      04   Fri          04   Mon      04   Mon      04   Thu      04   Sat       04   Tue      04   Thu      04   Sun      04   Wed     04   Fri        04   Mon      04   Wed     05   Sat         05   Tue      05   Tue      05   Fri        05   Sun      05   Wed     05   Fri        05   Mon      05   Thu      05   Sat       05   Tue      05   Thu      06   Sun        06   Wed     06   Wed     06   Sat       06   Mon      06   Thu      06   Sat       06   Tue      06   Fri        06   Sun      06   Wed     06   Fri        07   Mon       07   Thu      07   Thu      07   Sun      07   Tue      07   Fri        07   Sun      07   Wed     07   Sat       07   Mon      07   Thu      07   Sat       08   Tue        08   Fri        08   Fri        08   Mon      08   Wed     08   Sat       08   Mon      08   Thu      08   Sun      08   Tue      08   Fri        08   Sun      09   Wed      09   Sat       09   Sat       09   Tue      09   Thu      09   Sun      09   Tue      09   Fri        09   Mon      09   Wed     09   Sat       09   Mon      10   Thu        10   Sun      10   Sun      10   Wed     10   Fri        10   Mon      10   Wed     10   Sat       10   Tue      10   Thu      10   Sun      10   Tue      11   Fri          11   Mon      11   Mon      11   Thu      11   Sat       11   Tue      11   Thu      11   Sun      11   Wed     11   Fri        11   Mon      11   Wed     12   Sat         12   Tue      12   Tue      12   Fri        12   Sun      12   Wed     12   Fri        12   Mon      12   Thu      12   Sat       12   Tue      12   Thu      13   Sun        13   Wed     13   Wed     13   Sat       13   Mon      13   Thu      13   Sat       13   Tue      13   Fri        13   Sun      13   Wed     13   Fri        14   Mon       14   Thu      14   Thu      14   Sun      14   Tue      14   Fri        14   Sun      14   Wed     14   Sat       14   Mon      14   Thu      14   Sat       15   Tue        15   Fri        15   Fri        15   Mon      15   Wed     15   Sat       15   Mon      15   Thu      15   Sun      15   Tue      15   Fri        15   Sun      16   Wed      16   Sat       16   Sat       16   Tue      16   Thu      16   Sun      16   Tue      16   Fri        16   Mon      16   Wed     16   Sat       16   Mon      17   Thu        17   Sun      17   Sun      17   Wed     17   Fri        17   Mon      17   Wed     17   Sat       17   Tue      17   Thu      17   Sun      17   Tue      18   Fri          18   Mon      18   Mon      18   Thu      18   Sat       18   Tue      18   Thu      18   Sun      18   Wed     18   Fri        18   Mon      18   Wed     19   Sat         19   Tue      19   Tue      19   Fri        19   Sun      19   Wed     19   Fri        19   Mon      19   Thu      19   Sat       19   Tue      19   Thu      20   Sun        20   Wed     20   Wed     20   Sat       20   Mon      20   Thu      20   Sat       20   Tue      20   Fri        20   Sun      20   Wed     20   Fri        21   Mon       21   Thu      21   Thu      21   Sun      21   Tue      21   Fri        21   Sun      21   Wed     21   Sat       21   Mon      21   Thu      21   Sat       22   Tue        22   Fri        22   Fri        22   Mon      22   Wed     22   Sat       22   Mon      22   Thu      22   Sun      22   Tue      22   Fri        22   Sun      23   Wed      23   Sat       23   Sat       23   Tue      23   Thu      23   Sun      23   Tue      23   Fri        23   Mon      23   Wed     23   Sat       23   Mon      24   Thu        24   Sun      24   Sun      24   Wed     24   Fri        24   Mon      24   Wed     24   Sat       24   Tue      24   Thu      24   Sun      24   Tue      25   Fri          25   Mon      25   Mon      25   Thu      25   Sat       25   Tue      25   Thu      25   Sun      25   Wed     25   Fri        25   Mon      25   Wed     26   Sat         26   Tue      26   Tue      26   Fri        26   Sun      26   Wed     26   Fri        26   Mon      26   Thu      26   Sat       26   Tue      26   Thu      27   Sun        27   Wed     27   Wed     27   Sat       27   Mon      27   Thu      27   Sat       27   Tue      27   Fri        27   Sun      27   Wed     27   Fri        28   Mon       28   Thu      28   Thu      28   Sun      28   Tue      28   Fri        28   Sun      28   Wed     28   Sat       28   Mon      28   Thu      28   Sat       29   Tue        29   Fri        29   Mon      29   Wed     29   Sat       29   Mon      29   Thu      29   Sun      29   Tue      29   Fri        29   Sun      30   Wed      30   Sat       30   Tue      30   Thu      30   Sun      30   Tue      30   Fri        30   Mon      30   Wed     30   Sat       30   Mon      31   Thu        31   Sun      31   Fri        31   Wed     31   Sat       31   Thu      31   Tue        Tage / Days / Jours M\u00fcnchen Munich Den Haag The Hague La Haye Berlin Neujahr - New Year's Day - Nouvel An 01.01.2013 x x x Karfreitag - Good Friday - Vendredi Saint 29.03.2013 x x x Ostermontag - Easter Monday - Lundi de P\u00e2ques 01.04.2013 x x x Nationalfeiertag - National Holiday - F\u00eate nationale 30.04.2013  x  Maifeiertag - Labour Day - F\u00eate du Travail 01.05.2013 x x x Christi Himmelfahrt - Ascension Day - Ascension 09.05.2013 x x x Pfingstmontag - Whit Monday - Lundi de Pentec\u00f4te 20.05.2013 x x x Fronleichnam - Corpus Christi - F\u00eate-Dieu 30.05.2013 x   Mari\u00e4 Himmelfahrt - Assumption Day - Assomption 15.08.2013 x   Tag der Deutschen Einheit - Day of German Unity - F\u00eate Nationale 03.10.2013 x  x Allerheiligen - All Saints' Day - Toussaint 01.11.2013 x   Heiliger Abend - Christmas Eve - Veille de No\u00ebl 24.12.2013 x x x 1. Weihnachtstag - Christmas Day - Jour de No\u00ebl 25.12.2013 x x x 2. Weihnachtstag - Boxing Day - Lendemain de No\u00ebl 26.12.2013 x x x Silvester - New Year's Eve - Saint-Sylvestre 31.12.2013 x x x 2014 Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec 01   Wed      01   Sat       01   Sat       01   Tue      01   Thu      01   Sun      01   Tue      01   Fri        01   Mon      01   Wed     01   Sat       01   Mon      02   Thu        02   Sun      02   Sun      02   Wed     02   Fri        02   Mon      02   Wed     02   Sat       02   Tue      02   Thu      02   Sun      02   Tue      03   Fri          03   Mon      03   Mon      03   Thu      03   Sat       03   Tue      03   Thu      03   Sun      03   Wed     03   Fri        03   Mon      03   Wed     04   Sat         04   Tue      04   Tue      04   Fri        04   Sun      04   Wed     04   Fri        04   Mon      04   Thu      04   Sat       04   Tue      04   Thu      05   Sun        05   Wed     05   Wed     05   Sat       05   Mon      05   Thu      05   Sat       05   Tue      05   Fri        05   Sun      05   Wed     05   Fri        06   Mon       06   Thu      06   Thu      06   Sun      06   Tue      06   Fri        06   Sun      06   Wed     06   Sat       06   Mon      06   Thu      06   Sat       07   Tue        07   Fri        07   Fri        07   Mon      07   Wed     07   Sat       07   Mon      07   Thu      07   Sun      07   Tue      07   Fri        07   Sun      08   Wed      08   Sat       08   Sat       08   Tue      08   Thu      08   Sun      08   Tue      08   Fri        08   Mon      08   Wed     08   Sat       08   Mon      09   Thu        09   Sun      09   Sun      09   Wed     09   Fri        09   Mon      09   Wed     09   Sat       09   Tue      09   Thu      09   Sun      09   Tue      10   Fri          10   Mon      10   Mon      10   Thu      10   Sat       10   Tue      10   Thu      10   Sun      10   Wed     10   Fri        10   Mon      10   Wed     11   Sat         11   Tue      11   Tue      11   Fri        11   Sun      11   Wed     11   Fri        11   Mon      11   Thu      11   Sat       11   Tue      11   Thu      12   Sun        12   Wed     12   Wed     12   Sat       12   Mon      12   Thu      12   Sat       12   Tue      12   Fri        12   Sun      12   Wed     12   Fri        13   Mon       13   Thu      13   Thu      13   Sun      13   Tue      13   Fri        13   Sun      13   Wed     13   Sat       13   Mon      13   Thu      13   Sat       14   Tue        14   Fri        14   Fri        14   Mon      14   Wed     14   Sat       14   Mon      14   Thu      14   Sun      14   Tue      14   Fri        14   Sun      15   Wed      15   Sat       15   Sat       15   Tue      15   Thu      15   Sun      15   Tue      15   Fri        15   Mon      15   Wed     15   Sat       15   Mon      16   Thu        16   Sun      16   Sun      16   Wed     16   Fri        16   Mon      16   Wed     16   Sat       16   Tue      16   Thu      16   Sun      16   Tue      17   Fri          17   Mon      17   Mon      17   Thu      17   Sat       17   Tue      17   Thu      17   Sun      17   Wed     17   Fri        17   Mon      17   Wed     18   Sat         18   Tue      18   Tue      18   Fri        18   Sun      18   Wed     18   Fri        18   Mon      18   Thu      18   Sat       18   Tue      18   Thu      19   Sun        19   Wed     19   Wed     19   Sat       19   Mon      19   Thu      19   Sat       19   Tue      19   Fri        19   Sun      19   Wed     19   Fri        20   Mon       20   Thu      20   Thu      20   Sun      20   Tue      20   Fri        20   Sun      20   Wed     20   Sat       20   Mon      20   Thu      20   Sat       21   Tue        21   Fri        21   Fri        21   Mon      21   Wed     21   Sat       21   Mon      21   Thu      21   Sun      21   Tue      21   Fri        21   Sun      22   Wed      22   Sat       22   Sat       22   Tue      22   Thu      22   Sun      22   Tue      22   Fri        22   Mon      22   Wed     22   Sat       22   Mon      23   Thu        23   Sun      23   Sun      23   Wed     23   Fri        23   Mon      23   Wed     23   Sat       23   Tue      23   Thu      23   Sun      23   Tue      24   Fri          24   Mon      24   Mon      24   Thu      24   Sat       24   Tue      24   Thu      24   Sun      24   Wed     24   Fri        24   Mon      24   Wed     25   Sat         25   Tue      25   Tue      25   Fri        25   Sun      25   Wed     25   Fri        25   Mon      25   Thu      25   Sat       25   Tue      25   Thu      26   Sun        26   Wed     26   Wed     26   Sat       26   Mon      26   Thu      26   Sat       26   Tue      26   Fri        26   Sun      26   Wed     26   Fri        27   Mon       27   Thu      27   Thu      27   Sun      27   Tue      27   Fri        27   Sun      27   Wed     27   Sat       27   Mon      27   Thu      27   Sat       28   Tue        28   Fri        28   Fri        28   Mon      28   Wed     28   Sat       28   Mon      28   Thu      28   Sun      28   Tue      28   Fri        28   Sun      29   Wed      29   Sat       29   Tue      29   Thu      29   Sun      29   Tue      29   Fri        29   Mon      29   Wed     29   Sat       29   Mon      30   Thu        30   Sun      30   Wed     30   Fri        30   Mon      30   Wed     30   Sat       30   Tue      30   Thu      30   Sun      30   Tue      31   Fri          31   Mon      31   Sat       31   Thu      31   Sun      31   Fri        31   Wed       Tage / Days / Jours M\u00fcnchen Munich Den Haag The Hague La Haye Berlin Neujahr - New Year's Day - Nouvel An 01.01.2014 x x x Heilige Drei K\u00f6nige - Epiphany - Epiphanie 06.01.2014 x   Karfreitag - Good Friday - Vendredi Saint 18.04.2014 x x x Ostermontag - Easter Monday - Lundi de P\u00e2ques 21.04.2014 x x x Nationalfeiertag - National Holiday -  F\u00eate Nationale 30.04.2014  x  Maifeiertag - Labour Day - F\u00eate du Travail 01.05.2014 x x x Christi Himmelfahrt - Ascension Day - Ascension 29.05.2014 x x x Pfingstmontag - Whit Monday - Lundi de Pentec\u00f4te 09.06.2014 x x x Fronleichnam - Corpus Christi - F\u00eate-Dieu 19.06.2014 x   Mari\u00e4 Himmelfahrt - Assumption Day - Assomption 15.08.2014 x   Tag der Deutschen Einheit - Day of German Unity - F\u00eate Nationale 03.10.2014 x  x Heiliger Abend - Christmas Eve - Veille de No\u00ebl 24.12.2014 x x x 1. Weihnachtstag - Christmas Day - Jour de No\u00ebl 25.12.2014 x x x 2. Weihnachtstag - Boxing Day - Lendemain de No\u00ebl 26.12.2014 x x x Silvester - New Year's Eve - Saint-Sylvestre 31.12.2014 x x x",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The V-shaped well helps to collect the liquid soap into the well and the tube guided into the  well helps to extract as much amount of liquid soap as possible from the bottle, i.e. to  reduce the amount of liquid soap remaining in the bottle.  For statement 20.2, reference is made to paragraph [007] of the application which explicitly  mentions this technical effect.  Paragraph [007] of the application only states that \u201cnearly all the soap can be removed  from the bottle\u201d. The application does not teach a complete removal of the soap. The only  document providing the solution to this problem is D3, which teaches to wash out the  bottle with water.  For statement 20.4 it is noted that claim IV.4 is not limited to the type of soap and this  cannot serve as a basis for a valid argument for inventive step."
+        }
+    ]
+}
