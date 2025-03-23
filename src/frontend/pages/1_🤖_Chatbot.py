@@ -15,18 +15,20 @@ if "messages" not in st.session_state:
     st.session_state["messages"] = []
 if "good_answers" not in st.session_state:
     st.session_state["good_answers"] = 0
+if "app_name" not in st.session_state:
+    app_name =  "Better Call X"
+    st.session_state["app_name"] = app_name
 if "css" not in st.session_state:
     style_path = "src/frontend/assets/style.css"
     with open(style_path) as f:
         css = f.read()
     st.session_state["css"] = css
-if "logo" not in st.session_state:
-    logo = "src/frontend/assets/bot.png"
-    st.session_state["logo"] = logo
+if "bot" not in st.session_state:
+    bot = "src/frontend/assets/bot.png"
+    st.session_state["bot"] = bot
 
-
-st.set_page_config(page_title="Application", page_icon="📚")
-st.markdown(f'<style>{st.session_state["css"]}</style>', unsafe_allow_html=True)
+st.set_page_config(page_title=st.session_state.app_name, page_icon=st.session_state.bot)
+st.markdown(f'<style>{st.session_state.css}</style>', unsafe_allow_html=True)
 st.sidebar.image("src/frontend/assets/logo.png", use_container_width=True)
 
 
