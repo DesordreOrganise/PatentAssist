@@ -104,7 +104,10 @@ class Adapteur_Multi_2_Metric(Metric):
     def _compute_specific(self, model_output: str, ground_truth: str) -> float:
 
         # compute the metric for the couple model_output, ground_truth
-        return self.multi_ref._compute_specific(model_output, ground_truth, self.metric_name)
+        output = self.multi_ref._compute_specific(model_output, ground_truth, self.metric_name)
+        self.values.append(output)
+
+        return output
 
     # OVERRIDE
     def produce(self) -> float:
