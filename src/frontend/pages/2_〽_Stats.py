@@ -23,7 +23,7 @@ st.sidebar.image("src/frontend/assets/logo.png", use_container_width=True)
 
 
 st.header("Statistiques")
-st.logo(st.session_state["logo"])
+st.logo(st.session_state.bot)
 
 
 

@@ -21,7 +21,7 @@ st.sidebar.image("src/frontend/assets/logo.png", use_container_width=True)
 
 
 st.header("Ressources PDF")
-st.logo(st.session_state["logo"])
+st.logo(st.session_state.bot)
 
 st.markdown("Besoin de consulter des sources ? C'est par ici !")
 st.markdown("Cliquer sur la 🡆 pour visualiser le PDF. Les documents peuvent prendre quelques secondes à s'afficher.")

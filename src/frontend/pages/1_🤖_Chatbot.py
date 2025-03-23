@@ -6,6 +6,7 @@ from src.utils import *
 from src.model import *
 
 
+
 # INITIALISATIONS
 database_path = ""
 if "model" not in st.session_state:
@@ -33,7 +34,7 @@ st.sidebar.image("src/frontend/assets/logo.png", use_container_width=True)
 
 
 st.header("Chatbot")
-st.logo(st.session_state["logo"])
+st.logo(st.session_state.bot)
 
 
 
@@ -66,7 +67,7 @@ def generate_question(type, category):
     """
     Returns a prompt for a question with the right type and category
     """
-    return f"Pose-moi une question de type {type} sur la catégorie {category}."
+    return f"Pose-moi une question de type {type} sur la catégorie {category} sans y répondre."
 
 
 # question category and type selection
@@ -74,7 +75,7 @@ right, left = st.columns(2,gap='large')
 with right: 
     category = st.selectbox(
         "Choisissez une catégorie sur laquelle vous entraîner :",
-        ("Toutes les catégories", "c1", "c2"),
+        ("Toutes les catégories", "chat", "dragon"),
     )
     st.write("Catégorie sélectionnée :", category)
 with left:
