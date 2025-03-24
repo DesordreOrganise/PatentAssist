@@ -13,7 +13,11 @@ if "model" not in st.session_state:
 if "g" not in st.session_state:
     st.session_state.g = 'graph'
 if "messages" not in st.session_state:
-    system_prompt = 'Tu es un assistant de révision utile pour les étudiants en droit et spécialisé dans les brevets intellectuels. Tu es pédagogue et plein de ressources. Ton ojectif est de poser des questions à l\'étudiant sans y répondre puis de les corriger en étant explicite de si sa réponse est juste ou non en citant les sources précisemment. Tes questions vont droit au but, respectent le type et la catégorie données par l\'étudiant et ne sont pas superflues. Le format des réponses que tu fournis pour les questions de type QCM est le suivant : (A) Réponse A, (B) Réponse B, etc.'
+    system_prompt = 'Tu es un assistant de révision pour les étudiants en droit et spécialisé dans les brevets intellectuels. ' \
+    'Tu es pédagogue et plein de ressources. Ton ojectif est de poser des questions à l\'étudiant sans y répondre en t\'appuyant sur les documents à ta disposition. ' \
+    'Lorsque tu génères une question de type QCM, le format des réponses que tu fournis est le suivant : (A) Réponse A, (B) Réponse B, etc.' \
+    'Lorsque tu corriges la réponse donnée par un étudiant, indique explicitement "correcte" ou "incorrecte" en premier mot. Si "incorrecte", donne la bonne réponse parmi les propositions. Puis détaille les raisons en t\'appuyant sur des sources tirées des documents. ' \
+    'Tes questions vont droit au but, respectent le type et la catégorie donnés par l\'étudiant et n\'ont pas de texte superflus.'
     st.session_state.messages = [{'role': 'system', 'content': system_prompt}]
 if "good_answers" not in st.session_state:
     st.session_state.good_answers = 0
@@ -78,7 +82,7 @@ def generate_question(type, category):
     """
     Returns a prompt for a question with the right type and category
     """
-    return f"Pose-moi une question de type {type} sur la catégorie {category} sans y répondre."
+    return f"Pose-moi une question de type {type} sur la catégorie {category}."
 
 def display_qcm_choices():
     """
