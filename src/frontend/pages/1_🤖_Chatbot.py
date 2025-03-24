@@ -19,10 +19,27 @@ if "messages" not in st.session_state:
     'Lorsque tu corriges la réponse donnée par un étudiant, indique explicitement "correcte" ou "incorrecte" en premier mot. Si "incorrecte", donne la bonne réponse parmi les propositions. Puis détaille les raisons en t\'appuyant sur des sources tirées des documents. ' \
     'Tes questions vont droit au but, respectent le type et la catégorie donnés par l\'étudiant et n\'ont pas de texte superflus.'
     st.session_state.messages = [{'role': 'system', 'content': system_prompt}]
-if "good_answers" not in st.session_state:
-    st.session_state.good_answers = 0
+if "answers" not in st.session_state:
+    st.session_state.answers = 0
 if 'clicked_question' not in st.session_state:
     st.session_state.clicked_question = False
+if 'category_scores' not in st.session_state: # right answers counter for each category
+    st.session_state.category_scores = {
+        "Amendements et octroi": 0,
+        "Biotechnologies et listes de séquences": 0,
+        "Demandes de priorité et droit de priorité": 0,
+        "Demandes divisionnaires": 0,
+        "Droits et transferts": 0,
+        "Droit substantiel des brevets : nouveauté et activité inventive": 0,
+        "Examen": 0,
+        "Exigences et formalités de dépôt": 0,
+        "Langues et traductions": 0,
+        "Oppositions et appels": 0,
+        "Procédure PCT et entrée dans la phase européenne": 0,
+        "Recours procéduraux et effet juridique": 0,
+        "Taxes, méthodes de paiement et délais": 0,
+        "Unité de l'invention": 0
+    }
 if "app_name" not in st.session_state:
     app_name =  "Better Call X"
     st.session_state.app_name = app_name
@@ -73,10 +90,11 @@ def click_button_question():
 
 def evaluate_answer(answer):
     """
-    Evaluates weither the user's answer is right or not then adds one two the counter of right answers
+    Evaluates weither the user's answer is right or not then adds one two the counter category right answers
     """
-    if True:
-        st.session_state.good_answers += 1
+    st.session_state.answers += 1
+    if "Correcte." in answer:
+        st.session_state.category_scores[category] += 1
 
 def generate_question(type, category):
     """
@@ -107,6 +125,10 @@ def display_qcm_choices():
                 message = st.write_stream(model_res_generator())
                 st.session_state["messages"].append({"role": "assistant", "content": message})
 
+def choice_between(list):
+    choice = str( np.random.choice(list))
+    return choice
+
 def linkify_articles(response, g):
     """
     Transforms a text to another by replacing "Article X" to an hyperlink to the article 
@@ -132,8 +154,10 @@ right, left = st.columns(2,gap='large')
 with right: 
     category = st.selectbox(
         "Choisissez une catégorie sur laquelle vous entraîner :",
-        ("Toutes les catégories", "Amendements et octroi", "Biotechnologies et listes de séquences", "Demandes de priorité et droit de priorité", "Demandes divisionnaires","Droits et transferts","Droit substantiel des brevets : nouveauté et activité inventive","Examen","Exigences et formalités de dépôt","Langues et traductions","Oppositions et appels","Procédure PCT et entrée dans la phase européenne","Recours procéduraux et effet juridique","Taxes, méthodes de paiement et délais","Unité de l'invention",),
+        ("Toutes les catégories", "Amendements et octroi", "Biotechnologies et listes de séquences", "Demandes de priorité et droit de priorité", "Demandes divisionnaires","Droits et transferts","Droit substantiel des brevets : nouveauté et activité inventive","Examen","Exigences et formalités de dépôt","Langues et traductions","Oppositions et appels","Procédure PCT et entrée dans la phase européenne","Recours procéduraux et effet juridique","Taxes, méthodes de paiement et délais","Unité de l'invention"),
     )
+    if category == "Toutes les catégories":
+        category = choice_between(["Amendements et octroi", "Biotechnologies et listes de séquences", "Demandes de priorité et droit de priorité", "Demandes divisionnaires","Droits et transferts","Droit substantiel des brevets : nouveauté et activité inventive","Examen","Exigences et formalités de dépôt","Langues et traductions","Oppositions et appels","Procédure PCT et entrée dans la phase européenne","Recours procéduraux et effet juridique","Taxes, méthodes de paiement et délais","Unité de l'invention"])
 with left:
     st.radio(
             "Sélectionnez le type de question",
@@ -142,11 +166,7 @@ with left:
             horizontal=True,
         )
     if st.session_state.type_question == "Peu importe":
-        random = np.random.random()
-        if random < 0.5:
-            type = "QCM"
-        else:
-            type = "Ouverte"
+        type = choice_between(['QCM', 'Ouverte'])
     else:
         type = st.session_state.type_question
 
