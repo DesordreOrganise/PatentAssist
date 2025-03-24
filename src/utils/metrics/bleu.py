@@ -16,4 +16,7 @@ class BLEU(Metric):
 
         return result['bleu']
 
+    def metric_name(self) -> str:
+        return "bleu"
+
 bleu = BLEU()

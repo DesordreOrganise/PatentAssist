@@ -16,4 +16,7 @@ class BLEURT(Metric):
 
         return result['scores'][0]
 
+    def metric_name(self) -> str:
+        return "bleurt"
+
 bleurt = BLEURT()

@@ -1,7 +1,22 @@
 
 from ..Metrics import Metric
-from ..tools import extract_articles, extract_rules
+from ..tools import extract_articles, extract_rules, clean_article, clean_rule
 from typing import List, Literal, Dict
+
+def _compute_recall(model_output: List[str], gt: List[str], k:int):
+    model_output = model_output[:k]
+
+    if not model_output:
+        return 0.
+    
+    common_files = len(set(model_output).intersection(set(gt)))
+    
+    if len(gt) == 0:
+        return 1.
+
+    return common_files / len(gt)
+
+
 
 class Recall_K_articles(Metric):
     
@@ -12,32 +27,19 @@ class Recall_K_articles(Metric):
     
     def _compute_specific(self, model_output: str, ground_truth: str) -> float:
         model_articles = extract_articles(model_output)
+        model_articles = [clean_article(art) for art in model_articles]
         
         gt_articles = extract_articles(ground_truth)
+        gt_articles = [clean_article(art) for art in gt_articles]
         
-        articles_recall = self._compute_recall(model_articles, gt_articles)
+        articles_recall = _compute_recall(model_articles, gt_articles, self.k)
         
         return articles_recall 
-    
-    def _compute_recall(self, model_articles: List[str], gt_articles: List[str]) -> float:
-        model_articles = model_articles[:self.k]
-  
-        #removings spaces and '.' and lowercasing
-        model_articles = [article.lower().strip().replace(' ', '').replace('.','') for article in model_articles]
-        #from articles | article to art{number}
-        model_articles = [r.replace('s', '').replace('icle', '') for r in model_articles]
-
-        
-        gt_articles = [article.lower().strip().replace(' ', '').replace('.','') for article in gt_articles]
-        gt_articles = [r.replace('s', '').replace('icle', '') for r in gt_articles]
        
-        if not model_articles:
-            return 0.
-        
-        common_articles = len(set(model_articles).intersection(set(gt_articles)))
-        
-        return common_articles / len(gt_articles)
-    
+
+    def metric_name(self) -> str:
+        return f"Recall@{self.k}_articles"
+
 
 class Recall_K_rules(Metric):
     
@@ -48,27 +50,58 @@ class Recall_K_rules(Metric):
     
     def _compute_specific(self, model_output: str, ground_truth: str) -> float:
         model_rules = extract_rules(model_output)
+        model_rules = [clean_rule(rule) for rule in model_rules]
         
         gt_rules = extract_rules(ground_truth)
-        
-        rules_recall = self._compute_recall(model_rules, gt_rules)
+        gt_rules = [clean_rule(rule) for rule in gt_rules]
+
+        rules_recall = _compute_recall(model_rules, gt_rules, self.k)
         
         return rules_recall 
+   
+
+    def metric_name(self) -> str:
+        return f"Recall@{self.k}_rules"
+
+
+
+class Recall_K(Metric):
     
-    def _compute_recall(self, model_rules: List[str], gt_rules: List[str]) -> float:
-        model_rules = model_rules[:self.k]
+    def __init__(self, k: int):
+        super().__init__()
+        self.k = k
+    
+    def _compute_specific(self, model_output: str, ground_truth: str) -> float:
+        model_split = model_output.split(';')
+        model_output_clean = []
 
-        #removings spaces and '.' and lowercasing
-        model_rules = [article.lower().replace(' ', '').replace('.', '') for article in model_rules if article]
-        #from rules | rules to r{number}
-        model_rules = [r.replace('s', '').replace('ule', '') for r in model_rules]
+        for output in model_split:
+            extracted = extract_rules(output)
+            if extracted:
+                extracted = extracted[0]
+                model_output_clean.append(clean_rule(extracted))
 
-        gt_rules = [article.lower().replace(' ', '').replace('.', '') for article in gt_rules if article]
-        gt_rules = [r.replace('s', '').replace('ule', '') for r in gt_rules]
-      
-        if not model_rules:
-            return 0.
+                continue
+
+
+            extracted = extract_articles(output) 
+            if extracted:
+                extracted = extracted[0]
+                model_output_clean.append(clean_article(extracted))
+
+                continue
+            
+            model_output_clean.append(output)
+
+        gt_articles = extract_articles(ground_truth)
+        gt_rules = extract_rules(ground_truth)
+
+        gt = [clean_rule(rule) for rule in gt_rules]
+        gt.extend([clean_article(article) for article in gt_articles])
+
+        recall = _compute_recall(model_output_clean, gt, self.k)
+
+        return recall
         
-        common_rules = len(set(model_rules).intersection(set(gt_rules)))
-        
-        return common_rules / len(gt_rules)
+    def metric_name(self) -> str:
+        return f"Recall@{self.k}"
