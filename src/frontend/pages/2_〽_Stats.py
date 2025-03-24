@@ -3,8 +3,25 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 # initialisations
-if "good_answers" not in st.session_state:
-    st.session_state["good_answers"] = 0
+if "answers" not in st.session_state:
+    st.session_state.answers = 0
+if 'category_scores' not in st.session_state: # right answers counter for each category
+    st.session_state.category_scores = {
+        "Amendements et octroi": 0,
+        "Biotechnologies et listes de séquences": 0,
+        "Demandes de priorité et droit de priorité": 0,
+        "Demandes divisionnaires": 0,
+        "Droits et transferts": 0,
+        "Droit substantiel des brevets : nouveauté et activité inventive": 0,
+        "Examen": 0,
+        "Exigences et formalités de dépôt": 0,
+        "Langues et traductions": 0,
+        "Oppositions et appels": 0,
+        "Procédure PCT et entrée dans la phase européenne": 0,
+        "Recours procéduraux et effet juridique": 0,
+        "Taxes, méthodes de paiement et délais": 0,
+        "Unité de l'invention": 0
+    }
 if "app_name" not in st.session_state:
     app_name =  "Better Call X"
     st.session_state["app_name"] = app_name
@@ -29,32 +46,35 @@ st.logo(st.session_state.bot)
 
 st.write("Cette page regroupe les statistiques liées à tes réponses !")
 
-st.markdown(st.session_state["good_answers"])
-
 st.divider()
 
 col1, col2 = st.columns(2)
 
 with col1:
     # RADAR CHART
-    categories = ['c1','c2','c3','c4', 'c5'] # categories name
-    scores = [4,8,2,6,7] # good answers for each category
-    nb_questions = 15
+    categories = list(st.session_state.category_scores.keys()) # category names
+    scores = [st.session_state.category_scores[c] for c in categories] # good answers for each category
+    nb_answers = max(st.session_state.answers, 5) # number of total given answers = questions
 
     # for the connecting line to be closed on the chart
     categories += [categories[0]]
     scores += [scores[0]]
 
     colors = [
-        'rgb(245, 194, 231)',
-        'rgb(203, 166, 247)',
-        'rgb(243, 139, 168)',
-        'rgb(250, 179, 135)',
-        'rgb(249, 226, 175)',
-        'rgb(166, 227, 161)',
-        'rgb(148, 226, 213)',
-        'rgb(116, 199, 236)',
-        'rgb(180, 190, 254)'
+        "rgb(245, 224, 220)",
+        "rgb(242, 205, 205)",
+        "rgb(245, 194, 231)",
+        "rgb(203, 166, 247)",
+        "rgb(243, 139, 168)",
+        "rgb(235, 160, 172)",
+        "rgb(250, 179, 135)",
+        "rgb(249, 226, 175)",
+        "rgb(166, 227, 161)",
+        "rgb(148, 226, 213)",
+        "rgb(137, 220, 235)",
+        "rgb(116, 199, 236)",
+        "rgb(137, 180, 250)",
+        "rgb(180, 190, 254)"
     ]
 
     fig = go.Figure()
@@ -71,7 +91,7 @@ with col1:
             bgcolor = "rgba(242, 205, 205,0)",
             radialaxis=dict(
                 visible=True,
-                range=[0, nb_questions],
+                range=[0, nb_answers],
                 showticklabels=True,
                 tickfont=dict(size=10),
             ),
@@ -94,7 +114,8 @@ with col1:
 
 with col2:
     labels = ["Bonnes réponses","Mauvaises réponses"]
-    nb_bonnes_reponses = 12
+    nb_questions = st.session_state.answers
+    nb_bonnes_reponses =sum([st.session_state.category_scores[c] for c in categories])
 
     fig2 = make_subplots(rows=1, cols=2, specs=[[{'type':'domain'}, {'type':'domain'}]])
     fig2.add_trace(go.Pie(

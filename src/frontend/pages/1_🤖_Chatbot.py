@@ -19,10 +19,10 @@ if "messages" not in st.session_state:
     'Lorsque tu corriges la réponse donnée par un étudiant, indique explicitement "correcte" ou "incorrecte" en premier mot. Si "incorrecte", donne la bonne réponse parmi les propositions. Puis détaille les raisons en t\'appuyant sur des sources tirées des documents. ' \
     'Tes questions vont droit au but, respectent le type et la catégorie donnés par l\'étudiant et n\'ont pas de texte superflus.'
     st.session_state.messages = [{'role': 'system', 'content': system_prompt}]
-if "answers" not in st.session_state:
-    st.session_state.answers = 0
 if 'clicked_question' not in st.session_state:
     st.session_state.clicked_question = False
+if "answers" not in st.session_state:
+    st.session_state.answers = 0
 if 'category_scores' not in st.session_state: # right answers counter for each category
     st.session_state.category_scores = {
         "Amendements et octroi": 0,
@@ -88,13 +88,25 @@ def get_context_prompt(prompt):
 def click_button_question():
     st.session_state.clicked_question = True
 
-def evaluate_answer(answer):
+def real_number_of_questions():
+    count=0
+    for message in st.session_state.messages:
+        if message["role"] == "assistant":
+            if "Correcte." or "Incorrecte." in message["content"]:
+                count += 1
+    return count
+
+def evaluate_answer(answer, category):
     """
     Evaluates weither the user's answer is right or not then adds one two the counter category right answers
     """
-    st.session_state.answers += 1
-    if "Correcte." in answer:
-        st.session_state.category_scores[category] += 1
+    if st.session_state.answers < real_number_of_questions(): # avoid adding more for each page load
+        if "Correcte." in answer:
+            st.session_state.category_scores[category] += 1
+            st.session_state.answers += 1
+        elif "Incorrecte." in answer:
+            st.session_state.answers += 1
+        # else : model answer was not evaluating a response
 
 def generate_question(type, category):
     """
@@ -201,7 +213,6 @@ if prompt:
         #linked_message = linkify_articles(message, st.session_state.g)
         st.session_state["messages"].append({"role": "assistant", "content": message})
 
-
 if st.session_state.clicked_question:
     context_prompt = generate_question(type, category)
 
@@ -221,3 +232,5 @@ if st.session_state.clicked_question:
     st.session_state.clicked_question = False
 
 display_qcm_choices()
+if st.session_state.messages[-1]["role"] == "assistant":
+    evaluate_answer(st.session_state.messages[-1]["content"],category)
