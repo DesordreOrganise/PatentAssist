@@ -1,15 +1,11 @@
-
 body {
-    --background-color: #1e1e2e;
-    --secondary-background-color: #181825;
-    --primary-color: #cba6f7;
-    --text-color: #bac2de;
-    --title-color: #cdd6f4;
     --user: #94e2d5;
     --model: #cba6f7;
-    --font: Georgia, serif;;
 }
 
+a {
+    color: rgb(137, 180, 250) !important;
+}
 
 .stMainBlockContainer{
     width: 70em !important;

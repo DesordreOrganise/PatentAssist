@@ -2,7 +2,6 @@ import streamlit as st
 import ollama
 import numpy as np
 import re 
-import os
 
 from src.utils import *
 from src.model import *
@@ -11,7 +10,8 @@ from src.model import *
 database_path = ""
 if "model" not in st.session_state:
     st.session_state.model = "gemma3:4b"   # MODELE
-
+if "g" not in st.session_state:
+    st.session_state.g = 'graph'
 if "messages" not in st.session_state:
     system_prompt = 'Tu es un assistant de révision utile pour les étudiants en droit et spécialisé dans les brevets intellectuels. Tu es pédagogue et plein de ressources. Ton ojectif est de poser des questions à l\'étudiant sans y répondre puis de les corriger en étant explicite de si sa réponse est juste ou non en citant les sources précisemment. Tes questions vont droit au but, respectent le type et la catégorie données par l\'étudiant et ne sont pas superflues. Le format des réponses que tu fournis pour les questions de type QCM est le suivant : (A) Réponse A, (B) Réponse B, etc.'
     st.session_state.messages = [{'role': 'system', 'content': system_prompt}]
@@ -103,6 +103,25 @@ def display_qcm_choices():
                 message = st.write_stream(model_res_generator())
                 st.session_state["messages"].append({"role": "assistant", "content": message})
 
+def linkify_articles(response, g):
+    """
+    Transforms a text to another by replacing "Article X" to an hyperlink to the article 
+    """
+    def replace_article(match):
+        article_number = match.group(1)
+        article_name = f"Article {article_number}"
+        if article_name in g.nodes:
+            try:
+                url = g.nodes[article_name]["data"].metadata["url"]
+                return f"[{article_name}]({url})"
+            except KeyError:
+                pass
+        # returns original title if not foudn
+        return article_name
+
+    linked_response = re.sub(r"Article (\d+)", replace_article, response)
+    return linked_response
+
 
 # question category and type selection
 right, left = st.columns(2,gap='large')
@@ -156,6 +175,7 @@ if prompt:
     # get and display model message
     with st.chat_message("assistant"):
         message = st.write_stream(model_res_generator())
+        #linked_message = linkify_articles(message, st.session_state.g)
         st.session_state["messages"].append({"role": "assistant", "content": message})
 
 
@@ -168,7 +188,8 @@ if st.session_state.clicked_question:
 
     with st.chat_message("assistant"):
         message = st.write_stream(model_res_generator())
-        st.session_state["messages"].append({"role": "assistant", "content": message})
+        #linked_message = linkify_articles(message, st.session_state.g)
+        st.session_state["messages"].append({"role": "assistant", "content": message})  # remember to switch to linked_message here
 
         qcm_choices = parse_qcm_response(message)
         if qcm_choices:
@@ -177,5 +198,3 @@ if st.session_state.clicked_question:
     st.session_state.clicked_question = False
 
 display_qcm_choices()
-
-print(st.session_state.messages)
