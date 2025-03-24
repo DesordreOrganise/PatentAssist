@@ -10,9 +10,12 @@ class Retriever_Adapter(BaseSystem):
     def run(self, input: str) -> str:
         documents = self.retriever.retrieve_documents(input, rerank=self.rerank)
 
-        print(documents)
+        output_concat = ' ; '.join([str(doc.id) for doc in documents])
 
-        return ""
+        # print(output_concat)
+        # print('----------------\n')
+
+        return output_concat
 
 
 
