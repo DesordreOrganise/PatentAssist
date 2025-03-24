@@ -128,9 +128,8 @@ right, left = st.columns(2,gap='large')
 with right: 
     category = st.selectbox(
         "Choisissez une catégorie sur laquelle vous entraîner :",
-        ("Toutes les catégories", "chat", "dragon"),
+        ("Toutes les catégories", "Amendements et octroi", "Biotechnologies et listes de séquences", "Demandes de priorité et droit de priorité", "Demandes divisionnaires","Droits et transferts","Droit substantiel des brevets : nouveauté et activité inventive","Examen","Exigences et formalités de dépôt","Langues et traductions","Oppositions et appels","Procédure PCT et entrée dans la phase européenne","Recours procéduraux et effet juridique","Taxes, méthodes de paiement et délais","Unité de l'invention",),
     )
-    st.write("Catégorie sélectionnée :", category)
 with left:
     st.radio(
             "Sélectionnez le type de question",
