@@ -37,9 +37,9 @@ def extract_articles(text: str) -> list:
     articles = list(set(process))
 
     articles = sorted(articles, key=lambda x: int(re.findall(r'\d+', x)[0]))
-    for article in articles:
-        print(f'"{article}"')
-        print()
+    # for article in articles:
+    #     print(f'"{article}"')
+    #     print()
         
     return articles
 
@@ -67,8 +67,18 @@ def extract_rules(text: str) -> list:
 
     rules = sorted(rules, key=lambda x: int(re.findall(r'\d+', x)[0]))
 
-    for rule in rules:
-        print(rule)
+    # for rule in rules:
+    #     print(rule)
         
     return rules
 
+
+def clean_rule(rule: str) -> str:
+    rule = rule.lower().strip().replace(' ', '').replace('.', '')
+    rule = rule.replace('s', '').replace('ule', '')
+    return rule
+
+def clean_article(article: str) -> str:
+    article = article.lower().strip().replace(' ', '').replace('.','')
+    article = article.replace('s', '').replace('icle', '')
+    return article

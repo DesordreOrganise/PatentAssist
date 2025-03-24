@@ -15,6 +15,9 @@ class Meteor(Metric):
 
         return result['meteor']
 
+    def metric_name(self) -> str:
+        return "meteor"
+
 meteor_metric = Meteor()
 
 

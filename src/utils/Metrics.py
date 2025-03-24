@@ -27,6 +27,9 @@ class Metric(ABC):
     def produce(self) -> float:
         return float(np.mean(self.values)) if self.values else 0.
 
+    def metric_name(self) -> str:
+        return self.__class__.__name__
+
 
 class Multi_Metric(ABC):
     
@@ -96,7 +99,7 @@ class Adapteur_Multi_2_Metric(Metric):
     def __init__(self, multi_ref: Multi_Metric, metric_name: str):
         super().__init__()
         self.multi_ref = multi_ref
-        self.metric_name = metric_name
+        self.metric_name_var = metric_name
 
         assert metric_name in multi_ref.metrics_names
 
@@ -104,14 +107,18 @@ class Adapteur_Multi_2_Metric(Metric):
     def _compute_specific(self, model_output: str, ground_truth: str) -> float:
 
         # compute the metric for the couple model_output, ground_truth
-        output = self.multi_ref._compute_specific(model_output, ground_truth, self.metric_name)
+        output = self.multi_ref._compute_specific(model_output, ground_truth, self.metric_name_var)
         self.values.append(output)
 
         return output
 
     # OVERRIDE
     def produce(self) -> float:
-        return self.multi_ref.produce(self.metric_name)
+        return self.multi_ref.produce(self.metric_name_var)
 
+    # OVERRIDE
+    def metric_name(self) -> str:
+        return self.metric_name_var
+        # return self.__class__.__name__ + "_" + self.metric_name_var
 
 

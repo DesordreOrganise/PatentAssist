@@ -23,7 +23,7 @@ CHROMA_DB_PATH = ROOT_DIR / "resources" / "chroma_db"
 class BaseSystem(ABC):
 
     @abstractmethod
-    def run(input: str) -> str:
+    def run(self, input: str) -> str:
         pass
 
 
@@ -115,7 +115,6 @@ class RAG(BaseSystem):
         self.st_memory.append(AIMessage(response))
 
         return response
-    
     
     def generate_question(self) -> str:
         pass
