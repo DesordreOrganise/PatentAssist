@@ -21,9 +21,11 @@ if "messages" not in st.session_state:
     st.session_state.messages = [{'role': 'system', 'content': system_prompt}]
 if 'clicked_question' not in st.session_state:
     st.session_state.clicked_question = False
-if "answers" not in st.session_state:
-    st.session_state.answers = 0
-if 'category_scores' not in st.session_state: # right answers counter for each category
+if "right_answers" not in st.session_state:
+    st.session_state.right_answers = 0
+if "number_questions" not in st.session_state:
+    st.session_state.number_questions = 0
+if 'category_scores' not in st.session_state: # answers counter for each category
     st.session_state.category_scores = {
         "Amendements et octroi": 0,
         "Biotechnologies et listes de séquences": 0,
@@ -98,14 +100,16 @@ def real_number_of_questions():
 
 def evaluate_answer(answer, category):
     """
-    Evaluates weither the user's answer is right or not then adds one two the counter category right answers
+    Evaluates weither the user's answer is right or not then adds one two the counter category and to the irght answers global if needed
     """
-    if st.session_state.answers < real_number_of_questions(): # avoid adding more for each page load
+    if st.session_state.number_questions < real_number_of_questions(): # avoid adding more for each page load
         if "Correcte." in answer:
             st.session_state.category_scores[category] += 1
-            st.session_state.answers += 1
+            st.session_state.right_answers += 1
+            st.session_state.number_questions += 1
         elif "Incorrecte." in answer:
-            st.session_state.answers += 1
+            st.session_state.category_scores[category] += 1
+            st.session_state.number_questions += 1
         # else : model answer was not evaluating a response
 
 def generate_question(type, category):

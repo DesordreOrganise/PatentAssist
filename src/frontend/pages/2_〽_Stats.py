@@ -1,10 +1,13 @@
 import streamlit as st
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
+import numpy as np
 
 # initialisations
-if "answers" not in st.session_state:
-    st.session_state.answers = 0
+if "right_answers" not in st.session_state:
+    st.session_state.right_answers = 0
+if "number_questions" not in st.session_state:
+    st.session_state.number_questions = 0
 if 'category_scores' not in st.session_state: # right answers counter for each category
     st.session_state.category_scores = {
         "Amendements et octroi": 0,
@@ -22,6 +25,8 @@ if 'category_scores' not in st.session_state: # right answers counter for each c
         "Taxes, méthodes de paiement et délais": 0,
         "Unité de l'invention": 0
     }
+if 'clicked_demo' not in st.session_state:
+    st.session_state.clicked_demo = False
 if "app_name" not in st.session_state:
     app_name =  "Better Call X"
     st.session_state["app_name"] = app_name
@@ -53,8 +58,8 @@ col1, col2 = st.columns(2)
 with col1:
     # RADAR CHART
     categories = list(st.session_state.category_scores.keys()) # category names
-    scores = [st.session_state.category_scores[c] for c in categories] # good answers for each category
-    nb_answers = max(st.session_state.answers, 5) # number of total given answers = questions
+    scores = [st.session_state.category_scores[c] for c in categories] # number answers for each category
+    nb_answers = max(max(scores), 5) # number of total given answers = questions
 
     # for the connecting line to be closed on the chart
     categories += [categories[0]]
@@ -101,7 +106,7 @@ with col1:
         ),
         showlegend=False,
         title=dict(
-            text="Total des bonnes réponses par catégorie",
+            text="Nombre de réponses par catégories",
             yref='paper',
             font=dict(size=18)
         ),
@@ -114,8 +119,8 @@ with col1:
 
 with col2:
     labels = ["Bonnes réponses","Mauvaises réponses"]
-    nb_questions = st.session_state.answers
-    nb_bonnes_reponses =sum([st.session_state.category_scores[c] for c in categories])
+    nb_questions = st.session_state.number_questions
+    nb_bonnes_reponses = st.session_state.right_answers
 
     fig2 = make_subplots(rows=1, cols=2, specs=[[{'type':'domain'}, {'type':'domain'}]])
     fig2.add_trace(go.Pie(
@@ -136,3 +141,16 @@ with col2:
 
     st.plotly_chart(fig2)
 
+def click_button_demo():
+    st.session_state.clicked_demo = True
+
+_, center, _ = st.columns(3)
+with center:
+    if st.button('Scores de démonstration'):
+        for category in st.session_state.category_scores.keys():
+            st.session_state.nb_questions = 50
+            rd_nb_question = np.random.randint(1,6)
+            rd_score = np.random.randint(0,rd_nb_question)
+            st.session_state.category_scores[category] += rd_nb_question
+            st.session_state.right_answers += rd_score
+            st.session_state.number_questions = sum([st.session_state.category_scores[category] for category in st.session_state.category_scores.keys()])
