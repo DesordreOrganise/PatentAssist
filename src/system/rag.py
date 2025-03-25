@@ -10,7 +10,7 @@ import torch
 import torch.nn.functional as F
 
 import networkx as nx
-from typing import Tuple, Optional
+from typing import Tuple, Optional, Generator
 from os import PathLike
 from pathlib import Path
 
@@ -103,19 +103,29 @@ class RAG(BaseSystem):
         self.lt_memory = lt_memory
 
 
-    def run(self, input: str, rerank: bool=True) -> str:
+    def run_flux(self, input: str, rerank: bool = True) -> Generator[str]:
         documents = self.retriever.retrieve_documents(input, rerank=rerank)
         retrieved_context = self._get_text_from_documents(documents)
         self.st_memory.append(HumanMessage(f"Context: {retrieved_context}\n\n{input}"))
 
         response = ""
         for chunk in self.LLM.stream(self.st_memory):
-            print(chunk.content, end='', flush=True)
             response += chunk.content
+            yield str(chunk.content)
+
         self.st_memory.append(AIMessage(response))
+        print("DONE GENERATING RESPONSE")
+
+
+    def run(self, input: str, rerank: bool=True) -> str:
+
+        response = ""
+        for chunk in self.run_flux(input, rerank=rerank):
+            # print(chunk, end='', flush=True)
+            response += chunk
 
         return response
-    
+
     def generate_question(self) -> str:
         pass
 
