@@ -1,0 +1,327 @@
+{
+    "exam_type": "EQE",
+    "year": "2015",
+    "exam_name": "PreEx",
+    "exercices": [
+        {
+            "question_number": "1",
+            "question_type": "True/False",
+            "context": "An inventor resident in San Marino validly filed a European patent application last week.  He is considering appointing the professional representative before the EPO Mr. A to  help him prosecute the application.    For each of the statements 1.1 \u2013 1.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "In this case, the inventor does not need to be represented by a professional representative before the EPO.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "In this case, in order to be validly represented by Mr. A, a signed authorisation must be filed with the EPO.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If the inventor, after validly appointing Mr. A, wants to appoint a different professional representative before the EPO, Mr. B, from another association, then Mr. B need not provide a signed authorisation, if Mr. A informs the EPO of the change of representative.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "For a change of attorney to be validly registered by the EPO, an administrative fee has to be paid.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "An inventor resident in a Contracting State is not obliged to be represented by a  professional representative before the EPO, Article 133(1) and (2) EPC. San Marino is a  Contracting State since 1 July 2009. In order to be validly represented by a professional  representative, it is not required to file a signed authorisation: the principle of self- appointment applies for the first representative (in this case Mr. A). A second  representative (in this case Mr. B) need not file a signed authorisation, if the European  Patent Office is notified (by Mr. A) that the previous representative's authorisation has  terminated, Article 1(1) and (2) of the Decision of the President of the EPO dated 12 July  2007, Special edition No. 3, OJ EPO 2007, L.1. There is no provision for the payment of  an administrative fee for the registration of a change of attorney."
+        },
+        {
+            "question_number": "2",
+            "question_type": "True/False",
+            "context": "A communication under Article 94(3) EPC is dated 15 January 2015. In the  communication a time limit of four months is set for replying to objections raised by the  examining division.    For each of the statements 2.1 \u2013 2.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The communication is deemed to be delivered on Monday, 26 January 2015, because 25 January 2015 falls on a Sunday.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Without resorting to a legal remedy, the reply to the communication must be filed with the EPO at the latest on 26 May 2015.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Further processing for replying to said communication can be validly requested at the latest on Monday, 27 July 2015.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "An extension of the time limit for the reply can be validly requested on 20 May 2015.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The communication is deemed to be delivered on 25 January 2015 [15 January 2015 + 10  days, Rule 126(2) EPC]. It is immaterial that the deemed delivery day falls on a Sunday. In  order to avoid further processing and other prolongation of the proceedings, the reply to  the communication must be filed at the latest on 26 May 2015 [25 January 2015 +  4 months (= 25 May 2015), extended to Tuesday 26 May 2015, Rule 131(4) EPC  and  Rule 134(1) EPC)]. Note that on 25 May 2015 the EPO is closed. Further processing can  be requested within a period of two months from the communication under Rule112 EPC   concerning the loss of rights (Article 121(1) EPC and Rule 135(1) EPC). The  communication is sent only after expiry of the time limit for replying to the communication  under Article 94(3) EPC: 27 July 2015 is not the latest day for requesting further  processing. The period for replying to the communication may be extended upon request,  if the request is presented before the expiry of the period, Rule 132(2) EPC."
+        },
+        {
+            "question_number": "3",
+            "question_type": "True/False",
+            "context": "You filed an international application PCT-A on 21 February 2014 without claiming  priority. The EPO as the International Searching Authority considered that the  application did not comply with the requirement of unity of invention. The invention first  mentioned in the claims was searched. An invitation to pay one additional search fee  was sent to you. The invitation is dated 16 January 2015. You received the invitation on  19 January 2015.    For each of the statements 3.1 \u2013 3.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The additional search fee can be validly paid on 26 February 2015.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Today, 23 February 2015, you can file an international application PCT-B validly claiming priority from PCT-A, wherein the claims of PCT-B are directed to the second invention.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "A valid option would be to request a supplementary international search for the second invention of PCT-A to be carried out by the EPO.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "According to the provisions of the PCT, the additional search fee is paid directly to the International Searching Authority.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The additional search fee is payable within one month from the date of the invitation  [16 January 2015 + 1 month (=16 February 2015), Rule 40(1)(ii) PCT and Rule 80.2 PCT].  There is no \u201cten day rule\u201d for the delivery of communications under the PCT. Since the  priority period expires only today, Monday 23 February 2015, you can still file today an  international application PCT-B claiming priority from PCT-A [21 February 2014 + 12  months (= Saturday 21 February 2015), extended to 23 February 2013, Article 8(2)(a) PCT  and Article 4 C (1) of the Stockholm Act of the Paris Convention for the protection of  industrial property and Rule 80.5 (i) PCT]. The International Searching Authority (in this  case the EPO) is not competent to carry out a supplementary international search  (Rule 45bis.9 (b) PCT, see also Guidelines, E-VIII, 1 (vi)). The additional search fee is paid  directly to the International Searching Authority, Rule 40.2 (b) PCT."
+        },
+        {
+            "question_number": "4",
+            "question_type": "True/False",
+            "context": "The mention of the grant of a European patent EP-Z was published on 18 June 2014.  The language of the proceedings of EP-Z was English. Mr. Kurz, a Czech citizen  resident in Slovakia, wishes to file an opposition against that patent. He intends to use  the European patent application EP-Y as a novelty destroying document. EP-Y was  published in German.     For each of the statements 4.1 \u2013 4.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The notice of opposition must be filed at the latest on 18 March 2015.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Mr. Kurz is entitled to a reduction of the opposition fee, if he first files the opposition in Czech and then timely files a translation in English.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Mr. Kurz need not file a translation of EP-Y.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If Mr. Kurz wants to use the Slovak language during oral proceedings, it is sufficient to notify the EPO one month before the oral proceedings.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The notice of opposition must be filed at the latest on 18 March 2015 [18 June 2014 +  9 months (= 18 March 2015), Article 99(1) EPC and Rule 131(4) EPC]. Mr. Kurz is entitled  to file the notice of opposition in Czech or in Slovak (Rule 3(1) EPC and  Article 14(4) EPC). However, according to Rule 6 EPC as entered into force on  1 April 2014, there is no longer any reduction of the opposition fee. Since the documentary  evidence was filed in an official language of the EPO, the EPO will not require a  translation, Rule 3(3) EPC. Any party may use an official language of a Contracting State  during oral proceedings, but the party must then provide interpretation into the language of  the proceedings, Rule 4(1) EPC."
+        },
+        {
+            "question_number": "5",
+            "question_type": "True/False",
+            "context": "Your client filed on 2 August 2012 an international application PCT-M without claiming  priority. According to the written opinion established by the EPO as the International  Searching Authority, the subject-matter of several claims of PCT-M lacks novelty.      For each of the statements 5.1 \u2013 5.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "In the present case, the latest date for entering the European phase without resorting to further processing was 2 February 2015.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If PCT-M enters the European phase on 27 March 2015, at least one further processing fee must be paid.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "In view of the fact that the EPO considers that the subject-matter of several claims of PCT-M is not novel, it is mandatory to file amended claims on which the examination at the EPO is to be based.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "One requirement for validly entering the European phase with PCT-M on 27 February 2015, is that a renewal fee must be paid.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The latest date for entering the European phase is 2 March 2015 [2 August 2012 +  31 months (= 2 March 2015), Rule 159(1) EPC and Rule 131(4) EPC]. Entry into the  European phase on 27 March 2015 is possible: however, at least one further processing  fee is due, Article 121(1) EPC and Rule 135(1) EPC. The applicant is not obliged to file  amended claims: he may file comments without filing amended claims, Rule 161(1) EPC.  The renewal fee in respect of the third year for Euro-PCT-M has fallen due earlier, on 31  August 2014, Article 86(1) EPC and Rule 51(1) EPC. For PCT-M, one of the requirements  for entry into the European phase on 27 February 2015 is the payment of the renewal fee  in respect of the third year, Rule 159(1)(g) EPC and Guidelines, A-X, 5.2.4. [Note: For a  request for early processing to be effective, the applicant must comply with the  requirements stipulated in Rule 159(1) EPC as if the 31-month time limit expired on the  date the applicant requested early processing (see Notice from the European Patent Office  dated 21 February 2013 concerning the request for early processing, OJ EPO 2013, 156).]"
+        },
+        {
+            "question_number": "6",
+            "question_type": "True/False",
+            "context": "Your client filed in September 2012 an international application PCT-N without claiming  priority. PCT-N contains a drawing. Your client wants to enter the European phase and  he wants to file amended claims.       For each of the statements 6.1 \u2013 6.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "In order for an amendment to PCT-N to be allowable under Article 123(2) EPC, the amendment cannot relate to unsearched subject-matter.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "An amendment which is allowable under Article 123(2) EPC may be novel and inventive over the disclosure of PCT-N as filed.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "An amendment which is allowable under Article 123(2) EPC may be based on subject-matter found only in the drawing of PCT-N.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "An amendment is allowable under Article 123(2) EPC if it is based on  subject-matter found only in the claims amended under Article 19 PCT.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "A European patent application may not be amended in such a way that it contains  subject-matter which extends beyond the content of the application as filed,  Article 123(2) EPC. An amendment may be allowable under Article 123(2) EPC although it  is not based on searched subject-matter (thus offending for instance the requirements of  Rule 137(5) EPC). If an amendment is novel and inventive over the application as filed,  then it was not directly and unambiguously derivable from the application as filed. An  allowable amendment may be based on a drawing, but never on subject-matter found only  in amendments filed under Article 19 PCT: such amendments are filed after receiving the  international search report, i.e. well after the filing of the application."
+        },
+        {
+            "question_number": "7",
+            "question_type": "True/False",
+            "context": "For questions 7 and 8 consider the following situation:    The German company C filed in December 2013 a German utility model application   DE-C directed to a solution of the substance X in water. The utility model was published  in March 2014.  In November 2014 company C filed a European patent application EP-C claiming priority  from DE-C. EP-C has three claims: claim 1 is directed to a solution of the substance X;  claim 2, which is dependent on claim 1, is directed to a solution of the substance X in  water; claim 3, which is dependent on claim 1, is directed to a solution of the  substance X in alcohol.  In September 2014, the solution of the substance X in water was made available to the  public in a scientific publication.  Company C has not filed any other applications.      For each of the statements 7.1 \u2013 7.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "It is possible to claim priority from utility model application DE-C for EP-C.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The effective date of claim 3 is the date of filing of EP-C.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If an independent claim is entitled to a priority date, then a claim depending from the independent claim must be entitled to the same priority date.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The first filing for a solution of the substance X in alcohol is EP-C.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Priority can be claimed from a utility model, Article 87(1) EPC. Claim 3 is not entitled to  priority, since this invention was not disclosed in DE-C: the first filing for a solution of the  substance X in alcohol is EP-C. If the priority for an independent claim is valid, no  conclusion can be drawn on the validity of the priority of a thereof depending claim."
+        },
+        {
+            "question_number": "8",
+            "question_type": "True/False",
+            "context": "For each of the statements 8.1 \u2013 8.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Claim 2 of EP-C lacks novelty with respect to the scientific publication.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The scientific publication is state of the art under Article 54(2) EPC for claim 1 of EP-C.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "DE-C is state of the art under Article 54(2) EPC for claim 3 of EP-C.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Claim 3 of EP-C lacks novelty with respect to the scientific publication",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Claims 1 and 3 have as their effective date the date of filing of EP-C, Article 87(1) EPC.  Consequently, the scientific publication is state of the art under Article 54(2) EPC for these  two claims. Claim 2 is entitled to the priority date of DE-C: the scientific publication is not  state of the art for claim 2. Claim 3 is novel over the scientific publication, since water and  alcohol are different solvents."
+        },
+        {
+            "question_number": "9",
+            "question_type": "True/False",
+            "context": "A European patent application EP-R was filed in December 2013 without claiming  priority. The search division stated in the search opinion that the invention described in  EP-R is not sufficiently disclosed. In the description of the invention of EP-R, reference  is made to a co-pending European patent application EP-Q. EP-Q was filed with the  EPO in October 2013.     For each of the statements 9.1 \u2013 9.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The skilled person has the same level of skill for assessing inventive step and sufficient disclosure.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The finding of the search division with respect to lack of sufficiency of disclosure of EP-R cannot be contested in examination proceedings before the EPO.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The skilled person may use common general knowledge to carry out the invention.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "A condition for taking EP-Q into account in the assessment of sufficiency of disclosure is that EP-Q was made available to the public no later than on the publication date of EP-R.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The applicant can contest the finding of the search division, e.g. in the response to the  European search report, Rule 70a(1) EPC. The skilled person has the same level of skill  for assessing inventive step and sufficient disclosure, (Guidelines, G-VII, 3, last sentence)  and he may use common general knowledge to carry out the invention. EP-Q can be  considered for assessing sufficiency of disclosure, only if the document was made  available to the public no later than on the date of publication of EP-R (Guidelines, F-III, 1,  5.2 and 8 and H-IV, 2.3.1)."
+        },
+        {
+            "question_number": "10",
+            "question_type": "True/False",
+            "context": "The mention of the grant of European patent EP-X was published in September 2014.  The patent proprietor is company CE and Ms Smith is mentioned as the inventor.  Ms Smith is a former employee of company CE. She left company CE in  November 2014 after a dispute. Ms Smith is resident in Great Britain.    For each of the statements 10.1 \u2013 10.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Ms Smith can validly file an opposition against EP-X, although she is mentioned as the inventor.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "A candidate preparing for the European qualifying examination who is resident in the EU can validly file an opposition in his own name against EP-X, for training purposes.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Ms Smith can validly file an appeal against the decision to grant EP-X.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The professional representative before the EPO Mr Singer can validly file an opposition in his own name on behalf of Ms Smith and without naming Ms Smith as the opponent.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Any person may give notice of opposition, provided he or she is not the patent proprietor.  The inventor Ms Smith, the candidate preparing for the EQE and Mr Singer can therefore  oppose EP-X (Article 99(1) EPC and G 9/93). In the case of Mr Singer filing the opposition  for Ms Smith, there is no circumvention of the law within the meaning of G 3/97. The  motivation for filing an opposition is irrelevant. Appeal proceedings are only open to parties  to proceedings (Article 107 EPC)."
+        }
+    ]
+}

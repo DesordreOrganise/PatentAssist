@@ -1,0 +1,647 @@
+{
+    "exam_type": "EQE",
+    "year": "2015",
+    "exam_name": "PreEx",
+    "exercices": [
+        {
+            "question_number": "1",
+            "question_type": "True/False",
+            "context": "An inventor resident in San Marino validly filed a European patent application last week.  He is considering appointing the professional representative before the EPO Mr. A to  help him prosecute the application.    For each of the statements 1.1 \u2013 1.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "In this case, the inventor does not need to be represented by a professional representative before the EPO.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "In this case, in order to be validly represented by Mr. A, a signed authorisation must be filed with the EPO.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If the inventor, after validly appointing Mr. A, wants to appoint a different professional representative before the EPO, Mr. B, from another association, then Mr. B need not provide a signed authorisation, if Mr. A informs the EPO of the change of representative.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "For a change of attorney to be validly registered by the EPO, an administrative fee has to be paid.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "An inventor resident in a Contracting State is not obliged to be represented by a  professional representative before the EPO, Article 133(1) and (2) EPC. San Marino is a  Contracting State since 1 July 2009. In order to be validly represented by a professional  representative, it is not required to file a signed authorisation: the principle of self- appointment applies for the first representative (in this case Mr. A). A second  representative (in this case Mr. B) need not file a signed authorisation, if the European  Patent Office is notified (by Mr. A) that the previous representative's authorisation has  terminated, Article 1(1) and (2) of the Decision of the President of the EPO dated 12 July  2007, Special edition No. 3, OJ EPO 2007, L.1. There is no provision for the payment of  an administrative fee for the registration of a change of attorney."
+        },
+        {
+            "question_number": "2",
+            "question_type": "True/False",
+            "context": "A communication under Article 94(3) EPC is dated 15 January 2015. In the  communication a time limit of four months is set for replying to objections raised by the  examining division.    For each of the statements 2.1 \u2013 2.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The communication is deemed to be delivered on Monday, 26 January 2015, because 25 January 2015 falls on a Sunday.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Without resorting to a legal remedy, the reply to the communication must be filed with the EPO at the latest on 26 May 2015.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Further processing for replying to said communication can be validly requested at the latest on Monday, 27 July 2015.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "An extension of the time limit for the reply can be validly requested on 20 May 2015.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The communication is deemed to be delivered on 25 January 2015 [15 January 2015 + 10  days, Rule 126(2) EPC]. It is immaterial that the deemed delivery day falls on a Sunday. In  order to avoid further processing and other prolongation of the proceedings, the reply to  the communication must be filed at the latest on 26 May 2015 [25 January 2015 +  4 months (= 25 May 2015), extended to Tuesday 26 May 2015, Rule 131(4) EPC  and  Rule 134(1) EPC)]. Note that on 25 May 2015 the EPO is closed. Further processing can  be requested within a period of two months from the communication under Rule112 EPC   concerning the loss of rights (Article 121(1) EPC and Rule 135(1) EPC). The  communication is sent only after expiry of the time limit for replying to the communication  under Article 94(3) EPC: 27 July 2015 is not the latest day for requesting further  processing. The period for replying to the communication may be extended upon request,  if the request is presented before the expiry of the period, Rule 132(2) EPC."
+        },
+        {
+            "question_number": "3",
+            "question_type": "True/False",
+            "context": "You filed an international application PCT-A on 21 February 2014 without claiming  priority. The EPO as the International Searching Authority considered that the  application did not comply with the requirement of unity of invention. The invention first  mentioned in the claims was searched. An invitation to pay one additional search fee  was sent to you. The invitation is dated 16 January 2015. You received the invitation on  19 January 2015.    For each of the statements 3.1 \u2013 3.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The additional search fee can be validly paid on 26 February 2015.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Today, 23 February 2015, you can file an international application PCT-B validly claiming priority from PCT-A, wherein the claims of PCT-B are directed to the second invention.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "A valid option would be to request a supplementary international search for the second invention of PCT-A to be carried out by the EPO.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "According to the provisions of the PCT, the additional search fee is paid directly to the International Searching Authority.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The additional search fee is payable within one month from the date of the invitation  [16 January 2015 + 1 month (=16 February 2015), Rule 40(1)(ii) PCT and Rule 80.2 PCT].  There is no \u201cten day rule\u201d for the delivery of communications under the PCT. Since the  priority period expires only today, Monday 23 February 2015, you can still file today an  international application PCT-B claiming priority from PCT-A [21 February 2014 + 12  months (= Saturday 21 February 2015), extended to 23 February 2013, Article 8(2)(a) PCT  and Article 4 C (1) of the Stockholm Act of the Paris Convention for the protection of  industrial property and Rule 80.5 (i) PCT]. The International Searching Authority (in this  case the EPO) is not competent to carry out a supplementary international search  (Rule 45bis.9 (b) PCT, see also Guidelines, E-VIII, 1 (vi)). The additional search fee is paid  directly to the International Searching Authority, Rule 40.2 (b) PCT."
+        },
+        {
+            "question_number": "4",
+            "question_type": "True/False",
+            "context": "The mention of the grant of a European patent EP-Z was published on 18 June 2014.  The language of the proceedings of EP-Z was English. Mr. Kurz, a Czech citizen  resident in Slovakia, wishes to file an opposition against that patent. He intends to use  the European patent application EP-Y as a novelty destroying document. EP-Y was  published in German.     For each of the statements 4.1 \u2013 4.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The notice of opposition must be filed at the latest on 18 March 2015.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Mr. Kurz is entitled to a reduction of the opposition fee, if he first files the opposition in Czech and then timely files a translation in English.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Mr. Kurz need not file a translation of EP-Y.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If Mr. Kurz wants to use the Slovak language during oral proceedings, it is sufficient to notify the EPO one month before the oral proceedings.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The notice of opposition must be filed at the latest on 18 March 2015 [18 June 2014 +  9 months (= 18 March 2015), Article 99(1) EPC and Rule 131(4) EPC]. Mr. Kurz is entitled  to file the notice of opposition in Czech or in Slovak (Rule 3(1) EPC and  Article 14(4) EPC). However, according to Rule 6 EPC as entered into force on  1 April 2014, there is no longer any reduction of the opposition fee. Since the documentary  evidence was filed in an official language of the EPO, the EPO will not require a  translation, Rule 3(3) EPC. Any party may use an official language of a Contracting State  during oral proceedings, but the party must then provide interpretation into the language of  the proceedings, Rule 4(1) EPC."
+        },
+        {
+            "question_number": "5",
+            "question_type": "True/False",
+            "context": "Your client filed on 2 August 2012 an international application PCT-M without claiming  priority. According to the written opinion established by the EPO as the International  Searching Authority, the subject-matter of several claims of PCT-M lacks novelty.      For each of the statements 5.1 \u2013 5.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "In the present case, the latest date for entering the European phase without resorting to further processing was 2 February 2015.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If PCT-M enters the European phase on 27 March 2015, at least one further processing fee must be paid.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "In view of the fact that the EPO considers that the subject-matter of several claims of PCT-M is not novel, it is mandatory to file amended claims on which the examination at the EPO is to be based.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "One requirement for validly entering the European phase with PCT-M on 27 February 2015, is that a renewal fee must be paid.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The latest date for entering the European phase is 2 March 2015 [2 August 2012 +  31 months (= 2 March 2015), Rule 159(1) EPC and Rule 131(4) EPC]. Entry into the  European phase on 27 March 2015 is possible: however, at least one further processing  fee is due, Article 121(1) EPC and Rule 135(1) EPC. The applicant is not obliged to file  amended claims: he may file comments without filing amended claims, Rule 161(1) EPC.  The renewal fee in respect of the third year for Euro-PCT-M has fallen due earlier, on 31  August 2014, Article 86(1) EPC and Rule 51(1) EPC. For PCT-M, one of the requirements  for entry into the European phase on 27 February 2015 is the payment of the renewal fee  in respect of the third year, Rule 159(1)(g) EPC and Guidelines, A-X, 5.2.4. [Note: For a  request for early processing to be effective, the applicant must comply with the  requirements stipulated in Rule 159(1) EPC as if the 31-month time limit expired on the  date the applicant requested early processing (see Notice from the European Patent Office  dated 21 February 2013 concerning the request for early processing, OJ EPO 2013, 156).]"
+        },
+        {
+            "question_number": "6",
+            "question_type": "True/False",
+            "context": "Your client filed in September 2012 an international application PCT-N without claiming  priority. PCT-N contains a drawing. Your client wants to enter the European phase and  he wants to file amended claims.       For each of the statements 6.1 \u2013 6.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "In order for an amendment to PCT-N to be allowable under Article 123(2) EPC, the amendment cannot relate to unsearched subject-matter.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "An amendment which is allowable under Article 123(2) EPC may be novel and inventive over the disclosure of PCT-N as filed.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "An amendment which is allowable under Article 123(2) EPC may be based on subject-matter found only in the drawing of PCT-N.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "An amendment is allowable under Article 123(2) EPC if it is based on  subject-matter found only in the claims amended under Article 19 PCT.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "A European patent application may not be amended in such a way that it contains  subject-matter which extends beyond the content of the application as filed,  Article 123(2) EPC. An amendment may be allowable under Article 123(2) EPC although it  is not based on searched subject-matter (thus offending for instance the requirements of  Rule 137(5) EPC). If an amendment is novel and inventive over the application as filed,  then it was not directly and unambiguously derivable from the application as filed. An  allowable amendment may be based on a drawing, but never on subject-matter found only  in amendments filed under Article 19 PCT: such amendments are filed after receiving the  international search report, i.e. well after the filing of the application."
+        },
+        {
+            "question_number": "7",
+            "question_type": "True/False",
+            "context": "For questions 7 and 8 consider the following situation:    The German company C filed in December 2013 a German utility model application   DE-C directed to a solution of the substance X in water. The utility model was published  in March 2014.  In November 2014 company C filed a European patent application EP-C claiming priority  from DE-C. EP-C has three claims: claim 1 is directed to a solution of the substance X;  claim 2, which is dependent on claim 1, is directed to a solution of the substance X in  water; claim 3, which is dependent on claim 1, is directed to a solution of the  substance X in alcohol.  In September 2014, the solution of the substance X in water was made available to the  public in a scientific publication.  Company C has not filed any other applications.      For each of the statements 7.1 \u2013 7.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "It is possible to claim priority from utility model application DE-C for EP-C.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The effective date of claim 3 is the date of filing of EP-C.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If an independent claim is entitled to a priority date, then a claim depending from the independent claim must be entitled to the same priority date.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The first filing for a solution of the substance X in alcohol is EP-C.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Priority can be claimed from a utility model, Article 87(1) EPC. Claim 3 is not entitled to  priority, since this invention was not disclosed in DE-C: the first filing for a solution of the  substance X in alcohol is EP-C. If the priority for an independent claim is valid, no  conclusion can be drawn on the validity of the priority of a thereof depending claim."
+        },
+        {
+            "question_number": "8",
+            "question_type": "True/False",
+            "context": "For each of the statements 8.1 \u2013 8.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Claim 2 of EP-C lacks novelty with respect to the scientific publication.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The scientific publication is state of the art under Article 54(2) EPC for claim 1 of EP-C.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "DE-C is state of the art under Article 54(2) EPC for claim 3 of EP-C.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Claim 3 of EP-C lacks novelty with respect to the scientific publication",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Claims 1 and 3 have as their effective date the date of filing of EP-C, Article 87(1) EPC.  Consequently, the scientific publication is state of the art under Article 54(2) EPC for these  two claims. Claim 2 is entitled to the priority date of DE-C: the scientific publication is not  state of the art for claim 2. Claim 3 is novel over the scientific publication, since water and  alcohol are different solvents."
+        },
+        {
+            "question_number": "9",
+            "question_type": "True/False",
+            "context": "A European patent application EP-R was filed in December 2013 without claiming  priority. The search division stated in the search opinion that the invention described in  EP-R is not sufficiently disclosed. In the description of the invention of EP-R, reference  is made to a co-pending European patent application EP-Q. EP-Q was filed with the  EPO in October 2013.     For each of the statements 9.1 \u2013 9.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The skilled person has the same level of skill for assessing inventive step and sufficient disclosure.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The finding of the search division with respect to lack of sufficiency of disclosure of EP-R cannot be contested in examination proceedings before the EPO.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The skilled person may use common general knowledge to carry out the invention.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "A condition for taking EP-Q into account in the assessment of sufficiency of disclosure is that EP-Q was made available to the public no later than on the publication date of EP-R.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The applicant can contest the finding of the search division, e.g. in the response to the  European search report, Rule 70a(1) EPC. The skilled person has the same level of skill  for assessing inventive step and sufficient disclosure, (Guidelines, G-VII, 3, last sentence)  and he may use common general knowledge to carry out the invention. EP-Q can be  considered for assessing sufficiency of disclosure, only if the document was made  available to the public no later than on the date of publication of EP-R (Guidelines, F-III, 1,  5.2 and 8 and H-IV, 2.3.1)."
+        },
+        {
+            "question_number": "10",
+            "question_type": "True/False",
+            "context": "The mention of the grant of European patent EP-X was published in September 2014.  The patent proprietor is company CE and Ms Smith is mentioned as the inventor.  Ms Smith is a former employee of company CE. She left company CE in  November 2014 after a dispute. Ms Smith is resident in Great Britain.    For each of the statements 10.1 \u2013 10.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Ms Smith can validly file an opposition against EP-X, although she is mentioned as the inventor.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "A candidate preparing for the European qualifying examination who is resident in the EU can validly file an opposition in his own name against EP-X, for training purposes.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Ms Smith can validly file an appeal against the decision to grant EP-X.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The professional representative before the EPO Mr Singer can validly file an opposition in his own name on behalf of Ms Smith and without naming Ms Smith as the opponent.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Any person may give notice of opposition, provided he or she is not the patent proprietor.  The inventor Ms Smith, the candidate preparing for the EQE and Mr Singer can therefore  oppose EP-X (Article 99(1) EPC and G 9/93). In the case of Mr Singer filing the opposition  for Ms Smith, there is no circumvention of the law within the meaning of G 3/97. The  motivation for filing an opposition is irrelevant. Appeal proceedings are only open to parties  to proceedings (Article 107 EPC)."
+        },
+        {
+            "question_number": "11",
+            "question_type": "True/False",
+            "context": "Assume that the client proposes the following alternatives as single independent claim  for the patent application:    A)  Door leaf in a fire protection door, wherein the door leaf comprises a solid wood  plate having a thickness of 5 cm or more.    B)  Door leaf for a fire protection door, the door leaf having a step at an edge region,  wherein the step matches with a step in a door frame.    C)  Fire protection door comprising a door leaf, a door frame and a door closer  wherein the door leaf comprises a plate made of solid wood.     For each of the statements 11.1 to 11.4, indicate on the answer sheet whether the  statement is true or false.",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Claim A) clearly defines that protection is sought for a door leaf independently of a door frame and a door closer.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Claim A) is supported by the description.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Claim B) meets the requirements of Article 84 EPC.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Claim C) meets the requirements of Article 84 EPC.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The expression \u201ein\u201c in Claim A) makes it unclear whether protection sought is limited to the  door leaf per se or whether the whole fire protection door with the door leaf is claimed, see  also Guidelines, F-IV, 4.15. According to the description, paragraph [0008], the wood  material of the solid wood plate must be thick enough. The minimum thickness for solid  oak wood is 8 cm. When using any other type of solid wood, the thickness must be at least  10 cm, see [0014]. Hence, the thickness  is an essential feature of the invention. Since  claim A) claims a door leaf in a fire protection door comprising a solid wood plate having a  smaller thickness as required by the description, claim A) is not supported by the  description. Claim B) is directed to a door leaf per se, wherein a step of the door leaf is  defined such that it shall match with a step in a door frame which is however not part of the  claim. Many different sizes and forms of steps are possible, hence, the size or the form of  the door leaf step is not defined in claim B) but is dependent from another entity that is not  part of claim B), see also Guidelines F-IV, 4.14. Hence, claim B) is not clear and does not  fulfil the requirements of Article 84 EPC. Claim C) is directed to a fire protection door  comprising a door leaf that comprises a plate made of solid wood. As the claim does not  specify the thickness, an essential feature for achieving the fire protection property is  missing, Guidelines F-IV, 4.5. Hence, claim C) contravenes Article 84 EPC."
+        },
+        {
+            "question_number": "12",
+            "question_type": "True/False",
+            "context": "For this question, assume that the client proposes the following claim as single  independent claim for the patent application.    Door leaf for a fire protection door, wherein the door leaf comprises a plate containing  wood fibres, wherein  a) the plate is a solid wood plate,  b) the plate has a thickness of 8 cm or more,  c) the plate is watered to contain moisture,  d) each major surface of the plate is fully covered with an aluminium sheet, and  e) the door leaf is configured such that it can be closed by a door closer.    For each of the statements 12.1 to 12.4, indicate on the answer sheet whether the  statement is true or false.    Considering the invention, its effects and advantages as given in the description,\u2026",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "\u2026feature b) is an unnecessary limitation of the scope of the claim.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "\u2026feature c) is an unnecessary limitation of the scope of the claim.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "\u2026feature d) is an unnecessary limitation of the scope of the claim.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "\u2026feature e) is an unnecessary limitation of the scope of the claim.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "A solid wood plate is present in all embodiments of the invention. Also, general statements  such as in [0006] refer to a solid wood plate to overcome the drawbacks of the prior art as  referred in [0004]. For a solid wood plate, the description states in paragraphs [0008] and  [0014] that a minimum thickness of 8 cm or more is essential for the function of the fire  protection door. Hence feature b) is not an undue limitation of the scope of the claim. A  watered solid wood plate is mentioned as a preferred embodiment only, see [0009], \u201cwe  preferably use wood that is watered\u2026\u201d. Hence, feature c) is an undue limitation of the  scope of the independent claim. A covering with metal layers 3, 4 is mentioned in [0016],  but only with reference to a preferred embodiment. A covering by an aluminium sheet is  even more specific. Considering the invention and its function as indicated in the  description, it is not necessary to limit the claim by feature d). A door closer is part of any  fire protection door, see [0002], and is implicitly mentioned by the term \u201cfire protection  door\u201d. Since a door closer  is present in any fire protection door, a door leaf for a fire  protection door must be suitable to be closed by a door closer. Feature e) is not an undue  limitation of the scope of protection."
+        },
+        {
+            "question_number": "13",
+            "question_type": "True/False",
+            "context": "For each of the statements 13.1 to 13.4, indicate on the answer sheet whether the  statement is true or false.",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The subject-matter of claim I.4 is novel over D1.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The subject-matter of claim I.6 is novel over D1.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The subject-matter of claim I.5 is novel over D2.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The subject-matter of claim I.8 is novel over D2.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "D1 discloses in [0003] a door leaf (metal door leaf 100) comprising a plate (calcium silicate  plate 105) including a material (cardboard containing calcium silicate) containing fibres  (wood fibres of the cardboard), wherein the material of the plate is such that it delivers  moisture when heated (see [0003], water of the calcium silicate is released in case of a  fire). The subject-matter of claim I.4 is not new over D1. Further, D1 discloses a metal  door, and particularly a steel door, [0002]. However, the specific metal aluminium is not  disclosed in D1. The subject-matter of claim I.6 is new over D1. D2 discloses (in the first  paragraph and in the Figure) a door leaf (plate 201 supported by hinges), wherein the door  leaf comprises a plate (plate 201) including a material containing fibres (plate 201 is made  of a piece of wood, see first paragraph of D2 and wood generally contains wood fibres,  see the description of the application, [0009]) wherein the plate (plate 201) is at least  partially covered by a metal material (see the Figure, and the first paragraph of D2: metal  bands 203 of the hinges 202 partially cover the plate 201 of the door). The subject-matter  of claim I.5 is not new over D2. Further, D2 discloses a rock 205 on a cable or a rope 206  biasing the door to a closed position, and hence a biasing means having a cable and a  weight. Since D2 discloses the first alternative of claim I.8, the subject-matter of claim I.8 is  not new over D2."
+        },
+        {
+            "question_number": "14",
+            "question_type": "True/False",
+            "context": "For each of the statements 14.1 to 14.4, indicate on the answer sheet whether the  statement is true or false.",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The first and second embodiments of the application fall within the scope of claim I.7.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The first embodiment of the application falls within the scope of claim I.8.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The second embodiment of the application falls within the scope of claim I.8.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The second embodiment of the application falls within the scope of claim I.10.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The first embodiment as shown in Fig. 2 and described in [0018] relates to a hinged fire  protection door, having a door leaf 1a. The second embodiment as shown in Fig. 3 and  described in [0019] relates to a fire protection door constructed as a sliding door. Both  embodiments have a door leaf 1, 1a, 1b, respectively. In [0014] to [0016] the general  construction of a door leaf 1 is described which is applicable to both embodiments. The  first and second embodiments each have a door closer 12, 23 that biases the door leaf  into the closed position, [0018]. Hence, the first and the second embodiments of the  application fall within the scope of claim I.7. In the first embodiment, the door closer 12 has  a mechanical spring 14 and a lever element 15. This falls under the scope of the second  alternative of claim I.8. The second embodiment has a door closer 23 including a cable 24  and a weight 25. This falls under the scope of the first alternative of claim I.8. Hence, both  the first and the second embodiments fall within the scope of claim I.8. The second  embodiment relates to a sliding door. The description of the general construction of a door  leaf in [0017] mentions a door step, but only in connection with a door leaf 1a for a pivoting  door while a stepped door leaf 1a is not suitable for sliding doors. According to the   description, the sliding door of the second embodiment cannot have a stepped door leaf.  The second embodiment does not fall within the scope of claim I.10."
+        },
+        {
+            "question_number": "15",
+            "question_type": "True/False",
+            "context": "For each of the statements 15.1 to 15.4, indicate on the answer sheet whether the  statement is true or false.",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The subject-matter of claim I.9 is novel over D3.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The subject-matter of claim I.6 is novel over D3.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The subject-matter of claim I.8 is novel over D3.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The subject-matter of claim I.10 is novel over D3.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "D3 discloses a sliding door 500 having a door leaf 501 wherein the door leaf 501 is made  of a board containing fibres such as cardboard, [0003]. The board containing fibres is a  plate. As indicated in D1, [0003], cardboard comprises wood fibres. Hence D3 implicitly  discloses all the features of claim I.1. Further, aluminium layers can be used as the outer  surfaces, [0004], i.e. both of the major surfaces of the door leaf 501 are covered with  aluminium layers. The subject-matter of claim I.6 is not novel over D3. The sliding door  500 of D3 has a door leaf 501 comprising a plate of a material comprising fibres and a  cable 503 and a weight 504 biasing the door leaf 501 into the fully open state, [0003], i.e. a  biasing means for biasing the door leaf into a predetermined position. Hence, the first  alternative of claim I.8 is disclosed in D3 so that the subject-matter of claim I.8 is not novel  over D3. There is no disclosure in D3 that the sliding door 500 could withstand a fire for a  predetermined time; further, the door leaf 501 is biased into the fully open state and not  into the fully closed state as this is necessary for a fire protection door. Hence, there is no  disclosure in D3 that the sliding door 500 can be a fire protection door. Further, there is no  disclosure for a stepped edge. The subject-matters of claims I.9 and I.10 are novel over  D3."
+        },
+        {
+            "question_number": "16",
+            "question_type": "True/False",
+            "context": "For each of the statements 16.1 to 16.4, indicate on the answer sheet whether the  statement is true or false.    The following amendments are allowable under Article 123(2) EPC:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "a combination of claims I.1, I.2, I.3, and I.4.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "a combination of claims I.1, I.8 and I.10.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "a combination of claims I.1, I.7 and I.10.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "an amendment of the dependency of claim I.5 to be dependent from claim I.1 instead of claim I.2.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "As indicated in [0009] of the description, solid wood contains mainly wood fibres. Hence,  the expression \u201csolid wood\u201d already implies a material containing wood fibres. Further,  [0009] discloses to water solid wood so that the wood fibres contain enough moisture, and  that the moisture is released in case of fire. Hence, [0009] discloses a solid wood that  delivers moisture when heated. A combination of all the features of the claims I.1, I.2, I.3,  and I.4 can be based on the original claims I.1 to I.4 in combination with [0009] of the  description. As indicated in [0017], a stepped door leaf is only possible in pivoting doors.  However, a biasing means having a cable and a weight is only disclosed in [0019] and in  Fig. 3 in conjunction with a sliding door. Because of the first alternative of claim I.8, a  combination of I.1, I.8, and I.10 would also claim a combination of a biasing means having  a cable and a weight together with a stepped door leaf. Such combination is not originally  disclosed. A door leaf 1a having a stepped edge is disclosed in [0017], and [0018]  discloses a door closer 12 biasing the door leaf 1a into the closed position. Hence, a  stepped door leaf in combination with a biasing means is disclosed in the description. In  the whole description, it is only disclosed to cover a solid wood plate with a metal material.  There is no disclosure to cover any other fibrous plate having other fibres than wood fibres  with a metal material. Hence, an amendment of the dependency of claim I.5 to be  dependent from claim I.1 instead of claim I.2 would contravene Article 123(2) EPC."
+        },
+        {
+            "question_number": "17",
+            "question_type": "True/False",
+            "context": "For each of the statements 17.1 to 17.4, indicate on the answer sheet whether the  statement is true or false.",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "D1 is the closest prior art with regard to claim II.1.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "D2 is the closest prior art with regard to claim II.5.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The subject-matter of claim II.4 is disclosed in D3.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "D3 is the closest prior art with regard to claim II.7.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Claim II.1 relates to a door leaf for a fire protection door. From the cited prior art, D1 is the  only document which clearly relates to a door leaf for a fire protection door and comprises  a plate containing wood fibres wherein major surfaces of the plate are fully covered by  metal layers. Hence, D1 relates to door leaves for the same purpose and is the closest  prior art with regard to claim II.1. D2 is the only document relating to pivoting doors with a  plate of solid wood and a door closer. D2 is the closest prior art with regard to claim II.5.  D3 relates to emergency exit doors. D3 discloses in [0003] and in the Figure a sliding door  501 with a door frame 502 and a biasing means 503, 504, wherein the door leaf 501 is  made of cardboard, and wherein the major surfaces are covered with an aluminium layer.   As indicated in D1, [0003], cardboard comprises wood fibres.  The term \u201cespecially fire  protection door\u201d in claim II.4 is not limiting. D3 implicitly discloses the subject matter of  claim II.4. Although the subject-matter of claim II.4 is not novel over D3 and although  claim II.7 is dependent from claim II.4, D3 is not the closest prior art with regard to  claim II.7, because D3 is directed to a door for another purpose, and D1 and D2 are  directed to fire protection doors so that these documents are closer prior art. Claim II.7 is  limited to fire protection doors."
+        },
+        {
+            "question_number": "18",
+            "question_type": "True/False",
+            "context": "For each of the statements 18.1 to 18.4, indicate on the answer sheet whether the  statement is true or false.",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "A technical effect of the solid wood plate of claim II.2 is reducing the tendency of the door leaf to bend in the event of fire.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "A technical effect of the solid wood plate of claim II.2 is providing heat insulation.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The technical effect of the biasing means of claim II.3 is to ensure that the door is always closed in case of fire.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The wood fibres of the solid wood plate of claim II.2 and the aluminium layer of claim II.1 do not show a functional interaction to achieve a combined technical effect.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Solid wood is resistant to bending [0006], hence, one technical effect of the solid wood is  reducing tendency of the door leaf to bend in the event of fire. A further technical effect of  the use of a plate made of solid wood is providing heat insulation, see [0007]. While a door  closer of a fire protection door ensures that the door is always closed in case of fire,  [0002], this is NOT true for a biasing means biasing the door leaf into any predetermined  position, see for example D3 and note that claim II.3 does not specify that the door is a fire  protection door. The aluminium layer protects from drying out, see above, hence, it helps  to keep the moisture in the wood fibres. This is a combined technical effect."
+        },
+        {
+            "question_number": "19",
+            "question_type": "True/False",
+            "context": "For each of the statements 19.1 to 19.4, indicate on the answer sheet whether the  statement is true or false.",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "An element of the objective technical problem solved by the subject-matter of claim II.2 over D1 is to simplify the construction.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "An element of the objective technical problem solved by the subject-matter of claim II.2 over D1 is to provide fire protection doors imitating the appearance of ancient doors.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "A valid argument as to why a skilled person would not combine D1 and D2 to arrive at the subject-matter of claim II.2 is that D1 is a patent document and D2 is a journal in the field of vintage art.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "A valid argument as to why a skilled person would combine D1 and D2 is that D1 discloses a door leaf for a fire protection door and D2 teaches that a solid wood plate is a suitable material for a door leaf that prevents propagation of fire.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "In the last sentence of [0003] of D1 it is mentioned that the construction of the fire  protection door of D1 is complicated because of the necessity to insert a frame structure  for stiffening. Solid wood has less tendency to bend, a frame structure is not necessary.  Hence, it is an element of the objective problem solved by the subject-matter of claim II.2  over D1 to simplify the construction. Providing a plate of solid wood per se does not  provide a fire protection door simulating the same appearance as an ancient door,  especially if covered by an aluminium layer. Hence, providing fire protection doors  simulating the same appearance as ancient doors is not an element of the objective  technical problem solved by the subject-matter of claim II.2. The state of art for the  purposes of considering inventive step is defined in Article 54(2) EPC, both documents D1  and D2 clearly belong to this state of art, and the skilled person is presumed to have had  access to anything in the \u201cstate of art\u201d. Although D2 is a vintage art journal, it describes  door technology. Further, the skilled person is expected to look for suggestions in  neighbouring and general technical fields. Hence, the nature of publication of the  documents D1 and D2 is no valid argument against combining them. D1 discloses a fire  protection door, and the skilled person learns from D2 that a solid wood door can protect  from fire. Thus, the skilled person learns from D2 that a solid wood plate is a suitable  material to be used in door leafs for fire protection doors. This is a valid argument that a  skilled person would combine D1 and D2."
+        },
+        {
+            "question_number": "20",
+            "question_type": "True/False",
+            "context": "As auxiliary request, the patent is defended in the opposition with the following  independent claim:    Fire protection door comprising a door leaf, a door frame and a door closer, the door leaf  comprising a plate made of solid wood,  wherein the door is a pivoting door and wherein the door leaf is pivotably connected to  the door frame by means of hinges;  characterised in that  a)  the major surfaces of the plate are fully covered with an aluminium layer,  b)  the material of the plate is treated such that it releases moisture when heated,  and  c)  the door leaf has a stepped edge engageable with a step in the door frame.    The opponent cites D2 as closest prior art with regard to this claim. The opponent  acknowledges that the subject-matter of the claim of the auxiliary request differs from D2  in the features of the characterising portion of the claim.    The opponent defines the objective problem with regard to D2 as to enhance the fire  protection function of a fire protection door.  For each of the statements 20.1 \u2013 20.4, indicate by marking true or false on the answer  sheet whether the statement is a valid argument as to why it is not obvious to solve the  stated objective technical problem by the features of the claim.",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Although D3 discloses a door leaf covered by an aluminium layer, there is no teaching in D3 that this could improve a fire protection function.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Although D1 discloses a material that is such that it delivers moisture when heated, there is no teaching that solid wood of D2 could replace the material of D1.",
+                    "answer": "See above",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Although the figure of D1 shows a small step on the side of the door leaf due to an overlap of metal sheets, this step is only because two edge portions of the metal sheets overlap; there is no teaching to combine a step in a door leaf with a step in a door frame to come to a better sealed door gap.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "D1 teaches away from using aluminium in fire protection doors.   2014",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "D3 discloses a sliding door 500 with a door leaf 501 where the major surfaces thereof can  be covered with aluminium layers. No technical reason is given for the covering with  aluminium and it seems that this is only for design purposes. Further D3 relates to  emergency exit doors and gives no indication at all for a functionality for fire protection.  Thus, although D3 discloses a door covered by an aluminium layer, there is no teaching in  D3 that this could improve a fire protection function. D1 discloses a calcium silicate plate  wherein calcium silicate can release water when heated. The filling of D1 is a cardboard  containing calcium silicate, no alternatives are given. The statement 20.2 indicates that the  material of D2 should replace the material of D1. This is not a valid argument within the  framework of the problem solution approach, since D2 and not D1 is the closest prior art  document. Hence, the answer to 20.2 is \u201cFalse\u201d. The formulation of 20.2 was however  unnecessarily complex. Just by using the expression \u201cD2 could be replaced by\u201d instead of  \u201cD2 could replace\u201d the solution would become \u201cTrue\u201d, since there is no teaching that solid  wood could be replaced by the material of D1. For this reason, it is exceptionally decided  to award marks for the answer \u201cTrue\u201d as well. D1 discloses just a door leaf for a fire  protection door which is formed from two metal sheets that overlap at the side of the door  leaf. There is no teaching how a door frame could be constructed. Hence, although the  figure of D1 shows a small step on the side of the door leaf due to a overlap of metal  sheets, this step is only because two edge portions of the metal sheets overlap; there is no  teaching to combine a step in a door with a step in a door frame to come to a better sealed  door gap. D1 discloses in [0002] that the preferred metal is steel because of its high  melting point above 1300\u00b0C, and it is further mentioned that this has the advantage that  the metal of the door can withstand normal temperatures occurring during fire and  maintains its stiffness even at higher temperatures. This leads away from using aluminium  which melts away in the event of fire. Hence, D1 teaches away from using aluminium in  fire protection doors."
+        }
+    ]
+}

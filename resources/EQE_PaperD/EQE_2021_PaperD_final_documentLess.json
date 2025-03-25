@@ -1,0 +1,116 @@
+{
+    "exam_type": "EQE",
+    "year": "2021",
+    "exam_name": "PaperD",
+    "exercices": [
+        {
+            "question_number": 1,
+            "question_type": "OpenQuestion",
+            "context": "    (9 MARKS)    (9 MARKS)European patent application EP-A1 was filed in 2018 by applicant A in English. It describes two different inventions, X and Y, and claims invention X only. The European search report was drawn up for invention X only. A communication pursuant to Article 94(3) EPC setting out a time limit of four months was issued by the EPO on 5 October 2020 and received by applicant A on 8 October 2020. No response has been filed.Applicant A is now interested in invention Y.In January 2021, he filed a European divisional application EP-A2 based on EP-A1, claiming and describing invention Y. EP-A2 was filed in French.What should ap",
+            "questions": [
+                {
+                    "question_code": null,
+                    "question_text": "What should applicant A do to have invention Y searched by the EPO?",
+                    "answer": "The time limit for responding to the Art. 94(3) EPC communication expired on 15  February 2021 5.10.20+10d (Rule 126(2) EPC) +4m=15.02.21 (Rule 131(4) EPC). Thus, EP-A1 is deemed withdrawn, Art. 94(4) EPC .  EP-A2 was filed before the loss of right i.e. while EP-A1 was pending in the sense of Rule 36(1) EPC, but it was not filed in the language prescribed by Rule 36(2) EPC. Therefore EP-A2 cannot be treated as a valid divisional application, J13/14.  A further divisional application EP-A3 of EP-A1 should be filed in English. EP-A3 should claim invention Y.    A divisional application can only be filed if the loss of rights of EP-A1 is remedied, Art. 121(3) in conjunction with Rule 36(1) EPC. A should thus request further processing, Art. 121 EPC in respect of EP-A1, i.e. pay the further processing fee and file an answer to the communication thereby reviving EP-A1.  The filing fee and search fee for EP-A3 have to be paid, Rule 36(3) EPC.  Renewal fees already due in respect of EP-A1 have to be paid for EP-A3, Art. 86(1) and Rule 51 (3) EPC."
+                }
+            ],
+            "examiner_note": "  Most candidates realized that EP-A2 was not filed in the language prescribed, however  fewer realized legal consequences and accordingly the necessity to revive EP1 so that a  new divisional can be filed. Many candidates erroneously suggested to merely file a  translation for EP-A2.    "
+        },
+        {
+            "question_number": 2,
+            "question_type": "OpenQuestion",
+            "context": "     (8 MARKS)     (8 MARKS)On 2 August 2018, applicant B filed US application US-B in English. Despite all due carebeing taken by applicant B, international application PCT-B claiming priority from US-B was only filed on 9 August 2019. The USPTO, acting as receiving Office, granted the applicant\u2019s request for restoration of the right of priority based on the criterion that the failure to file PCT-B within the priority period was unintentional. Today, 2 March 2021, applicant B took all of the steps required under Rule 159 EPC to enter PCT-B into the European phase before the EPO.Does applicant",
+            "questions": [
+                {
+                    "question_code": null,
+                    "question_text": "Does applicant B need to take action before the EPO as designated Office to ensure that the restoration of the right of priority is effective in the European phase? If so, what steps are required and when do they need to be taken by?",
+                    "answer": "The deadline for filing an international application claiming priority of application US-B was 12 months from the filing date of US-B, 2 August 2019, Art. 8(2)(a) PCT and Art. 4C(1) Paris Convention.   Hence PCT-B was filed after expiry of the priority period but within two months from the date on which the priority period expired, Rule 49ter.2(a) PCT. - 5 -  Yes, the applicant B needs to take action at the EPO as designated office as the restoration granted by the USPTO as receiving office will not automatically be effective before the EPO because the EPO is not bound by the decision of any receiving office under the \u201cunintentional criterion\u201d, OJ 2007 p. 694 To ensure that priority is restored during the European phase, the applicant should request restoration of priority within one month from the date on which the Art. 22 PCT time limit expires, Rule 49ter.2(b)(i) PCT.  Rule 159(1) EPC sets a 31-month deadline  02.08.2018+31m=02.03.2021 (Rule 80.2 PCT) 02.03.2021 +1m =02.04.2021 (Rule 80.2 PCT)-> 06.04.21 (Rule 80.5 PCT)  The fee for restoration of priority must be paid within the same time limit, Rule 49ter.2(b)(iii),(d) PCT.  The request for restoration of priority must be accompanied by a statement of reasons for the failure to file the international application within the priority period Rule 49ter.2(b)(ii) PCT."
+                }
+            ],
+            "examiner_note": "  This question was reasonably well answered. Most of the candidates realized that the  EPO is not bound by the decision of any receiving office under the \u201cunintentional criterion\u201d.  Many candidates also correctly indicated the steps required to ensure that the restoration  of the right of priority is effective in the European phase. The required payment of a fee for  requesting restoration was sometimes forgotten.    "
+        },
+        {
+            "question_number": 3,
+            "question_type": "OpenQuestion",
+            "context": "Your client C has two pending European patent applications: EP-C1 and EP-C2. The Your client C has two pending European patent applications: EP-C1 and EP-C2. The search and examination fees for both applications were paid on filing. As regards EP-C1, you received last week an invitation pursuant to Rule 58 EPC to file one or more claims. EP-C2 was filed using EPO Form 1001, with the applicant waiving his right under Rule\u00a070(2) EPC. The European search report was transmitted last month. It cited a novelty-destroying document. Following a strategic reorientation, your client C is no longer interested in the two applications. He asks you whether the search and/or examination fees can be refunded and at which rate. What do you h",
+            "questions": [
+                {
+                    "question_code": null,
+                    "question_text": " What do you have to do to obtain the refunds?",
+                    "answer": "EP-C1  The search will not start if no claim is filed, Art. 92 EPC. Thus, by not responding to the invitation under Rule 58 EPC or by actively withdrawing the application, the search fee will be refunded in full, Rfees Art. 9(1).  The examination fee will be reimbursed in full, Rfees Art. 11(a).  EP-C2  The search fee will not be refunded since the search report was already issued Rfees Art. 9(1).  The search report was issued with a first communication under Art. 94(3) EPC, OJ 2015 EPO A94,  because: - EPO Form 1001 contains a pre-filled request for examination - the applicant waived his right under Rule 70(2) EPC and paid the examination fee and thus - the examining division has already assumed responsibility, Rule 10(4) EPC - the application is not in order for grant as a novelty destroying X document was cited in the search report.  The client can only get a 50% refund by actively withdrawing the application before expiry - 7 -  of the time limit to reply to the communication, Rfees Art. 11(b)."
+                }
+            ],
+            "examiner_note": "  The question regarding the procedural steps to be taken before the EPO to request  amendment of the claim in respect of Germany was well answered, although some  candidates did not realize the need to use the limitation procedure (not realizing that the  examination phase was over). Very few candidates realized that the amendment  proposed did not meet the requirements of Art. 123(3) EPC.     "
+        },
+        {
+            "question_number": 4,
+            "question_type": "OpenQuestion",
+            "context": "On 8 June 2020 applicant D filed European patent application EP-D1 claiming priority On 8 June 2020 applicant D filed European patent application EP-D1 claiming priority from US patent application US-D filed on 7 June 2019. EP-D1 describes and claims a bolt made of metal. The contents of EP-D1 and US-D are identical. The European search report for EP-D1 cites European patent application EP-D0 filed byapplicant D in February 2019 and published in August 2020. EP-D0 relates to the same technical field and discloses the same bolt but made of aluminium. EP-D0 does not mention any other metal than aluminium.",
+            "questions": [
+                {
+                    "question_code": "(a)",
+                    "question_text": "Is EP-D0 novelty destroying for the subject-matter of the claim of EP-D1?",
+                    "answer": " EP-D0, which is a European patent application, was filed before the effective dates of EP-D1's claim but published after. EP-D0 forms therefore part of the prior art relevant for novelty for subject-matter of claim 1, Art. 54(3) EPC. Yes, EP-D0 is novelty destroying because it discloses the subject-matter \u201caluminium\u201d (ALU)."
+                },
+                {
+                    "question_code": "(b)",
+                    "question_text": "If yes, can the claim of EP-D1 be amended to make its subject-matter novel?",
+                    "answer": " Yes, the claim of EP-D1 can be amended to make its subject-matter novel by disclaiming the species ALU, which is possible because EP-D0 is a novelty destroying prior right document under A 54(3) EPC, G1/16."
+                },
+                {
+                    "question_code": "(c)",
+                    "question_text": "What would be the answer to (a) and (b) if EP-D0 had been early published in April\u00a02020?2021/D1-2/EN/2",
+                    "answer": " EP-D1 was filed within the priority year by the same applicant as US-D, Art. 87(1) EPC. The subject-matter \u201cmetal\u201d can be conceptually divided into the subject-matter \u201caluminium\u201d (ALU) and the subject-matter \u201cmetal but not aluminium\u201d (NOTALU), G1/15.  For the subject-matter ALU, US-D is not the \u201cfirst application\u201d in the sense of Art. 87(1) EPC because EP-D0 is also from applicant D and discloses the subject-matter ALU. Therefore the claimed priority is not valid for the subject-matter ALU and the effective date of the subject-matter ALU is 8 June 2020. For the subject-matter NOTALU, US-D is the \u201cfirst application\u201d and thus the effective date of the subject-matter NOTALU is 7 June 2019. c-a) Then answer to a) would be Yes: In that case EP-D0 was published before the effective date of the subject-matter ALU but after the effective date of the subject-matter NOTALU. EP-D0 thus forms part of the prior art under Art. 54(2) EPC for the subject-matter ALU and under Art. 54(3) EPC for the subject-matter NOTALU. c-b) Then answer to b) would be No: - 8 -  Any amendment excluding ALU would violate Art. 123(2) EPC."
+                }
+            ],
+            "examiner_note": "  The question about EP-C1 was well answered. Regarding EP-C2, many candidates did  not realize that the search report was issued with a first communication under Art. 94(3)  EPC, not with a written opinion. Although some candidates realized that the examining  division was responsible, they still suggested to check in the register if the examination  already started.    "
+        },
+        {
+            "question_number": 5,
+            "question_type": "OpenQuestion",
+            "context": "Applicant E, resident and national of Portugal, filed an international application PCT-E Applicant E, resident and national of Portugal, filed an international application PCT-E on 3 January 2021 at the EPO. The EPO was chosen as the International Searching Authority (ISA) in the request.Last month, applicant E received a notification from the receiving Office dated 29\u00a0January 2021, inviting him to furnish a translation. Consider the following situations:Situation A:  PCT-E was filed in Portuguese.",
+            "questions": [
+                {
+                    "question_code": "(1)",
+                    "question_text": "What is the receiving Office?",
+                    "answer": " The EPO as receiving Office (rO) does not accept Portuguese as a language in which the international application may be filed, Rule 157(2) EPC.  Hence the EPO will transfer the international application to the International Bureau (IB), Rule 19.4(a)(ii) PCT, which is thus the competent rO,  Rule 19.4(b) PCT."
+                },
+                {
+                    "question_code": "(2)",
+                    "question_text": "What translation must be filed and by when?Situation B: PCT-E was filed in English, with the exception of the drawings, which contained text in Portuguese.",
+                    "answer": " Portuguese is not accepted by ISA/EPO to carry out the international search, Agreement EPO-WIPO, Annex A. Hence the invitation sent by rO/IB is an invitation under Rule 12.3(c)(i) PCT to file a translation of the international application into EN, DE, FR for the purpose of the international search. The time limit under Rule 12.3(a) PCT already expired (on 03.02.2021).  The translation can still be filed within whichever of the following time limits expires later, Rule 12.3(c)(ii) PCT: (a) 29.01.2021 + 1m = 28.02.2021(Sunday) (Rule 80.2 PCT)->01.03.2021 (Rule 80.5 PCT) (b) 03.01.2021 + 2m = 03.03.2021 (Rule 80.2 PCT)  so tomorrow at the latest.  A late furnishing fee must be paid to rO/IB with the same time limit, Rule12.3(c)(ii) PCT."
+                },
+                {
+                    "question_code": "(3)",
+                    "question_text": "What is the receiving Office?",
+                    "answer": " The applicant has both nationality and residence of an EPC Contracting State. Hence, from the perspective of nationality or residence the EPO is a competent rO according to Rule 19.1(a) PCT.  The EPO accepts English as a language in which the international application may be filed, Rule 157(2) EPC.  - 9 -  Hence the EPO is the competent rO, Rule 19.1(a)(i) PCT."
+                },
+                {
+                    "question_code": "(4)",
+                    "question_text": "What translation must be filed and by when?2021/D1-2/EN/3",
+                    "answer": " The text of the drawings is in a different language than the language of the description and the claims. Hence the invitation is an invitation under Rule 26.3ter(a) PCT to furnish a translation of the text of the drawing into the language in which the international application is to be published (English).  This translation must be filed at the latest on 29.01.2021 + 2m = 29.03.2021 (Mo) (Rule 80.2 PCT), Rule 26.2 PCT.   - 10 -"
+                }
+            ],
+            "examiner_note": "  Questions (a) and (b) were generally well answered.  Regarding question (c), many candidates failed to see the partial priority aspect.  Nevertheless, some candidates correctly concluded that any amendment excluding  - 3 -    aluminium would violate the requirements of Art. 123(2) EPC.    "
+        },
+        {
+            "question_number": 6,
+            "question_type": "OpenQuestion",
+            "context": "European patent EP-F was granted with a single claim reading \"A food composition European patent EP-F was granted with a single claim reading \"A food composition comprising 1 to 5% meat\". The description of EP-F discloses a food composition comprising 1 to 5% beef meat.The patent proprietor F has become aware of a German national patent application DE-G having an earlier effective date and published after the effective date of EP-F. DE-G discloses a food composition comprising 3% of meat, wherein the meat is pork.The proprietor F would like to amend EP-F before the EPO in respect of Germany only and proposes a claim for Germany reading \"A food composition comprising 1 to 5% beefmeat\".The proprietor is looking for your advice.",
+            "questions": [
+                {
+                    "question_code": "1.",
+                    "question_text": "What procedural steps have to be taken before the EPO to request amendment of the claim in respect of Germany?",
+                    "answer": " The procedural steps to be taken before the EPO to request amendment of the claim in respect of Germany are the following:  Request limitation and pay the limitation fee, Art. 105a(1) EPC.  The request must comply with the requirements of Rule 92 (2) EPC and thus file a) the particulars of the proprietor b) the number of the patent c) amended claims and description  d) the particulars of the representative if required  A separate claim for Germany must be submitted and the EPO must be informed of DE-G, Rule 138 EPC. Indicate that the claims for other contracting states remain unchanged. - 6 -"
+                },
+                {
+                    "question_code": "2.",
+                    "question_text": "Will the EPO hold allowable a request with the claim proposed by the proprietor ?2021/D1-1/EN/3",
+                    "answer": " The proposed amendments are not allowable because the upper limit of 5% now applies to beef meat only. Therefore for example a food composition with 3% pork meat + 3% beef would fall within the scope of the amended claim but not in the claim as granted, Guidelines H-IV, 3.4.  The request will thus be rejected, Art.105b(2) EPC as it does not meet the requirements of Art. 123(3) EPC, Rule 95(2) EPC"
+                }
+            ],
+            "examiner_note": "  This question was generally well answered, but marks were often lost for not providing  legal basis. Some candidates overlooked that from the perspective of nationality or  residence the EPO was a competent receiving office. Some candidates correctly  calculated time limits but did not draw any conclusion regarding if it is still possible to  take action or not. - 4 -    "
+        }
+    ],
+    "global_comment": "Examiners\u2019 Report \u2013 Paper D 2021   Purpose and extent of the examiners' report  The purpose of the present examiners' report is to enable candidates to prepare for future examinations (cf. Art. 6(6) of the Regulation on the European qualifying examination for professional representatives).  General comments  Candidates are reminded that they should pay attention to the way the questions are asked and should not simply repeat information from the paper in the answer. Repeating information per se is not awarded any marks. Alternative answers, one being correct and one being wrong, for the markers to choose from do not attract any marks.  In Part I, full marks were only awarded when the full legal basis was cited to support the analysis. Citing only the legal basis or repeating the text therefrom without any further explanation, reasoning or providing advice generally does not attract any marks. However, alternative relevant legal bases also attracted marks.  An unnecessary amount of points was sometimes lost due to miscalculation of time limits.  Candidates are reminded that the PCT questions may make up a substantial part of paper D. - 2 -"
+}

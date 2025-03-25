@@ -1,0 +1,327 @@
+{
+    "exam_type": "EQE",
+    "year": "2014",
+    "exam_name": "PreEx",
+    "exercices": [
+        {
+            "question_number": "1",
+            "question_type": "True/False",
+            "context": "You filed European patent application EP-A in April 2013 without claiming priority. The  search division considered that the claims lacked unity of invention. The invention first  mentioned in the claims was searched. In October 2013 you received an invitation to  pay one additional search fee for the second invention. Since then you have not taken  any action with respect to EP-A.    For each of the statements 1.1 \u2013 1.4, indicate on the answer sheet whether the  statement is true or false:    If today, 24 February 2014, you want to pursue the second invention, a valid option is to ...",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "... pay the additional search fee for EP-A with the further processing fee.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "... file a European divisional application to EP-A directed to the second invention.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "... file a European patent application EP-B claiming priority from EP-A, EP-B being directed to the second invention.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "... file an international application PCT-B claiming priority from EP-A, PCT-B being directed to the second invention.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Further processing is excluded in respect of the period under Rule 64 EPC for paying an  additional search fee, Article 121(4) EPC and Rule 135(2) EPC. In order to pursue the  second invention, the valid options include the following:   1) since you have not taken any action, the application is pending (and not withdrawn).  You can file a European divisional application to EP-A (Article 76(1) EPC and  Rule 36 EPC);  2) since the priority period has not yet expired (Article 87(1) EPC), you can file a European  patent application EP-B claiming priority from EP-A;  3) since the priority period has not yet expired (Article 8(2)(a) PCT and Article 4 C (1) of  the Stockholm Act of the Paris Convention for the protection of industrial property), you  can also file an international application PCT-B claiming priority from EP-A."
+        },
+        {
+            "question_number": "2",
+            "question_type": "True/False",
+            "context": "European patent application EP-P was filed as a first filing on 2 December 2011 and  was published on 13 June 2013. European patent application EP-D was filed with the  EPO on 6 December 2013 as a divisional application of EP-P. Today, 24 February 2014,  you received the first communication of the examining division under Article 94(3) EPC  regarding EP-P. EP-P is still pending. Some of the claims of EP-D contain subject- matter that was not originally disclosed in EP-P. The renewal fee for EP-D has not yet  been paid.    For each of the statements 2.1 \u2013 2.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "EP-D cannot be validly filed before the first communication under Article 94(3) EPC was issued in respect of EP-P; therefore EP-D was not validly filed.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "At present, EP-D is deemed to have 6 December 2013 as its date of filing.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The renewal fee for EP-D may be validly paid on 7 April 2014 without additional fee.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "In the present case EP-P will be regarded as prior art under Article 54(2) EPC against EP-D.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The European divisional application EP-D can be validly filed as long as the earlier  application (in this case EP-P) is pending, Rule 36(1) EPC. EP-D has to be filed before the  time limit of twenty-four months for filing a divisional application to EP-P has expired. This  time limit is triggered by the first communication under Article 94(3) EPC in respect of  EP-P, Rule 36(1)(a) EPC as entered into force on 26 October 2010. Even if EP-D contains  subject-matter extending beyond the content of the earlier application as originally filed, it  cannot be converted into an independent application taking 6 December 2013 as its date  of filing (Guidelines C-IX, 1.4 or G1/05, Reasons 11.1). Consequently, EP-P cannot be  prior art for EP-D. Although no renewal fee was due in respect of EP-P when EP-D was  filed, this fee for EP-P became due on 31 December 2013. The renewal fee due in respect  of EP-P shall be also paid for EP-D, Rule 51(3), second sentence, EPC. This fee can be  paid within four months from filing without an additional fee, i.e. on 7 April 2014  [6 December 2013 + 4 months (= 6 April 2014), extended to Monday 7 April 2014],  Rule 51(3) EPC, Rule 131(4) EPC and Rule 134(1) EPC)]."
+        },
+        {
+            "question_number": "3",
+            "question_type": "True/False",
+            "context": "On 11 January 2013 an applicant filed a European patent application EP-1 at the EPO.  EP-1 discloses subject-matter X but not subject-matter Y. On 6 September 2013 the  same applicant filed a US patent application US-1 at the USPTO claiming priority from  EP-1. Claim 1 of US-1 is directed to subject-matter X and claim 2 is directed to  subject-matter Y. EP-1 was withdrawn on 10 January 2014. European patent application  EP-2 was filed by the same applicant on 13 January 2014. EP-2 contains the same  description and the same claims as US-1.    For each of the statements 3.1 \u2013 3.4, indicate on the answer sheet whether the  statement is true or false:    If in EP-2 priority is claimed only from ...",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "... EP-1, the effective date for claim 1 of EP-2 is 13 January 2014.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "... EP-1, the effective date for claim 2 of EP-2 is 13 January 2014.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "... US-1, the effective date for claim 1 of EP-2 is 13 January 2014.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "... US-1, the effective date for claim 2 of EP-2 is 13 January 2014.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The right of priority can be enjoyed during a period of twelve months from the date of filing  of the first application, Article 87(1) EPC. The outcome of the first application plays no role.  For instance the first application can be withdrawn, Article 87(3) EPC. In respect of EP-1,  the priority period expires on 13 January 2014, [11 January 2013 + 12 months  (= 11 January 2014), extended to Monday 13 January 2014, Article 87(1) EPC, Rule  131(4) EPC and Rule 134(1) EPC)].  If in EP-2 priority is claimed only from EP-1, the effective date of claim 1 is  11 January 2013. If in EP-2 priority is claimed only from EP-1, the effective date of claim 2  is the date of filing of EP-2, 13 January 2014.   If in EP-2 priority is claimed only from US-1, the effective date of claim 1 is the date of filing  of EP-2, 13 January 2014: US-1 is not the first application in respect of the invention of  claim 1. If in EP-2 priority is claimed only from US-1, the effective date of claim 2 is  6 September 2013."
+        },
+        {
+            "question_number": "4",
+            "question_type": "True/False",
+            "context": "The European Patent Bulletin mentioned the publication of the European search report  of European patent application EP-G on 16 October 2013. EP-G has 20 claims. The  opinion accompanying the European search report mentions several deficiencies in   EP-G.    For each of the statements 4.1 \u2013 4.4, indicate on the answer sheet whether the  statement is true or false:    One of the actions that must be done at the latest on 16 April 2014 to avoid EP-G being  deemed withdrawn is to ...",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "... pay 5 claims fees.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "... correct the deficiencies mentioned in the opinion.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "... pay the examination fee.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "... pay the designation fee.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The applicant may request examination of European patent application EP-G up to  six months after the date on which the European Patent Bulletin mentions the publication  of the European search report of EP-G, i.e. on 16 April 2014 [16 October 2013 + 6 months  (= 16 April 2014), Rule 70(1) EPC, Rule 131(4) EPC]. To avoid the application being  deemed to be withdrawn, the applicant has to comply \u2013among others\u2013 with the  requirements of Rule 70a(1) and (3) EPC. However, the applicant is not obliged to correct  the deficiencies mentioned in the opinion as he may choose only to comment on the  opinion, for example if he disagrees with the finding of the Search Division. To avoid the  application being deemed to be withdrawn, the examination fee must be paid, Article 94(1)  and (2) EPC, and the designation fee must be paid, Rule 39(1) and (2) EPC. Claims fees  had to be dealt with at search stage (see Rule 45 EPC)."
+        },
+        {
+            "question_number": "5",
+            "question_type": "True/False",
+            "context": "An applicant validly filed a European patent application EP-Z on 15 March 2011 as a first  filing.    For each of the statements 5.1 \u2013 5.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The renewal fee for the third year for EP-Z is due on 31 March 2014.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "A renewal fee may be paid at the latest within four months of the due date, provided that an additional fee is also paid within that period.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If a renewal fee is not paid in due time, the application is deemed to be withdrawn.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If an applicant fails to observe the time limit for paying a renewal fee together with the additional fee, a valid option is to request further processing.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The renewal fee for the coming year is due on the last day of the month containing the  anniversary of the date of filing, Rule 51(1) EPC. On 31 March 2014, the renewal fee for  the fourth year is due. The renewal fee with an additional fee may still be paid within six  months of the due date, Rule 51(2) EPC. If a renewal fee is not paid in due time, the  application is deemed to be withdrawn, Article 86(1) EPC, third sentence. Further  processing for paying a renewal fee is excluded by the provisions of Article 121(4) EPC  and Rule 135(2) EPC."
+        },
+        {
+            "question_number": "6",
+            "question_type": "True/False",
+            "context": "The examining division issued a communication setting a two month time limit for  bringing the description of European patent application EP-XX into conformity with the  amended claims that the applicant had filed earlier. The communication is dated  10 December 2013. You received the communication on 16 December 2013. So far you  have not taken any action and you have not received any other communication from the  EPO with respect to EP-XX.    For each of the statements 6.1 \u2013 6.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The time limit for filing the requested adapted description expired on 20 February 2014.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If you file the requested adapted description today, 24 February 2014, it will be deemed received on time, as you have not received a notice of loss of rights.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Further processing of EP-XX must be requested at the latest on 22 April 2014.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "An extension of the time limit of two months can be validly requested as long as the written request is received by the EPO before the notice of loss of rights is issued.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The time limit for filing the requested adapted description expired on 20 February 2014  [10 December + 10 days (= 20 December 2013) + 2 months (= 20 February 2014),  Rule 126(2) EPC, Article 94(3) EPC and Rule 131(4) EPC]. If the applicant fails to reply in  due time, in this case on 20 February 2014, the application is deemed to be withdrawn,  Article 94(4) EPC. An extension may be requested before the expiry of the period only,  Rule 132(2) EPC, second sentence, see also Guidelines, E-VII 1.6. Further processing  may be requested within two months of the notice of loss of rights, Rule 135(1) EPC. This  notice not having been received yet, the period cannot be calculated. As it cannot be less  than 2 months from today, 24 February 2014, the last date for validly requesting further  processing must be after 22 April 2014."
+        },
+        {
+            "question_number": "7",
+            "question_type": "True/False",
+            "context": "Mr. Brown, an Irish citizen living in Dublin wants to obtain protection for his invention   X-1. Tomorrow, 25 February 2014, he will disclose for the first time his invention X-1 at a  public press conference. Mr. Brown therefore intends to file by fax a European patent  application EP-X as a first filing covering invention X-1.    For each of the statements 7.1 \u2013 7.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "In order to obtain a date of filing for EP-X, it is necessary to pay the filing fee.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If the requirements for obtaining a date of filing for EP-X are only fulfilled tomorrow, 25 February 2014, the disclosure of X-1 via tomorrow's press conference will become prior art for EP-X.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "In order to obtain a date of filing for EP-X, it is necessary that EP-X contains at least one claim.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If a date of filing is accorded to EP-X, Mr. Brown enjoys a right of priority from  EP-X under the Paris Convention for the Protection of Industrial Property.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The requirements for obtaining a date of filing are set forth in Rule 40 EPC: in particular  there is no obligation to pay any fee or to file at least one claim. Everything made available  to the public (e.g. by oral description) before the date of filing of EP-X is prior art. A  disclosure made on the same date as the date of filing of EP-X is not prior art for EP-X,  Article 54(2) EPC. If a date of filing is accorded to EP-X, right to priority under the  Paris Convention for the protection of industrial property (Article 4 A) can be derived from  EP-X, for instance for filing an international application."
+        },
+        {
+            "question_number": "8",
+            "question_type": "True/False",
+            "context": "Ms De Jong, a Dutch citizen resident in Berlin, filed on 4 February 2014 a European  patent application EP-Z and a notice of opposition against European patent EP-Y. The  mention of the grant of EP-Y was published on 26 June 2013. Both documents were  filed in the Dutch language.    For each of the statements 8.1 \u2013 8.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Regarding EP-Y: the prescribed translation of the notice of opposition must be filed at the latest within one month of filing of the notice of opposition.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Regarding EP-Z: the prescribed translation shall be filed within two months of filing EP-Z.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Ms De Jong is entitled to a reduction of the opposition fee.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Ms De Jong is entitled to a reduction of the filing fee for EP-Z.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Ms De Jong is a national of a contracting state not having English, French or German as  an official language, Article 14(4) EPC. She may file documents in Dutch, but has to  provide translations into one of the official languages of the EPO. The required translation  of the notice of opposition shall be filed within one month of filing the notice of opposition.  But it can be filed within the period for filing the notice of opposition, if that period expires  later, Rule 6(2) EPC. This is the case, as the period for filing the notice of opposition  expires on 26 March 2014 (26 June 2013 + 9 months, Article 99(1) EPC and Rule 131(4)  EPC). The required translation of EP-Z shall be filed within two months of filing EP-Z,  Article 14(2) EPC, Rule 6(1) EPC. As a Dutch citizen, Ms De Jong is entitled to a reduction  of both the filing and the opposition fees, Rule 6(3) EPC."
+        },
+        {
+            "question_number": "9",
+            "question_type": "True/False",
+            "context": "Applicant X filed a European patent application EP-N in January 2014 without claiming  priority.    For each of the statements 9.1 \u2013 9.4, indicate on the answer sheet whether the  statement is true or false:    The following represents state of the art under Article 54(2) EPC for EP-N:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "a blog entry posted by applicant X on the Internet on 29 December 2013.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "comparative tests filed by applicant X with respect to a European patent application EP-L, wherein EP-L was filed in May 2012, the tests were filed in July 2013 and EP-L was published in December 2013.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "comparative tests filed by applicant X with respect to an international application PCT-M, wherein PCT-M was filed in January 2012 without claiming priority, the tests were filed in September 2013 together with the demand for international preliminary examination and the international preliminary examination report has not yet been issued.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "an oral statement made by applicant X in November 2013 during oral proceedings in opposition against European patent EP-H.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The state of the art comprises anything made available to the public by means of a written  or oral disclosure, by use, or in any other way, before the date of filing of EP-N,  Article 54(2) EPC. Such a disclosure can be: a blog entry (see also Guidelines, G-IV  7.5.3.3 and 7.5.4 (c)); comparative tests that are made available to the public with the  publication of EP-L, since the files relating to EP-L are open to inspection, Article 128(4)  EPC; and statements made during oral proceedings in opposition proceedings, since  these proceedings are public, Article 116(4) EPC.   Due to the confidential nature of the international preliminary examination (Chapter II), no  access to the file of the international preliminary examination is given to the public before  the international preliminary examination report is established, Article 38(1) PCT."
+        },
+        {
+            "question_number": "10",
+            "question_type": "True/False",
+            "context": "An applicant filed in January 2013 a European patent application EP-T relating to  invention X. The application EP-T includes several embodiments. The applicant now  realises that, although most of the embodiments are sufficiently disclosed, the  embodiment X1 lacks essential technical information and is therefore not sufficiently  disclosed.    For each of the statements 10.1 \u2013 10.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "An objection of the examining division under Article 83 EPC regarding embodiment X1 can be overcome by filing additional technical information.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If the examining division does not raise any objections under Article 83 EPC, lack of sufficiency of disclosure will not be a valid ground for opposition against EP-T.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "A valid option is to correct the technical information under Rule 139 EPC before the publication of EP-T.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Before the publication of EP-T, it is not possible to amend the description of EP-T in order to delete embodiment X1.",
+                    "answer": "True",
+                    "examiner_note": "[*] Please see D 0002/14, D 0003/14, D0004/14, D 0005/14 and D0006/14"
+                }
+            ],
+            "examiner_note": "The European patent application must disclose the invention in a manner sufficiently clear  and complete for it to be carried out by a person skilled in the art, Article 83 EPC. A lack of  sufficiency of disclosure cannot be cured by filing additional technical information, since  this would offend the requirements of Article 123(2) EPC (see Guidelines, F-III 2). A  correction under Rule 139 EPC is not possible either: if it is obvious how the correction  reads, then there cannot be any issue of lack of sufficiency of disclosure. A valid ground  for opposition is lack of sufficiency of disclosure, Article 100(b) EPC. EP-T will be  published as filed, with embodiment X1, Rule 68(1) EPC. Even if the applicant filed  amended application documents with the EPO before the termination of the technical  preparations for publication, only amended claims would be included in the publication but  not an amended description, Rule 68(4) EPC.[*]"
+        }
+    ]
+}

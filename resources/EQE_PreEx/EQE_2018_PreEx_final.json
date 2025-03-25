@@ -1,0 +1,637 @@
+{
+    "exam_type": "EQE",
+    "year": "2018",
+    "exam_name": "PreEx",
+    "exercices": [
+        {
+            "question_number": "1",
+            "question_type": "True/False",
+            "context": "For each of the statements 1.1 \u2013 1.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "During opposition proceedings, an amendment to a European patent introducing subject-matter which was present only in the priority document but not in the European patent application as filed is allowable under Article 123(2) EPC.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Intermediate generalisations are never allowable under Article 123(2) EPC.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "An amendment introducing subject-matter which was present only in the abstract of the application is allowable under Article 123(2) EPC.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "An amendment introducing subject-matter which was present only in the claims filed in reply to a communication under Rule 58 EPC in conjunction with Rule 57(c) EPC is allowable under Article 123(2) EPC.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Under Article 123(2) EPC, it is not allowable to add matter to a European  patent present only in the priority document for that patent, Guidelines,   H-IV 2.2.5. [Note that there is an exception under Rule 56(3) EPC].  Intermediate generalisations may be allowable under specific circumstances,  see Guidelines, H-V 3.2.1. The abstract may not be taken into account for any  purpose other than for technical information, Article 85 EPC. Subject-matter  present only in claims filed after the date of filing (as is the case for claims  filed in reply to a communication under Rule 58 in conjunction with Rule 57(c)  EPC) goes beyond the subject-matter of the application as filed (description  and drawings), see also Guidelines, H-IV 2.2.3."
+        },
+        {
+            "question_number": "2",
+            "question_type": "True/False",
+            "context": "Daniela is resident in Poland. On 13 February 2018, Daniela filed the European patent  application EP-D as a first filing. The EPO noticed that the drawings mentioned in the  description were evidently missing. With a communication dated 22 February 2018, the  EPO invited Daniela to file the missing drawings.    For each of the statements 2.1 \u2013 2.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "If Daniela ignores the invitation, EP-D will be deemed to be withdrawn.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If Daniela files the missing drawings on 3 May 2018, EP-D will receive 3 May 2018 as its date of filing.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Daniela may validly file the missing drawings for EP-D on 6 June 2018, provided she pays the fee for further processing.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If an applicant is not invited by the EPO to file missing parts of the description or missing drawings, he may validly file them within two months of the date of filing.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "If Daniela ignores the invitation, then any reference to the drawings will be  deemed to be deleted, Rule 56(4)(a) EPC (the legal consequence is not that  the application is deemed to be withdrawn). If the missing drawings are filed  within two months of the notification of that communication [22 February + 10  days (4 March 2018) + 2 months], i.e. 4 May 2018 (Rule 56(1) EPC,  Rule 126(2) EPC, Rule 131(4) EPC) the application shall be re-dated to the  date on which the missing drawings were filed, Rule 56(2) EPC. According to  Rule 135(2) EPC, further processing is ruled out in respect of the period under  Rule 56(2) EPC. An applicant may file missing parts of the description or  missing drawings of his own motion within two months of the date of filing,  Rule 56(2) EPC and Guidelines, A-II 5.2."
+        },
+        {
+            "question_number": "3",
+            "question_type": "True/False",
+            "context": "The European patent application EP-A was filed on 29 February 2016. EP-A claims  priority from an earlier patent application filed in March 2015. The mention of the grant of  a European patent based on EP-A was published in April 2017. An opposition against  this patent was validly filed in January 2018. The only ground for opposition raised by  the opponent is lack of novelty according to Article 100(a) EPC. The only document cited  is the French patent application FR-B published in July 2015 and filed in January 2014.  In the notice of opposition, the opponent argues that the priority claimed in EP-A is not  valid.     For each of the statements 3.1 \u2013 3.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The validity of the priority right as such is not a ground for opposition under Article 100 EPC.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "FR-B is state of the art under Article 54(2) EPC if the priority of EP-A is not valid.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If the priority of EP-A is valid, then FR-B belongs to the state of the art under Article 54(3) EPC in view of its earlier filing date.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If the opponent raises today, 26 February 2018, an objection of lack of sufficiency of disclosure against EP-A, then this is a fresh ground for opposition.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The validity of the priority right as such is not a ground for opposition, since it  is not mentioned in Article 100 EPC. If the priority of EP-A is not valid, then  the effective date of EP-A in accordance with Article 89 EPC is the filing date  of EP-A (29 February 2016). In such a case, FR-B is state of the art according  to Article 54(2) EPC, and it can be used to attack novelty (and inventive step)  of EP-A. The national application FR-B can only be prior art under  Article 54(2) EPC and not under Article 54(3) EPC. Lack of novelty and lack of  sufficiency of disclosure are separate grounds for opposition, Article 100 EPC.  Moreover, the objection of lack of sufficiency of disclosure was raised after the  expiration of the opposition period (see G10/91 and Guidelines, D-V, 2.2).  Thus, the objection of lack of sufficiency is considered to be a fresh ground for  opposition."
+        },
+        {
+            "question_number": "4",
+            "question_type": "True/False",
+            "context": "The examining division issued a communication informing the applicant of the text in  which it intends to grant European patent EP-F. The text contains: 10 pages of  description, 10 claims, amendments in the description proposed by the examining  division and no drawings. The communication is dated 22 October 2017. Today is  26 February 2018.    For each of the statements 4.1 \u2013 4.4 indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The time limit for filing a reply to the communication expires on 1 March 2018.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If the applicant disagrees with the amendments in EP-F, a valid option is to pay the fee for grant and publishing, to file the required translation of the claims and to file an appeal against the decision to grant after notification of the decision to grant.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If the applicant does not agree with the amendments in EP-F, a valid option is to request reasoned amendments to the communicated text.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If third party observations are filed after the decision to grant has been notified to an applicant, the observations cannot be considered by the examining division.",
+                    "answer": "True",
+                    "examiner_note": "or False"
+                }
+            ],
+            "examiner_note": "The time limit for replying to the communication under Rule 71(3) EPC expires  on [22 October 2017 + 10 days (1 November 2017) + 4 months] 1 March 2018  (Rule 71(3) EPC, Rule 126(2) EPC and Rule 131(4) EPC). If the applicant  pays the fee for grant and publishing and files the required translation of the  claims, then this is considered to be an approval of the text, Rule 71(5) EPC.  An appeal against the decision to grant would be an appeal of a not adversely  affected party. The applicant can disagree to the text proposed, provided he  requests reasoned amendments (Rule 71(6) EPC). The examining division  may not resume the examination proceedings (cf. GL edition 2016 C-V, 4.7)   and consequently may not consider third party observations after the decision  to grant has been handed over to the EPO's internal postal service, Rule  71a(2) EPC, see also G12/91 and GL edition 2016 E-V, 3. In the present case  of statement 4.4, the applicant has already received the decision to grant and  therefore it is correct to answer \u201ctrue\u201d. In view of arguments raised on appeal  the examining division responsible for issuing a technical opinion under Article  25 EPC may consider third party observations, which were filed after  notification of the decision to grant. On account of this rare possibility the  statement 4.4 has been neutralised and marks are awarded for both answers."
+        },
+        {
+            "question_number": "5",
+            "question_type": "True/False",
+            "context": "The international application PCT-E was filed on 10 July 2016. PCT-E claims priority  from an earlier patent application filed on 29 July 2015. The international search report  for PCT-E was published in November 2017.     For each of the statements 5.1 \u2013 5.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "One step that must be taken for validly entering the European phase with PCT-E today, 26 February 2018, is to pay the renewal fee.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The time limit for entry into the European phase with PCT-E expires on 1 March 2018.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "One step that must be taken for validly entering the European phase with PCT-E today, 26 February 2018, is to pay the filing fee.",
+                    "answer": "True",
+                    "examiner_note": "or False"
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "One step that must be taken for validly entering the European phase with PCT-E today, 26 February 2018, is to file the request for examination.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The renewal fee for the third year of the European patent application  stemming from PCT-E are only due on 31 July 2018 (Rule 159(1)(g) EPC,  Article 86(1) EPC, Rule 51(1) EPC). The time limit for entry into the European  phase expires on [29 July 2015 + 31 months =] 28 February 2018,  Rule 159(1) EPC and Rule 131(4) EPC). According to Rule 159(1)(c) EPC,  the filing fee must be paid on entry into the European phase. Hence, for  validly entering the European phase today, it is necessary to pay the filing fee.  In view of arguments raised on appeal it appears that the statement 5.3 could  be understood as referring to the concept of \u201centry\u201d versus \u201cearly entry\u201d into  the European phase with regard to 26 February 2018. This would additionally  require the lifting of the processing ban before the 31-month time limit has  expired by filing a request for early entry (cf. GL E-IX, 2.8 and OJ EPO 213,  156). Thus in view of this interpretation it was decided to neutralise the  statement 5.3 and award marks for both answers. According to Rule 159(1)(f)  EPC and Rule 70(1) EPC, the request for examination must be filed up to six  months after the date on which the European search report is published in the  European Patent Bulletin: the international publication of the search report  takes the place of the European search report and the mention of its  publication in the European Patent Bulletin, Article 153(6) EPC (see also GL  C-II, 1.2). The request for examination may be filed until May 2018  (November 2017 + 6 months)."
+        },
+        {
+            "question_number": "6",
+            "question_type": "True/False",
+            "context": "The Mexican applicant Juana wishes to enter the European phase with the international  application PCT-J today, 26 February 2018. Juana is resident in Mexico. PCT-J was  filed in Spanish in August 2015, without claiming any priority. PCT-J was published in  Spanish.    For each of the statements 6.1 \u2013 6.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "A translation of PCT-J must be filed with the EPO within two months from entry into the European phase.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If a translation of PCT-J is not filed in due time, a valid option is to request further processing.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "In proceedings before the EPO Juana must be represented by a professional representative.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Juana is entitled to a reduction of the examination fee.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Where no priority is claimed, the translation of an international application has  to be supplied within thirty-one months from the date of filing, i.e. sometime in  March 2018. If the translation is not filed in due time, the European patent  application is deemed to be withdrawn (Rule 160(1) and (2) EPC), and further  processing can be requested, Article 121(1) EPC and Rule 135(1) EPC. In  proceedings before the EPO, Juana must be represented by a professional  representative, Article 133(2) EPC. Juana is not entitled to a reduction of the  examination fee, since she is neither resident in nor a national of a contracting  state of the EPC, Rule 6(4) EPC and Article 14(4) EPC."
+        },
+        {
+            "question_number": "7",
+            "question_type": "True/False",
+            "context": "The mention of the grant of European patent EP-X was published in July 2017. The  single claim of EP-X is directed to a product. The patent was validated in Germany and  Italy. The date of filing of EP-X is 1 March 2014.    For each of the statements 7.1 \u2013 7.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Any infringement of European patent EP-X can be dealt with under the EPC and by the EPO, provided that opposition proceedings are pending.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The patent proprietor is entitled under all circumstances to produce in Germany any matter that is covered by the claim of EP-X.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The patent proprietor is entitled under all circumstances to sell in Italy any matter that is covered by the claim of EP-X.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The renewal fees for European patent EP-X that are due in 2018 cannot be validly paid to the EPO.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Any infringement of a European patent is dealt with by national law,  Article 64(3) EPC. A patent gives the patent proprietor the right to exclude  third parties from using the protected invention: it does not automatically allow  the patent proprietor to produce and sell matter that is protected by the patent.  The obligation to pay renewal fees to the EPO terminates in 2017, with the  payment of the renewal fee due in respect of the year in which the mention of  the grant of the European patent is published in the European Patent Bulletin,  Article 86(2) EPC."
+        },
+        {
+            "question_number": "8",
+            "question_type": "True/False",
+            "context": "The international application PCT-M was filed in August 2015 without claiming priority.  PCT-M was searched by the EPO as the International Searching Authority in  February 2016. The International Searching Authority raised non-unity objections with  respect to the subject-matter of claims 20 to 35. The applicant did not pay any additional  fees. The International Searching Authority issued a partial search report covering  claims 1-19. PCT-M entered the European phase today, 26 February 2018, and is  referred to in the following as Euro-PCT-M. No amendments have been filed.     For each of the statements 8.1 \u2013 8.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The applicant will have an opportunity to amend the claims of Euro-PCT-M, before substantive examination of Euro-PCT-M begins.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If in the application documents which are to serve as the basis of the examination of Euro-PCT-M an invention is claimed that was not searched by the EPO as the International Searching Authority, the applicant will be invited to pay a further search fee in respect of this invention.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If the applicant does not pay claims fees today, 26 February 2018, Euro-PCT-M will be deemed to be withdrawn.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If the applicant does not comment today, 26 February 2018, on the written opinion of the International Searching Authority, Euro-PCT-M will be deemed to be withdrawn.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The EPO has acted as the International Searching Authority. The EPO will,  among others, invite the applicant to amend the description and claims in  accordance with Rule 161(1) EPC soon after Euro-PCT-M enters the  European phase. Any amendment or comment can be filed within six months  of that communication. If in the application documents which are to serve as  the basis of the examination an invention is claimed that was not searched by  the EPO as the International Searching authority, the applicant will be invited  to pay further search fees in respect of any such invention, Rule 164(2)(a)  EPC. The present set of claims includes at present 35 claims, and therefore  claims fees are due in accordance with Rule 162(1) EPC: however, the legal  consequence of not paying claims fees for some claims is that these claims  shall be deemed to be abandoned, Rule 162 (4) EPC. The application is not       deemed to be withdrawn, if the applicant fails to comment today, since he may  do so within the period set in accordance with Rule 161(1) EPC."
+        },
+        {
+            "question_number": "9",
+            "question_type": "True/False",
+            "context": "A notice of appeal was validly filed on 1 February 2018 against the decision to refuse the  European patent application EP-B. The decision is dated 6 December 2017. According  to the decision, claim 1 of the sole request is not novel over D1 and is not inventive over  D2 in combination with the common general knowledge of the skilled person. The  statement setting out the grounds of appeal has not yet been filed.    For each of the statements 9.1 \u2013 9.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The statement setting out the grounds for the appeal must be filed at the latest on 6 April 2018.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "On 31 January 2018 EP-B was pending.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The examining division will grant interlocutory revision, if the applicant files an auxiliary request which is clearly allowable, novel and inventive.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The examining division will grant interlocutory revision, if the applicant can convince the examining division that claim 1 of the sole request is novel over D1.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The statement setting out the grounds for the appeal must be filed at the latest  on 16 April 2018 [6 December 2017 + 10 days (Rule 126(2) EPC) + 4 months  (Article 108 EPC and Rule 131(4) EPC) = 16 April 2018]. An application is  pending if it was refused and if no appeal has yet been filed until the expiry of  the time limit for filing the notice of appeal [6 December 2017 + 10 days  (Rule 126(2) EPC) + 2 months (Article 108 EPC and Rule 131(4) EPC) =  16 February 2018], see also G1/09. An interlocutory revision is never possible  on the basis of an auxiliary request, even if it would overcome the grounds for  refusal, Guidelines, E-XI, 7.4.3. If interlocutory revision is to be granted, the  applicant must address convincingly all grounds for refusal, i.e. novelty over  D1 and inventive step over D2."
+        },
+        {
+            "question_number": "10",
+            "question_type": "True/False",
+            "context": "The applicant of EP-S has been summoned to oral proceedings on 23 March 2018. The  final date for making written submissions was 23 February 2018. On 23 February 2018,  the applicant filed amended claims 1-9, that replace claims 1-10 previously on file. The  amended claims 1-9 change the focus of the discussion and raise completely new  issues. The applicant also informed the examining division that he will not attend the oral  proceedings.     For each of the statements 10.1 \u2013 10.4, indicate on the answer sheet whether the  statement is true or false:    In the present situation, the following reaction by the examining division complies with  the EPC:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The examining division performs today, 26 February 2018, an additional search and refuses today EP-S on the basis of a document found during this search.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The examining division does not admit amended claims 1-9 into the proceedings because the request is late filed under Rule 116 EPC.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The examining division holds oral proceedings for EP-S in the absence of the applicant.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The oral proceedings for EP-S are held by an examining division consisting of only one technically qualified examiner.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "A decision (such as a decision to refuse a patent application) may not be  based on facts and evidence (such as a new document) on which the  applicant did not have the opportunity to be heard, Article 113(1) EPC and  G4/92. The examining division can exercise the discretion not to admit  requests filed during prosecution of the application, such as after summons to  oral proceedings have been issued. However, the discretion is exercised  under Rule 137(3) EPC (see also Guidelines, H-II, 2.7.1), since the time frame  for filing amendments in respect of EP-S under Rule 116(1) and (2) EPC was  still open. The examining division may hold oral proceedings in the absence of  the party duly summoned, Rule 115(2) EPC. The examining division has three  technically qualified examiners, Article 18(2) EPC."
+        },
+        {
+            "question_number": "11",
+            "question_type": "True/False",
+            "context": "For Question 11, assume that claims I.1 and I.2 were filed with the client\u2019s patent  application and that documents D1 and D2 were cited in the Search Report as prior art:    I.1  A jug for filtering water, comprising:   \u2212 a lid;   \u2212 an aperture provided through the lid;  \u2212 a blocking mechanism mounted on the lid at the aperture and displaceable  between a closed position, in which it closes the aperture, and an open position;  characterised by a counter configured to automatically increment in response to the  blocking mechanism moving from the open to the closed position.    I.2  A jug according to claim I.1, wherein the blocking mechanism is pivotable in an  anti-clockwise direction from the closed to the open position.    For each of the statements 11.1 \u2013 11.4 indicate on the answer sheet whether the  statement is true or false.",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "All of the embodiments of the application are covered by the scope of claim I.1.",
+                    "answer": "False",
+                    "examiner_note": "Claim I.1 claims a jug, while the application describes in the final paragraph [015] of the application one embodiment where the lid is mounted on a filter carrier which is separate from a jug on which it may be mounted. Furthermore, paragraph [014] refers to an alternative detector having submergible electrodes which does not increment in response to the movement of the blocking mechanism. Thus, there are embodiments of the application not covered by subject-matter of claim I.1."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Claim I.1 is novel over the first embodiment of D1.",
+                    "answer": "True",
+                    "examiner_note": "The description of D1 in paragraph [003] makes clear that the flap 105 is slid to open or close the aperture 104 and when in the open position flap 105 contacts the detector 116. The last sentence of this paragraph explicitly states that the incrementation results from the movement from the closed position to the open position. The first embodiment of D1 does not disclose the characterising feature of claim I.1 namely \u201ca counter configured to automatically increment in response to said blocking mechanism moving from an open to a closed position\u201d."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Claim I.2 is novel over the second embodiment of D1.",
+                    "answer": "False",
+                    "examiner_note": "The second embodiment of document D1 shows jug (101) for filtering water, comprising: a lid (103), an aperture (104) provided through said lid (103); a blocking mechanism (flap 105) mounted on the lid (103) at the aperture (104) and displaceable between a closed position, in which it closes said aperture, and an open position; a counter configured to automatically increment in response to said blocking mechanism moving from an open to a closed position (paragraph 4), wherein said blocking mechanism (flap 105) is pivotable in an anti-clockwise direction between said closed and said open position. Although Figure 2 shows the flap pivoting in a clockwise direction, it is clear that the jug disclosed in the second embodiment can be viewed from the other direction as indeed the jug of Figure 1 is, in which case the flap will pivot in an anti-clockwise direction. This is also explained in paragraph [007] of the description of the application. The feature \u201canti-clockwise direction\u201d does not limit the scope of claim I.2, since this direction depends on the orientation of the jug with respect to the observer. Thus, the subject-matter of claim I.2 is not novel over the second embodiment of document D1."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Claim I.1 is novel over the second embodiment of D2.",
+                    "answer": "True",
+                    "examiner_note": "The second embodiment of document D2 shows a jug (201) for filtering water, comprising: a lid (203), an aperture (204) provided through said lid (203); but no blocking mechanism displaceable between a closed position, in which it closes said aperture, and an open position (see paragraph [010], last sentence of D2). Thus, the subject-matter of claim I.1 is novel over the second embodiment of document D2."
+                }
+            ]
+        },
+        {
+            "question_number": "12",
+            "question_type": "True/False",
+            "context": "For Questions 12 to 15, assume claims II.1 to II.4 were filed with the client\u2019s patent  application and that documents D1 and D2 were cited in the Search Report:    II.1 A jug for filtering water, comprising:  \u2212 a lid;  \u2212 an aperture provided through the lid;  \u2212 a blocking mechanism mounted on the lid at the aperture and displaceable  between a closed position, in which it closes the aperture, and an open position;   characterised by a counter configured to automatically increment in response to  water being added to the jug.    II.2 A jug according to claim II.1, further comprising a detector configured to detect the  blocking mechanism moving from the open to the closed position, the counter  configured to increment in response to a signal received from the detector.    II.3 A jug according to any of the preceding claims, further comprising a detector  configured to detect a level of water within the jug exceeding a predetermined  level, the counter configured to increment in response to a signal received from the  detector.    II.4 A jug according to any of the preceding claims, further comprising a biasing means  associated with the blocking mechanism for urging the blocking mechanism into  the closed position as a rest position and for allowing its passage into the open  position under the action of the flow of water introduced into the jug through the  aperture.  For each of the statements 12.1 \u2013 12.4 indicate on the answer sheet whether the  statement is true or false.",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Claim II.1 is novel over the second embodiment of D2.",
+                    "answer": "True",
+                    "examiner_note": "The second embodiment of document D2 shows a jug (201) for filtering water, comprising: a lid (203), an aperture (204) provided through said lid (203); but no blocking mechanism displaceable between a closed position, in which it closes said aperture, and an open position (see paragraph [010], last sentence of D2).Thus, claim II.1 is novel over the second embodiment document D2."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Claim II.1 is in the correct two-part form with respect to the third embodiment of document D1.",
+                    "answer": "See above",
+                    "examiner_note": "The third embodiment of document D1 discloses a jug (101) for filtering water, comprising: a lid (103), an aperture (104) provided through said lid (103); a blocking mechanism (flap 105) mounted on the lid (103) at the aperture (104) and displaceable between a closed position, in which it closes said aperture, and an open position. The third embodiment of D1 discloses a counter, but not a counter configured to automatically increment in response to water being added to the jug. Strictly, the counter should be mentioned in the preamble of claim II.1. Nevertheless, it is possible to consider the counter being automatically incremented as a single feature, so that the present two-part form would also be correct. For this reason it was exceptionally decided to award marks for both answers."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Claim II.1 is in the correct two-part form with respect to the first embodiment of document D2.",
+                    "answer": "False",
+                    "examiner_note": "The characterising feature of claim II.1 is disclosed in the first embodiment of document D2 namely a counter (211) configured to automatically increment in response to water being added to the jug (see paragraph 8 of D2). Thus, the two part form is not correct with respect to the first embodiment document D2."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Claim II.1 does not meet the requirements of Article 84 EPC as it simply claims a solution to a problem and not the technical features that provide this solution.",
+                    "answer": "See above",
+                    "examiner_note": "The wording of claim II.1 is such that the subject-matter is claimed as a result to be achieved. In effect claim II.1 claims a solution to the underlying technical problem without providing technical details of the essential features required to achieve this. As a general rule, claims which attempt to define the invention by a result to be achieved should not be allowed, in particular if they only amount to claiming the underlying technical problem. The technical features that provide the solution to the technical problem should be included in the independent claim. Since claim II.1 misses at least the definition of a detector, claim II.1 does not meet the requirements of Article 84, see Guidelines F IV 4.10 and the answer to 12.4 is \u201cTrue\u201d. However, the answer to statement 12.4 was perceived to be quite difficult in the frame of the pre-examination and it was decided to award marks for both answers."
+                }
+            ]
+        },
+        {
+            "question_number": "13",
+            "question_type": "True/False",
+            "context": "For each of the statements 13.1 \u2013 13.4 indicate on the answer sheet whether the  statement is true or false.",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The dependency of claim II.3 is correct.",
+                    "answer": "See above",
+                    "examiner_note": "The application does not explicitly disclose an embodiment with both a detector operable to detect a flap moving and one detecting a level of a liquid. Nevertheless, since this subject-matter is disclosed in the dependent claims, i.e. in the application as filed, it is permissible to amend the description so that it includes this subject-matter (Guidelines F-IV, 6.6). In view of these arguments both possible answers are considered to be correct. For this reason it was exceptionally decided to award marks for both answers."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Claim II.2 is novel over the first embodiment of document D2.",
+                    "answer": "False",
+                    "examiner_note": "The first embodiment of document D2 discloses a jug (201) for filtering water, comprising: a lid (203), an aperture (duct 204) provided through said lid (203); a blocking mechanism (blade 213a and guide 214; paragraph [009] of D2) mounted on the lid (203) at the aperture (204) and displaceable between a closed position, in which it closes said aperture (204), and an open position; comprising a counter configured to automatically increment in response to water being added to the jug and further comprising a detector configured to detect said blocking mechanism moving from said open to said closed position, said counter configured to increment in response to a signal received from said detector (see paragraph [009], signal transmitted each time flexible guide 214 contacts turbine blade 213a and thereby closes aperture 204). Thus, subject-matter of claim II.2 is not novel over the first embodiment of document D2."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Claim II.4 is novel over the first embodiment of document D2.",
+                    "answer": "True",
+                    "examiner_note": "The first embodiment of document D2 does not disclose biasing means associated with said blocking mechanism (turbine blade 213a and flexible guide 214) for biasing said blocking mechanism towards said closed position. Although the guide 214 is flexible, the turbine rotates and comes to rest in any position, and has no biasing means to urge it to towards contacting the flexible guide. Thus, the subject-matter of claim II.4 is novel over the first embodiment of document D2."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The first embodiment of the application is covered by the scope of claim II.2.",
+                    "answer": "True",
+                    "examiner_note": "The first embodiment of the application comprises a jug (1) for filtering water, comprising: a lid (3), an aperture (4) provided through said lid (3); a blocking mechanism (5) mounted on the lid (3) at the aperture (4) and displaceable between a closed position, in which it closes said aperture, and an open position; a counter configured to automatically increment in response to water being added to the jug; and a detector (12) configured to detect said blocking mechanism moving from said open to said closed position, said counter configured to increment in response to a signal received from said detector (paragraph [012] of the application). Thus, the first embodiment is covered by the scope of claim II.2."
+                }
+            ]
+        },
+        {
+            "question_number": "14",
+            "question_type": "True/False",
+            "context": "In response to objections raised during examination assume the claims II.1 to II.4 are  amended as follows:     III.1 A jug for filtering water, comprising:   \u2212 a lid;  \u2212 an aperture provided through the lid;  \u2212 a blocking mechanism mounted on the lid at the aperture and displaceable  between a closed position, in which it closes the aperture, and an open position;  characterised by  \u2212 a detector for detecting water being added to the jug;  \u2212 a counter configured to automatically increment in response to a signal received  from the detector detecting water being added to the jug.    III.2 A jug according to claim III.1, further comprising wherein a the detector is  configured to detect water being added to the jug by detecting the blocking  mechanism moving from the open to the closed position, the counter configured to  increment in response to a signal received from the detector.    III.3 A jug according to any preceding claim III.1, further comprising a wherein the  detector is configured to detect a level of water within the jug exceeding reaching a  predetermined level, the counter configured to increment in response to a signal  received from the detector.    III.4 A jug according to any preceding claim, further comprising a biasing means  associated with the blocking mechanism for urging the blocking mechanism into  the closed position as a rest position and for allowing its passage into the open  position under the action of the flow of water introduced into the jug through the  aperture.  For each of the statements 14.1 \u2013 14.4 indicate on the answer sheet whether the  statement is true or false.",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The amendment made to claim III.3 of replacing the feature of \u201cexceeding a predetermined level\u201d with \u201creaching a predetermined level\u201d meets the requirements of Article 123(2) EPC.",
+                    "answer": "True",
+                    "examiner_note": "There is basis in the application for both reaching and exceeding a predetermined level (see paragraph [014] of the application)."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Claim III.2 is novel over D1.",
+                    "answer": "False",
+                    "examiner_note": "The second embodiment of document D1 discloses a jug (101) for filtering water, comprising: a lid (103), an aperture (104) provided through said lid (103); a blocking mechanism (105) mounted on the lid (103) at the aperture (104) and displaceable between a closed position, in which it closes said aperture, and an open position; a detector (116) for detecting water being added to the jug; a counter (111) configured to increment in response to said detector detecting water being added to said jug; wherein said detector is configured to detect water being added to the jug by detecting said blocking mechanism moving from said open to said closed position (see paragraph [004] disclosing the second embodiment of D1, since the movement of the blocking mechanism is suitable for detecting water being added, GL F-IV, 4.13). Thus, the subject-matter of claim III.2 is not novel over D1."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The amendment made to claim III.2 of deleting the feature of \u201cthe counter configured to increment in response to a signal received from the detector\u201d meets the requirements of Article 123(2) EPC.",
+                    "answer": "True",
+                    "examiner_note": "The feature of the counter being configured to increment in response to a signal received from said detector can be deleted from claim III.2 as it is now present in amendment claim III.1 from which claim III.2 depends. The features of amended claim III.2 correspond to the features of claim II.2 (as both include the feature of the independent claim from which they depend)."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Claim III.3 is novel over D2.",
+                    "answer": "True",
+                    "examiner_note": "Document D2 does not disclose \u201ca detector configured to detect a level of water within said jug reaching a predetermined level\u201d, in D2 an amount of water added to a jug is automatically detected using a turbine. There is no disclosure of detecting a water level and thus, the subject-matter of claim III.3 is novel over document D2."
+                }
+            ]
+        },
+        {
+            "question_number": "15",
+            "question_type": "True/False",
+            "context": "For each of the statements 15.1 \u2013 15.4 indicate on the answer sheet whether the  statement is true or false.",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "There is basis in the application as filed for amending claim III.1 to replace the feature \u201cwater\u201d with the feature \u201cliquid\u201d.",
+                    "answer": "False",
+                    "examiner_note": "The application as filed discloses water and conductive liquid, but not liquid in general (see paragraph [014]). Thus, there is no basis for this generalisation and claim III.1 with such an amendment would not meet the requirements of Article 123(2)."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "It would be allowable under Article 123(2) EPC to exclude a detector comprising a turbine from the scope of claim III.1 using a disclaimer.",
+                    "answer": "False",
+                    "examiner_note": "The application as filed does not mention a turbine. Only document D2 mentions a turbine. Document D2 is neither a document according to the state of the art under Article 54(3) nor can the disclosure of document D2 be viewed as an accidental anticipation of claim III.1, and nor can a turbine be considered to be non-technical (see G1/03 and G2/03). Thus, a disclaimer excluding this feature would not be allowable under Article 123(2)."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The third embodiment of the application is covered by the scope of claim III.2.",
+                    "answer": "False",
+                    "examiner_note": "The third embodiment of the application detects water being added to the jug by detecting a rise in the water level within the jug, not by detecting movement of the blocking means. Thus, the third embodiment of the application is not covered by the scope of claim III.2."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The claim set would meet the requirement of Article 54 EPC with respect to document D1 if claim III.1 were amended to include the features of claim III.4.",
+                    "answer": "True",
+                    "examiner_note": "None of the embodiments of document D1 disclose \u201cbiasing means associated with said blocking mechanism (5) for urging said blocking mechanism into said closed position in a rest position and for allowing its passage into the open position under the action of the flow of water admitted into the jug through the aperture\u201d. Thus, the subject-matter of such an amended claim is novel over D1. Such an amended claim set meets the requirement of Article 54 with respect to document D1."
+                }
+            ]
+        },
+        {
+            "question_number": "16",
+            "question_type": "True/False",
+            "context": "For question 16 assume that the following claims IV.1 and IV.2 were filed with the  application and that document D1 is the only cited document.    IV.1 A jug for filtering water, comprising:   \u2212 a lid;  \u2212 an aperture provided through the lid for the filling of the jug;   \u2212 a blocking mechanism mounted on the lid at the aperture and displaceable  between a closed position, in which it closes the aperture, and an open position;   \u2212 a counter on the lid, the counter being configured to automatically count a  number of times the blocking mechanism is displaced between the closed and  open positions;   characterised in that the blocking mechanism is displaced under the action of the  flow of water into the jug.    IV.2 A filter carrier for fitting onto a jug, the filter carrier comprising:  \u2212 a reservoir for holding water;  \u2212 a filter cartridge that is replaceable when exhausted;  \u2212 a lid, an aperture provided through the lid for the filling of the jug via the  reservoir and filter cartridge;  \u2212 a blocking mechanism mounted on the lid at the aperture and displaceable  between a closed position, in which it closes the aperture, and an open position;   \u2212 a counter on the lid arranged to signal the level of exhaustion of the cartridge in  dependence on the cycles of filling of the jug, the counter being configured to  automatically count the number of times the blocking mechanism is displaced  between the closed and open positions;   characterised in that the blocking mechanism is displaced under the action of the  flow of water into the jug.  Assuming for this question the claims are considered to be new and inventive, for each  of the statements 16.1 \u2013 16.4 indicate on the answer sheet whether the statement is true  or false.",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Claims IV.1 and IV.2 fulfil the requirements of Rule 43(2) EPC because they relate to inter-related products.",
+                    "answer": "False",
+                    "examiner_note": "Claims IV.1 and IV.2 do not relate to inter-related products in the sense of Rule 43(2) (a) EPC as the jug and the filter carrier are presented as alternative solutions (Rule 43(2) (c) EPC), they are not disclosed as working together or complementing each other (see Guidelines F-IV 3.2(i))."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Claims IV.1 and IV.2 fulfil the requirements of Rule 43(2) EPC because they relate to different uses of an apparatus.",
+                    "answer": "False",
+                    "examiner_note": "Claims IV.1 and IV.2 do not relate to different uses of an apparatus, in the sense of Rule 43(2) (b) EPC; rather they relate to alternative solutions. The difference lies in the apparatus itself and not in its use."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "A valid argument for claims IV.1 and IV.2 lacking unity of invention is that claim IV.1 does not comprise a filter cartridge.",
+                    "answer": "False",
+                    "examiner_note": "To meet the requirements of unity of invention Rule 44(1) EPC requires the two inventions to have the same or corresponding special technical features. A special technical feature is one that defines a contribution that the claimed invention considered as a whole makes over the prior art. In this case a filter cartridge is known (see introduction to the application) and as such cannot be regarded as a special technical feature. Thus, whether or not this feature is in both claims is immaterial when determining unity of invention."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Claims IV.1 and IV.2 have a common special technical feature with respect to D1.",
+                    "answer": "True",
+                    "examiner_note": "Claims IV.1 and IV.2 have the same characterising feature. This feature is not disclosed in D1. As noted previously Rule 44(1) EPC states that to meet the requirement of unity of invention the two inventions shall have the same special technical feature that defines a contribution that the claimed invention considered as a whole makes over the prior art. The common special technical feature in this case can be viewed as the characterising feature of both claims."
+                }
+            ]
+        },
+        {
+            "question_number": "17",
+            "question_type": "True/False",
+            "context": "Consider for questions 17 and 18 that the following claims were filed with the application  and that in addition to documents D1 and D2 the document D3 was cited in the search  report    V.1 A jug for filtering water, comprising:   \u2212 a lid;  \u2212 an aperture provided through the lid for the filling of the jug;  \u2212 a blocking mechanism mounted on the lid at the aperture and displaceable  between a closed position, in which it closes the aperture, and an open position;   \u2212 a detector for detecting the number of times water is added to the jug;   \u2212 a counter configured to increment in response to a signal received from the  detector;   \u2212 a biasing means associated with the blocking mechanism for biasing the  blocking mechanism towards the closed position as a rest position;   characterised in that the blocking mechanism is configured to pivot towards the  base of the jug when moving from the closed to the open position and in that the  biasing means is configured to allow the blocking mechanism to move into the  open position under the action of the flow of water introduced into the jug through  the aperture.    V.2  A jug according to claim V.1, wherein the detector is able to detect water within the  jug reaching a predetermined level.   Consider for this question that document D1 corresponds to the closest prior art and  discloses the preamble of claim V.1, but not the characterising portion.    For each of the statements 17.1 \u2013 17.4 indicate on the answer sheet whether the  statement is true or false.",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "A technical effect of the features of the characterising portion of claim V.1 is that the blocking mechanism can open automatically in response to a flow of water.",
+                    "answer": "True",
+                    "examiner_note": "Providing a blocking mechanism that pivots towards the base of the jug when moving from a closed to an open position along with a biasing means that allows this movement in response to a flow of water allows the blocking mechanism to open automatically in response to a flow of water. This effect of the characterising features is supported in paragraph [009] of the application."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "A valid objective technical problem addressed by claim V.1 with respect to D1 can be formulated as how to provide a jug that is easy to manipulate when filling.",
+                    "answer": "True",
+                    "examiner_note": "Paragraph [009] of the application indicates that biasing means that allows the blocking mechanism to pass into the open position under the action of the flow of water provides a jug that can be filled without using both hands. This solves the problem of providing a jug that is easy to manipulate when filling."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "A valid argument as to why D3 would not be combined with D1 is that D3 is directed to a lid that is not used with a filtering device.",
+                    "answer": "False",
+                    "examiner_note": "The lid disclosed in document D3 is suitable for use on many different jugs including water filters (see paragraph [001] of D3). Thus, the statement that D3 is not directed to a lid used with a filtering device is incorrect. Furthermore, the advantages provided by D3 of making the jug easier to manipulate when filling are also applicable to the jug of D1."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "A valid objective technical problem addressed by claim V.1 with respect to D1 can be formulated as how to provide a blocking mechanism for a filter lid that only opens in response to a flow of water.",
+                    "answer": "False",
+                    "examiner_note": "Claim V.1 does not address the objective technical problem of providing a blocking mechanism for a filter lid that only opens in response to a flow of water. The blocking mechanism of claim V.1 could, for example, open in response to another comparable external downward force on the flap such as one provided by a user\u2019s hand."
+                }
+            ]
+        },
+        {
+            "question_number": "18",
+            "question_type": "True/False",
+            "context": "For question 18, assume that document D1 is the closest prior art for claim V.2 and the  distinguishing features are the following:  1) the blocking mechanism is configured to pivot towards the base of the jug when  moving from the closed to the open position;   2) the biasing means is configured to allow the blocking mechanism to move into the  open position under the action of the flow of water introduced into the jug through the  aperture; and   3) the detector is able to detect water within the jug reaching a predetermined level.     For each of the statements 18.1 \u2013 18.4 indicate on the answer sheet whether the  statement is true or false.",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "A technical effect of distinguishing feature 3) is that an indication of an amount of water in the jug is provided.",
+                    "answer": "True",
+                    "examiner_note": "As distinguishing feature 3) detects water in the jug reaching a predetermined level (paragraph [014] of the application), the level of water in a jug is an indication of an amount of water that is in the jug."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "A valid formulation for an objective technical problem with respect to document D1 for distinguishing feature 3) might be how to more accurately determine the number of times water is added to a jug.",
+                    "answer": "False",
+                    "examiner_note": "Distinguishing feature 3) provides an indication of how much water there is in the jug rather than explicitly indicating the number of times water is added to the jug. Thus, feature 3 does not address the problem of how to more accurately determine the number of times water is added to the jug."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "A valid formulation for an objective technical problem for distinguishing feature 3) might be how to provide a detector for detecting water being added to a jug that can only generate a signal for incrementing a counter in response to water being added to the jug.",
+                    "answer": "False",
+                    "examiner_note": "Paragraph [014] of the description discloses the possibility of false positives arising from the detector of distinguishing feature 3) when for example the jug is manipulated to pour water, i.e. not only when water is added to the jug. Thus, feature 3) does not address the objective technical problem of providing a means that can only generate a signal for incrementing a counter in response to water being added to the jug."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "For the assessment of inventive step of claim V.2 it is a valid argument that none of the documents D1, D2 or D3 disclose a water level detector.",
+                    "answer": "True",
+                    "examiner_note": "None of the cited documents D1 to D3 suggest the provision of a water level detector to determine water being added to a jug. Thus, arriving at such a detector from a combination of the teachings of these documents is not obvious."
+                }
+            ]
+        },
+        {
+            "question_number": "19",
+            "question_type": "True/False",
+            "context": "For questions 19 and 20 assume that claim VI.1 was filed with the application, the prior  art cited is documents D1 to D4 and that the claim is in the two-part form with respect to  D4.    VI.1 A jug for filtering water, comprising:   \u2212 a lid;  \u2212 an aperture provided through the lid for the filling of the jug;  \u2212 a blocking mechanism mounted on the lid at the aperture and displaceable  between a closed position, in which it closes the aperture, and an open position  in which it pivots around a hinge towards the base of the jug;  \u2212 a biasing means for biasing the blocking mechanism towards the closed position  and allowing it to open under an external force such as that supplied by water  being added to the jug;  \u2212 a detector;  \u2212 a counter configured to increment in response to a signal received from the  detector;   characterised in that the detector is configured to detect the blocking mechanism  moving from the open to the closed position.  For each of the statements 19.1 \u2013 19.4 indicate on the answer sheet whether the  statement is true or false.",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "A valid argument for document D4 being considered to be the closest prior art to claim VI.1 is that D4 is the only prior art document that comprises a water level detector.",
+                    "answer": "False",
+                    "examiner_note": "There is no water level detector in claim VI.1 and thus, the presence of a water level detector in D4 is not a valid argument for document D4 to be considered the closest prior art to claim VI.1."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "A valid argument for document D4 being considered to be the closest prior art to claim VI.1 is that only document D4 addresses the same technical problem as claim VI.1, namely improvement of the accuracy of a means for detecting the level of exhaustion of a filter.",
+                    "answer": "False",
+                    "examiner_note": "It is not only document D4 that addresses the technical problem of improving the accuracy of a filter exhaustion detecting means, document D2 also addresses this technical problem (see paragraphs 3 and 4 of D2). Thus, it is not a valid argument for considering document D4 to be the closest prior art to claim VI.1."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "A valid argument for document D4 being considered to be the closest prior art to claim VI.1 is that D4 is the only document that discloses a jug that has a blocking mechanism that moves into an open position by pivoting towards the base of the jug.",
+                    "answer": "False",
+                    "examiner_note": "Document D2 also discloses a blocking mechanism (flexible guide 214 and turbine blade 213a, see paragraph 009) which opens by tilting towards said jug (see first embodiment where turbine blades turn towards the jug under action of water). Furthermore D3 discloses a container lid that is used on a jug (see paragraph [001] with a blocking mechanism that opens by pivoting towards the jug base (see Figure 3). Thus, D4 is not the only document that discloses a jug that has a blocking mechanism that moves into an open position by pivoting towards the base and it is not a valid argument for considering document D4 to be the closest prior art to claim VI.1."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If one considered document D4 to be the closest prior art, a valid objective technical problem could be formulated as how to provide a jug that can be filled without the need to manually move the lid.",
+                    "answer": "False",
+                    "examiner_note": "The Figure 2 embodiment of document D4 provides a blocking mechanism that can be opened with a tap. Thus, the objective technical problem of how to provide a jug that allows filling of the jug without the need to manually manipulate the lid is not a technical problem in light jug of D4."
+                }
+            ]
+        },
+        {
+            "question_number": "20",
+            "question_type": "True/False",
+            "context": "For question 20 assume that:  a) document D4 is the closest prior art and discloses the preamble of claim VI.1; and  b) the objective technical problem is how to provide an alternative means of determining  the level of exhaustion of a water filter cartridge.     For each of the statements 20.1 \u2013 20.4 indicate on the answer sheet whether the  statement is true or false.    A valid argument as to why \u2026",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "\u2026 the skilled person starting from document D4 and faced with the objective technical problem would not consider the teaching of D1 is that D1 provides a less accurate means of determining the level of exhaustion of a filter.",
+                    "answer": "False",
+                    "examiner_note": "The objective technical problem is to provide an alternative means, for determining the exhaustion of a filter cartridge and document D1 does disclose an alternative means. Such an alternative means may be less accurate but may have other advantages. An alternative does not need to be better in all respects to be in certain circumstances selected by the skilled person."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "\u2026 claim VI.1 is inventive over a combination of document D4 and the third embodiment of D1 is that even if the skilled person were to consider incorporating the lid of the third embodiment onto the jug of D4 to solve the objective technical problem, he would not arrive at a jug according to claim VI.1.",
+                    "answer": "True",
+                    "examiner_note": "Neither D4 nor the third embodiment of D1 provide a detector configured to detect said blocking mechanism moving from said open to said closed position. In the third embodiment of D1 there is a counter that is manually incremented, while D4 detects a water level within the jug. Therefore a combination of D4 and the third embodiment of D1 would not provide a jug according to claim VI.1."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "\u2026 claim VI.1 lacks an inventive step, is that the skilled person starting from document D4 and faced with the objective technical problem would replace the lid of D4 with the lid of D2 as this provides an alternative means for measuring the level of exhaustion of a filter and would thereby arrive at a jug according to the subject-matter of claim VI.1.",
+                    "answer": "False",
+                    "examiner_note": "Replacing the lid of D4 with that of D2 would not result in a jug according to the subject-matter of claim VI.1 as the lid of D2 has no biasing means for biasing the blocking means towards the closed position. Therefore a combination of D4 and the lid of D2 would not provide a jug according to claim VI.1."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "\u2026 the skilled person starting from document D4 and faced with the objective technical problem would not consider the teaching of D3 is that D3 does not teach a means for detecting the level of exhaustion of a filter.  2017",
+                    "answer": "True",
+                    "examiner_note": "Document D3 discloses a lid for any container that is easy to fill. Although it can be used on a filter jug it does not disclose a means of determining an exhaustion of a filter and as such a skilled person looking for an alternative means for doing this would not look to this document."
+                }
+            ]
+        }
+    ]
+}
