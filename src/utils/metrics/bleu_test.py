@@ -1,8 +1,4 @@
-import sys
-sys.path.append("..")
-
-from typing import List
-from .bleu import bleu
+from src.utils.metrics.bleu import bleu
 import pytest
 
 
@@ -12,11 +8,10 @@ def test_bleu():
     result = bleu.compute(model_output, ground_truth)
     assert result == 1.0
 
+
 def test_bleu_2():
     model_output = "hello there generol kenobi"
     ground_truth = "hello there, general kenobi"
     result = bleu.compute(model_output, ground_truth)
-    
+
     assert result == 0.0
-
-
