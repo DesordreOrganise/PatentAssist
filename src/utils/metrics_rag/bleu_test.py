@@ -1,4 +1,4 @@
-from src.utils.metrics.bleu import bleu
+from src.utils.metrics_rag.bleu import bleu
 import pytest
 
 

@@ -1,11 +1,18 @@
 
-from src.utils.Metrics import Metric
+from src.utils.metrics import Metric
 from src.utils.tools import extract_articles, extract_rules, clean_rule, clean_article
 from typing import List
 from math import log2
 
 
 def _compute_ndcg(model_rules: List[str], gt_rules: List[str]) -> float:
+
+    IDCG = 0
+    for i in range(len(gt_rules)):
+        IDCG += 1 / log2(i + 2)
+
+    if IDCG == 0:
+        return 1.
 
     if not model_rules:
         return 0.
@@ -15,12 +22,6 @@ def _compute_ndcg(model_rules: List[str], gt_rules: List[str]) -> float:
         if model_rules[i] in gt_rules:
             DCG += 1 / log2(i + 2)
 
-    IDCG = 0
-    for i in range(len(gt_rules)):
-        IDCG += 1 / log2(i + 2)
-
-    if IDCG == 0:
-        return 1.
 
     return DCG / IDCG
 

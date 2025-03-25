@@ -1,5 +1,5 @@
 
-from src.utils.Metrics import Metric
+from src.utils.metrics import Metric
 from src.utils.tools import clean_article, extract_articles, extract_rules, clean_article, clean_rule
 from typing import List
 

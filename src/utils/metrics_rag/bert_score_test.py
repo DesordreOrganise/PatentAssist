@@ -1,5 +1,5 @@
 
-from src.utils.metrics.bert_score import bert_score_acc, bert_score_recall, bert_score_f1
+from src.utils.metrics_rag.bert_score import bert_score_acc, bert_score_recall, bert_score_f1
 import pytest
 
 

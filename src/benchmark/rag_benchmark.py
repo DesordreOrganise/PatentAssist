@@ -3,15 +3,15 @@
 
 from src.benchmark.tools import measure, code_Green, code_end
 from src.system.rag import RAG, Retriever
-from src.utils.Metrics import Adapteur_Multi_2_Metric
+from src.utils.metrics import Adapteur_Multi_2_Metric
 from src.utils.evaluation import EvaluationFramework
 from src.utils.preprocessing import EQE_Dataset_Explaination
 from langchain_ollama import ChatOllama
 
-from src.utils.metrics.rouge import ROUGE
-from src.utils.metrics.bleu import BLEU
-from src.utils.metrics.meteor import Meteor
-from src.utils.metrics.bert_score import BertScore
+from src.utils.metrics_rag.rouge import ROUGE
+from src.utils.metrics_rag.bleu import BLEU
+from src.utils.metrics_rag.meteor import Meteor
+from src.utils.metrics_rag.bert_score import BertScore
 
 from langchain_ollama import OllamaEmbeddings
 from typing import Optional

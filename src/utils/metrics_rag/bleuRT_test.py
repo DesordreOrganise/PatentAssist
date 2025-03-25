@@ -1,5 +1,5 @@
 
-from src.utils.metrics.bleuRT import bleurt
+from src.utils.metrics_rag.bleuRT import bleurt
 import pytest
 
 

@@ -4,9 +4,9 @@ from langchain_core.documents import Document
 from src.utils.evaluation import EvaluationFramework
 from src.system.rag_adapter import Retriever_Adapter
 from src.utils.preprocessing import EQE_Dataset_Explaination
-from src.utils.metrics_retriver.nDCG import NDCG
-from src.utils.metrics_retriver.Precision_K import Precision_K
-from src.utils.metrics_retriver.Recall_K import Recall_K
+from src.utils.metrics_retriever.nDCG import NDCG
+from src.utils.metrics_retriever.Precision_K import Precision_K
+from src.utils.metrics_retriever.Recall_K import Recall_K
 
 from langchain_ollama import OllamaEmbeddings
 from typing import Optional
@@ -29,7 +29,7 @@ class Benchmark_retriever(Retriever):
     def __init__(self, retriever: Retriever, rerank: bool = False):
         self.retriever = retriever
         self.execution_time = []
-        self.rerank = False
+        self.rerank = rerank
 
     @measure
     def measureable_retrieve_documents(self, query: str) -> list[Document]:
@@ -42,13 +42,13 @@ class Benchmark_retriever(Retriever):
         return docs
 
 
-def benchmark_retriever(retriever: Retriever, dataset: Optional[pd.DataFrame] = None):
+def benchmark_retriever(retriever: Retriever, dataset: Optional[pd.DataFrame] = None, rerank: bool=True):
     if dataset is None:
         dataset_eqe = EQE_Dataset_Explaination(
             ["../../resources/EQE_PaperD/EQE_2024_PaperD_final_documentLess.json"])
         dataset = dataset_eqe.get_dataset()
 
-    measurable_retriever = Benchmark_retriever(retriever)
+    measurable_retriever = Benchmark_retriever(retriever, rerank=rerank)
     adapter = Retriever_Adapter(measurable_retriever)
 
     benchmark = EvaluationFramework([
@@ -68,10 +68,8 @@ def benchmark_retriever(retriever: Retriever, dataset: Optional[pd.DataFrame] = 
 
     retrieval_time = np.sum(measurable_retriever.execution_time)
 
-    logging.info(f"{code_Green}Average execution time for the retriever: {
-                 np.mean(measurable_retriever.execution_time)} s{code_end}")
-    logging.info(f"{code_Green}Average execution time for metrics computation: {
-                 dt - retrieval_time} s{code_end}")
+    logging.info(f"{code_Green}Average execution time for the retriever: {np.mean(measurable_retriever.execution_time)} s{code_end}")
+    logging.info(f"{code_Green}Average execution time for metrics computation: {dt - retrieval_time} s{code_end}")
 
     for name, metric in output.items():
         logging.info(f"\t-{code_Green}{name}: {metric}{code_end}")
@@ -128,5 +126,5 @@ if __name__ == "__main__":
     config_path = "../../config/retriever_config.yaml"
     local_embeddings = OllamaEmbeddings(model="all-minilm")
     retriever = Retriever(config_path, articles, local_embeddings)
-
+    retriever.purge_store()
     benchmark_retriever(retriever)
