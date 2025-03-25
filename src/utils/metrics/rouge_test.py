@@ -1,11 +1,7 @@
 # file to test the rouge score calculation
-
-import sys
-sys.path.append("..")
-
-from typing import List
-from .rouge import rouge1, rouge2, rougeL, rougeLsum
+from src.utils.metrics.rouge import rouge1, rouge2, rougeL, rougeLsum
 import pytest
+
 
 def test_rouge1():
     model_output = "hello world"
@@ -13,11 +9,13 @@ def test_rouge1():
     result = rouge1.compute(model_output, ground_truth)
     assert result == 1.0
 
+
 def test_rouge2():
     model_output = "hello world"
     ground_truth = "hello world"
     result = rouge2.compute(model_output, ground_truth)
     assert result == 1.0
+
 
 def test_rougeL():
     model_output = "hello world"
@@ -25,11 +23,13 @@ def test_rougeL():
     result = rougeL.compute(model_output, ground_truth)
     assert result == 1.0
 
+
 def test_rougeLsum():
     model_output = "hello world"
     ground_truth = "hello world"
     result = rougeLsum.compute(model_output, ground_truth)
     assert result == 1.0
+
 
 def test_rouge1_2():
     model_output = "hella world"
@@ -37,11 +37,9 @@ def test_rouge1_2():
     result = rouge1.compute(model_output, ground_truth)
     assert result == 0.5
 
+
 def test_rouge2_2():
     model_output = "hella world"
     ground_truth = "hello world"
     result = rouge2.compute(model_output, ground_truth)
     assert result == 0.
-
-
-

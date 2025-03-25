@@ -1,14 +1,16 @@
-from ..Metrics import Metric
+from src.utils.Metrics import Metric
 from evaluate import load
+
 
 class Meteor(Metric):
 
     def __init__(self):
         super().__init__()
+        self.metric_eval = load("meteor")
 
     def _compute_specific(self, model_output: str, ground_truth: str) -> float:
-        metric = load("meteor")
-        result = metric.compute(predictions=[model_output], references=[ground_truth])
+        result = self.metric_eval.compute(
+            predictions=[model_output], references=[ground_truth])
 
         if not result or not result['meteor']:
             return 0.0
@@ -18,6 +20,5 @@ class Meteor(Metric):
     def metric_name(self) -> str:
         return "meteor"
 
+
 meteor_metric = Meteor()
-
-

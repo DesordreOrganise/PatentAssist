@@ -1,5 +1,5 @@
 
-from .bleuRT import bleurt  
+from src.utils.metrics.bleuRT import bleurt
 import pytest
 
 
@@ -8,6 +8,7 @@ def test_bleurt():
     ground_truth = "hello world"
     result = bleurt.compute(model_output, ground_truth)
     assert result == 1.0
+
 
 def test_bleurt_2():
     model_output = "hello world"
