@@ -19,8 +19,8 @@ cachetools==5.5.2
 certifi==2025.1.31
 cffi==1.17.1
 charset-normalizer==3.4.1
-chroma-hnswlib==0.7.6
-chromadb==0.6.3
+chroma-hnswlib==0.7.3
+chromadb==0.4.14
 click==8.1.8
 codecarbon==2.8.3
 coloredlogs==15.0.1
@@ -138,6 +138,7 @@ propcache==0.3.0
 protobuf==5.29.4
 psutil==7.0.0
 ptyprocess==0.7.0
+pulsar-client==3.6.1
 pure_eval==0.2.3
 py-cpuinfo==9.0.0
 pyarrow==19.0.1
