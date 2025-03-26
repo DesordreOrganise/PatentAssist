@@ -11,6 +11,8 @@ import torch.nn.functional as F
 
 import networkx as nx
 from typing import Tuple, Optional, Generator
+import shutil
+import os
 from os import PathLike
 from pathlib import Path
 
@@ -64,6 +66,7 @@ class Retriever():
                 embeddings: OllamaEmbeddings=OllamaEmbeddings(model="all-minilm"),
                 reranker_model: str="cross-encoder/ms-marco-MiniLM-L-6-v2"):
         
+        self.articles = articles
         self.local_embeddings = embeddings
         self.config = load_config(config_path)
         self.vectorstore = self._load_vectorstore(articles)
@@ -89,6 +92,20 @@ class Retriever():
         if rerank:
             documents = self.reranker.rerank(query, documents, k=self.config["rerank_k"])
         return documents
+    
+
+    def purge_store(self):
+        if CHROMA_DB_PATH.exists() and any(CHROMA_DB_PATH.iterdir()):
+            for filename in os.listdir(CHROMA_DB_PATH):
+                file_path = os.path.join(CHROMA_DB_PATH, filename)
+                try:
+                    if os.path.isfile(file_path) or os.path.islink(file_path):
+                        os.unlink(file_path)  # delete file or symlink
+                    elif os.path.isdir(file_path):
+                        shutil.rmtree(file_path)  # delete directory
+                except Exception as e:
+                    print(f"Failed to delete {file_path}. Reason: {e}")
+            self.vectorstore = self._load_vectorstore(self.articles)
 
 
 class RAG(BaseSystem):
@@ -103,7 +120,7 @@ class RAG(BaseSystem):
         self.lt_memory = lt_memory
 
 
-    def run_flux(self, input: str, rerank: bool = True) -> Generator[str]:
+    def run_flux(self, input: str, rerank: bool = True) -> Generator:
         documents = self.retriever.retrieve_documents(input, rerank=rerank)
         retrieved_context = self._get_text_from_documents(documents)
         self.st_memory.append(HumanMessage(f"Context: {retrieved_context}\n\n{input}"))
@@ -114,7 +131,6 @@ class RAG(BaseSystem):
             yield str(chunk.content)
 
         self.st_memory.append(AIMessage(response))
-        print("DONE GENERATING RESPONSE")
 
 
     def run(self, input: str, rerank: bool=True) -> str:

@@ -1,5 +1,5 @@
 # file to test the rouge score calculation
-from src.utils.metrics.rouge import rouge1, rouge2, rougeL, rougeLsum
+from src.utils.metrics_rag.rouge import rouge1, rouge2, rougeL, rougeLsum
 import pytest
 
 

@@ -1,5 +1,5 @@
 
-from src.utils.metrics_retriver.Precision_K import Precision_K_articles, Precision_K_rules
+from src.utils.metrics_retriever.Precision_K import Precision_K_articles, Precision_K_rules
 import pytest
 
 

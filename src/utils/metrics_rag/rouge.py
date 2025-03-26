@@ -1,7 +1,7 @@
 
 from evaluate import load
 from typing import List
-from src.utils.Metrics import Multi_Metric, Adapteur_Multi_2_Metric
+from src.utils.metrics import Multi_Metric, Adapteur_Multi_2_Metric
 
 
 class ROUGE(Multi_Metric):
