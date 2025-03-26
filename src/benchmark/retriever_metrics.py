@@ -1,4 +1,4 @@
-from src.benchmark.tools import measure, code_Green, code_end
+from src.benchmark.tools import measure, code_Green, code_end, codecarbone_fr
 from src.system.rag import Retriever
 from langchain_core.documents import Document
 from src.utils.evaluation import EvaluationFramework
@@ -29,16 +29,26 @@ class Benchmark_retriever(Retriever):
     def __init__(self, retriever: Retriever, rerank: bool = False):
         self.retriever = retriever
         self.execution_time = []
+        self.carbone = {
+            "emission": [],
+            "cpu": [],
+            "gpu": []
+        }
         self.rerank = rerank
 
+    @codecarbone_fr
     @measure
     def measureable_retrieve_documents(self, query: str) -> list[Document]:
         docs = self.retriever.retrieve_documents(query, self.rerank)
         return docs
 
     def retrieve_documents(self, query: str, rerank: bool = True) -> list[Document]:
-        docs, time = self.measureable_retrieve_documents(query)
+        (docs, time), (emission, cpu, gpu) = self.measureable_retrieve_documents(query)
         self.execution_time.append(time)
+        self.carbone["emission"].append(emission)
+        self.carbone["cpu"].append(cpu)
+        self.carbone["gpu"].append(gpu)
+
         return docs
 
 
@@ -68,6 +78,9 @@ def benchmark_retriever(retriever: Retriever, dataset: Optional[pd.DataFrame] = 
 
     retrieval_time = np.sum(measurable_retriever.execution_time)
 
+    logging.info(f"{code_Green}Average CPU energy: {np.mean(measurable_retriever.carbone['cpu'])} kWh{code_end}")
+    logging.info(f"{code_Green}Average GPU energy: {np.mean(measurable_retriever.carbone['gpu'])} kWh{code_end}")
+    logging.info(f"{code_Green}Average emissions: {np.mean(measurable_retriever.carbone['emission'])} kgCO2e{code_end}")
     logging.info(f"{code_Green}Average execution time for the retriever: {np.mean(measurable_retriever.execution_time)} s{code_end}")
     logging.info(f"{code_Green}Average execution time for metrics computation: {dt - retrieval_time} s{code_end}")
 
@@ -86,7 +99,28 @@ def benchmark_retriever(retriever: Retriever, dataset: Optional[pd.DataFrame] = 
             "max": np.max(measurable_retriever.execution_time),
         },
 
-        "metrics": {}
+        "metrics": {},
+
+        "carbone": {
+            "emission": {
+                "med": str(np.median(measurable_retriever.carbone["emission"])) + " kgCO2e",
+                "avg": str(np.mean(measurable_retriever.carbone["emission"])) + " kgCO2e",
+                "min": str(np.min(measurable_retriever.carbone["emission"])) + " kgCO2e",
+                "max": str(np.max(measurable_retriever.carbone["emission"])) + " kgCO2e",
+            },
+            "cpu": {
+                "med": str(np.median(measurable_retriever.carbone["cpu"])) + " kWh",
+                "avg": str(np.mean(measurable_retriever.carbone["cpu"])) + " kWh",
+                "min": str(np.min(measurable_retriever.carbone["cpu"])) + " kWh",
+                "max": str(np.max(measurable_retriever.carbone["cpu"])) + " kWh",
+            },
+            "gpu": {
+                "med": str(np.median(measurable_retriever.carbone["gpu"])) + " kWh",
+                "avg": str(np.mean(measurable_retriever.carbone["gpu"])) + " kWh",
+                "min": str(np.min(measurable_retriever.carbone["gpu"])) + " kWh",
+                "max": str(np.max(measurable_retriever.carbone["gpu"])) + " kWh",
+            }
+        },
     }
 
     for name, metric in output.items():
@@ -95,11 +129,10 @@ def benchmark_retriever(retriever: Retriever, dataset: Optional[pd.DataFrame] = 
     os.makedirs("output", exist_ok=True)
 
     count = 0
-    count = sum([1 for file in os.listdir("output/") if file.startswith("benchmark_retriever")])
+    count = sum([1 for file in os.listdir("output/")
+                if file.startswith("benchmark_retriever")])
     with open(f"output/benchmark_retriever_{count}.json", "w") as f:
         json.dump(output_json, f)
-
-
 
 
 if __name__ == "__main__":

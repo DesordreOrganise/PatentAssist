@@ -1,7 +1,7 @@
 
 # file that measure the execution time of Retriever, Ranker and LLM
 
-from src.benchmark.tools import measure, code_Green, code_end
+from src.benchmark.tools import measure, code_Green, code_end, codecarbone_fr
 from src.system.rag import RAG, Retriever
 from src.utils.metrics import Adapteur_Multi_2_Metric
 from src.utils.evaluation import EvaluationFramework
@@ -33,7 +33,13 @@ class Benchmark_rag(RAG):
     def __init__(self, rag: RAG):
         self.rag = rag
         self.execution_time = []
+        self.carbone = {
+            "emission": [],
+            "cpu": [],
+            "gpu": []
+        }
 
+    @codecarbone_fr
     @measure
     def measurable_run(self, input: str, rerank: bool) -> str:
         response = self.rag.run(input, rerank)
@@ -41,8 +47,12 @@ class Benchmark_rag(RAG):
         return response
 
     def run(self, input: str, rerank: bool = True) -> str:
-        response, time = self.measurable_run(input, rerank)
+        (response, time), (emission, cpu, gpu) = self.measurable_run(input, rerank)
         self.execution_time.append(time)
+        self.carbone["emission"].append(emission)
+        self.carbone["cpu"].append(cpu)
+        self.carbone["gpu"].append(gpu)
+
         return response
 
 
@@ -110,6 +120,27 @@ def benchmark_rag(rag: RAG, dataset: Optional[pd.DataFrame] = None):
         "metrics": {
             "total_time": dt - rag_time,
             "avg_time": (dt - rag_time) / len(dataset)
+        },
+
+        "carbone": {
+            "emission": {
+                "med": str(np.median(measurable_rag.carbone["emission"])) + " kgCO2e",
+                "avg": str(np.mean(measurable_rag.carbone["emission"])) + " kgCO2e",
+                "min": str(np.min(measurable_rag.carbone["emission"])) + " kgCO2e",
+                "max": str(np.max(measurable_rag.carbone["emission"])) + " kgCO2e",
+            },
+            "cpu": {
+                "med": str(np.median(measurable_rag.carbone["cpu"])) + " kWh",
+                "avg": str(np.mean(measurable_rag.carbone["cpu"])) + " kWh",
+                "min": str(np.min(measurable_rag.carbone["cpu"])) + " kWh",
+                "max": str(np.max(measurable_rag.carbone["cpu"])) + " kWh",
+            },
+            "gpu": {
+                "med": str(np.median(measurable_rag.carbone["gpu"])) + " kWh",
+                "avg": str(np.mean(measurable_rag.carbone["gpu"])) + " kWh",
+                "min": str(np.min(measurable_rag.carbone["gpu"])) + " kWh",
+                "max": str(np.max(measurable_rag.carbone["gpu"])) + " kWh",
+            }
         }
     }
 
