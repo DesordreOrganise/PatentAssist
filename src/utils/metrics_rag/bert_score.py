@@ -1,5 +1,5 @@
 
-from src.utils.Metrics import Multi_Metric, Adapteur_Multi_2_Metric
+from src.utils.metrics import Multi_Metric, Adapteur_Multi_2_Metric
 from typing import List
 import torch
 from evaluate import load

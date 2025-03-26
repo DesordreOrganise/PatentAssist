@@ -1,5 +1,5 @@
 
-from src.utils.metrics.meteor import Meteor
+from src.utils.metrics_rag.meteor import Meteor
 import pytest
 
 

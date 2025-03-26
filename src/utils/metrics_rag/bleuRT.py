@@ -1,5 +1,5 @@
 
-from src.utils.Metrics import Metric
+from src.utils.metrics import Metric
 from evaluate import load
 
 

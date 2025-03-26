@@ -1,6 +1,6 @@
 
 from math import log2
-from src.utils.metrics_retriver.nDCG import NDCG_articles, NDCG_rules
+from src.utils.metrics_retriever.nDCG import NDCG_articles, NDCG_rules
 import pytest
 
 

@@ -1,6 +1,6 @@
 
 
-from src.utils.metrics_retriver.Recall_K import Recall_K_articles, Recall_K_rules
+from src.utils.metrics_retriever.Recall_K import Recall_K_articles, Recall_K_rules
 import pytest
 
 

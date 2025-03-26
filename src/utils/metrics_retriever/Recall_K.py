@@ -1,5 +1,5 @@
 
-from src.utils.Metrics import Metric
+from src.utils.metrics import Metric
 from src.utils.tools import extract_articles, extract_rules, clean_article, clean_rule
 from typing import List
 
@@ -7,13 +7,13 @@ from typing import List
 def _compute_recall(model_output: List[str], gt: List[str], k: int):
     model_output = model_output[:k]
 
+    if len(gt) == 0:
+        return 1.
+
     if not model_output:
         return 0.
 
     common_files = len(set(model_output).intersection(set(gt)))
-
-    if len(gt) == 0:
-        return 1.
 
     return common_files / len(gt)
 

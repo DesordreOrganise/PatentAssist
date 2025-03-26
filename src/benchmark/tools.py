@@ -15,8 +15,7 @@ def measure(func):
         start = time.time()
         result = func(*args, **kwargs)
         end = time.time()
-        logging.info(f"{code_blue}Execution time of {
-                     func.__name__}: {end - start}{code_end}")
+        logging.info(f"{code_blue}Execution time of {func.__name__}: {end - start}{code_end}")
         return result, end - start
     return wrapper
 
