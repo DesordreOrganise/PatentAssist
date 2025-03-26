@@ -8,27 +8,26 @@ if "right_answers" not in st.session_state:
     st.session_state.right_answers = 0
 if "number_questions" not in st.session_state:
     st.session_state.number_questions = 0
-if 'category_scores' not in st.session_state: # right answers counter for each category
+if 'category_scores' not in st.session_state: # answers counter for each category
     st.session_state.category_scores = {
-        "Amendements et octroi": 0,
-        "Biotechnologies et listes de séquences": 0,
-        "Demandes de priorité et droit de priorité": 0,
-        "Demandes divisionnaires": 0,
-        "Droits et transferts": 0,
-        "Droit substantiel des brevets : nouveauté et activité inventive": 0,
-        "Examen": 0,
-        "Exigences et formalités de dépôt": 0,
-        "Langues et traductions": 0,
-        "Oppositions et appels": 0,
-        "Procédure PCT et entrée dans la phase européenne": 0,
-        "Recours procéduraux et effet juridique": 0,
-        "Taxes, méthodes de paiement et délais": 0,
-        "Unité de l'invention": 0
+        "Biotech and sequence listings": 0,
+        "Divisional applications": 0,
+        "Entitlement and transfers": 0,
+        "Examination, amendments, and grant": 0,
+        "Fees, payment methods, and time limits": 0,
+        "Filing requirements and formalities": 0,
+        "Languages and translations": 0,
+        "Opposition and appeals": 0,
+        "Pct procedure and entry into the european phase": 0,
+        "Priority claims and right of priority": 0,
+        "Procedural remedies and legal effect": 0,
+        "Substantive patent law: novelty and inventive step": 0,
+        "Unity of invention": 0
     }
 if 'clicked_demo' not in st.session_state:
     st.session_state.clicked_demo = False
 if "app_name" not in st.session_state:
-    app_name =  "Better Call X"
+    app_name =  "Better call our RAG"
     st.session_state["app_name"] = app_name
 if "css" not in st.session_state:
     style_path = "src/frontend/assets/style.css"
@@ -44,12 +43,12 @@ st.markdown(f'<style>{st.session_state.css}</style>', unsafe_allow_html=True)
 st.sidebar.image("src/frontend/assets/logo.png", use_container_width=True)
 
 
-st.header("Statistiques")
+st.header("Statistics")
 st.logo(st.session_state.bot)
 
 
 
-st.write("Cette page regroupe les statistiques liées à tes réponses !")
+st.write("This page gathers all your answer statistics !")
 
 st.divider()
 
@@ -106,7 +105,7 @@ with col1:
         ),
         showlegend=False,
         title=dict(
-            text="Nombre de réponses par catégories",
+            text="Amount of answer per category",
             yref='paper',
             font=dict(size=18)
         ),
@@ -118,7 +117,7 @@ with col1:
 
 
 with col2:
-    labels = ["Bonnes réponses","Mauvaises réponses"]
+    labels = ["Right answers","Wrong answers"]
     nb_questions = st.session_state.number_questions
     nb_bonnes_reponses = st.session_state.right_answers
 
@@ -126,16 +125,16 @@ with col2:
     fig2.add_trace(go.Pie(
         labels=labels,
         values=[nb_bonnes_reponses, nb_questions - nb_bonnes_reponses],
-        name="Réponses",
+        name="Answers",
         hole=.7,
-        marker=dict(colors=['rgb(166, 227, 161)', 'rgba(0,0,0,0)']),  # couleur pour les bonnes réponses, transparent pour les mauvaises
+        marker=dict(colors=['rgb(166, 227, 161)', 'rgba(0,0,0,0)']),  # colored for right answers, invisible for wrong ones
         hoverinfo="skip",
         showlegend=False,
         textinfo='none'
     ))
 
     fig2.update_layout(
-        title_text="Taux de bonnes réponses en général",
+        title_text="Global right answers rate",
         annotations=[dict(text=f'{nb_bonnes_reponses}/{nb_questions}', x=0.5, y=0.5, font_size=20, showarrow=False)]
     )
 
@@ -146,7 +145,7 @@ def click_button_demo():
 
 _, center, _ = st.columns(3)
 with center:
-    if st.button('Scores de démonstration'):
+    if st.button('Demo score'):
         for category in st.session_state.category_scores.keys():
             st.session_state.nb_questions = 50
             rd_nb_question = np.random.randint(1,6)

@@ -4,7 +4,7 @@ import base64
 
 # initialisations
 if "app_name" not in st.session_state:
-    app_name =  "Better Call X"
+    app_name =  "Better call our RAG"
     st.session_state["app_name"] = app_name
 if "css" not in st.session_state:
     style_path = "src/frontend/assets/style.css"
@@ -20,11 +20,11 @@ st.markdown(f'<style>{st.session_state.css}</style>', unsafe_allow_html=True)
 st.sidebar.image("src/frontend/assets/logo.png", use_container_width=True)
 
 
-st.header("Ressources PDF")
+st.header("PDF Resources")
 st.logo(st.session_state.bot)
 
-st.markdown("Besoin de consulter des sources ? C'est par ici !")
-st.markdown("Cliquer sur la 🡆 pour visualiser le PDF. Les documents peuvent prendre quelques secondes à s'afficher.")
+st.markdown("Do you need to consult some resources ? It's around here !")
+st.markdown("Click on the 🡆 to visualize the PDF file. Documents can take a few seconds to load.")
 
 st.divider()
 
@@ -32,7 +32,7 @@ def display_file(file_path):
     with open(file_path, "rb") as f:
         pdf_data = f.read()
     st.download_button(
-        label="Télécharger",
+        label="Download",
         data=pdf_data,
         file_name=file_path.split("/")[-1],
         mime="application/pdf",

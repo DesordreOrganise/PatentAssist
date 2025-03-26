@@ -5,7 +5,7 @@ import streamlit as st
 
 # initialisations
 if "app_name" not in st.session_state:
-    app_name =  "Better Call X"
+    app_name =  "Better call our RAG"
     st.session_state["app_name"] = app_name
 if "css" not in st.session_state:
     style_path = "src/frontend/assets/style.css"
@@ -22,18 +22,17 @@ st.logo(st.session_state.bot)
 
 st.sidebar.image("src/frontend/assets/logo.png", width=250)
 
-st.title("Bienvenue sur Better Call X !")
+st.title("Welcome to Better call our RAG !")
 
 _, center, _ = st.columns(3)
 with center:
     st.image("src/frontend/assets/bot.png", width=300)
-    st.markdown("Discutez avec notre chatbot pour tester vos connaissances sur les brevets intelectuels !")
+    st.markdown("Have a nice conversation with our chatbot to test your knowledge on patent and intellectual property !")
     
     _, center_bis, _ = st.columns(3)
     with center_bis:
         st.page_link('pages/1_🤖_Chatbot.py', label="Chatbot", icon="🤖")
-    
-    st.markdown("Cliquez sur que le bouton ci-dessus ou dans la barre latérale pour accéder au chat.")
+    st.markdown("Click on the button above or in the side bar to start discussing with our chatbot.")
 
 
 

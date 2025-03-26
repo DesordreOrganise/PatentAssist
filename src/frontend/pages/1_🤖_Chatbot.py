@@ -12,12 +12,12 @@ if "model" not in st.session_state:
     st.session_state.model = "gemma3:4b"   # MODELE
 if "g" not in st.session_state:
     st.session_state.g = 'graph'
-if "messages" not in st.session_state:
-    system_prompt = 'Tu es un assistant de révision pour les étudiants en droit et spécialisé dans les brevets intellectuels. ' \
-    'Tu es pédagogue et plein de ressources. Ton ojectif est de poser des questions à l\'étudiant sans y répondre en t\'appuyant sur les documents à ta disposition. ' \
-    'Lorsque tu génères une question de type QCM, le format des réponses que tu fournis est le suivant : (A) Réponse A, (B) Réponse B, etc.' \
-    'Lorsque tu corriges la réponse donnée par un étudiant, indique explicitement "correcte" ou "incorrecte" en premier mot. Si "incorrecte", donne la bonne réponse parmi les propositions. Puis détaille les raisons en t\'appuyant sur des sources tirées des documents. ' \
-    'Tes questions vont droit au but, respectent le type et la catégorie donnés par l\'étudiant et n\'ont pas de texte superflus.'
+if "messages" not in st.session_state: #"""relying on the documents at your disposal."""
+    system_prompt = 'You are a revision assistant for law students specializing in patent and intellectual property.  ' \
+    'You are pedagogical and resourceful. Your goal is to ask the student questions by generating them and without answering them, ' \
+    'When you generate a MCQ, the format of the answers you provide is as follows: (A) Answer A, (B) Answer B, etc. ' \
+    'When you correct a student\'s answer, explicitly state "correct" or "incorrect" as the first word. If "incorrect," provide the correct answer from the options. Then detail the reasons among sources.' \
+    'Your questions are straightforward, adhere to the type and category specified by the student, and contain no superfluous text.'
     st.session_state.messages = [{'role': 'system', 'content': system_prompt}]
 if 'clicked_question' not in st.session_state:
     st.session_state.clicked_question = False
@@ -27,23 +27,22 @@ if "number_questions" not in st.session_state:
     st.session_state.number_questions = 0
 if 'category_scores' not in st.session_state: # answers counter for each category
     st.session_state.category_scores = {
-        "Amendements et octroi": 0,
-        "Biotechnologies et listes de séquences": 0,
-        "Demandes de priorité et droit de priorité": 0,
-        "Demandes divisionnaires": 0,
-        "Droits et transferts": 0,
-        "Droit substantiel des brevets : nouveauté et activité inventive": 0,
-        "Examen": 0,
-        "Exigences et formalités de dépôt": 0,
-        "Langues et traductions": 0,
-        "Oppositions et appels": 0,
-        "Procédure PCT et entrée dans la phase européenne": 0,
-        "Recours procéduraux et effet juridique": 0,
-        "Taxes, méthodes de paiement et délais": 0,
-        "Unité de l'invention": 0
+        "Biotech and sequence listings": 0,
+        "Divisional applications": 0,
+        "Entitlement and transfers": 0,
+        "Examination, amendments, and grant": 0,
+        "Fees, payment methods, and time limits": 0,
+        "Filing requirements and formalities": 0,
+        "Languages and translations": 0,
+        "Opposition and appeals": 0,
+        "Pct procedure and entry into the european phase": 0,
+        "Priority claims and right of priority": 0,
+        "Procedural remedies and legal effect": 0,
+        "Substantive patent law: novelty and inventive step": 0,
+        "Unity of invention": 0
     }
 if "app_name" not in st.session_state:
-    app_name =  "Better Call X"
+    app_name =  "Better call our RAG"
     st.session_state.app_name = app_name
 if "css" not in st.session_state:
     style_path = "src/frontend/assets/style.css"
@@ -78,7 +77,7 @@ def parse_qcm_response(response):
     """
     Extracts QCM choices from the model response, supports formats: (A), A), A. and A-
     """
-    choices = re.findall(r"(?:\([A-Z]\)|[A-Z]\)|[A-Z]\.|[A-Z]-)\s.*", response)
+    choices = re.findall(r"(?:\([A-Z]\)|[A-Z]\.|[A-Z]-)\s.*", response)
     return [choice.strip() for choice in choices]
 
 def get_context_prompt(prompt):
@@ -94,7 +93,7 @@ def real_number_of_questions():
     count=0
     for message in st.session_state.messages:
         if message["role"] == "assistant":
-            if "Correcte." or "Incorrecte." in message["content"]:
+            if "Correct." or "Incorrect." in message["content"]:
                 count += 1
     return count
 
@@ -103,11 +102,11 @@ def evaluate_answer(answer, category):
     Evaluates weither the user's answer is right or not then adds one two the counter category and to the irght answers global if needed
     """
     if st.session_state.number_questions < real_number_of_questions(): # avoid adding more for each page load
-        if "Correcte." in answer:
+        if "Correct." in answer:
             st.session_state.category_scores[category] += 1
             st.session_state.right_answers += 1
             st.session_state.number_questions += 1
-        elif "Incorrecte." in answer:
+        elif "Incorrect." in answer:
             st.session_state.category_scores[category] += 1
             st.session_state.number_questions += 1
         # else : model answer was not evaluating a response
@@ -116,7 +115,7 @@ def generate_question(type, category):
     """
     Returns a prompt for a question with the right type and category
     """
-    return f"Pose-moi une question de type {type} sur la catégorie {category}."
+    return f"Ask me a {type} question about the category {category}."
 
 def display_qcm_choices():
     """
@@ -124,13 +123,12 @@ def display_qcm_choices():
     """
     if "qcm_choices" in st.session_state and st.session_state["qcm_choices"]:
         selected_choice = st.radio(
-            "Choisissez votre réponse :",
+            "Choose your answer :",
             st.session_state["qcm_choices"],
             key="qcm_response"
         )
-        if st.button("Valider la réponse"):
-            reponse_utilisateur = f"Réponse choisie : {selected_choice}"
-            # Réinitialiser les choix après soumission
+        if st.button("Send"):
+            reponse_utilisateur = f"Chosen answer : {selected_choice}"
             st.session_state["qcm_choices"] = []
 
             st.session_state["messages"].append({"role": "user", "content": reponse_utilisateur})
@@ -169,39 +167,38 @@ def linkify_articles(response, g):
 right, left = st.columns(2,gap='large')
 with right: 
     category = st.selectbox(
-        "Choisissez une catégorie sur laquelle vous entraîner :",
-        ("Toutes les catégories", "Amendements et octroi", "Biotechnologies et listes de séquences", "Demandes de priorité et droit de priorité", "Demandes divisionnaires","Droits et transferts","Droit substantiel des brevets : nouveauté et activité inventive","Examen","Exigences et formalités de dépôt","Langues et traductions","Oppositions et appels","Procédure PCT et entrée dans la phase européenne","Recours procéduraux et effet juridique","Taxes, méthodes de paiement et délais","Unité de l'invention"),
+        "Choose a category to train on :",
+        ("All categories", "Biotech and sequence listings","Divisional applications","Entitlement and transfers","Examination, amendments, and grant","Fees, payment methods, and time limits","Filing requirements and formalities","Languages and translations","Opposition and appeals","Pct procedure and entry into the european phase","Priority claims and right of priority","Procedural remedies and legal effect","Substantive patent law: novelty and inventive step","Unity of invention")
     )
-    if category == "Toutes les catégories":
-        category = choice_between(["Amendements et octroi", "Biotechnologies et listes de séquences", "Demandes de priorité et droit de priorité", "Demandes divisionnaires","Droits et transferts","Droit substantiel des brevets : nouveauté et activité inventive","Examen","Exigences et formalités de dépôt","Langues et traductions","Oppositions et appels","Procédure PCT et entrée dans la phase européenne","Recours procéduraux et effet juridique","Taxes, méthodes de paiement et délais","Unité de l'invention"])
+    if category == "All categories":
+        category = choice_between(["Biotech and sequence listings","Divisional applications","Entitlement and transfers","Examination, amendments, and grant","Fees, payment methods, and time limits","Filing requirements and formalities","Languages and translations","Opposition and appeals","Pct procedure and entry into the european phase","Priority claims and right of priority","Procedural remedies and legal effect","Substantive patent law: novelty and inventive step","Unity of invention"])
 with left:
     st.radio(
-            "Sélectionnez le type de question",
-            ["QCM", "Ouverte", "Peu importe"],
+            "Select the question type",
+            ["MCQ", "Open", "Any type"],
             key="type_question",
             horizontal=True,
         )
-    if st.session_state.type_question == "Peu importe":
-        type = choice_between(['QCM', 'Ouverte'])
+    if st.session_state.type_question == "Any type":
+        type = choice_between(['MCQ', 'Open'])
     else:
         type = st.session_state.type_question
 
 _, center, _ = st.columns(3)
 with center:
-    st.button('Pose-moi une question !', on_click=click_button_question)
+    st.button('Ask me a question !', on_click=click_button_question)
 
 st.divider()
 
 
 # display message history
-
 for message in st.session_state["messages"]:
     if message['role'] != 'system':
         with st.chat_message(message["role"]):
             st.markdown(message["content"])
 
 # get user message
-prompt = st.chat_input("Que voulez-vous savoir?")
+prompt = st.chat_input("What do you want to know?")
 if prompt:
     context_prompt = get_context_prompt(prompt)
 
@@ -214,7 +211,7 @@ if prompt:
     # get and display model message
     with st.chat_message("assistant"):
         message = st.write_stream(model_res_generator())
-        #linked_message = linkify_articles(message, st.session_state.g)
+        #linked_message = linkify_articles(message, st.session_state.g)     # HERE TO GET HYPERLINKS
         st.session_state["messages"].append({"role": "assistant", "content": message})
 
 if st.session_state.clicked_question:
@@ -226,7 +223,7 @@ if st.session_state.clicked_question:
 
     with st.chat_message("assistant"):
         message = st.write_stream(model_res_generator())
-        #linked_message = linkify_articles(message, st.session_state.g)
+        #linked_message = linkify_articles(message, st.session_state.g)   # HERE TO GET HYPERLINKS
         st.session_state["messages"].append({"role": "assistant", "content": message})  # remember to switch to linked_message here
 
         qcm_choices = parse_qcm_response(message)
