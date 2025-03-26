@@ -1,6 +1,7 @@
 # file that measure the execution time of Retriever, Ranker and LLM
 import time
 import logging
+from scripts.tools import measure
 from src.system.rag import RAG, Retriever
 from langchain_core.messages import AIMessage, HumanMessage
 from src.utils.preprocessing import EQE_Dataset_Explaination
@@ -20,18 +21,6 @@ code_blue = '\033[94m'
 code_end = '\033[0m'
 
 # Load the RAG model
-
-
-def measure(func):
-    def wrapper(*args, **kwargs):
-        start = time.time()
-        result = func(*args, **kwargs)
-        end = time.time()
-        logging.info(f"{code_blue}Execution time of {
-                     func.__name__}: {end - start}{code_end}")
-        return result, end - start
-    return wrapper
-
 
 @measure
 def measure_retriever(system: Retriever, question: str):
@@ -66,7 +55,7 @@ def measure_rag(system: RAG, question: str, documents):
 if __name__ == "__main__":
 
     logging.info("Loading graph")
-    with open("../../resources/LegalBases/graph.pkl", "rb") as f:
+    with open("../resources/LegalBases/graph.pkl", "rb") as f:
         g = pickle.load(f)
 
 
@@ -87,7 +76,7 @@ if __name__ == "__main__":
 
 
     print("Loading retriever")
-    config_path = "../../config/retriever_config.yaml"
+    config_path = "../config/retriever_config.yaml"
     local_embeddings = OllamaEmbeddings(model="all-minilm")
     retriever = Retriever(config_path, articles, local_embeddings)
 
@@ -101,7 +90,7 @@ if __name__ == "__main__":
 
     print("Loading dataset")
     dataset = EQE_Dataset_Explaination(
-        ["../../resources/EQE_PaperD/EQE_2024_PaperD_final_documentLess.json"])
+        ["../resources/EQE_PaperD/EQE_2024_PaperD_final_documentLess.json"])
     dataset = dataset.get_dataset()
 
 

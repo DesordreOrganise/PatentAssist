@@ -1,7 +1,7 @@
 
 # file that measure the execution time of Retriever, Ranker and LLM
 
-from src.benchmark.tools import measure, code_Green, code_end, codecarbone_fr
+from scripts.tools import measure, code_Green, code_end, codecarbone_fr
 from src.system.rag import RAG, Retriever
 from src.utils.metrics import Adapteur_Multi_2_Metric
 from src.utils.evaluation import EvaluationFramework

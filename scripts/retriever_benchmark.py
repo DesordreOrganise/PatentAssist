@@ -1,4 +1,4 @@
-from src.benchmark.tools import measure, code_Green, code_end, codecarbone_fr
+from scripts.tools import measure, code_Green, code_end, codecarbone_fr
 from src.system.rag import Retriever
 from langchain_core.documents import Document
 from src.utils.evaluation import EvaluationFramework
@@ -22,6 +22,7 @@ import os
 logging.basicConfig(level=logging.INFO)
 # disable logs from httpx
 logging.getLogger("httpx").setLevel(logging.WARNING)
+logging.disable(logging.DEBUG)
 
 
 class Benchmark_retriever(Retriever):
@@ -52,10 +53,14 @@ class Benchmark_retriever(Retriever):
         return docs
 
 
-def benchmark_retriever(retriever: Retriever, dataset: Optional[pd.DataFrame] = None, rerank: bool=True):
+def benchmark_retriever(retriever: Retriever, dataset: Optional[pd.DataFrame] = None, rerank: bool = True):
     if dataset is None:
-        dataset_eqe = EQE_Dataset_Explaination(
-            ["../../resources/EQE_PaperD/EQE_2024_PaperD_final_documentLess.json"])
+        files = ["../resources/EQE_PaperD/" + file for file in os.listdir(
+            "../resources/EQE_PaperD/") if file.endswith("_documentLess.json")]
+        files.extend(["../resources/EQE_PreEx/EQE_2021_PreEx_final_documentLess.json",
+                     "../resources/EQE_PreEx/EQE_2022_PreEx_final_documentLess.json"])
+        print(files)
+        dataset_eqe = EQE_Dataset_Explaination(files)
         dataset = dataset_eqe.get_dataset()
 
     measurable_retriever = Benchmark_retriever(retriever, rerank=rerank)
@@ -78,11 +83,16 @@ def benchmark_retriever(retriever: Retriever, dataset: Optional[pd.DataFrame] = 
 
     retrieval_time = np.sum(measurable_retriever.execution_time)
 
-    logging.info(f"{code_Green}Average CPU energy: {np.mean(measurable_retriever.carbone['cpu'])} kWh{code_end}")
-    logging.info(f"{code_Green}Average GPU energy: {np.mean(measurable_retriever.carbone['gpu'])} kWh{code_end}")
-    logging.info(f"{code_Green}Average emissions: {np.mean(measurable_retriever.carbone['emission'])} kgCO2e{code_end}")
-    logging.info(f"{code_Green}Average execution time for the retriever: {np.mean(measurable_retriever.execution_time)} s{code_end}")
-    logging.info(f"{code_Green}Average execution time for metrics computation: {dt - retrieval_time} s{code_end}")
+    logging.info(f"{code_Green}Average CPU energy: {np.mean(
+        measurable_retriever.carbone['cpu'])} kWh{code_end}")
+    logging.info(f"{code_Green}Average GPU energy: {np.mean(
+        measurable_retriever.carbone['gpu'])} kWh{code_end}")
+    logging.info(f"{code_Green}Average emissions: {np.mean(
+        measurable_retriever.carbone['emission'])} kgCO2e{code_end}")
+    logging.info(f"{code_Green}Average execution time for the retriever: {
+                 np.mean(measurable_retriever.execution_time)} s{code_end}")
+    logging.info(f"{code_Green}Average execution time for metrics computation: {
+                 dt - retrieval_time} s{code_end}")
 
     for name, metric in output.items():
         logging.info(f"\t-{code_Green}{name}: {metric}{code_end}")
@@ -138,7 +148,7 @@ def benchmark_retriever(retriever: Retriever, dataset: Optional[pd.DataFrame] = 
 if __name__ == "__main__":
 
     logging.info("Loading graph")
-    with open("../../resources/LegalBases/graph.pkl", "rb") as f:
+    with open("../resources/LegalBases/graph.pkl", "rb") as f:
         g = pickle.load(f)
 
     print('loading files')
@@ -156,8 +166,8 @@ if __name__ == "__main__":
     articles["metadatas"] = metadatas
 
     print("Loading retriever")
-    config_path = "../../config/retriever_config.yaml"
-    local_embeddings = OllamaEmbeddings(model="all-minilm")
+    config_path = "../config/retriever_config.yaml"
+    local_embeddings = OllamaEmbeddings(model="nomic-embed-text")
     retriever = Retriever(config_path, articles, local_embeddings)
     retriever.purge_store()
     benchmark_retriever(retriever)
