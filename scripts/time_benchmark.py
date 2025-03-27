@@ -84,7 +84,7 @@ if __name__ == "__main__":
     print("Loading Rag")
     # llm = ChatOllama(model="gemma3:1b")
     llm = ChatOllama(model="gemma:2b")
-    rag_config_path = "../../config/config.yaml"
+    rag_config_path = "../config/config.yaml"
     rag = RAG(rag_config_path, llm, retriever, g, None)
 
 
@@ -124,7 +124,7 @@ if __name__ == "__main__":
     # save output as json
     output = {
         "embedding_model": local_embeddings .model,
-        "reranker_model": retriever.reranker.model,
+        "reranker_model": retriever.reranker.model_name,
         "llm_model": llm.model,
 
         "retriever": {
