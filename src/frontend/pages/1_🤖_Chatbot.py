@@ -1,30 +1,65 @@
 import streamlit as st
 import ollama
 import numpy as np
-import re 
+import re
 
-from src.utils import *
-from src.model import *
+# this because it crash otherwise
+import torch
+import os
+torch.classes.__path__ = [os.path.join(torch.__path__[0], torch.classes.__file__)]
+
+from src.system.rag import RAG
+from src.utils.stream_tools import default_rag
+
 
 # INITIALISATIONS
 database_path = ""
 if "model" not in st.session_state:
     st.session_state.model = "gemma3:4b"   # MODELE
-if "g" not in st.session_state:
-    st.session_state.g = 'graph'
+
+if "g" not in st.session_state or "rag" not in st.session_state:
+    rag, g= default_rag()
+    print("RAG and graph loaded")
+    st.session_state.g = g
+    print("Graph loaded\n\n\n\n\n")
+    st.session_state.rag = rag
+    print("RAG loaded\n\n\n\n\n")
+
+if "category_2_idx" not in st.session_state:
+    st.session_state.category_2_idx = {
+        "Filing requirements and formalities": 1,
+        "Priority claims and right of priority": 2,
+        "Divisional applications": 3,
+        "Fees, payment methods, and time limits": 4,
+        "Languages and translations": 5,
+        "Procedural remedies and legal effect": 6,
+        "Pct procedure and entry into the european phase": 7,
+        "Examination, amendments, and grant": 8,
+        "Opposition and appeals": 9,
+        "Substantive patent law: novelty and inventive step": 10,
+        "Entitlement and transfers": 11,
+        "Biotech and sequence listings": 12,
+        "Unity of invention": 13
+    }
+
+
 if "messages" not in st.session_state: #"""relying on the documents at your disposal."""
     system_prompt = 'You are a revision assistant for law students specializing in patent and intellectual property.  ' \
     'You are pedagogical and resourceful. Your goal is to ask the student questions by generating them and without answering them, ' \
     'When you generate a MCQ, the format of the answers you provide is as follows: (A) Answer A, (B) Answer B, etc. ' \
-    'When you correct a student\'s answer, explicitly state "correct" or "incorrect" as the first word. If "incorrect," provide the correct answer from the options. Then detail the reasons among sources.' \
+    'When you correct a student\'s answer, explicitly state "Correct." or "Incorrect." as the first word. If "incorrect," provide the correct answer from the options. Then detail the reasons among sources.' \
     'Your questions are straightforward, adhere to the type and category specified by the student, and contain no superfluous text.'
     st.session_state.messages = [{'role': 'system', 'content': system_prompt}]
+
 if 'clicked_question' not in st.session_state:
     st.session_state.clicked_question = False
+
 if "right_answers" not in st.session_state:
     st.session_state.right_answers = 0
+
 if "number_questions" not in st.session_state:
     st.session_state.number_questions = 0
+
 if 'category_scores' not in st.session_state: # answers counter for each category
     st.session_state.category_scores = {
         "Biotech and sequence listings": 0,
@@ -41,14 +76,17 @@ if 'category_scores' not in st.session_state: # answers counter for each categor
         "Substantive patent law: novelty and inventive step": 0,
         "Unity of invention": 0
     }
+
 if "app_name" not in st.session_state:
     app_name =  "Better call our RAG"
     st.session_state.app_name = app_name
+
 if "css" not in st.session_state:
     style_path = "src/frontend/assets/style.css"
     with open(style_path) as f:
         css = f.read()
     st.session_state.css = css
+
 if "bot" not in st.session_state:
     bot = "src/frontend/assets/bot.png"
     st.session_state.bot = bot
@@ -65,13 +103,17 @@ def model_res_generator():
     """
     Generates a response from the model based on chat history
     """
-    stream = ollama.chat(
-        model=st.session_state.model,    # MODELE USED HERE
-        messages=st.session_state.messages,
-        stream=True,
-    )
-    for chunk in stream:
-        yield chunk["message"]["content"]
+    # stream = ollama.chat(
+    #     model=st.session_state.model,    # MODELE USED HERE
+    #     messages=st.session_state.messages,
+    #     stream=True,
+    # )
+    # for chunk in stream:
+    #     yield chunk["message"]["content"]
+    last_user_message = st.session_state["messages"][-1]["content"]
+    print("last user message : ", last_user_message)
+    for chunk in st.session_state.rag.run_flux(last_user_message):
+        yield chunk
 
 def parse_qcm_response(response):
     """
@@ -117,6 +159,9 @@ def generate_question(type, category):
     """
     return f"Ask me a {type} question about the category {category}."
 
+def ask_for_hint():
+    print("Coucou l'indice !")
+
 def display_qcm_choices():
     """
     Displays QCM choices if they are stored in session state
@@ -127,6 +172,8 @@ def display_qcm_choices():
             st.session_state["qcm_choices"],
             key="qcm_response"
         )
+        if st.button("Give me a hint !"):
+            ask_for_hint()
         if st.button("Send"):
             reponse_utilisateur = f"Chosen answer : {selected_choice}"
             st.session_state["qcm_choices"] = []
@@ -136,9 +183,9 @@ def display_qcm_choices():
                 st.markdown(reponse_utilisateur)
                 
             with st.chat_message("assistant"):
-                message = st.write_stream(model_res_generator())
+                message = st.write_stream(st.session_state.rag.run_flux(reponse_utilisateur))
                 st.session_state["messages"].append({"role": "assistant", "content": message})
-
+        
 def choice_between(list):
     choice = str( np.random.choice(list))
     return choice
@@ -210,19 +257,21 @@ if prompt:
     
     # get and display model message
     with st.chat_message("assistant"):
-        message = st.write_stream(model_res_generator())
+        message = st.write_stream(st.session_state.rag.run_flux(context_prompt))
         #linked_message = linkify_articles(message, st.session_state.g)     # HERE TO GET HYPERLINKS
         st.session_state["messages"].append({"role": "assistant", "content": message})
 
 if st.session_state.clicked_question:
-    context_prompt = generate_question(type, category)
+    print("clicked question")
+    print(str(st.session_state.category_2_idx[category]) + '. ' + category)
+    context_prompt = generate_question(type, str(st.session_state.category_2_idx[category]) + '. ' + category)
 
     st.session_state["messages"].append({"role": "user", "content": context_prompt})
     with st.chat_message("user"):
         st.markdown(context_prompt)
 
     with st.chat_message("assistant"):
-        message = st.write_stream(model_res_generator())
+        message = st.write_stream(model_res_generator()) # generate_question
         #linked_message = linkify_articles(message, st.session_state.g)   # HERE TO GET HYPERLINKS
         st.session_state["messages"].append({"role": "assistant", "content": message})  # remember to switch to linked_message here
 
