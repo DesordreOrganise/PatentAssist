@@ -21,6 +21,8 @@ from langchain_ollama import OllamaEmbeddings
 from langchain_core.documents import Document
 from langchain_ollama import ChatOllama
 
+from sentence_transformers import SentenceTransformer
+
 
 def framework_retriever_exemple(retriever: Retriever_Adapter):
     # loading dataset
@@ -140,7 +142,8 @@ if __name__ == "__main__":
             metadatas.append({"label": doc["label"]})
             texts.append(doc["data"].page_content)
 
-    
+    from langchain.embeddings import HuggingFaceEmbeddings
+
     articles = {}
     articles["texts"] = texts
     articles["ids"] = ids
@@ -152,6 +155,6 @@ if __name__ == "__main__":
     retriever = Retriever(config_path, articles, local_embeddings)
     retriever.purge_store()
     
-    system = Retriever_Adapter(retriever, rerank=False)
+    system = Retriever_Adapter(retriever, rerank=True)
 
     framework_retriever_exemple(system)

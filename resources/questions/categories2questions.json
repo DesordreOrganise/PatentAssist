@@ -1,0 +1,350 @@
+{
+    "1": {
+        "1.1": [
+            [
+                "EQE_2022_PreEx_final_documentLess.json",
+                9
+            ]
+        ],
+        "1.3": [
+            [
+                "EOB.json",
+                6
+            ],
+            [
+                "EOB.json",
+                13
+            ],
+            [
+                "EOB.json",
+                27
+            ],
+            [
+                "EOB.json",
+                49
+            ]
+        ]
+    },
+    "2": {
+        "2.1": [
+            [
+                "EQE_2021_PreEx_final_documentLess.json",
+                2
+            ],
+            [
+                "EOB.json",
+                50
+            ]
+        ],
+        "2.2": [
+            [
+                "EOB.json",
+                11
+            ],
+            [
+                "EOB.json",
+                12
+            ],
+            [
+                "EOB.json",
+                39
+            ],
+            [
+                "EOB.json",
+                46
+            ],
+            [
+                "EOB.json",
+                47
+            ]
+        ]
+    },
+    "3": {
+        "3.1": [
+            [
+                "EQE_2022_PreEx_final_documentLess.json",
+                6
+            ],
+            [
+                "EQE_2021_PreEx_final_documentLess.json",
+                3
+            ],
+            [
+                "EOB.json",
+                8
+            ],
+            [
+                "EOB.json",
+                23
+            ]
+        ]
+    },
+    "4": {
+        "4.1": [
+            [
+                "EQE_2021_PreEx_final_documentLess.json",
+                1
+            ],
+            [
+                "EOB.json",
+                32
+            ]
+        ],
+        "4.2": [
+            [
+                "EOB.json",
+                7
+            ]
+        ],
+        "4.3": [
+            [
+                "EOB.json",
+                9
+            ],
+            [
+                "EOB.json",
+                10
+            ],
+            [
+                "EOB.json",
+                41
+            ]
+        ]
+    },
+    "5": {
+        "5.1": [
+            [
+                "EQE_2022_PreEx_final_documentLess.json",
+                5
+            ],
+            [
+                "EQE_2021_PreEx_final_documentLess.json",
+                9
+            ]
+        ],
+        "5.3": [
+            [
+                "EOB.json",
+                1
+            ],
+            [
+                "EOB.json",
+                24
+            ]
+        ]
+    },
+    "6": {
+        "None": [
+            [
+                "EOB.json",
+                2
+            ],
+            [
+                "EOB.json",
+                3
+            ],
+            [
+                "EOB.json",
+                44
+            ]
+        ]
+    },
+    "7": {
+        "7.1": [
+            [
+                "EQE_2022_PreEx_final_documentLess.json",
+                8
+            ],
+            [
+                "EQE_2021_PreEx_final_documentLess.json",
+                4
+            ],
+            [
+                "EQE_2021_PreEx_final_documentLess.json",
+                10
+            ],
+            [
+                "EOB.json",
+                4
+            ],
+            [
+                "EOB.json",
+                33
+            ],
+            [
+                "EOB.json",
+                34
+            ],
+            [
+                "EOB.json",
+                35
+            ],
+            [
+                "EOB.json",
+                36
+            ],
+            [
+                "EOB.json",
+                37
+            ],
+            [
+                "EOB.json",
+                38
+            ]
+        ],
+        "7.3": [
+            [
+                "EOB.json",
+                40
+            ],
+            [
+                "EOB.json",
+                43
+            ],
+            [
+                "EOB.json",
+                45
+            ],
+            [
+                "EOB.json",
+                48
+            ]
+        ]
+    },
+    "8": {
+        "8.1": [
+            [
+                "EQE_2021_PreEx_final_documentLess.json",
+                6
+            ],
+            [
+                "EQE_2021_PreEx_final_documentLess.json",
+                7
+            ],
+            [
+                "EOB.json",
+                21
+            ]
+        ],
+        "8.2": [
+            [
+                "EOB.json",
+                25
+            ],
+            [
+                "EOB.json",
+                26
+            ],
+            [
+                "EOB.json",
+                28
+            ],
+            [
+                "EOB.json",
+                29
+            ]
+        ]
+    },
+    "9": {
+        "9.1": [
+            [
+                "EQE_2022_PreEx_final_documentLess.json",
+                2
+            ],
+            [
+                "EQE_2021_PreEx_final_documentLess.json",
+                5
+            ],
+            [
+                "EOB.json",
+                14
+            ]
+        ],
+        "9.3": [
+            [
+                "EQE_2022_PreEx_final_documentLess.json",
+                3
+            ],
+            [
+                "EQE_2021_PreEx_final_documentLess.json",
+                8
+            ],
+            [
+                "EOB.json",
+                18
+            ]
+        ],
+        "9.2": [
+            [
+                "EQE_2022_PreEx_final_documentLess.json",
+                10
+            ],
+            [
+                "EOB.json",
+                15
+            ],
+            [
+                "EOB.json",
+                16
+            ],
+            [
+                "EOB.json",
+                17
+            ],
+            [
+                "EOB.json",
+                30
+            ],
+            [
+                "EOB.json",
+                31
+            ]
+        ],
+        "None": [
+            [
+                "EOB.json",
+                19
+            ],
+            [
+                "EOB.json",
+                22
+            ]
+        ]
+    },
+    "10": {
+        "10.3": [
+            [
+                "EQE_2022_PreEx_final_documentLess.json",
+                7
+            ]
+        ],
+        "10.1": [
+            [
+                "EOB.json",
+                42
+            ]
+        ]
+    },
+    "11": {
+        "11.1": [
+            [
+                "EQE_2022_PreEx_final_documentLess.json",
+                1
+            ]
+        ],
+        "11.2": [
+            [
+                "EQE_2022_PreEx_final_documentLess.json",
+                4
+            ],
+            [
+                "EOB.json",
+                5
+            ],
+            [
+                "EOB.json",
+                20
+            ]
+        ]
+    }
+}

@@ -15,12 +15,16 @@ import shutil
 import os
 from os import PathLike
 from pathlib import Path
+import re
+from collections import defaultdict
 
 from src.utils.tools import load_config
 
 
 ROOT_DIR = Path(__file__).resolve().parent.parent.parent
 CHROMA_DB_PATH = ROOT_DIR / "resources" / "chroma_db"
+RESOURCES_PATH = ROOT_DIR / "resources"
+
 
 class BaseSystem(ABC):
 
@@ -118,12 +122,39 @@ class RAG(BaseSystem):
         self.system_prompt = SystemMessage(content=self.config["system_prompt"])
         self.st_memory = [self.system_prompt]
         self.lt_memory = lt_memory
+        self.categories = self._load_categories()
+        self.examples = self._load_examples()
+
+
+    def _load_examples(self) -> dict:
+        examples = {}
+        if RESOURCES_PATH.exists() and any(RESOURCES_PATH.iterdir()):
+            pre_ex_folder = os.path.join(str(RESOURCES_PATH), "EQE_PreEx")
+            eqe2022_path = os.path.join(pre_ex_folder, "EQE_2022_PreEx_final_documentLess.json")
+            eqe2021_path = os.path.join(pre_ex_folder, "EQE_2021_PreEx_final_documentLess.json")
+            eob_path = os.path.join(str(RESOURCES_PATH), "EOB.json")
+            examples["EQE_2022_PreEx_final_documentLess.json"] = load_config(eqe2022_path)
+            examples["EQE_2021_PreEx_final_documentLess.json"] = load_config(eqe2021_path)
+            examples["EOB.json"] = load_config(eob_path)
+
+        return examples
+    
+
+    def _load_categories(self) -> dict:
+        if RESOURCES_PATH.exists() and any(RESOURCES_PATH.iterdir()):
+            categories_folder = os.path.join(str(RESOURCES_PATH), "questions")
+            categories_file = os.path.join(categories_folder, "categories2questions.json")
+            categories = load_config(categories_file)
+            return categories
+        else:
+            print("Error: resources path don't exist.")
+            return {}
 
 
     def run_flux(self, input: str, rerank: bool = True) -> Generator:
         documents = self.retriever.retrieve_documents(input, rerank=rerank)
         retrieved_context = self._get_text_from_documents(documents)
-        self.st_memory.append(HumanMessage(f"Context: {retrieved_context}\n\n{input}"))
+        self.st_memory.append(HumanMessage(f"Context: {retrieved_context}\n\n{input}. Let's think step by step..."))
 
         response = ""
         for chunk in self.LLM.stream(self.st_memory):
@@ -142,12 +173,73 @@ class RAG(BaseSystem):
 
         return response
 
-    def generate_question(self) -> str:
-        pass
+
+    def generate_question(self, topic: str) -> Generator:
+        examples = self._fetch_examples(topic)
+        examples_string = "\n\n".join(examples)
+        self.st_memory.append(SystemMessage(f"You now have to produce a question to assess the user's knowledge regarding the topic {topic}. Use the examples below to help you generate a deep question. Don't answer."))
+        self.st_memory.append(HumanMessage(f"Examples: {examples_string}"))
+        response = ""
+        for chunk in self.LLM.stream(self.st_memory):
+            response += chunk.content
+            yield str(chunk.content)
+
+        self.st_memory.append(AIMessage(response))
+
 
     def _expand_context(self):
         #navigate in the graph
         pass
+
+
+    def _get_question_exam(self, exam: str, qnum: int):
+        exam_content = self.examples[exam]
+        if exam == "EOB.json":
+            question_build = []
+            question = exam_content[qnum-1]
+            return question["question_text"]
+        else:
+            exercices = exam_content["exercices"]
+            question = exercices[qnum-1]
+            question_build = []
+            question_build.append(question["context"])
+            for answer in question["questions"]:
+                question_build.append(". ".join([answer["question_code"], answer["question_text"]]))
+            return "\n".join(question_build)
+
+
+
+    def _fetch_examples(self, topic: str, k: int=3) -> str:
+        match = re.match(r"^\d+(?:\.\d+)*", topic)
+        if match:
+            topic = match.group()
+        if topic in self.categories.keys():
+            subtopics = self.categories[topic]
+            # Préparer un pointeur pour chaque sous-catégorie
+            pointeurs = defaultdict(int)
+            cles = list(subtopics.keys())
+            items_recuperes = []
+
+            while len(items_recuperes) < k:
+                for cle in cles:
+                    liste = subtopics[cle]
+                    index = pointeurs[cle]
+
+                    if index < len(liste):  # Si on a encore des items dans cette catégorie
+                        items_recuperes.append(liste[index])
+                        pointeurs[cle] += 1
+
+                        if len(items_recuperes) == k:
+                            break
+            examples = []
+            for exam, qnum in items_recuperes:
+                examples.append(self._get_question_exam(exam, qnum))
+            
+        #else:
+            #examples from the basic questions
+        
+            return examples
+
 
     def _get_text_from_documents(self, documents: list[Document]) -> str:
         content = []
