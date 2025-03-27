@@ -83,16 +83,11 @@ def benchmark_retriever(retriever: Retriever, dataset: Optional[pd.DataFrame] = 
 
     retrieval_time = np.sum(measurable_retriever.execution_time)
 
-    logging.info(f"{code_Green}Average CPU energy: {np.mean(
-        measurable_retriever.carbone['cpu'])} kWh{code_end}")
-    logging.info(f"{code_Green}Average GPU energy: {np.mean(
-        measurable_retriever.carbone['gpu'])} kWh{code_end}")
-    logging.info(f"{code_Green}Average emissions: {np.mean(
-        measurable_retriever.carbone['emission'])} kgCO2e{code_end}")
-    logging.info(f"{code_Green}Average execution time for the retriever: {
-                 np.mean(measurable_retriever.execution_time)} s{code_end}")
-    logging.info(f"{code_Green}Average execution time for metrics computation: {
-                 dt - retrieval_time} s{code_end}")
+    logging.info(f"{code_Green}Average CPU energy: {np.mean(measurable_retriever.carbone['cpu'])} kWh{code_end}")
+    logging.info(f"{code_Green}Average GPU energy: {np.mean(measurable_retriever.carbone['gpu'])} kWh{code_end}")
+    logging.info(f"{code_Green}Average emissions: {np.mean(measurable_retriever.carbone['emission'])} kgCO2e{code_end}")
+    logging.info(f"{code_Green}Average execution time for the retriever: {np.mean(measurable_retriever.execution_time)} s{code_end}")
+    logging.info(f"{code_Green}Average execution time for metrics computation: {dt - retrieval_time} s{code_end}")
 
     for name, metric in output.items():
         logging.info(f"\t-{code_Green}{name}: {metric}{code_end}")
@@ -156,7 +151,7 @@ if __name__ == "__main__":
     metadatas = []
     ids = []
     for id, doc in g.nodes(data=True):
-        if doc["data"].page_content:
+        if doc["data"].page_content and doc["label"] != "Guideline":
             ids.append(id)
             metadatas.append({"label": doc["label"]})
             texts.append(doc["data"].page_content)
@@ -170,4 +165,4 @@ if __name__ == "__main__":
     local_embeddings = OllamaEmbeddings(model="nomic-embed-text")
     retriever = Retriever(config_path, articles, local_embeddings)
     retriever.purge_store()
-    benchmark_retriever(retriever)
+    benchmark_retriever(retriever, rerank=False)

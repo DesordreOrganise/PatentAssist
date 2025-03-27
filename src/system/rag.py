@@ -21,6 +21,7 @@ from src.utils.tools import load_config
 
 ROOT_DIR = Path(__file__).resolve().parent.parent.parent
 CHROMA_DB_PATH = ROOT_DIR / "resources" / "chroma_db"
+RESOURCES_PATH = ROOT_DIR / "resources"
 
 class BaseSystem(ABC):
 
