@@ -116,14 +116,45 @@ class RAG(BaseSystem):
         self.retriever = retriever
         self.database = database
         self.system_prompt = SystemMessage(content=self.config["system_prompt"])
-        self.st_memory = [self.system_prompt]
+        self.st_memory = [self.system_prompt.copy()]
         self.lt_memory = lt_memory
+        self.categories = self._load_categories()
+        self.examples = self._load_examples()
+        self.question = ""
+
+
+    def _load_examples(self) -> dict:
+        examples = {}
+        if RESOURCES_PATH.exists() and any(RESOURCES_PATH.iterdir()):
+            pre_ex_folder = os.path.join(str(RESOURCES_PATH), "EQE_PreEx")
+            eqe2022_path = os.path.join(pre_ex_folder, "EQE_2022_PreEx_final_documentLess.json")
+            eqe2021_path = os.path.join(pre_ex_folder, "EQE_2021_PreEx_final_documentLess.json")
+            eob_path = os.path.join(str(RESOURCES_PATH), "EOB.json")
+            examples["EQE_2022_PreEx_final_documentLess.json"] = load_config(eqe2022_path)
+            examples["EQE_2021_PreEx_final_documentLess.json"] = load_config(eqe2021_path)
+            examples["EOB.json"] = load_config(eob_path)
+
+        return examples
+    
+
+    def _load_categories(self) -> dict:
+        if RESOURCES_PATH.exists() and any(RESOURCES_PATH.iterdir()):
+            categories_folder = os.path.join(str(RESOURCES_PATH), "questions")
+            categories_file = os.path.join(categories_folder, "categories2questions.json")
+            categories = load_config(categories_file)
+            return categories
+        else:
+            print("Error: resources path don't exist.")
+            return {}
 
 
     def run_flux(self, input: str, rerank: bool = True) -> Generator:
-        documents = self.retriever.retrieve_documents(input, rerank=rerank)
+        assert self.question != "", "You have to generate a question before running the flux."
+
+        documents = self.retriever.retrieve_documents(self.question, rerank=rerank)
         retrieved_context = self._get_text_from_documents(documents)
-        self.st_memory.append(HumanMessage(f"Context: {retrieved_context}\n\n{input}"))
+        self.st_memory.append(SystemMessage(f"Here are some articles that may be related to this question:  use them to source and justify your explanation :\n\n{retrieved_context}"))
+        self.st_memory.append(HumanMessage(f"reminders, this is the quesion you asked me : \n\"{self.question}\"\n\nhere is my answer : \"{input}\"\n\nLet's think step by step..."))
 
         response = ""
         for chunk in self.LLM.stream(self.st_memory):
@@ -142,8 +173,35 @@ class RAG(BaseSystem):
 
         return response
 
-    def generate_question(self) -> str:
-        pass
+
+    def generate_question(self, topic: str, type:str) -> Generator:
+        examples = self._fetch_examples(topic)
+        examples_string = "\n\n\t- Question Example :".join(examples)
+        print(examples_string)
+
+        self.st_memory.clear()
+        self.st_memory.append(self.system_prompt.copy())
+        self.st_memory.append(HumanMessage(f"Ask me a {type} question about the category {topic}. To generate your question, refer to the syntax, subject and difficulty of the following examples : \n\n {examples_string}"))
+
+        self.st_memory.append((f""))
+        response = ""
+        for chunk in self.LLM.stream(self.st_memory):
+            response += chunk.content
+            yield str(chunk.content)
+
+        self.st_memory.append(AIMessage(response))
+        self.question = response
+
+
+    def reformulate_question(self, question: str):
+        self.st_memory.append(SystemMessage(f"""You're a helpful assistant and have to help a student answer questions related to patent law.
+                                            Given a question, think step by step and reformulate the question in terms of which concepts are to be sought to answer. Don't answer to the question."""))
+        self.st_memory.append(HumanMessage(question))
+        response = self.LLM.invoke(self.st_memory).content
+        self.st_memory.append(AIMessage(response))
+
+        return response
+
 
     def _expand_context(self):
         #navigate in the graph
