@@ -47,7 +47,7 @@ if "messages" not in st.session_state: #"""relying on the documents at your disp
     system_prompt = 'You are a revision assistant for law students specializing in patent and intellectual property.  ' \
     'You are pedagogical and resourceful. Your goal is to ask the student questions by generating them and without answering them, ' \
     'When you generate a MCQ, the format of the answers you provide is as follows: (A) Answer A, (B) Answer B, etc. ' \
-    'When you correct a student\'s answer, explicitly state "correct" or "incorrect" as the first word. If "incorrect," provide the correct answer from the options. Then detail the reasons among sources.' \
+    'When you correct a student\'s answer, explicitly state "Correct." or "Incorrect." as the first word. If "incorrect," provide the correct answer from the options. Then detail the reasons among sources.' \
     'Your questions are straightforward, adhere to the type and category specified by the student, and contain no superfluous text.'
     st.session_state.messages = [{'role': 'system', 'content': system_prompt}]
 
@@ -159,6 +159,9 @@ def generate_question(type, category):
     """
     return f"Ask me a {type} question about the category {category}."
 
+def ask_for_hint():
+    print("Coucou l'indice !")
+
 def display_qcm_choices():
     """
     Displays QCM choices if they are stored in session state
@@ -169,6 +172,8 @@ def display_qcm_choices():
             st.session_state["qcm_choices"],
             key="qcm_response"
         )
+        if st.button("Give me a hint !"):
+            ask_for_hint()
         if st.button("Send"):
             reponse_utilisateur = f"Chosen answer : {selected_choice}"
             st.session_state["qcm_choices"] = []
@@ -180,7 +185,7 @@ def display_qcm_choices():
             with st.chat_message("assistant"):
                 message = st.write_stream(st.session_state.rag.run_flux(reponse_utilisateur))
                 st.session_state["messages"].append({"role": "assistant", "content": message})
-
+        
 def choice_between(list):
     choice = str( np.random.choice(list))
     return choice
