@@ -142,7 +142,7 @@ if __name__ == "__main__":
             metadatas.append({"label": doc["label"]})
             texts.append(doc["data"].page_content)
 
-    from langchain.embeddings import HuggingFaceEmbeddings
+    from langchain_huggingface import HuggingFaceEmbeddings
 
     articles = {}
     articles["texts"] = texts
@@ -151,10 +151,12 @@ if __name__ == "__main__":
     config_path = "../config/retriever_config.yaml"
     print("Loading embeddings")
     local_embeddings = OllamaEmbeddings(model="nomic-embed-text")
+    #local_embeddings = HuggingFaceEmbeddings(model_name="../notebooks/training/output/fine_tuned_retriever7")
+    #local_embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
     print("Loading retriever")
     retriever = Retriever(config_path, articles, local_embeddings)
     retriever.purge_store()
     
-    system = Retriever_Adapter(retriever, rerank=True)
+    system = Retriever_Adapter(retriever, rerank=False)
 
     framework_retriever_exemple(system)

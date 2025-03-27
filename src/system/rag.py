@@ -37,8 +37,8 @@ class Reranker():
     
     def __init__(self, model_name: str, train_mode: bool=False):
         self.model_name = model_name
-        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
-        self.model = AutoModelForSequenceClassification.from_pretrained(model_name)
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
+        self.model = AutoModelForSequenceClassification.from_pretrained(model_name, trust_remote_code=True)
         if not train_mode:
             self.model.eval()
 
@@ -185,6 +185,16 @@ class RAG(BaseSystem):
             yield str(chunk.content)
 
         self.st_memory.append(AIMessage(response))
+
+
+    def reformulate_question(self, question: str):
+        self.st_memory.append(SystemMessage(f"""You're a helpful assistant and have to help a student answer questions related to patent law.
+                                            Given a question, think step by step and reformulate the question in terms of which concepts are to be sought to answer. Don't answer to the question."""))
+        self.st_memory.append(HumanMessage(question))
+        response = self.LLM.invoke(self.st_memory).content
+        self.st_memory.append(AIMessage(response))
+
+        return response
 
 
     def _expand_context(self):
