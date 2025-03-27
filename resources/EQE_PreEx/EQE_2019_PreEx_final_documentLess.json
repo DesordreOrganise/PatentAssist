@@ -1,0 +1,327 @@
+{
+    "exam_type": "EQE",
+    "year": "2019",
+    "exam_name": "PreEx",
+    "exercices": [
+        {
+            "question_number": "1",
+            "question_type": "True/False",
+            "context": "You are a professional representative before the EPO. Today, 25 February 2019, you  receive an email from your client, an Italian engineer, Pietro. He wants you to file a  European patent application EP-P in his name, claiming priority of IT-P, an Italian patent  application. IT-P was jointly filed in the name of Pietro and Gianna on 23 February 2018. A  copy of IT-P is attached to the email. No other document or information is sent with the  email. For each of the statements 1.1 \u2013 1.4, indicate on the answer sheet whether the statement  is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "On the basis of the information given above, you can file today a European patent application EP-P, which will be accorded 25 February 2019 as the date of filing, in Pietro\u2019s name at the EPO.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "On the basis of the information given above, you can be sure that EP-P can validly claim priority from IT-P.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "You can validly file EP-P in Italian.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Pietro as a natural person is not entitled to a reduction of the filing fee.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Since you can comply today with the requirements of Rule 40(1)(a), (b) and (c) EPC [i.e.  providing an indication that a European patent is sought; providing your own or Pietro\u2019s  contact details; and filing the description of IT-P or a reference to it], the date of filing will  be 25 February 2019 (Guidelines, A-II 4.1).  For validly claiming the priority, Gianna must have transferred the priority right to Pietro  (and Pietro must be the successor in title) before the filing date of EP-P, Article 87(1) EPC  and Guidelines, A-III, 6.1(ii).  A European patent application may be filed in any language, Article 14(2) EPC.  Being a national of the Contracting State Italy and being a natural person, Pietro is entitled  to a reduction of the filing fees, Rule 6(3) and (4)(b) EPC and Article 14(4) EPC."
+        },
+        {
+            "question_number": "2",
+            "question_type": "True/False",
+            "context": "You are a professional representative before the EPO and represent the patent proprietor  in opposition proceedings. You are summoned to oral proceedings. The language of the  proceedings is English. The patent proprietor has its headquarters in the USA and has a  research centre in Portugal. You informed the opposition division in due time that you  would attend the oral proceedings accompanied by Sarah, the inventor. You have stated  that Sarah would make oral submissions at the oral proceedings and would explain  feature X of claim 1. On the day of the oral proceedings you arrive with Sarah, but also  with Jane and Pedro, whose intention to attend was not previously made known. Jane is a  US patent agent. Pedro is employed at the research centre in Portugal. The opponent's  representative is also attending the oral proceedings. For each of the statements 2.1 \u2013 2.4, indicate on the answer sheet whether the statement  is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "You will be allowed to make oral submissions at the oral proceedings.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "As a general rule, Jane will be allowed to make oral submissions at the oral proceedings.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "As a general rule, Pedro will be allowed to make oral submissions at the oral proceedings.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If the parties and the opposition division agree, Sarah will be allowed to make oral submissions in Portuguese at the oral proceedings.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The representative is allowed to make oral submissions, Article 133(2) EPC, see also  Guidelines, E-III, 8.5 and G4/95.  Submissions by a person who is not qualified under Article 133 and 134 EPC cannot be  made as of right: among others, the request should be filed sufficiently in advance of the  oral proceedings. Thus, as a general rule, neither Jane nor Pedro will be allowed to speak.  Sarah would be allowed to make submissions in Portuguese for instance, if the parties and  the European patent office agree to use this language (Rule 4(4) EPC), or if the patent  proprietor provides for interpretation into the language of proceedings (Rule 4(1) EPC)."
+        },
+        {
+            "question_number": "3",
+            "question_type": "True/False",
+            "context": "Company Z filed a European patent application EP-Z on 30 January 2018, without  claiming any priority. EP-Z has eleven claims. Alina and Elena are designated as the  inventors of EP-Z. However, Alina is wrongly designated as an inventor. The EPO drew up  a search report and a favourable opinion in August 2018. An international application  PCT-Z was filed in December 2018, validly claiming the priority of EP-Z. For each of the statements 3.1 \u2013 3.4, indicate on the answer sheet whether the statement  is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The first communication in respect of EP-Z that can be expected from the examiningdivision is a communication under Rule 71(3) EPC.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If you receive a communication under Rule 71(3) EPC for EP-Z in October 2019 andif you fulfil all the requirements of Rule 71(5) EPC on 31 January 2020, no fees other than the grant and publishing fee are due.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "It is possible to cancel the designation of Alina as an inventor of EP-Z without Alina'sconsent.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "PCT-Z will be deemed to be withdrawn, once a patent is granted on the basis of EP-Z.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Since a favourable written opinion was established, a communication under Rule 71(3)  EPC can be expected as the first communication of the examining division.  The renewal fee for the third year is due on 31 January 2020 according to Rule 51(1) EPC.  If a renewal fee becomes due before the next possible date for publication of the mention  of the grant of the European patent, the decision to grant is not issued and the mention of  the grant is not published until the renewal fee has been paid, Rule 71a (4) EPC,  Guidelines, C-V, 2. Decision to grant and publication of the mention of the grant may take  several months after fulfillment of the requirements of R. 71(5) EPC. Thus, also the  renewal fees are due when you fulfil all the requirements of Rule 71(5) EPC on 31 January  2020.  The consent of the wrongly designated person (Alina) is required, Rule 21(1) EPC.  The PCT does not provide for an international application (PCT-Z) to be deemed to be  withdrawn, once a patent is granted on the basis of the priority application (EP-Z)."
+        },
+        {
+            "question_number": "4",
+            "question_type": "True/False",
+            "context": "Today, 25 February 2019, Didier files a European patent application EP-D with the EPO.  Didier is resident in Belgium. For each of the statements 4.1 \u2013 4.4, indicate on the answer sheet whether the statement  is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "If Didier files the application in Dutch, he must file a translation into one of the EPO'sofficial languages within two months of filing the application.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Didier can pay the search fee in May 2019 provided he requests further processing.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If Didier does not submit any claims either on filing or within the time limit set by the EPO in a communication inviting him to correct this deficiency, Didier can validly request further processing and file the claims.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "To validly file a European patent application, Didier can file a reference to a previously filed application, wherein the reference contains (i) the filing date of the previous application, (ii) the file number of the previous application, (iii) the office where the previous application was filed and (iv) an indication that this reference replaces the description and any drawings.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "A translation of the description must be filed in one of the official languages within the  period of two months, Article 14(2) EPC, Rule 6(1) EPC and Guidelines, A-VII, 1.1.  If the search fee is not paid within one month of the filing of European patent application,  the application will be deemed to be withdrawn, Rule 38(1) EPC and Article 78(2) EPC.  The time limit under Rule 38(1) EPC is not ruled out for further processing (Article 121(1)  and (4) EPC and Rule 135(2) EPC). Consequently, Didier can validly pay the search fee  provided he requests further processing.  If Didier does not file claims in accordance with Rule 57(c) and Rule 58 EPC, then Didier  cannot validly request further processing, since it is ruled out under Rule 135(2) EPC, see  also Guidelines, A-III, 15.      To validly file a European patent application, Didier can file a reference to a previously filed  application, wherein the reference contains (i) the filing date of the previous application, (ii)  the file number of the previous application, (iii) the office where the previous application  was filed and (iv) an indication that this reference replaces the description and any  drawings, Rule 40(1)(c) EPC and Guidelines, A-II, 4.1.3.1."
+        },
+        {
+            "question_number": "5",
+            "question_type": "True/False",
+            "context": "Antonia intends to file the following patent applications:  (1) a European patent application EP-A (2) an international patent application PCT-AW. PCT-AW will be jointly filed in the name of Antonia and Werner. Werner lives in Berlin; Antonia lives in Argentina and is of Argentinian nationality. Argentina is not a PCT member state.  For each of the statements 5.1 \u2013 5.4, indicate on the answer sheet whether the statement  is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Antonia can validly file EP-A with the EPO.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "PCT-AW can be validly filed with the EPO as receiving Office.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "PCT-AW can be validly filed with the International Bureau as receiving office.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If, two months after validly filing PCT-AW, Antonia moves to Berlin, the EPO will record in relation to PCT-AW the change of residence, upon request.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "There are no nationality or residence restrictions for filing a European patent application  with the EPO, Article 58 EPC.  The EPO is the receiving Office competent for applicant Werner, who has his residence  within one of the Contracting States (Germany), Article 151 EPC, Rule 157(1) EPC and  Rule 19.1(a) PCT. If there are two (or more) applicants, the requirements of Rule 19.1  PCT regarding where to file are satisfied if the international application is filed with the  competent receiving office of at least one of the applicants, Rule 19.2(i) PCT.  A PCT application can be validly filed before the International Bureau (IB) whatever the  nationality or residence of the applicant, Rule 19.1(iii) and Rule 19.2 (ii) PCT.  Only the IB can record the residence change upon the applicant\u2019s request, Rule  92bis.1.(a) (i)PCT."
+        },
+        {
+            "question_number": "6",
+            "question_type": "True/False",
+            "context": "Company A filed a European patent application EP-AB with the EPO. Company A and  Company B agreed to transfer European patent application EP-AB to Company B. All  Contracting States are designated. For each of the statements 6.1 \u2013 6.4, indicate on the answer sheet whether the statement  is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "It is possible to register in the European Patent Register Company A as sole applicant for EP-AB for the EPC contracting state Germany and to register Company B as sole applicant for EP-AB for all the other EPC contracting states.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The only conditions for recording the assignment of EP-AB from Company A to Company B for all contracting states in the European Patent Register are the submission of a written request signed by Company B and the payment of an administrative fee.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The transfer of a European patent application only becomes effective vis-\u00e0-vis the EPO when it is published in the European Patent Register.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The transfer of a European patent can be recorded in the European Patent Register during the opposition period.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "According to Article 71 EPC, a European patent application can be transferred for one or  more designated Contracting States (two or more applicants may be designating different  Contracting States, see also Article 59 EPC).  For recording the assignment, Rule 143(1)(w) EPC, the EPO requires the submission of a  request (R. 22(1) EPC), the payment of an administrative fee (Rule 22(2) EPC) and also  documents providing evidence of the transfer (Rule 22(1) EPC), for example an  assignment made in writing and signed by Company A and Company B (Art. 72 EPC,  Guidelines E-XIV, 3).  The transfer is effective vis-\u00e0-vis the EPO as soon as the documents providing evidence of  the transfer have been produced, Rule 22(3) EPC.  A European patent can validly be transferred and the transfer can be recorded even during  opposition proceedings, Rule 85 EPC in conjunction with Rule 22 EPC."
+        },
+        {
+            "question_number": "7",
+            "question_type": "True/False",
+            "context": "Company X has filed a European patent application EP-X before the EPO. Company Y  has filed a European patent application EP-Y before the EPO. Neither EP-X nor EP-Y  claim any priority. Company X developed the invention of European patent application  EP-X in Canada, and Company Y developed the same invention in Germany  independently of Company X's invention. The filing date of EP-X is before the filing date of  EP-Y. Both applications claim the same subject-matter and disclose the same invention.  No other patent applications have been filed by Company X or Company Y. For each of the statements 7.1 \u2013 7.4, indicate on the answer sheet whether the statement  is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The right to a European patent on the invention belongs to Company X even if a European patent based on EP-Y was granted before the grant of a European patentbased on EP-X.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The right to a European patent on the invention belongs to Company X even if EP-Xwas withdrawn without being published.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "During proceedings before the EPO, Company X and Company Y will inevitably be asked to prove their entitlement to exercise the right to their respective European patents.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Even if EP-X was published after the filing date of EP-Y, EP-X could be validly cited as prior art in evaluating the inventive step of EP-Y.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The right to the European patent belongs to the applicant who has filed the European  patent application with the earliest effective date (i.e. 7.1 is True) provided that the  European patent application is published, Article 60(2) EPC (i.e. 7.2 is False).  During proceedings before the European Patent Office, the applicant is deemed to be  entitled to exercise the right to a European patent, Article 60(3) EPC.  In the case that EP-X was published after the filing date of EP-Y, EP-X could not be cited  as prior art in evaluating the inventive step of EP-Y, but only for assessing novelty under  Article 54(3) EPC."
+        },
+        {
+            "question_number": "8",
+            "question_type": "True/False",
+            "context": "An applicant receives two notifications from the EPO on 5 February 2019. Both  notifications are dated 31 January 2019. The first notification relates to the international  application PCT-S and the second notification relates to European patent application  EP-S. For each of the statements 8.1 \u2013 8.4, indicate on the answer sheet whether the statement  is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "If a period of one month is set for replying to the notification relating to PCT-S, that time limit will expire on 11 March 2019.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If a period of two months is set for replying to the notification relating to PCT-S, that time limit will expire on 9 April 2019.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The notification relating to EP-S will be deemed to have been delivered on Sunday, 10 February 2019.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If a period of four months is set for replying to the notification relating to EP-S, that time limit will expire on 10 June 2019.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "If a period of one month is set for replying to the notification relating to PCT-S, then the  time limit expires on 28 February [31 January 2019 + 1 month (=28 February 2019)], Rule  80.2 PCT.  If a period of two months is set for replying to the notification relating to PCT-S, then the  time limit expires on 1 April 2019 [31 January 2019 + 2 month (=31 March 2019), extended  to 1 April 2019], Rule 80.2 PCT and Rule 80.5 PCT. The PCT provisions do not have the  so-called \u201cten-day-rule\u201d, see for instance Rule 80.6 PCT.  The notification relating to EP-S is deemed to be delivered on Sunday, 10 February 2019,  [31 January 2019 +10 days (=10 February 2019)], Rule 126(2) EPC.  If a period of four months is set for replying to the notification relating to EP-S, then the  time limit expires on 11 June 2019 , [31 January 2019 +10 days (=10 February 2019)] + 4  months (=10 June 2019), extended to 11 June 2019], Rule 126(2) EPC, Rule 131(4) EPC  and Rule 134(1) EPC."
+        },
+        {
+            "question_number": "9",
+            "question_type": "True/False",
+            "context": "For each of the statements 9.1 \u2013 9.4, indicate on the answer sheet whether the statement  is true or false: In the following case, the EPO will refund at least a part of the respective fee:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The examination fee for a European patent application is refunded in full if the European patent application is withdrawn before the examining division has assumed responsibility for it.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The opposition fee is refunded in part if the opposition is withdrawn before the noticeof opposition is communicated to the patent proprietor.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The examination fee for a European patent application is refunded in part if the European patent application is withdrawn today, 25 February 2019, which is two weeks after receipt of the first invitation under Article 94(3) EPC issued by the examining division proper.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The appeal fee is refunded in full if the appeal is withdrawn before the filing of the statement of grounds of appeal and before the period for filing that statement has expired.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The examination fee for a European patent application is refunded in full, if the European  patent application is withdrawn before the Examining Division has assumed responsibility,  Article 11(a) Rfees (i.e. 9.1 is True), and it is refunded in part, if the application is  withdrawn before expiry of the time limit for replying to the first invitation under Article  94(3) EPC, Article 11(b) Rfees (i.e. 9.3 is True).  Two weeks after the receipt of the invitation will be certainly within the period set in Rule  11(b) Rfees.  There is no provision for refunding (a part of) the opposition fee.      The appeal fee is refunded in full if the appeal is withdrawn before the filing of the  statement of grounds of appeal and before the period for filing that statement has expired,  Rule 103(1)(b) EPC."
+        },
+        {
+            "question_number": "10",
+            "question_type": "True/False",
+            "context": "Hans filed an admissible notice of opposition against European patent EP-H. EP-H was  validated in all EPC contracting states. EP-H validly claims priority from an earlier patent  application. In the notice of opposition, Hans raised an objection of lack of inventive step of claim 1 over the combination of two prior art documents, D1 and D2. While the opposition  proceedings are pending, Theresa files third-party observations, arguing that claim 1 lacks  novelty over D3, a German patent application filed before the priority date of EP-H and  published after that date.  For each of the statements 10.1 \u2013 10.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Third parties are entitled to file observations during opposition proceedings.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If oral proceedings are to be held and the opposition division follows Theresa\u2019s objections with regard to novelty, it will also summon Theresa to the oral proceedings.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If the European patent is maintained in amended form, it could contain different claims for different designated states.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If Hans does not file a copy of D1 within the opposition period, the opposition will be inadmissible.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Third party observations can be filed at any stage of the proceedings before the EPO (after  publication of a European patent application), Article 115 EPC. Third party observations  can be filed also during opposition proceedings, Guidelines, D-X 4.5).  Theresa is not party to the proceedings, Article 115 EPC, second sentence: thus, she will  not be summoned to oral proceedings.  In the case of the national prior right D3, the European patent EP-H may contain claims for  Germany which are different from those for the other designated States, Rule 138 EPC.  If Hans does not file a copy of D1 with the notice of opposition, he will be invited by the  EPO to file this document in due time, Rule 83 EPC: if the document is not filed, the  opposition division may decide not to take into account any arguments based on that  document."
+        }
+    ]
+}

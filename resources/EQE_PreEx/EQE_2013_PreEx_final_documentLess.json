@@ -1,0 +1,327 @@
+{
+    "exam_type": "EQE",
+    "year": "2013",
+    "exam_name": "PreEx",
+    "exercices": [
+        {
+            "question_number": "1",
+            "question_type": "True/False",
+            "context": "On 12 January 2012 an applicant filed a European patent application EP-1 at the EPO.  EP-1 discloses subject-matter X but not subject-matter Y. On 6 September 2012 the  same applicant filed a US patent application US-1 at the USPTO claiming priority from  EP-1. Claim 1 of US-1 is directed to subject-matter X and claim 2 is directed to  subject-matter Y. European patent application EP-2 was filed by the same applicant on  20 December 2012. The description and claims of EP-2 are the same as those of US-1.    For each of the statements 1.1 \u2013 1.4, indicate on the answer sheet whether the  statement is true or false:    If in EP-2 priority is claimed only from ...",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "... EP-1, the effective date for claim 1 of EP-2 is 12 January 2012.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "... EP-1, the effective date for claim 2 of EP-2 is 6 September 2012.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "... US-1, the effective date for claim 1 of EP-2 is 12 January 2012.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "... US-1, the effective date for claim 2 of EP-2 is 20 December 2012.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The first application disclosing subject-matter X is EP-1, filed on 12 January 2012.  The first application disclosing subject-matter Y is US-1 filed on 6 September 2012.  US-1 is not the first application within the meaning of Article 87(4) EPC for subject- matter X: consequently, it is not possible to validly claim priority from US-1 for  subject-matter X. EP-2 was filed within the priority period of twelve months from the  date of filing of both EP1 and US1, Article 87(1) EPC.     If in EP-2 priority is claimed only from EP-1, the effective date of claim 1 is  12 January 2012.   If in EP-2 priority is claimed only from EP-1, the effective date of claim 2 is the date  of filing of EP-2, 20 December 2012.   If in EP-2 priority is claimed only from US-1, the effective date of claim 1 is the date  of filing of EP-2, 20 December 2012: US-1 is not the first application.   If in EP-2 priority is claimed only from US-1, the effective date of claim 2 is  6 September 2012."
+        },
+        {
+            "question_number": "2",
+            "question_type": "True/False",
+            "context": "An applicant validly filed a European patent application EP-Z on 8 April 2011 as a first  filing.    For each of the statements 2.1 \u2013 2.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The renewal fee for the third year for EP-Z is due on 30 April 2013.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If the applicant pays the renewal fee for EP-Z with the required additional fee on 9 October 2013, the renewal fee is deemed to be validly paid.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If the applicant fails to observe the time limit for paying a renewal fee for EP-Z, he may request further processing.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The renewal fee for the third year for EP-Z could have been validly paid on filing.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The renewal fee for the coming year (the third year in the case of EP-Z) is due on  the last day of the month containing the anniversary of the date of filing, i.e.  30 April 2013, Article 86(1) EPC and Rule 51(1) EPC. The renewal fee with an  additional fee may still be paid within six months of the due date, Rule 51(2) EPC.  Further processing for paying a renewal fee is excluded by the provisions of  Article 121(4) EPC and Rule 135(2) EPC. Renewal fees may not be validly paid  more than three months before they fall due, Rule 51(1) EPC, second sentence."
+        },
+        {
+            "question_number": "3",
+            "question_type": "True/False",
+            "context": "An applicant receives on 14 February 2013 two communications from the EPO. Both  communications are dated 11 February 2013. One communication relates to the  European application EP-A. The other communication relates to the international  application PCT-B, where the EPO is acting as the International Searching Authority.  EP-A and PCT-B relate to different subject-matter. In both communications the applicant  is invited to pay one additional search fee because of lack of unity of invention.    For each of the statements 3.1 \u2013 3.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Regarding EP-A, the period for paying the additional fee is two months.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Regarding EP-A, the additional fee must be paid at the latest by 21 April 2013.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Regarding PCT-B, the period for paying the additional fee is two months.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Regarding PCT-B, the additional fee must be paid at the latest by 11 March 2013.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Regarding EP-A, the period for paying the additional search fee is two months and  the fees must be paid at the latest by 22 April 2013 [11 February 2013 + 10 days  (=21 February 2013) + 2 months (=21 April 2013), extended to Monday 22  April 2013], Rule 64(1) EPC, Rule 126(2) EPC, Rule 131(4) EPC and Rule  134(1) EPC.  Regarding PCT-B, the period for paying the additional fee is one month and the  fees must be paid at the latest on 11 March 2013, Rule 40.1(ii) PCT and  Rule 80.2 PCT. The PCT provisions do not have the so-called \"10-day-rule\"."
+        },
+        {
+            "question_number": "4",
+            "question_type": "True/False",
+            "context": "Company X intends to file in its own name a European patent application EP-II claiming  priority from an earlier European patent application EP-I. EP-I was filed on  29 February 2012 and it claims no earlier priority.    For each of the statements 4.1 \u2013 4.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The priority period expires on 1 March 2013.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The priority declaration must be made at the latest by 1 July 2013.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "In order to validly claim priority, EP-II must be in respect of the same invention as EP-I.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Company X can validly claim priority from EP-I only if it was the applicant of EP-I at the date of filing.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The priority period expires on 28 February 2013 [29 February 2012 + 12 months  (=28 February 2013)], Article 87(1) EPC and Rule 131(4) EPC. The priority  declaration must be made at the latest by 1 July 2013 [29 February 2012 +  16 months (=29 June 2013), extended to Monday 1 July 2013], Rule 52(2) EPC,  Rule 131(4) EPC and Rule 134(1) EPC. In order to validly claim priority, EP-II must  be in respect of the same invention as EP-I, Article 87(1) EPC. According to the  same provision, not only the applicant of EP-I can validly claim priority from EP-I:  the successor in title as well as any person to whom the right to claim priority from  EP-I was validly transferred can validly claim priority from EP-I."
+        },
+        {
+            "question_number": "5",
+            "question_type": "True/False",
+            "context": "European patent application EP-P was a first filing filed in 2009. EP-P itself is not a  European divisional application. You received the first communication under  Article 94(3) EPC for EP-P in December 2011. EP-P was refused with a decision dated  6 February 2013. Today, 25 February 2013, you intend to file EP-D as a European  divisional application of EP-P.    For each of the statements 5.1 \u2013 5.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "EP-D must be filed with the European Patent Office in Berlin, Munich or The Hague.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Renewal fees in respect of EP-P already due today shall also be paid for EP-D.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "You must first file an appeal against the decision to refuse EP-P before you can validly file EP-D.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The language of the proceedings of EP-P and EP-D must be the same.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The European divisional application EP-D must be filed with the European Patent  Office in Berlin, Munich or The Hague (Rule 36(2) EPC, third sentence, as entered  into force on 1 April 2010). Irrespective of whether EP-P was filed in an official  language of the EPO or in another language, the language of the proceedings of  EP-P and EP-D has to be the same (Rule 36(2) EPC, first and second sentence,  as entered into force on 1 April 2010). Renewal fees were already due for EP-P for  at least the third and fourth year: these renewal fees are also due for EP-D,  Rule 51(3) EPC. In view of decision G1/09, in the case where no appeal is filed, a  European patent application which has been refused by a decision of an Examining  division is still pending within the meaning of Rule 36(1) EPC during the period for  filing a notice of appeal. Thus, it is not necessary to file an appeal to render the  application pending so as to validly file a European divisional application. The  twenty-four months time limit \u2013triggered by the first communication under  Article 94(3) EPC in respect of EP-P according to Rule 36(1)(a) EPC as entered    into force on 26 October 2010\u2013 for filing a divisional application to EP-P is still  running."
+        },
+        {
+            "question_number": "6",
+            "question_type": "True/False",
+            "context": "In January 2009, the international application PCT-1 was filed in Japanese at the  Japanese Patent Office. A translation of PCT-1 into English was provided upon entry  into the European phase. In the examination phase before the EPO, the applicant notes  that a term of the description was incorrectly translated into English. The applicant now  requests the correction of this translation error.    For each of the statements 6.1 \u2013 6.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The correction can only be made if it is immediately evident from the English translation as filed upon entry into the European phase.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The correction can be made if it has a basis in the Japanese text as originally filed at the Japanese Patent Office.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "A wrongly translated term in a European patent application can always be replaced by the correct term given in the priority document.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The correction cannot be made because PCT-1 was not filed in an official language of a Contracting State of the European Patent Organisation.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The provisions of Article 14(2) EPC, second sentence, apply also to Euro-PCT  applications in view of Article 153(2) EPC. The applicant of PCT-1 may bring the  English translation into conformity with the application documents of the  international application PCT-1 as originally filed.     In this context it is irrelevant whether the correction is immediately evident from the  English translation. Corrections cannot be derived from the priority document,  Guidelines, H-VI, 4.2.1. (The provisions of Rule 56(3) EPC do not apply here.)"
+        },
+        {
+            "question_number": "7",
+            "question_type": "True/False",
+            "context": "The mention of the grant of a European patent EP-X was published on 16 May 2012. A  Portuguese citizen resident in Portugal filed a notice of opposition by fax on  15 February 2013 to the EPO, explaining why the subject-matter claimed in EP-X was  not inventive in view of two published patents D1 and D2 explicitly identified in the fax.  The fax was entirely written in Portuguese. The opposition fee was paid on the same  day. Today, 25 February 2013, a letter from the Portuguese citizen that was sent three  days ago reaches the EPO. Annexed to the letter is:  (a) a complete translation in English of the fax sent on 15 February 2013,  (b) copies of the two prior art documents D1 and D2.    For each of the statements 7.1 \u2013 7.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The opposition is not admissible, as the copies of the two prior art documents were filed after expiry of the opposition period.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The notice of opposition could have been filed at the latest on 18 February 2013.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The translation was filed within the prescribed time limit.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The opposition is not validly filed, as the Portuguese citizen should have appointed a professional representative for filing the opposition.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "To file an admissible opposition, it is not required to file copies of D1 and D2  together with the notice of opposition, Rule 83 EPC (see also Guidelines D-IV  1.2.2.1 (v), last two paragraphs). An opposition against patent EP-X could have  been filed at the latest on 18 February 2012 [16 May 2012 + 9 months  (=16 February 2013), extended to Monday, 18 February 2013], Article 99(1) EPC,  Rule 131(4) EPC and Rule 134(1) EPC. The translation of the notice of opposition  shall be filed within one month of filing the notice of opposition: therefore it was  filed in time, Article 14(4) EPC and Rule 6(2) EPC. The Portuguese citizen resident  in Portugal need not be represented in opposition proceedings, Article 133(2) EPC."
+        },
+        {
+            "question_number": "8",
+            "question_type": "True/False",
+            "context": "The international application PCT-Q claims priority from an earlier US-application, US-P.  Upon entry into the European phase before the EPO, the claims of PCT-Q were  replaced by a modified set of claims R. After receiving the supplementary European  search report from the EPO, a further modified single independent claim S was filed in  January 2013.    For each of the statements 8.1 \u2013 8.4, indicate on the answer sheet whether the  statement is true or false:    To fulfil the requirements of Article 123(2) EPC, it is sufficient if the only basis for the  single independent claim S is found in ...",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "... the priority document US-P.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "... the set of modified claims R.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "... the abstract of PCT-Q.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "... one claim of PCT-Q having the same wording as claim S.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Amendments to PCT-Q must be based on the application documents as originally  filed, Article 123(2) EPC: It is not allowable to add matter only present in the priority  document (Guidelines, H-IV, 2.3.5), in the abstract (Article 85 EPC) or in a set of  claim modified in the course of the proceedings."
+        },
+        {
+            "question_number": "9",
+            "question_type": "True/False",
+            "context": "The mention of the grant of European patent EP-G was published in July 2012. The  patent proprietor of EP-G is Mr. G. EP-G was filed without claiming priority in  January 2009. Your client, Mr. O, wants the patent to be revoked. He thinks that claim 1  of EP-G is unclear. In fact, there are two possible interpretations of claim 1. Product Z,  which has been on the market since November 2008, falls under one of the two  interpretations.    For each of the statements 9.1 \u2013 9.4, indicate on the answer sheet whether the  statement is true or false:    A valid element of my advice to Mr. O is that ...",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "... lack of clarity is not a valid ground for opposition.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "... if product Z was put on the market by Mr. G, product Z does not form part of the state of the art.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "... EP-G should be opposed for lack of novelty, explaining in the notice of opposition why product Z anticipates the subject-matter of claim 1 of EP-G.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "... product Z does not form part of the state of the art, as it is not a pre-published written document.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Lack of clarity is not a valid ground for opposition, Article 100 EPC. Everything  made available to the public, for instance by use or by selling, before the date of  filing of EP-G constitutes state of the art within the meaning of Article 54(2) EPC for  EP-G. It is irrelevant who put product Z on the market. A possible way to have  patent EP-G revoked is to oppose it for lack of novelty using product Z as prior art."
+        },
+        {
+            "question_number": "10",
+            "question_type": "True/False",
+            "context": "European patent application EP-Y was refused at oral proceedings before the examining  division. The oral proceedings took place on 28 January 2013. Today,  25 February 2013, you received the written reasoned decision.    For each of the statements 10.1 \u2013 10.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "A notice of appeal against the decision to refuse the patent application must be filed at the latest by 28 March 2013.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The statement setting out the grounds of appeal and possibly amendments must be filed together with the notice of appeal.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The examining division shall rectify its decision if it finds the appeal to be admissible and well-founded.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The appeal fee is always reimbursed, if the board of appeal sets aside the decision of the examining division.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The appealable decision is the written reasoned decision received on  25 February 2013, Rule 111(2) EPC: the period of two months for filing an appeal  is computed from the notification of the decision and not from the announcement of  the decision at oral proceedings. Following the provisions of Article 108 EPC, the  statement setting out the grounds of appeal or possibly amendments may be filed  after the notice of appeal but within four months of the notification of the decision.  The examining division shall rectify its decision if it finds the appeal to be  admissible and well-founded, Article 109(1) EPC. If the board of appeal sets aside  the decision of the examining division, reimbursement of appeal fees occurs only if  it is equitable in view of a substantial procedural violation, Rule 103(1)a) EPC."
+        }
+    ]
+}

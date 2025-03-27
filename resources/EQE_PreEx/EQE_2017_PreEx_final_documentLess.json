@@ -1,0 +1,327 @@
+{
+    "exam_type": "EQE",
+    "year": "2017",
+    "exam_name": "PreEx",
+    "exercices": [
+        {
+            "question_number": "1",
+            "question_type": "True/False",
+            "context": "Giorgio validly filed an Italian patent application IT-G as a first filing. IT-G discloses a  frame made of metal, preferably aluminium, for device X. IT-G was filed in April 2016  and withdrawn in May 2016. In September 2016, a frame made of steel for device X was  made available to the public in a catalogue. Today, 6 March 2017, Giorgio files a  European patent application EP-G claiming priority from IT-G. Claim 1 of EP-G is  directed to a frame made of metal for device X. Claim 2 of EP-G is directed to a frame  made of steel for device X. Claim 3 of EP-G is directed to a frame made of aluminium for  device X. Claim 4 of EP-G is directed to a frame made of copper for device X.     For each of the statements 1.1 \u2013 1.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The catalogue is state of the art under Article 54(2) EPC for claim 1 of EP-G.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The catalogue is state of the art under Article 54(2) EPC for claim 2 of EP-G.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The catalogue is state of the art under Article 54(2) EPC for claim 3 of EP-G.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The catalogue is state of the art under Article 54(2) EPC for claim 4 of EP-G.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "EP-G was filed within 12 months from the filing of IT-G, Article 87(1) EPC. Only  claims 1 and 3 of EP-G are directed to the same invention as IT-G (frame made of  metal and frame made of aluminium), Article 87(1) EPC and G2/98. The withdrawal  of the priority application IT-G has no effect on its validity, Article 87(3) EPC. IT-G is  the first filing. The priority for claims 1 and 3 being valid, the effective date under  Article 89 EPC for these two claims is the filing date of IT-G. Therefore, the  catalogue is not prior art within the meaning of Article 54(2) EPC for claims 1 and 3.  However, the effective date of the subject-matter of claims 2 and 4 is the date of  filing of EP-G (frame made of steel and frame made of copper were not disclosed in  IT-G), Article 89 EPC. Thus, the catalogue is prior art under Article 54(2) EPC for  these two claims."
+        },
+        {
+            "question_number": "2",
+            "question_type": "True/False",
+            "context": "Jill filed the international application PCT-J on 4 August 2014 without claiming a priority.  PCT-J was published with the international search report in February 2016. The  international searching authority was the Nordic Patent Institute. Today, 6 March 2017,  Jill decides to enter the European phase before the EPO.     For each of the statements 2.1 \u2013 2.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "One requirement for validly entering the European phase with PCT-J is that a renewal fee must be paid.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "One requirement for validly entering the European phase with PCT-J is that the designation fee must be paid.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "For entry into the European phase with PCT-J today, at least one fee for further processing must be paid.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "For PCT-J the EPO shall carry out a supplementary European search.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The renewal fee in respect of the third year for Euro-PCT-J has fallen due earlier, on  31 August 2016, Article 86(1) EPC and Rule 51(1) EPC. For PCT-J, one of the  requirements for entry into the European phase today, 6 March 2017 is the payment  of the renewal fee in respect of the third year, Rule 159(1)(g) EPC and Guidelines,  A-X, 5.2.4. Also the designation fee is due today, since the period under  Rule 39 EPC has expired earlier (six months after the publication of the search  report, i.e. in August 2016). Note that according to Article 153(6) EPC, the  international search report takes the place of the European search report and the  mention of its publication. The latest date for entering the European phase with EP-J  is today, 6 March 2017 [4 August 2014 + 31 months (= 4 March 2017), extended to  6 March 2017, Rule 159(1) EPC, Rule 131(4) EPC and Rule 134(1) EPC]. Today no  further processing fee is (yet) due. The EPO shall carry out a supplementary  European search, Article 153(7) EPC and Guidelines B-II 4.3.2 (ii) (see also OJ EPO  2005, 422)."
+        },
+        {
+            "question_number": "3",
+            "question_type": "True/False",
+            "context": "For each of the statements 3.1 \u2013 3.4, indicate on the answer sheet whether the  statement is true or false:    The following European patent application is pending today, 6 March 2017:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "A European patent application EP1, for which a reply to a communication under Rule 71(3) EPC was to be filed at the latest on 2 March 2017, and for which the applicant did not file a reply.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "A European patent application EP2, for which the renewal fee due on 30 June 2016 has not yet been paid and for which the EPO sent a notice of loss of rights dated 2 February 2017.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "A European patent application EP3, which was refused by a written decision dated 28 December 2016.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "A European patent application EP4, for which the decision to grant the European patent is dated 6 March 2017.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Guidelines, A-IV, 1.1.1 is referred to: an application is not pending if it is deemed to  be withdrawn due to the non-observance of a time limit, for instance failure to reply  to a communication under Rule 71(3) EPC or failure to pay the renewal fee.  Conversely, an application is pending if it was refused and if no appeal has yet been  filed until the expiry of the time limit for filing the notice of appeal [28 December\u00b02016  + 10 days (Rule 126(2) EPC) + 2 months (Rule 131(4) EPC) = 7 March 2017], see  also G1/09. Thus EP3 is pending until 7 March 2017. For EP4, the decision to grant  is issued before the publication of the mention of the grant. The decision to grant a  European patent does not take effect until the date on which the grant is mentioned  in the European Patent Bulletin, Article 97(3) EPC: thus EP4 is still pending today."
+        },
+        {
+            "question_number": "4",
+            "question_type": "True/False",
+            "context": "Today, 6 March 2017, Adrienn filed with the EPO a European patent application EP-A.  Adrienn is resident in Hungary. The application documents of EP-A consist of a  description in Hungarian and of two drawings.    For each of the statements 4.1 \u2013 4.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Adrienn is entitled to a reduction of the filing fee.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "According to the provisions of the EPC, Adrienn must file one or more claims within two months of filing of EP-A.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "According to the provisions of the EPC, Adrienn must file the translation of the description within two months of filing of EP-A.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "According to the provisions of the EPC, Adrienn must pay the filing fee within two months of filing of EP-A.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Adrienn is a natural person resident in Hungary: therefore, she is entitled to a  reduction of the filing fee, Article 14(4) EPC and Rule 6(3)(b) EPC. One or more  claims must be filed within two months of an invitation under Rule 58 EPC to correct  the deficiency under Rule 57(c) EPC. A translation of the description must be filed  within two month of filing of the European patent application, Rule 6(1) EPC. see  also Guidelines, A-VIII, 1.1. The filing fee must be paid within one month of filing of  EP-A, Rule 38(1) EPC."
+        },
+        {
+            "question_number": "5",
+            "question_type": "True/False",
+            "context": "A notice of appeal was validly filed on 3 February 2017 against the decision to refuse the  European patent application EP-B. The decision is dated 5 December 2016. According  to the decision, claim 1 of the sole request is not novel over D1 and is not inventive over  D2 in combination with the common general knowledge of the skilled person. The  statement setting out the grounds of appeal has not yet been filed.    For each of the statements 5.1 \u2013 5.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The statement setting out the grounds for the appeal must be filed at the latest on 5 April 2017.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The appeal fee is reimbursed, if the applicant withdraws the appeal today, 6 March 2017.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "According to the provisions of the EPC, if the appeal is not allowed within four months of receipt of the statement of grounds, it shall be remitted to the Board of Appeal.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The examining division will grant interlocutory revision, if the applicant can convince the examining division that claim 1 of the sole request is novel over D1.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The statement setting out the grounds for the appeal must be filed at the latest on  18 April 2017 [5 December 2016 + 10 days (Rule 126(2) EPC) + 4 months (Article  108 EPC and Rule 131(4) EPC) = 15 April 2017, extended to 18 April 2017, Rule  134(1) EPC]. The appeal fee is reimbursed, if the appeal is withdrawn before the  filing of the statement of grounds of appeal (and before the period for filing that  statement has expired), Rule 103(1)(b) EPC. If the appeal is not allowed within three  months of receipt of the statement of grounds, it shall be remitted to the Board of  Appeal, Article 109(2) EPC. Statement 5.4 is silent regarding inventive step of claim  1 vs. D2. If interlocutory revision is to be granted, the applicant must address  convincingly both grounds for refusal."
+        },
+        {
+            "question_number": "6",
+            "question_type": "True/False",
+            "context": "The mention of the grant of European patent EP-V was published on 18 May 2016. A  notice of opposition against EP-V was filed on 20 February 2017 with the EPO. Today is  6 March 2017.    For each of the statements 6.1 \u2013 6.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The notice of opposition was filed within the opposition period.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If the opposition fee has not been paid so far, then the opposition will not be deemed to have been filed.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If the opposition is not admissible because the facts and evidence filed in the notice of opposition do not support the grounds for opposition, a valid option for the opponent is to file additional, more relevant documents later in the proceedings.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If the notice of opposition does not mention the name of the patent proprietor, the opponent will have the opportunity to remedy this deficiency.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The notice of opposition against EP-V must be filed at the latest on  20 February 2017 [18 May 2016 + 9 months (Article 99(1) EPC and Rule 131(4)  EPC) = 18 February 2017, extended to 20 February 2017, Rule 134(1) EPC]. If the  opposition fee is not paid within the 9 month opposition period, the opposition is not  deemed to have been filed, Article 99(1) EPC, second sentence. The opponent  cannot remedy a deficiency under Rule 76(2)(c) EPC, such as not mentioning  sufficient facts and evidence. In such a case the opposition has to be rejected as  inadmissible, see Rule 77(1) EPC, see also Guidelines, D-IV, 1.2.2.1 (v). However, the  opponent can remedy a deficiency under Rule 76(2)(b) EPC, such as not mentioning  the name of the patent proprietor, Rule 77(2) EPC, see also Guidelines, D-IV 1.2.2.2  (ii)."
+        },
+        {
+            "question_number": "7",
+            "question_type": "True/False",
+            "context": "A European patent EP-M was granted with only one claim. The claim reads:     \u201cA steel composition M.\u201d    An admissible opposition was filed against EP-M and the ground for opposition is lack of  novelty. The notice of opposition was communicated to the patent proprietor who in reply  filed an amended claim as the main request. The amended claim reads:    \u201cA very thin layer of steel composition M.\u201d    The amendment is based on the description of EP-M as originally filed.    For each of the statements 7.1 \u2013 7.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The amended claim is admissible under Rule 80 EPC only if the amended claim is novel over the cited prior art.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The opponent cannot validly object to clarity of the amended claim, since lack of clarity is not a ground for opposition.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The patent proprietor is entitled to file amendments in reply to the communication informing him of the notice of opposition.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The current request of the patent proprietor is to reject the opposition.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Rule 80 EPC only requires that amendments made in opposition proceedings must  be occasioned by the grounds for opposition specified in Article 100 EPC. It is not a  requirement of Rule 80 EPC that the amendments actually resolve issues raised in  the notice of opposition. Although clarity is not a ground for opposition, in the present  case the clarity of the amended claim can be discussed, since the amendment,  which was introduced during opposition proceedings, is based on the description  (G3/14). The patent proprietor is entitled to file amendments in reply to the  communication informing him of the notice of opposition. Since the patent proprietor       requests to maintain the patent in amended form (in accordance to Article 101(3)(a)  EPC), his request is not to reject the opposition (in accordance with Article 101(2)  EPC)."
+        },
+        {
+            "question_number": "8",
+            "question_type": "True/False",
+            "context": "The examining division issued a communication under Article 94(3) EPC for European  patent application EP-R. The communication is dated 7 September 2016. The period set  in this communication is four months. On 31 December 2016, the representative for   EP-R fell in a state of legal incapacity and the EPO was informed of it on  10 January 2017. On 12 January 2017, the legal division of the EPO decided to interrupt  the proceedings regarding EP-R. Today, 6 March 2017, the EPO is informed of the  appointment of a new representative for EP-R.    For each of the statements 8.1 \u2013 8.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The communication is deemed to be delivered on 19 September 2016, since 17 September 2016 is on a Saturday.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The proceedings are interrupted with effect of 12 January 2017.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "After resumption of the proceedings for EP-R, the communication dated 7 September 2016 will be considered null and void and will be notified anew to the new representative.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "For interruption of the proceedings, no administrative fee has to be paid.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "A communication by the EPO is deemed to be delivered on the tenth day following  its posting (Rule 126(2) EPC). For the legal fiction of the deemed delivery, it is  immaterial whether the tenth day falls on a Saturday or Sunday. The proceedings  are interrupted with legal effect from the date of the occurrence of the event , in this  case the legal incapacity of the representative, Rule 142(1)(c) EPC and Guidelines,  E-VI, 1.3. The communication dated 7 September 2016 would be considered null  and void and would be notified anew to the new representative only in a case where  the communication was notified during an interruption period, Guidelines, E-VI, 1.4:  this is not the case here. There is no provision in the EPC for paying fees for  requesting interruption of the proceedings."
+        },
+        {
+            "question_number": "9",
+            "question_type": "True/False",
+            "context": "Today, 6 March 2017, an applicant wishes to file a new European patent application to  protect an invention relating to the treatment of disease X using a substance Z. A pre- published scientific article discloses the use of substance Z for treating the disease Y.  Disease Y and disease X are diseases of the human body. Disease Y is completely  unrelated to disease X.     For each of the statements 9.1 \u2013 9.4, indicate on the answer sheet whether the  statement is true or false:    The following claim complies with the requirements of the EPC:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Use of substance Z for the manufacture of a medicament for treating disease X.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Substance Z for use in the treatment of disease X.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Method for treating disease X using substance Z.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Substance Z for use as a medicament.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The wording of the claim in statement 9.1 (in the so-called Swiss-type format) is  directed to a further medical use of substance Z and can only be used for  applications with a filing or priority date before 29 January 2011, see G2/08 and  Guidelines, G-VI, 7.1. The wording of the claim in statement 9.2 is correctly  formulated as a further (so called \u201csecond\u201d) medical use in accordance with Article  54(5) EPC, see also Guidelines, G-VI, 7.1.2. The wording of the claim in statement  9.3 is explicitly excluded by Article 53(c) EPC. The subject-matter of the claim in  statement 9.4 is not novel with respect to the disclosure of the pre-published  scientific paper, Article 54(4) EPC."
+        },
+        {
+            "question_number": "10",
+            "question_type": "True/False",
+            "context": "The international application PCT-A was validly filed on 4 January 2017 with the EPO.  PCT-A validly claims the priority from a Dutch patent application NL-A, filed on  31 January 2016. Today, 6 March 2017, the international search report for PCT-A was  transmitted to the applicant.     For each of the statements 10.1 \u2013 10.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "An international preliminary examination of PCT-A before the EPO can be validly requested on 30 November 2017.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "A handling fee is due for requesting the international preliminary examination of PCT-A before the EPO.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The applicant is entitled to communicate orally with the EPO as the International Preliminary Examination Authority.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If amended claims for PCT-A are received by the International Bureau before the technical preparations for international publication have been completed, then the international publication of PCT-A will also contain the text of the amended claims.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "According to Rule 54bis1.(a)(ii) PCT, in the present case of PCT-A, an international  preliminary examination can be requested at any time prior to the expiration of  22 months from the priority date. Therefore, on 30 November 2017 a valid demand  can be filed. A handling fee is due for requesting the international preliminary  examination, Rule 57.1 PCT. The applicant is entitled to communicate orally with the  EPO as the International Preliminary Examination Authority, Article 34(2)(a) PCT. If  amended claims for PCT-A are received by the International Bureau before the  technical preparations for international publication have been completed, then the  international publication of PCT-A will contain the full text of the claims both as filed  and as amended, Rule 46.1 PCT and Rule 48.2(f) PCT."
+        }
+    ]
+}

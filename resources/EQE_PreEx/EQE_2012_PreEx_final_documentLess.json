@@ -1,0 +1,327 @@
+{
+    "exam_type": "EQE",
+    "year": "2012",
+    "exam_name": "PreEx",
+    "exercices": [
+        {
+            "question_number": "1",
+            "question_type": "True/False",
+            "context": "Bikeparts AS is a Danish company based in Copenhagen. Bikeparts AS validly filed a  Japanese patent application JP-X on 11 March 2011 at the Japanese Patent Office in  the Japanese language for invention X. Today, 5 March 2012, it is desired to file a  European patent application EP-X at the EPO claiming the priority of JP-X for  invention X.     For each of the statements 1.1 \u2013 1.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "EP-X can be filed in Danish.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "EP-X can be filed in Korean.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "EP-X can be filed in Japanese.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If EP-X is not filed in one of the official languages of the EPO, then a translation into an official language of the EPO must be filed within a time limit of one month.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "A European patent application may be filed in any language, such as in Danish, Koreanor  Japanese, Article 14(2) EPC. If a European patent application is not filed in one of the  official languages, a translation must be filed within two months of filing the application,  Rule 6(1) EPC."
+        },
+        {
+            "question_number": "2",
+            "question_type": "True/False",
+            "context": "Mr X validly filed a German patent application on 6 April 2011. He intends to claim  priority of this first application in a later European patent application.     For each of the statements 2.1 \u2013 2.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Mr X can validly claim priority if he files the European patent application on 10 April 2012.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The priority declaration must be made at the latest on 10 August 2012.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If Mr X had filed a German utility model application instead of a German patent application, it would have been possible to claim priority from the German utility model application.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Mr X can claim priority from the German patent application even if the German patent application is abandoned before filing of the European patent application.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Mr X can validly claim priority from the German patent application if he files the European  patent application on 10 April 2012 [6 April 2011 + 12 months (=6 April 2012), extended  due to Easter holidays to 10 April 2012], Article 87(1) EPC, Rule 131(4) EPC and  Rule 134(1) EPC. The priority declaration must be made within sixteen months from the  priority date claimed, i.e. latest on 6 August 2012, Rule 131(4) EPC. Also a utility model  application gives rise to a right of priority, Article 87(1) EPC. The outcome of the priority  application (such as a subsequent withdrawal)is irrelevant, Article 87(3) EPC."
+        },
+        {
+            "question_number": "3",
+            "question_type": "True/False",
+            "context": "Today, 5 March 2012, applicant Z wishes to file a PCT application with the EPO without  claiming priority. Applicant Z has filed no other patent application for this invention.     For each of the statements 3.1 \u2013 3.4, indicate on the answer sheet whether the  statement is true or false:    One of the elements that the EPO as receiving Office has to receive today in order to  accord today's date as the filing date for the PCT application is...",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "... the description.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "... the abstract.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "... one or more claims.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "... the title of the invention.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "An element that the receiving Office must be provided with for according an international  filing date to an international application is a description and one or more claims  (Article 11(iii)(d) and (e) PCT). The abstract and the title of the invention are not required  for obtaining an international filing date."
+        },
+        {
+            "question_number": "4",
+            "question_type": "True/False",
+            "context": "A PCT application was filed with the EPO. As the International Searching Authority, the  EPO considered that the application was not unitary. The invention first mentioned in the  claims was searched and an invitation to pay two additional international search fees  was sent to the applicant last week. The third invention, which has not yet been  searched, is the only invention that the applicant would like to pursue in the European  phase before the EPO.     For each of the statements 4.1 \u2013 4.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "In the international PCT phase, the applicant can file a protest with the EPO and request that a full search is made. The protest is free of charge, but it has to be supported by arguments.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The applicant can timely pay one additional fee for the third invention to be searched in the international PCT phase. In the European phase, the applicant can limit the application to the third invention.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The applicant can ignore the invitation. In the European phase, the applicant can file a divisional application directed to the third invention.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The applicant can ignore the invitation. In the European phase, the applicant will again receive an invitation to pay additional search fees.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "If an additional search fee is paid under protest, the EPO as the International Searching  Authority examines the protest in accordance with Rule 40.2(c) and (e) PCT provided that  the prescribed protest fee, Rule 158(3) EPC, is also paid. If the applicant chooses to pay  an additional fee for the third invention, the applicant can limit in the European phase the  application to an invention that was covered by the international search report, i.e. the third  invention, Rule 164(2) EPC. After entry into the European phase the applicant can file a  divisional application directed to the third invention, G 2/92 and Article 76(1) EPC.A  supplementary European search report is not drawn up where the international search  report was drawn up by the EPO, Article 153(7) EPC and Decision of the Administrative  Council of 28.10.2009 (OJ EPO 2009, 594).The applicant will have no opportunity to pay  additional search fees in the European phase."
+        },
+        {
+            "question_number": "5",
+            "question_type": "True/False",
+            "context": "On 1 February 2010 Document US1 was published. US1 discloses inventive feature A  but not feature B. On 1 June 2010 your client filed European patent application EP1  disclosing inventive feature B but not feature A. On 1 June 2011 your client filed  European patent application EP2 claiming priority from EP1. EP2 has the following  claims: Claim 1 is directed to feature B; claim 2 is directed to the combination of  features B and A. EP1 was published in December 2011. The combination of  features B and A would be obvious if the skilled person were aware of the disclosures of  EP1 and US1.    For each of the statements 5.1 \u2013 5.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The subject-matter of claim 2 of EP2 lacks inventive step.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If EP2 had not claimed priority from EP1, the patentability of claim 1 of EP2 would not change.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "A valid novelty objection can be made using EP1 against claim 1 of EP2.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The subject-matter of claim 2 of EP2 is novel.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Feature A is part of the state of the art under Article 54(2) EPC by publication of US1 on 1  February 2010. Feature B is part of the state of the art under Article 54(2) EPC by  publication of EP1 in December 2011. The subject-matter of claim 2 of EP2 is inventive as  it was not obvious to the skilled person until feature B became part of the prior art in  December 2011, Article 56 EPC, second sentence.If EP2 had not claimed priority from  EP1 the situation would have been as follows: the fiction under Article 89 EPC that 1 June  2010 counts as date of filing of EP2 for the purpose of Article 54, paragraphs 2 and 3, EPC  would not apply;EP1 would have been prior art under Article 54(3) EPC against EP2; and  the content of EP1 would have rendered claim 1 of EP2 not novel. However, as EP2  claims priority from EP1, the effective date for feature B is 1 June 2010, Article 89 EPC.  Thus no valid novelty objection against claim 1 of EP2 can be made using EP1. The  subject-matter of claim 2 is novel as it is not disclosed in the prior art: neither US1 nor EP1  disclose the combination of features B and A."
+        },
+        {
+            "question_number": "6",
+            "question_type": "True/False",
+            "context": "A divisional application EP-D was filed on 10 February 2012 with the EPO. The parent  application EP-P was filed on 14 December 2010 and was still pending on  10 February 2012. The claims of EP-D contain subject-matter that was not originally  disclosed in the parent application.     For each of the statements 6.1 \u2013 6.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The subject-matter that is common to EP-D and EP-P is deemed to have the date of filing of 14 December 2010 and the remaining subject-matter of EP-D is deemed to have 10 February 2012 as its date of filing.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "EP-D is deemed to have 10 February 2012 as its date of filing.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "It is mandatory for EP-D to have the same set of claims as EP-P.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "During examination the applicant can amend EP-D so that it does not extend beyond the content of EP-P as originally filed, provided that the amended EP-D does not extend beyond the content of EP-D as originally filed.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "If EP-D contains subject-matter extending over the earlier application it cannot be  converted into an independent application taking 10 February 2012 as its  date of filing for  all or part of its subject-matter.In such a case, EP-D can be amended to remove all  additional matter to comply with the requirements of Article 76(1) EPC. If the applicant is  unwilling to remedy the defect by removal of the additional subject-matter, the divisional  application is refused under Article 97(2) EPC due to non-compliance with Article 76(1) EPC.The claims of a divisional application need not be limited to subject-matter already  claimed in the earlier application. (Guidelines, C-VI, 9.1.4, G 1/05)."
+        },
+        {
+            "question_number": "7",
+            "question_type": "True/False",
+            "context": "A European patent application is filed today, 5 March 2012. It contains 1 abstract page,  28 description pages, 5 drawing pages and 4 claims pages. The application has  19 claims. Three of the 19 claims are independent claims. The applicant wishes to  proceed with all claims.     For each of the statements 7.1 \u2013 7.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Claims fees are due for 3 claims only.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If the application is filed online, no additional fee for pages has to be paid.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If the application is filed by post, the additional fee for 3 pages has to be paid.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If no claims fees are paid, the application will be deemed to be withdrawn.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The European patent application contains (including the abstract page) 38 pages and  19 claims. Claims fees are due in respect of the sixteenth and each subsequent claim, i.e.  for 4 claims, Rule 45(1) EPC. Irrespective of how the application was filed, an additional  fee for three pages has to be paid, Rule 38(2) EPC and Article 2(1), No.1a Rfees, see also  Guidelines, A-III, 13.2. If a claims fee is not paid in due time, the claim concerned is  deemed to be abandoned, Rule 45(3) EPC."
+        },
+        {
+            "question_number": "8",
+            "question_type": "True/False",
+            "context": "The publication of the mention of the grant of a European patent was made on  22 June 2011. The European patent includes independent claim 1 directed to a product  and independent claim 2 directed to a process. The two claims are not linked by a single  general inventive concept.   Your client wants the opposition division to revoke the patent in its entirety but so far he  has found state of the art that anticipates the subject-matter of product claim 1 only.     For each of the statements 8.1 \u2013 8.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "A notice of opposition must be filed at the latest by 22 March 2012.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If an opposition is filed against claim 1 only, the opposition can be extended by the opponent to claim 2 after the expiry of the opposition period.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The statement setting out the grounds for opposition must be filed at the latest by 22 May 2012.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "As claims 1 and 2 are not linked by a single general inventive concept, lack of unity of the invention is a valid ground for opposition.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "A notice of opposition must be filed within nine months of the publication of the mention of  the grant, i.e. by 22 March 2012, Article 99(1) EPC and Rule 131(4) EPC. The notice of  opposition shall, in particular, contain: a statement of the extent  to which the European  patent is opposed; and a statement of the grounds of opposition together with supportive  facts and evidence, Rule 76(2)(c) EPC. After expiry of the opposition period, it is not  possible to extend the opposition to independent claims that had not been attacked in the  notice of opposition, G9/91, see also Guidelines, D-V, 2.1. Lack of unity is not a valid  ground for opposition, Article 100 EPC and G1/91."
+        },
+        {
+            "question_number": "9",
+            "question_type": "True/False",
+            "context": "Your British client buys a French company with all its assets including an international  application PCT1 directed to a first invention and a French application FR2 directed to a  second invention. Both applications are in the French language. PCT1 was filed in  December 2009 and FR2 was filed in April 2011. Neither application claims an earlier  priority. Your client wants to pursue both inventions as European patent applications, by  entering the European phase with PCT1 and by filing a European application EP-FR  claiming the priority from FR2. However, he would prefer that the language of the  European proceedings of both applications be English.    For each of the statements 9.1 \u2013 9.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Upon entry of PCT1 into the European phase before the EPO, your client can file a translation of PCT1 into English, and English will become the language of the proceedings.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "A European patent application validly claiming priority from FR2 can be filed in English.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Today, on 5 March 2012, it is no longer possible to validly claim priority from FR2 for a European patent application.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The applicant can file EP-FR in French and then validly file a European divisional application of EP-FR in English.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "As PCT1 was filed in French it is not possible to change the language of proceedings to  English upon entry into the European phase, G4/08.On 5 March 2012 it was possible to  file a European application EP-FR validly claiming priority from FR2, as the period of  twelve months for claiming priority had not yet expired, Article 87(1) EPC. The language of  the priority document does not matter. If EP-FR is filed in French, its European divisional  application can only be filed in the language of the proceedings of the earlier application,  i.e. in French, Rule 36(2) EPC."
+        },
+        {
+            "question_number": "10",
+            "question_type": "True/False",
+            "context": "The applicant did not respond to a communication issued by the examining division  setting a two month time limit for bringing the description into conformity with the  amended claims. The EPO issued a notice of loss of rights by registered mail dated  23 November 2011. On Saturday 4 February 2012 the applicant discovered the notice of  loss of rights in an unrelated file.    For each of the statements 10.1 \u2013 10.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The time limit for requesting further processing expired on 3 February 2012.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The time limit for requesting re-establishment of rights expires on 6 April 2012.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "For requesting further processing of a European patent application following failure to observe a time limit, the applicant must have taken all due care required by the circumstances to observe the time limit.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "To save the application, it is sufficient to timely:  \u2014 file at the EPO a request for re-establishment of rights in respect of the time limit for requesting further processing;  \u2014 pay the fees for re-establishment of rights and for further processing; and  \u2014 demonstrate that all due care required by the circumstances to observe the time limit was taken. Questions 11-20 relate to a European patent application filed by your client with the following description and drawings:",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The time limit for requesting further processing expired on 3 February 2012  [23 November 2011 + 10 days (= 3 December 2011) + 2 months (= 3 February 2012)],  Rule 112(2) EPC, Rule 126(2) EPC and Rule 131(4) EPC. In accordance with  Article 122 EPC and Rule 136(1) EPC, the request for re-establishment of rights has to be filed within two months of the removal of the cause for non-compliance with the period (i.e. the discovery of the notice of loss of rights), which is latest on 4 April 2012 [4 February 2012 + 2 months (= 4 April 2012)], Rule 131(4) EPC. The criterion of all due  care is not required with regard to requests for further processing. This requirement only  applies to requests for re-establishment of rights. To save the application it is necessary to  comply with all requirements of Article 122 and Rule 136:Among others, the omitted act  has to be completed, in the present case filing of an adapted description, Rule 136(2) EPC."
+        }
+    ]
+}

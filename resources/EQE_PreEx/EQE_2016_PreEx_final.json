@@ -1,0 +1,612 @@
+{
+    "exam_type": "EQE",
+    "year": "2016",
+    "exam_name": "PreEx",
+    "exercices": [
+        {
+            "question_number": "1",
+            "question_type": "True/False",
+            "context": "Opposition proceedings are pending against all claims of European patent EP-B. The  only ground of opposition is Article 100(c) EPC. Today, 29 February 2016, the EPO  receives third party observations against EP-B. The submissions of the third party are as  follows:   -  it is explained that prior art document D1 anticipates claim 1 of EP-B; and  -  it is reasoned that the invention in EP-B is not sufficiently disclosed.       For each of the statements 1.1 \u2013 1.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Since third party observations can only be filed concerning issues arising under Articles 52 to 57 EPC, the opposition division will not consider the reasoning concerning lack of sufficiency of disclosure.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The submissions of the third party will be forwarded by the EPO to the patent proprietor.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The submissions of the third party will be accessible to the public through file inspection.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The opposition division is allowed to introduce into the proceedings lack of novelty with respect to claim 1 as a fresh ground for opposition.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The opposition division will consider the third party observations under Article 115 EPC,  since third party observations may be directed to patentability in the broad sense: for  instance, they may be directed to issues of sufficiency of disclosure or unallowable  amendments, Guidelines, E-V, 3. Third party observations are communicated to the  proprietor, Rule 114(2) EPC. Third party observations become part of the file and are  accessible to the public according to Article 128(4) EPC, see also Guidelines, A-XI, 2.1.  The opposition division can introduce a fresh ground for opposition into the proceedings,  Article 114(1) EPC and G 9/91."
+        },
+        {
+            "question_number": "2",
+            "question_type": "True/False",
+            "context": "In December 2015, the examining division issued a first communication informing the  applicant of the text in which it intends to grant European patent EP-D. The text contains  an amendment proposed by the examining division in claim 15. Apart from this, the text  of the application is as filed by the applicant. Today is 29 February 2016.    For each of the statements 2.1 \u2013 2.4 indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "As soon as the applicant files the translation of the claims and pays the fee for grant and publication, resumption of the examination proceedings is no longer possible.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If the applicant requests a reasoned amendment to claim 15 today, the applicant must at the same time file the translation of the so amended set of claims and pay the fee for grant and publication.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If the applicant adds two dependent claims to the set of claims today, the examining division will not examine these two claims, unless claims fees are also paid.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Third party observations on EP-D filed with the EPO today are no longer considered by the examining division, since they are late filed.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Subsequent to the applicant\u2019s approval in response to the communication under  Rule 71(3) EPC, the examining division may resume the examination procedure at any  time up to the moment when the decision to grant is handed over to the EPO\u2019s internal  postal service, Rule 71a (2) EPC, G12/91, see also Guidelines, C-V, 6.1. Within the period  under Rule 71(3) EPC, the applicant may request reasoned amendments,  Rule 71(6) EPC: in this case the applicant will not be required to file the translation of the  further amended set of claims or to pay the fee for grant and publication, Guidelines, C-V,  4.1. Claims fees for the two dependent claims are only due, if the amendment is accepted  and a second communication under Rule 71(3) EPC is issued, Guidelines, C-V, 4.8.1. The  examining division may still consider third party observations filed up to the moment when  the decision to grant is handed over to the EPO\u2019s internal postal service, Guidelines, C-V,  6.1."
+        },
+        {
+            "question_number": "3",
+            "question_type": "True/False",
+            "context": "With a communication under Article 94(3) EPC, the examining division invited the  applicant to amend the European patent application EP-T and set a period for replying.  The communication is dated 21 December 2015.     For each of the statements 3.1 \u2013 3.4 indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The communication is deemed to be delivered on 1 January 2016.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If the communication sets a period of two months, the applicant's reply must be filed at the latest on 1 March 2016.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If the communication sets a period of four months, the applicant's reply must be filed at the latest on 2 May 2016.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If the communication sets a period of four months and the applicant does not reply, he can validly request further processing on 4 July 2016.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The communication is deemed to be notified on [21 December + 10 days (Rule 126(2)  EPC) =] 31 December 2015. If a period of two months is set, the reply must be filed at the  latest on [21 December + 10 days (Rule 126(2) EPC) = 31 December 2015 + 2 months  (Rule 131(4) EPC) =] 29 February 2016. If a period of four months is set, the reply must be  filed at the latest on 2 May 2016 [21 December + 10 days (Rule 126(2) EPC) =  31 December 2015 + 4 months (Rule 131(4) EPC) = 30 April 2016, extended to Monday,  2 May 2016 (Rule 134(1) EPC)]. Further processing can be validly requested within two  months of the communication of a loss of rights due to the missed time limit,  Rule 135(1) EPC and Rule 112(1) EPC. Since this communication will be issued only  sometime after 2 May 2016 and since such a communication will be deemed to be  delivered only on the tenth day following its posting (Rule 126(2) EPC), there is absolute  certainty that further processing can be requested on 4 July 2016. Note that a request for  further processing may also be filed between expiry of the unobserved time limit and  notification of the communication concerning either the failure to observe a time limit or a  loss of rights, Guidelines, E-VII, 2.1."
+        },
+        {
+            "question_number": "4",
+            "question_type": "True/False",
+            "context": "The European patent application EP-F was filed in May 2013. Philippe is designated as  the sole inventor. Last week the applicant of EP-F, company F, received a  communication under Rule 71(3) EPC for EP-F. Today, 29 February 2016, an error is  noted: the inventors of EP-F are actually Philippe and B\u00e9atrice. The applicant now  consults you for advice.    For each of the statements 4.1 \u2013 4.4 indicate on the answer sheet whether the  statement is true or false:    A valid element of your advice for correcting the error before the EPO is that ...",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "... the designation of the inventor may be rectified even after the grant of EP-F.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "... the applicant need not provide evidence that an error was made.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "\u2026 if the request is filed by the applicant, the consent of Philippe is required to rectify the designation of the inventor.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "... if the request is filed by B\u00e9atrice, the consent of the applicant is required to rectify the designation of the inventor.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Rectification of the designation of the inventor can be requested even after proceedings  before the EPO are terminated, Rule 21(1) EPC and Guidelines, A-III, 5.6. The incorrect  designation is rectified upon request and no evidence is required, Rule 21(1) EPC. If a  further inventor is to be designated, the consent of the inventor previously designated is  not necessary, Rule 21(1) EPC, Guidelines, A-III, 5.6. If the request is filed by B\u00e9atrice, the  consent of the applicant is required, Rule 21(1) EPC."
+        },
+        {
+            "question_number": "5",
+            "question_type": "True/False",
+            "context": "Last week, Greta validly filed with the German Patent and Trade Mark Office (DPMA)  the international patent application PCT-G. Now, she wants to appoint Hassan as her  representative. Hassan is entitled to act before the DPMA but he is not a European  patent attorney. Greta and Hassan are resident in Germany.     For each of the statements 5.1 \u2013 5.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Greta can validly appoint Hassan to represent her before the EPO as the International Searching Authority for PCT-G.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "As a general rule, a power of attorney need not be submitted with the EPO in order to appoint a representative to act before the EPO as the International Searching Authority.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "According to the provisions of the PCT, it is mandatory that the Demand for International Preliminary Examination is signed by the applicant, even in the case where a representative has been validly appointed.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "According to the provisions of the PCT, a representative can only validly withdraw an international application if the representative has filed a power of attorney.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Hassan has the right to practice before the DPMA with which PCT-G was filed.  Consequently, he can be validly appointed as a representative (agent) to practice before  the IB, the competent International Searching Authority and the competent International  Preliminary Examination Authority in respect of PCT-G (Article 49 PCT and Rule 90.1  PCT). Statements 5.2 to 5.4 relate to representatives (agents) dealing with international  applications in general, and these statements are not restricted to PCT-G and Hassan as  the representative (agent). A waiver of power of attorney under Rule 90.4(d) and  Rule 90.5(c) PCT is currently in force, see Notice from the European Patent Office dated  2 March 2010 concerning the waiver of power of attorney under Rule 90.4(d) and  Rule 90.5(c) PCT, OJ 5/2010, pages 335-336. The Demand shall be signed by the  applicant, Rule 53.8 PCT. However, any act by an agent shall have the effect of an act by  the applicant, Rule 90.3(a) PCT. Thus, the request for the Demand need not be signed by  the applicant. A withdrawal of an international application has to be filed either by the  applicant(s) or by a representative (agent), provided that he has been appointed by the  applicant(s) signing the request, the demand, a separate power of attorney or a general  power of attorney (Rule 90bis.5, Rule 90.4(a) PCT and Rule 90.5(a) PCT. [Note that the  case referred to in Rule 90.4(e) PCT does not apply whenever the representative (agent)  was appointed by the applicant signing the request or the demand]."
+        },
+        {
+            "question_number": "6",
+            "question_type": "True/False",
+            "context": "The mention of the grant of European patent EP-I was published on 25 November 2015.  The single claim of EP-I is directed to a product. The patent was validated in Germany  and France. EP-I was filed in May 2011.     For each of the statements 6.1 \u2013 6.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The renewal fees for European patent EP-I that are due in 2016 cannot be validly paid to the EPO.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "A notice of opposition against EP-I must be filed with the EPO at the latest on 25 August 2016.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Any infringement of European patent EP-I can be dealt with under the EPC and by the EPO, provided that opposition proceedings are pending.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The patent proprietor is entitled under all circumstances to produce and sell in France any matter that is covered by the claim of EP-I.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The obligation to pay renewal fees to the EPO terminates in 2015, with the payment of the  renewal fee due in respect of the year in which the mention of the grant of the European  patent is published in the European Patent Bulletin, Article 86(2) EPC. An opposition can  be filed at the latest on (25 November 2015 + 9 months =) 25 August 2016,  Article 99(1) EPC and Rule 131(4) EPC. Any infringement of a European patent is dealt  with by national law, not under the EPC, Article 64(3) EPC. A patent  gives the patent  proprietor the right to exclude third parties from using the protected invention: it does not   automatically allow the patent proprietor to produce and sell matter that is protected by the  patent."
+        },
+        {
+            "question_number": "7",
+            "question_type": "True/False",
+            "context": "On 20 February 2015, the German applicant Susanne validly filed the German patent  application DE-S. On 22 February 2016, the German applicant Walter filed the European  patent application EP-W claiming priority from DE-S. Today, 29 February 2016, Walter  states in a letter to the EPO that he is entitled to claim priority from DE-S. Annexed to  the letter is a contract signed on 18 February 2016 by Susanne and Walter. According to  the contract, the priority right from DE-S is transferred from Susanne to Walter.     For each of the statements 7.1 \u2013 7.4 indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "EP-W is considered to be filed within the priority period of twelve months from the filing date of DE-S.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "According to the provisions of the EPC, a declaration of priority must be made within fourteen months from the earliest priority date claimed.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The priority is not validly claimed because the evidence of the transfer of the priority right from DE-S was filed after the date of filing of EP-W.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "One of the requirements for the validity of the priority right from DE-S is that the transfer of the priority right must have taken place before the date of filing of  EP-W.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "EP-W is considered to be filed within the priority period, [20 February 2015 + 12 months  (Article 87(1) EPC, Rule 131(4) EPC) = 20 February 2016, extended to Monday,  22 February 2016 (Rule 134(1) EPC)]. A declaration of priority can be made within sixteen  months from the earliest priority date claimed, Rule 52(2) EPC. For Werner to be  considered the successor in title according to Article 87(1) EPC, the transfer of the  application (or of the priority right as such) must have taken place before the filing date of  EP-W. However, proof of this transfer can be filed later, Guidelines, A-III, 6.1."
+        },
+        {
+            "question_number": "8",
+            "question_type": "True/False",
+            "context": "The company Q has developed a process for producing the known product P by means  of a more efficient and ecological process including the process steps A, B and C. To  protect the invention, company Q has filed a European patent application EP-Q in  January 2014. EP-Q has two claims: claim 1 is directed to a process for producing  product P including the steps A, B and C; claim 2 is directed to product P obtainable by  the process of claim 1.     For each of the statements 8.1 \u2013 8.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The subject-matter of claim 2 lacks novelty.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If a patent is granted for the subject-matter of claim 1, product P directly obtained from process claim 1 is also protected under the provisions of the EPC.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If the subject-matter of a claim relative to a production process is novel and inventive, then the subject-matter of a claim relative to a product directly obtainable from the same production process must also be novel and inventive.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "In examination proceedings before the EPO, the subject-matter of claim 2 would be novel if claim 2 was directed to product P directly obtained by the process of claim 1.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The subject-matter of claim 2 lacks novelty, since product P is known in the art,  Article 54(2) EPC. The process is stated to be more efficient and ecological, but it is not  stated to provide a product with different features, Guidelines, F-IV, 4.12. According to  Article 64(2) EPC, if the subject-matter of a European patent is a process, the protection  conferred by the patent extends to the product directly obtained by such process. Even if a  claim directed to a production process is inventive, no conclusion can be drawn regarding  a product obtained by the same process: the product may be not even novel, as is  presently the case. The terms \"obtainable\", \"obtained\" or \"directly obtained\" are used in  the product-by-process claim to define the product per se, Guidelines, F-IV, 4.12.  Therefore, in proceedings before the EPO it makes no difference for the claim  interpretation whether in claim 2 the term \u201cobtainable\u201d or \u201cdirectly obtained\u201d is used."
+        },
+        {
+            "question_number": "9",
+            "question_type": "True/False",
+            "context": "The European patent application EP-N was filed on 30 July 2013. The applicant notes  today, 29 February 2016, that the renewal fee for the third year was not paid. The  applicant is convinced that the fee was not paid because of a particularly exceptional  situation in his company. Therefore, the applicant intends to file a request for re- establishment of rights with respect to EP-N.     For each of the statements 9.1 \u2013 9.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "On 1 February 2016 it was possible to validly pay the renewal fee for EP-N together with the additional fee.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Before filing a request for re-establishment of rights in respect of EP-N, a request for further processing must be filed.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "One step that must be taken with regard to the request for re-establishment of rights is to pay the renewal fee for the third year.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "One step that must be taken with regard to the request for re-establishment of rights is to show that all due care required by the circumstances was observed.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "On 1 February 2016 it was possible to validly pay the renewal fee for EP-N together with  the additional fee [31 July 2015 + 6 months (Rule 51(2) EPC and Rule 131(4) EPC) =  31 January 2016, extended to Monday, 1 February 2016 (Rule 134(1) EPC)]. Further  processing is ruled out in respect of the period referred to in Rule 51(2) EPC,  Rule 135(2) EPC. In the present case, the omitted act that has to be completed  (Article 122(1) EPC and Rule 136(2) EPC) includes the payment of the renewal fee for the  third year (Article 86(1) EPC, Rule 51(1) and (2) EPC). The applicant must show that he  had exercised all due care required by the circumstances, Article 122(1) EPC and  Rule 136(2) EPC."
+        },
+        {
+            "question_number": "10",
+            "question_type": "True/False",
+            "context": "On 28 February 2016, Paco, a Spanish national resident in Spain, filed with the EPO a  reasoned notice of opposition against European patent EP-E in Spanish. The mention of  the grant of EP-E was published on 3 June 2015. The language of the proceedings of  EP-E is English. In the notice of opposition, Paco requested oral proceedings.     For each of the statements 10.1 \u2013 10.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Paco is not entitled to a reduction of the opposition fee.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Paco must file the translation of the notice of opposition at the latest on 3 March 2016.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If Paco requested in the notice of opposition to speak and listen in French during oral proceedings, the EPO would provide for interpretation.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Paco will be allowed to speak Spanish during oral proceedings if he provides for interpretation into English.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Under the EPC, opponents are not entitled to a reduction of the opposition fee, see  Rule 6(3) and (4) EPC. Natural persons having their residence within a Contracting State  having a language other than English, French or German as an official language (such as  Paco), may file documents which have to be filed within a time limit (in this case a notice of  opposition) in an official language of that State (in this case Spanish) (Article 14(4) EPC).  A translation must be filed within one month of filing the notice of opposition,  Rule 6(2) EPC, that is on 29 March 2016  [28 February 2016 + 1 month (Rule 131(4) EPC)  = 28 March 2016, extended to Tuesday, 29 March 2016 (Rule 134(1) EPC)]. Any party to  oral proceedings before the EPO may use one of the other official languages of the EPO,  on condition that such party gives notice to the EPO at least one month before the date  laid down for such oral proceedings. Alternatively, the party may make provision for  interpreting into the language of the proceedings, English, Rule 4(1) EPC."
+        },
+        {
+            "question_number": "11",
+            "question_type": "True/False",
+            "context": "For each of the statements 11.1 \u2013 11.4 identify on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The subject-matter of claim I.1 excludes a system that comprises a container with a pouring zone.",
+                    "answer": "False",
+                    "examiner_note": ": The open wording of claim I.1 (\u201ccomprising ...\u201d) does not exclude the presence of a pouring zone. [Note that the containers described and shown in the application all have an upper opening; the upper opening is a pouring zone, since the pouring from the upper opening is described in [002] and [017] of the application.]"
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "A saucepan as shown in FIG. 1 falls within the scope of claim I.2.",
+                    "answer": "True",
+                    "examiner_note": ": The saucepan as shown in Fig. 1 has a container 10 and a lid 15 for closing the container, wherein the lid has at least two perforations of the same size ([005]), the lid further comprises a skirt 40, the perforations being arranged in the skirt."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "A saucepan as shown in FIG. 2 falls within the scope of claim I.2.",
+                    "answer": "True",
+                    "examiner_note": ": The skirt 40 of the lid 15 shown in Fig. 2 is made of a narrow ring and protrusions, one of the protrusions having the perforations ([011])."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "A lid for closing a container, wherein the lid has a knob and at least two perforations of the same size falls within the scope of claim I.1.",
+                    "answer": "False",
+                    "examiner_note": ": A lid for closing a container relates to a lid suitable for closing a container and not to a combination of a lid and a container. The system in accordance with claim I.1 is limited to include also a container; a lid without a container does not fall within the scope of claim I.1."
+                }
+            ]
+        },
+        {
+            "question_number": "12",
+            "question_type": "True/False",
+            "context": "For each of the statements 12.1 \u2013 12.4 identify on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "A saucepan as shown in FIG. 3 falls within the scope of claim I.4.",
+                    "answer": "True",
+                    "examiner_note": ": The embodiment of the saucepan shown in Fig. 3 has a securing means of the bayonet type ([015])."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "A saucepan as shown in FIG. 2 falls within the scope of claim I.7.",
+                    "answer": "False",
+                    "examiner_note": ": The embodiment of the saucepan shown in Fig. 2 shows not a spout, but only a circular opening 35. The spout 30 is explicitly defined in [006] as a lip protruding from the side wall 25 of the container 10."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "A saucepan as shown in FIG. 3 falls within the scope of claim I.8.",
+                    "answer": "True",
+                    "examiner_note": ": The embodiment shown in Fig. 3 also has an upper opening 70 which is circular and through which the contents can be poured, see [017]."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "A container without a lid falls within the scope of claim I.6.",
+                    "answer": "False",
+                    "examiner_note": ": Claim I.6 is dependent on I.1 which requires a lid as part of the system."
+                }
+            ]
+        },
+        {
+            "question_number": "13",
+            "question_type": "True/False",
+            "context": "For each of the statements 13.1 \u2013 13.4 identify on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The subject-matter of claim I.5 lacks clarity.",
+                    "answer": "True",
+                    "examiner_note": ": The dependency of claim I.5 is wrong: The securing means is defined only in claim I.3."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "A saucepan as shown in FIG. 2 falls within the scope of claim I.10.",
+                    "answer": "True",
+                    "examiner_note": ": The saucepan as shown in Fig. 2 has open spaces (openings 55) between the protrusions which represent the pouring opening of the lid in the pouring position, see [011] and [012]."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "A saucepan as shown in FIG. 3 falls within the scope of claim I.13.",
+                    "answer": "True",
+                    "examiner_note": ": The saucepan as shown in Fig. 3 has the opening 55 in the lid being larger than the size of one of the at least two perforations and being a pouring opening ([014])."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The subject-matter of claim I.10 lacks clarity because of its dependency.",
+                    "answer": "False",
+                    "examiner_note": ": The wording of claim I.10 defines that the lid comprises an opening for pouring in addition to at least two perforations of the same size. There is no contradiction between claims I.1 and I.10; thus the dependency of claim I.10 is correct."
+                }
+            ]
+        },
+        {
+            "question_number": "14",
+            "question_type": "True/False",
+            "context": "For questions 14 and 15 assume also that claim set I is filed with the client\u00b4s European  patent application and that the European search report cites D1, D2, D3 and D4  whereby all documents are published prior to the date of filing of the client\u2019s European  patent application.    For each of the statements 14.1 \u2013 14.4 identify on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The subject-matter of claim I.3 is novel with respect to D1.",
+                    "answer": "False",
+                    "examiner_note": ": D1 discloses a system comprising a container 1 and a lid 2 for closing the container, wherein the lid has at least two perforations 25 of the same size [002] and securing means 12, 27 for securing the lid to the container [003]."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The subject-matter of claim I.8 is novel with respect to D1.",
+                    "answer": "False",
+                    "examiner_note": ": D1 discloses a system comprising a container 1 and a lid 2 for closing the container, wherein the lid has at least two perforations 25 of the same size [002], wherein the container comprises a circular opening for pouring [005]."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The subject-matter of claim I.2 is novel with respect to D2.",
+                    "answer": "False",
+                    "examiner_note": ": D2 discloses a system comprising a container 2 and a lid 3 for closing the container, wherein the lid has at least two perforations 19 of the same size [002] (\u201cperforations of one size\u201d means that at least two perforations have that specific size) with the lid having a skirt 4, said perforations being arranged in the skirt [002]."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The subject-matter of claim I.7 is novel with respect to D2.",
+                    "answer": "True",
+                    "examiner_note": ": D2 does not disclose a container comprising a spout."
+                }
+            ]
+        },
+        {
+            "question_number": "15",
+            "question_type": "True/False",
+            "context": "For each of the statements 15.1 \u2013 15.4 identify on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The subject-matter of claim I.11 is clear.",
+                    "answer": "False",
+                    "examiner_note": ": Claim I.11 not only defines a first entity, i.e. the system, but also specifies its relationship to a second entity, i.e. the food pieces, which is not part of the claimed entity. Food pieces are not standardised and vary in size. Therefore the size of the perforations is not clearly defined (Guidelines, F-IV, 4.14)."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The subject-matter of claim I.12 is clear.",
+                    "answer": "False",
+                    "examiner_note": ": The term \"large\" is an undefined relative term (Guidelines F-IV, 4.6)."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The subject-matter of claim I.13 is clear.",
+                    "answer": "True",
+                    "examiner_note": ": The mathematical relationship between the two sizes (the size of a perforation and the size of the opening) is clear (Guidelines, F-IV, 4.14). (Note also: Both the perforations and the opening are features of the claimed entity.)"
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The subject-matter of claim I.13 is novel with respect to D2.",
+                    "answer": "False",
+                    "examiner_note": ": D2 discloses a system comprising a container 2 and a lid 3 for closing the container, wherein the lid has at least two perforations of the same size (\u201cperforations of one size\u201d means that at least two perforations have that specific size), wherein the lid further comprises an opening for pouring (\u201clarger perforations [\u2026] dimensioned such as to allow to pour out solid contents\u201d) [002]. D2 further discloses a first straining zone with perforations of one size and a second straining zone with perforations of a larger size for pouring ([002] of D2)."
+                }
+            ]
+        },
+        {
+            "question_number": "16",
+            "question_type": "True/False",
+            "context": "Consider that the applicant suggests to file an amended claim after filing the European  patent application with claim set I.    For each of the statements 16.1 \u2013 16.4 identify on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "An amended independent claim with the following wording is allowable under Article 123 (2) EPC: \"A container, a lid for closing the container and securing means of the bayonet type, whereby the lid has L-shaped slots interlocking with pegs located on the inner wall of the container.\"",
+                    "answer": "False",
+                    "examiner_note": ": This claim is an unallowable generalisation, since the lid is not defined to have at least two perforations of the same size (for straining). There is no disclosure of a lid without any perforation. The perforations are an essential part of the invention to provide the straining (Note: Even if the L-shaped slots could be considered as perforations, the perforations in the description have always been disclosed as perforations that are suitable for straining water. The slots are never described in the description to function as straining perforations, especially when the slots interlock with the pegs.)."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "An amended independent claim with the following wording is allowable under Article 123 (2) EPC: \"A system comprising a container and a lid for closing the container, wherein the container has a spout and the lid comprises a perforation.\"",
+                    "answer": "False",
+                    "examiner_note": ": The feature \u201cat least two perforations of the same size\u201d was present in claim I.1 and is emphasized in [005]. Further, all embodiments show multiple perforations of the same size. That feature is therefore considered an essential feature of the invention, which may not be removed from the claim. The application does not contain any direct and unambiguous disclosure for a skilled person of a spout in combination with a single perforation."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "An amended independent claim with the following wording is allowable under Article 123 (2) EPC: \"A system comprising a container and a lid for closing the container, wherein the lid has at least two perforations of the same size, wherein the lid further comprises a means pointing toward a straining position.\"",
+                    "answer": "False",
+                    "examiner_note": ": This claim is an unallowable generalisation, since only an engraved arrow on the upper surface of the lid 15 is disclosed [016], and not any other pointing means."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Claim I.3 further limited to the container comprising a handle would be an allowable amendment under Article 123 (2) EPC. For questions 17 to 19, assume that claim set II which comprises claims II.1 to II.6 is filed with the client\u2019s European patent application and that the European search report cites D1, D2, D3 and D4 whereby all documents are published prior to the filing date of the client\u2019s European patent application.",
+                    "answer": "True",
+                    "examiner_note": ": All the embodiments shown in the figures of the application have a handle, therefore this amendment is allowable."
+                }
+            ]
+        },
+        {
+            "question_number": "17",
+            "question_type": "True/False",
+            "context": "For each of the statements 17.1 \u2013 17.4 identify on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "A technical effect of the lid being movable around a vertical axis into the two positions defined in claim II.2 is to maintain the lid close to the container while moving the lid from the cooking position to the straining position.",
+                    "answer": "True",
+                    "examiner_note": ": This technical effect is explicitly disclosed in the application [008] and [017]."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "A technical effect of the lid being movable around a vertical axis into the two positions defined in claim II.2 is to secure the lid to the container.",
+                    "answer": "False",
+                    "examiner_note": ": Securing the lid to the container requires the presence of securing (or locking) means, see application [010], [013] and [015]."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "A distinguishing feature of claim II.2 with respect to D3 is that the lid is movable around a vertical axis.",
+                    "answer": "False",
+                    "examiner_note": ": The lid of D3 is rotatable around the vertical axis, and any position is a straining position, i.e. D3 does not provide a position where straining is not possible."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The subject-matter of claim II.1 distinguishes from the disclosure of D4 in that the saucepan in accordance with claim II.1 is not a pressure cooker.",
+                    "answer": "False",
+                    "examiner_note": ": D4 discloses a saucepan which can function as a pressure cooker ([002] of D4). Claim II.1 does not define features which exclude a pressure cooker from the scope of claim II.1."
+                }
+            ]
+        },
+        {
+            "question_number": "18",
+            "question_type": "True/False",
+            "context": "For each of the statements 18.1 \u2013 18.4 identify on the answer sheet whether the  statement is true or false:    In accordance with the problem-and-solution approach \u2026",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "\u2026 D1 is the closest prior art with regard to claim II.1.",
+                    "answer": "False",
+                    "examiner_note": ": D1 does not disclose a saucepan, since the kitchen utensil for washing vegetables of D1 is not suitable for cooking ([002] of D1). A saucepan, however, must be suitable for cooking, which may involve boiling liquids [007]."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "\u2026 D2 is the closest prior art with regard to claim II.2.",
+                    "answer": "True",
+                    "examiner_note": "D2 is the closest prior art, since it discloses a saucepan with a lid being positionable in two positions, one of them allowing straining."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "\u2026 D4 is the closest prior art with regard to claim II.4.",
+                    "answer": "False",
+                    "examiner_note": "Despite D4 having locking means and at least one perforation, this perforation is not suitable for straining. D4 only discloses an opening closed by a cap for permitting the vapour to escape from the saucepan."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "\u2026 D2 is the closest prior art with regard to claim II.3.",
+                    "answer": "True",
+                    "examiner_note": "Claim II.3 encompasses all the features of claims II.1 and II.2. In addition to a lid being positionable in two positions, one of them allowing straining, D2 also discloses that the lid comprises a cylindrical skirt, at least one perforation arranged in the skirt, and that the container comprises an opening for pouring (upper opening 8), the liquid being strained through said opening for pouring ([004] of D2). (Note: D3 is not the closest prior art, since it always strains in each rotational position, i.e. there are no two different positions of the lid.)"
+                }
+            ]
+        },
+        {
+            "question_number": "19",
+            "question_type": "True/False",
+            "context": "For each of the statements 19.1 \u2013 19.4 identify on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "An objective technical problem solved by the subject-matter of claim II.4 with respect to D3 is to provide a safe device for straining the contents of a saucepan.",
+                    "answer": "True",
+                    "examiner_note": "[009] of the application. D3 has no means for impeding the lid from coming off while straining. The device of D3 is therefore less safe."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "An objective technical problem solved by the subject-matter of claim II.6 with respect to D3 is to provide a lid that can be adapted to any container.",
+                    "answer": "False",
+                    "examiner_note": "Claim II.6 differs from D3 by a means for indicating the position of the at least one perforation. This distinguishing feature has no function for adapting the lid to different containers."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The person skilled in the art would apply the teaching of D4 of applying locking means in the saucepan of D2 and arrive in an obvious manner at the subject-matter of claim II.4 so as to secure the lid to the container when tilting the saucepan.",
+                    "answer": "False",
+                    "examiner_note": "The securing means of the bayonet type disclosed in D4 allows only a rotational movement, and this mechanism cannot be combined in an obvious manner with the tilting securing means of D2."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The person skilled in the art would apply the teaching of D3 to the device of D4 and arrive in an obvious manner at the subject-matter of claim II.5.",
+                    "answer": "False",
+                    "examiner_note": "Claim II.5 depends on claim II.2, and therefore contains its additional features. The locking of the lid to the container in D4 has a different purpose, i.e. not for straining. D3 does not have a non-straining position. The teaching of D3 and D4 neither could nor would lead a person skilled in the art to the subject-matter of claim II.5."
+                }
+            ]
+        },
+        {
+            "question_number": "20",
+            "question_type": "True/False",
+            "context": "For question 20, assume that following claim III.1 is a single independent claim filed with  the client\u2019s European patent application and assume again that the European search  report cites D1, D2, D3 and D4 whereby all documents are published prior to the filing  date of the client\u2019s European patent application.",
+            "questions": []
+        }
+    ]
+}

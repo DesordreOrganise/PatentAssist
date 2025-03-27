@@ -1,0 +1,637 @@
+{
+    "exam_type": "EQE",
+    "year": "2017",
+    "exam_name": "PreEx",
+    "exercices": [
+        {
+            "question_number": "1",
+            "question_type": "True/False",
+            "context": "Giorgio validly filed an Italian patent application IT-G as a first filing. IT-G discloses a  frame made of metal, preferably aluminium, for device X. IT-G was filed in April 2016  and withdrawn in May 2016. In September 2016, a frame made of steel for device X was  made available to the public in a catalogue. Today, 6 March 2017, Giorgio files a  European patent application EP-G claiming priority from IT-G. Claim 1 of EP-G is  directed to a frame made of metal for device X. Claim 2 of EP-G is directed to a frame  made of steel for device X. Claim 3 of EP-G is directed to a frame made of aluminium for  device X. Claim 4 of EP-G is directed to a frame made of copper for device X.     For each of the statements 1.1 \u2013 1.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The catalogue is state of the art under Article 54(2) EPC for claim 1 of EP-G.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The catalogue is state of the art under Article 54(2) EPC for claim 2 of EP-G.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The catalogue is state of the art under Article 54(2) EPC for claim 3 of EP-G.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The catalogue is state of the art under Article 54(2) EPC for claim 4 of EP-G.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "EP-G was filed within 12 months from the filing of IT-G, Article 87(1) EPC. Only  claims 1 and 3 of EP-G are directed to the same invention as IT-G (frame made of  metal and frame made of aluminium), Article 87(1) EPC and G2/98. The withdrawal  of the priority application IT-G has no effect on its validity, Article 87(3) EPC. IT-G is  the first filing. The priority for claims 1 and 3 being valid, the effective date under  Article 89 EPC for these two claims is the filing date of IT-G. Therefore, the  catalogue is not prior art within the meaning of Article 54(2) EPC for claims 1 and 3.  However, the effective date of the subject-matter of claims 2 and 4 is the date of  filing of EP-G (frame made of steel and frame made of copper were not disclosed in  IT-G), Article 89 EPC. Thus, the catalogue is prior art under Article 54(2) EPC for  these two claims."
+        },
+        {
+            "question_number": "2",
+            "question_type": "True/False",
+            "context": "Jill filed the international application PCT-J on 4 August 2014 without claiming a priority.  PCT-J was published with the international search report in February 2016. The  international searching authority was the Nordic Patent Institute. Today, 6 March 2017,  Jill decides to enter the European phase before the EPO.     For each of the statements 2.1 \u2013 2.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "One requirement for validly entering the European phase with PCT-J is that a renewal fee must be paid.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "One requirement for validly entering the European phase with PCT-J is that the designation fee must be paid.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "For entry into the European phase with PCT-J today, at least one fee for further processing must be paid.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "For PCT-J the EPO shall carry out a supplementary European search.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The renewal fee in respect of the third year for Euro-PCT-J has fallen due earlier, on  31 August 2016, Article 86(1) EPC and Rule 51(1) EPC. For PCT-J, one of the  requirements for entry into the European phase today, 6 March 2017 is the payment  of the renewal fee in respect of the third year, Rule 159(1)(g) EPC and Guidelines,  A-X, 5.2.4. Also the designation fee is due today, since the period under  Rule 39 EPC has expired earlier (six months after the publication of the search  report, i.e. in August 2016). Note that according to Article 153(6) EPC, the  international search report takes the place of the European search report and the  mention of its publication. The latest date for entering the European phase with EP-J  is today, 6 March 2017 [4 August 2014 + 31 months (= 4 March 2017), extended to  6 March 2017, Rule 159(1) EPC, Rule 131(4) EPC and Rule 134(1) EPC]. Today no  further processing fee is (yet) due. The EPO shall carry out a supplementary  European search, Article 153(7) EPC and Guidelines B-II 4.3.2 (ii) (see also OJ EPO  2005, 422)."
+        },
+        {
+            "question_number": "3",
+            "question_type": "True/False",
+            "context": "For each of the statements 3.1 \u2013 3.4, indicate on the answer sheet whether the  statement is true or false:    The following European patent application is pending today, 6 March 2017:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "A European patent application EP1, for which a reply to a communication under Rule 71(3) EPC was to be filed at the latest on 2 March 2017, and for which the applicant did not file a reply.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "A European patent application EP2, for which the renewal fee due on 30 June 2016 has not yet been paid and for which the EPO sent a notice of loss of rights dated 2 February 2017.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "A European patent application EP3, which was refused by a written decision dated 28 December 2016.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "A European patent application EP4, for which the decision to grant the European patent is dated 6 March 2017.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Guidelines, A-IV, 1.1.1 is referred to: an application is not pending if it is deemed to  be withdrawn due to the non-observance of a time limit, for instance failure to reply  to a communication under Rule 71(3) EPC or failure to pay the renewal fee.  Conversely, an application is pending if it was refused and if no appeal has yet been  filed until the expiry of the time limit for filing the notice of appeal [28 December\u00b02016  + 10 days (Rule 126(2) EPC) + 2 months (Rule 131(4) EPC) = 7 March 2017], see  also G1/09. Thus EP3 is pending until 7 March 2017. For EP4, the decision to grant  is issued before the publication of the mention of the grant. The decision to grant a  European patent does not take effect until the date on which the grant is mentioned  in the European Patent Bulletin, Article 97(3) EPC: thus EP4 is still pending today."
+        },
+        {
+            "question_number": "4",
+            "question_type": "True/False",
+            "context": "Today, 6 March 2017, Adrienn filed with the EPO a European patent application EP-A.  Adrienn is resident in Hungary. The application documents of EP-A consist of a  description in Hungarian and of two drawings.    For each of the statements 4.1 \u2013 4.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Adrienn is entitled to a reduction of the filing fee.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "According to the provisions of the EPC, Adrienn must file one or more claims within two months of filing of EP-A.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "According to the provisions of the EPC, Adrienn must file the translation of the description within two months of filing of EP-A.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "According to the provisions of the EPC, Adrienn must pay the filing fee within two months of filing of EP-A.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Adrienn is a natural person resident in Hungary: therefore, she is entitled to a  reduction of the filing fee, Article 14(4) EPC and Rule 6(3)(b) EPC. One or more  claims must be filed within two months of an invitation under Rule 58 EPC to correct  the deficiency under Rule 57(c) EPC. A translation of the description must be filed  within two month of filing of the European patent application, Rule 6(1) EPC. see  also Guidelines, A-VIII, 1.1. The filing fee must be paid within one month of filing of  EP-A, Rule 38(1) EPC."
+        },
+        {
+            "question_number": "5",
+            "question_type": "True/False",
+            "context": "A notice of appeal was validly filed on 3 February 2017 against the decision to refuse the  European patent application EP-B. The decision is dated 5 December 2016. According  to the decision, claim 1 of the sole request is not novel over D1 and is not inventive over  D2 in combination with the common general knowledge of the skilled person. The  statement setting out the grounds of appeal has not yet been filed.    For each of the statements 5.1 \u2013 5.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The statement setting out the grounds for the appeal must be filed at the latest on 5 April 2017.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The appeal fee is reimbursed, if the applicant withdraws the appeal today, 6 March 2017.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "According to the provisions of the EPC, if the appeal is not allowed within four months of receipt of the statement of grounds, it shall be remitted to the Board of Appeal.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The examining division will grant interlocutory revision, if the applicant can convince the examining division that claim 1 of the sole request is novel over D1.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The statement setting out the grounds for the appeal must be filed at the latest on  18 April 2017 [5 December 2016 + 10 days (Rule 126(2) EPC) + 4 months (Article  108 EPC and Rule 131(4) EPC) = 15 April 2017, extended to 18 April 2017, Rule  134(1) EPC]. The appeal fee is reimbursed, if the appeal is withdrawn before the  filing of the statement of grounds of appeal (and before the period for filing that  statement has expired), Rule 103(1)(b) EPC. If the appeal is not allowed within three  months of receipt of the statement of grounds, it shall be remitted to the Board of  Appeal, Article 109(2) EPC. Statement 5.4 is silent regarding inventive step of claim  1 vs. D2. If interlocutory revision is to be granted, the applicant must address  convincingly both grounds for refusal."
+        },
+        {
+            "question_number": "6",
+            "question_type": "True/False",
+            "context": "The mention of the grant of European patent EP-V was published on 18 May 2016. A  notice of opposition against EP-V was filed on 20 February 2017 with the EPO. Today is  6 March 2017.    For each of the statements 6.1 \u2013 6.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The notice of opposition was filed within the opposition period.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If the opposition fee has not been paid so far, then the opposition will not be deemed to have been filed.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If the opposition is not admissible because the facts and evidence filed in the notice of opposition do not support the grounds for opposition, a valid option for the opponent is to file additional, more relevant documents later in the proceedings.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If the notice of opposition does not mention the name of the patent proprietor, the opponent will have the opportunity to remedy this deficiency.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The notice of opposition against EP-V must be filed at the latest on  20 February 2017 [18 May 2016 + 9 months (Article 99(1) EPC and Rule 131(4)  EPC) = 18 February 2017, extended to 20 February 2017, Rule 134(1) EPC]. If the  opposition fee is not paid within the 9 month opposition period, the opposition is not  deemed to have been filed, Article 99(1) EPC, second sentence. The opponent  cannot remedy a deficiency under Rule 76(2)(c) EPC, such as not mentioning  sufficient facts and evidence. In such a case the opposition has to be rejected as  inadmissible, see Rule 77(1) EPC, see also Guidelines, D-IV, 1.2.2.1 (v). However, the  opponent can remedy a deficiency under Rule 76(2)(b) EPC, such as not mentioning  the name of the patent proprietor, Rule 77(2) EPC, see also Guidelines, D-IV 1.2.2.2  (ii)."
+        },
+        {
+            "question_number": "7",
+            "question_type": "True/False",
+            "context": "A European patent EP-M was granted with only one claim. The claim reads:     \u201cA steel composition M.\u201d    An admissible opposition was filed against EP-M and the ground for opposition is lack of  novelty. The notice of opposition was communicated to the patent proprietor who in reply  filed an amended claim as the main request. The amended claim reads:    \u201cA very thin layer of steel composition M.\u201d    The amendment is based on the description of EP-M as originally filed.    For each of the statements 7.1 \u2013 7.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The amended claim is admissible under Rule 80 EPC only if the amended claim is novel over the cited prior art.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The opponent cannot validly object to clarity of the amended claim, since lack of clarity is not a ground for opposition.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The patent proprietor is entitled to file amendments in reply to the communication informing him of the notice of opposition.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The current request of the patent proprietor is to reject the opposition.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "Rule 80 EPC only requires that amendments made in opposition proceedings must  be occasioned by the grounds for opposition specified in Article 100 EPC. It is not a  requirement of Rule 80 EPC that the amendments actually resolve issues raised in  the notice of opposition. Although clarity is not a ground for opposition, in the present  case the clarity of the amended claim can be discussed, since the amendment,  which was introduced during opposition proceedings, is based on the description  (G3/14). The patent proprietor is entitled to file amendments in reply to the  communication informing him of the notice of opposition. Since the patent proprietor       requests to maintain the patent in amended form (in accordance to Article 101(3)(a)  EPC), his request is not to reject the opposition (in accordance with Article 101(2)  EPC)."
+        },
+        {
+            "question_number": "8",
+            "question_type": "True/False",
+            "context": "The examining division issued a communication under Article 94(3) EPC for European  patent application EP-R. The communication is dated 7 September 2016. The period set  in this communication is four months. On 31 December 2016, the representative for   EP-R fell in a state of legal incapacity and the EPO was informed of it on  10 January 2017. On 12 January 2017, the legal division of the EPO decided to interrupt  the proceedings regarding EP-R. Today, 6 March 2017, the EPO is informed of the  appointment of a new representative for EP-R.    For each of the statements 8.1 \u2013 8.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The communication is deemed to be delivered on 19 September 2016, since 17 September 2016 is on a Saturday.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The proceedings are interrupted with effect of 12 January 2017.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "After resumption of the proceedings for EP-R, the communication dated 7 September 2016 will be considered null and void and will be notified anew to the new representative.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "For interruption of the proceedings, no administrative fee has to be paid.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "A communication by the EPO is deemed to be delivered on the tenth day following  its posting (Rule 126(2) EPC). For the legal fiction of the deemed delivery, it is  immaterial whether the tenth day falls on a Saturday or Sunday. The proceedings  are interrupted with legal effect from the date of the occurrence of the event , in this  case the legal incapacity of the representative, Rule 142(1)(c) EPC and Guidelines,  E-VI, 1.3. The communication dated 7 September 2016 would be considered null  and void and would be notified anew to the new representative only in a case where  the communication was notified during an interruption period, Guidelines, E-VI, 1.4:  this is not the case here. There is no provision in the EPC for paying fees for  requesting interruption of the proceedings."
+        },
+        {
+            "question_number": "9",
+            "question_type": "True/False",
+            "context": "Today, 6 March 2017, an applicant wishes to file a new European patent application to  protect an invention relating to the treatment of disease X using a substance Z. A pre- published scientific article discloses the use of substance Z for treating the disease Y.  Disease Y and disease X are diseases of the human body. Disease Y is completely  unrelated to disease X.     For each of the statements 9.1 \u2013 9.4, indicate on the answer sheet whether the  statement is true or false:    The following claim complies with the requirements of the EPC:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Use of substance Z for the manufacture of a medicament for treating disease X.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Substance Z for use in the treatment of disease X.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Method for treating disease X using substance Z.",
+                    "answer": "False",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Substance Z for use as a medicament.",
+                    "answer": "False",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "The wording of the claim in statement 9.1 (in the so-called Swiss-type format) is  directed to a further medical use of substance Z and can only be used for  applications with a filing or priority date before 29 January 2011, see G2/08 and  Guidelines, G-VI, 7.1. The wording of the claim in statement 9.2 is correctly  formulated as a further (so called \u201csecond\u201d) medical use in accordance with Article  54(5) EPC, see also Guidelines, G-VI, 7.1.2. The wording of the claim in statement  9.3 is explicitly excluded by Article 53(c) EPC. The subject-matter of the claim in  statement 9.4 is not novel with respect to the disclosure of the pre-published  scientific paper, Article 54(4) EPC."
+        },
+        {
+            "question_number": "10",
+            "question_type": "True/False",
+            "context": "The international application PCT-A was validly filed on 4 January 2017 with the EPO.  PCT-A validly claims the priority from a Dutch patent application NL-A, filed on  31 January 2016. Today, 6 March 2017, the international search report for PCT-A was  transmitted to the applicant.     For each of the statements 10.1 \u2013 10.4, indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "An international preliminary examination of PCT-A before the EPO can be validly requested on 30 November 2017.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "A handling fee is due for requesting the international preliminary examination of PCT-A before the EPO.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The applicant is entitled to communicate orally with the EPO as the International Preliminary Examination Authority.",
+                    "answer": "True",
+                    "examiner_note": ""
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If amended claims for PCT-A are received by the International Bureau before the technical preparations for international publication have been completed, then the international publication of PCT-A will also contain the text of the amended claims.",
+                    "answer": "True",
+                    "examiner_note": ""
+                }
+            ],
+            "examiner_note": "According to Rule 54bis1.(a)(ii) PCT, in the present case of PCT-A, an international  preliminary examination can be requested at any time prior to the expiration of  22 months from the priority date. Therefore, on 30 November 2017 a valid demand  can be filed. A handling fee is due for requesting the international preliminary  examination, Rule 57.1 PCT. The applicant is entitled to communicate orally with the  EPO as the International Preliminary Examination Authority, Article 34(2)(a) PCT. If  amended claims for PCT-A are received by the International Bureau before the  technical preparations for international publication have been completed, then the  international publication of PCT-A will contain the full text of the claims both as filed  and as amended, Rule 46.1 PCT and Rule 48.2(f) PCT."
+        },
+        {
+            "question_number": "11",
+            "question_type": "True/False",
+            "context": "For questions 11 to 13, assume that claim I is a single independent claim, and that  claim I.2 is a dependent claim, the claims being filed with the client's patent application.     I.   Body for a toothbrush providing increased dental plaque removal, the body having  a brush head with a bristle zone for holding bristle bundles, a handle and a neck  between the bristle zone and the handle, wherein the neck is connected to the  handle, and wherein the body comprises a battery, an electrically operated element  and a switching means for selectively supplying electric energy from the battery to  the electrically operated element.    I.2  Body for a toothbrush according to claim I, wherein the toothbrush has a total  length of between 18 and 25 cm.      For each of the statements 11.1 - 11.4 indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The toothbrush of the first embodiment of the application is covered by the scope of claim I.",
+                    "answer": "True",
+                    "examiner_note": "The toothbrush of the first embodiment of the application is covered by the scope of claim I. Particularly, controller 133 is a switching means for selectively supplying electric energy from the battery to the electrically operated element. The controller connects the vibrator to the battery, and thereby controls vibrations generated by the vibrator 134 when the push button is pressed down by the user. Further, the brush body of the first embodiment is a (unitary) brush body in which the brush head is (fixedly) connected to the handle (see paragraphs [002] and [006])."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The toothbrush of the second embodiment of the application is covered by the scope of claim I.",
+                    "answer": "True",
+                    "examiner_note": "The toothbrush of the second embodiment of the application is covered by the scope of claim I. Particularly, controller 233 functions in the same way as in the first embodiment. The feature \u201cneck is connected to the handle\u201d in claim I also covers a connection by means of a connection hole 212 and a connection protrusion 231. Further, the brush body of the second embodiment includes a handle and a replaceable brush head (see paragraphs [002] and [007])."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The toothbrush of the third embodiment of the application is covered by the scope of claim I.",
+                    "answer": "True",
+                    "examiner_note": "The toothbrush of the third embodiment of the application is covered by the scope of claim I. Particularly, controller 333 is a switching means for selectively supplying electric energy from the battery to the electrically operated element. The controller connects the vibrator to the battery only as long as the user is pressing the bristles against the teeth and thereby generates a pressure signal. Further, the brush body of the third embodiment includes a handle and a replaceable brush head (see paragraphs [002] and [008])."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The toothbrush of the fourth embodiment of the application is covered by the scope of claim I.   You have found the following two documents D1 and D2 during a prior art search on the internet:   Document D1 (published November 2013)    [001] While cleaning their teeth, adults, in particular, often press their toothbrushes too hard while cleaning their teeth. This excessive force can seriously irritate the gums of these users. It is an object of the present invention to make a user aware of such excessive force.    [002] The toothbrush of FIG. 1 comprises a bristle zone 11 with bristles 12, which is connected to a handle 13. The handle 13 comprises a controller 14, a battery 15, a green light-emitting diode (LED) 16 and a red LED 17. The brush head also contains a pressure sensor 18 in the bristle zone 11, right below the bristles. The controller 14 is connected with the battery 15, each of the LEDs 16 and 17, and the pressure sensor 18 by means of electric cables. A pressure limit value, which has been obtained by clinical research, is stored in the controller 14.    [003] The pressure sensor 18 generates an electric signal as long as the user presses the bristles against the teeth. That signal is transmitted to the controller 14, converted into a measured pressure and compared to the pressure limit value. As long as the measured pressure is below the pressure limit value, the controller 14 supplies electric energy to the green LED 16. The user is thereby informed that the brush does not harm the user's gums. However, if the measured pressure exceeds the pressure limit value, the controller 14 switches the energy supply to the red LED 17. The user is thereby alerted that the brush is pressed too hard.    [004] The toothbrush according to FIG. 1 has a total length of 24 cm.",
+                    "answer": "True",
+                    "examiner_note": "The toothbrush of the fourth embodiment of the application is covered by the scope of claim I. The presence of an additional LED is not ruled out by the formulation \"the body comprises...\"."
+                }
+            ]
+        },
+        {
+            "question_number": "12",
+            "question_type": "True/False",
+            "context": "For each of the statements 12.1 - 12.4 indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "D1 discloses a switching means for selectively supplying electric energy from a battery to an electrically operated element.",
+                    "answer": "True",
+                    "examiner_note": "In particular, D1 discloses a switching means for selectively supplying electric energy from a battery to an electrically operated element since pressure sensor 18 in combination with controller 14 functions as a switching means. Excessive pressure will cause the controller to turn off the green LED and to turn on the red LED."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The subject-matter of claim I is novel with respect to D1.",
+                    "answer": "False",
+                    "examiner_note": "D1 discloses a body for a toothbrush providing increased dental plaque removal. The toothbrush of D1 must be considered as being suitable for \u201cincreased dental plaque removal\u201d, since toothbrushes are used for cleaning teeth, and for removing dental plaque (see paragraph [001] of D2). Further, the relative term \u201cincreased\u201d does not seem to have any well-defined meaning in the art of toothbrushes, and therefore must be interpreted broadly. The body has a brush head with a bristle zone for holding bristle bundles, a handle and a neck between the bristle zone and the handle, and the neck is connected to the handle (see figure 1 of D1). The body comprises a battery (15), an electrically operated element (each of the two LEDs 16 and 17) and a switching means (14, 18) for selectively supplying electric energy from the battery to the electrically operated element. Pressure sensor 18 in combination with controller 14 is a switching means for selectively supplying electric energy from the battery to the electrically operated element, since it allows controller 14 to connect each of the LEDs to the battery, and excessive pressure will cause the controller to turn off the green LED and to turn on the red LED. In addition to that, D1 explicitly discloses \"switching\" in the statement \"controller 14 switches the energy supply to red LED 17\" (paragraph [003] of D1)."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "D2 neither explicitly nor implicitly discloses increased dental plaque removal.",
+                    "answer": "False",
+                    "examiner_note": "The melody played in D2 shall have the effect that children brush their teeth for a longer period of time (see paragraph [001] of D2). A longer period of time automatically increases the plaque removal compared to brushing teeth for a shorter period of time."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The subject-matter of claim I is novel with respect to D2.",
+                    "answer": "False",
+                    "examiner_note": "D2 discloses a body for a toothbrush providing increased dental plaque removal. The toothbrush of D2 is suitable for \u201cincreased dental plaque removal\u201d (see paragraph [001]). Further, the relative term \u201cincreased\u201d does not seem to have any well-defined meaning in the art of toothbrushes, and therefore must be interpreted broadly. The body has a brush head with a bristle zone for holding bristle bundles, a handle and a neck between the bristle zone and the handle, and the neck is connected to the handle (see paragraph [002] and figure 1 of D2). The body comprises a battery (25), an electrically operated element (music module 26 with a loudspeaker) and a switching means (24, 27) for selectively supplying electric energy from the battery to the electrically operated element. Sensor 27 allows controller 24 to act as a switching means for selectively supplying electric energy from a battery to an electrically operated element, since controller 24 supplies electric energy to the music module 26 only as long as controller 24 receives the signal generated by sensor 27. Controller 24 thereby switches the music module ON/OFF (paragraph [002] and figure 1)."
+                }
+            ]
+        },
+        {
+            "question_number": "13",
+            "question_type": "True/False",
+            "context": "For each of the statements 13.1 - 13.4 indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Dependent claim I.2 covers a toothbrush according to claim I having a length of 24 cm.",
+                    "answer": "True",
+                    "examiner_note": "The claimed range of from 18-25 cm in claim I.2 covers a toothbrush having a length of 24 cm."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The additional feature \"a total length of between 18 and 25 cm\" in dependent   claim I.2 is novel over D1.",
+                    "answer": "False",
+                    "examiner_note": "The specific disclosure of 24 cm in D1 is within the claimed range."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Document D2 discloses a toothbrush for children having a length of 15 cm, a   body made from polypropylene and bristles made from polypropylene.",
+                    "answer": "False",
+                    "examiner_note": "The specific combination of (1) a length of 15 cm, (2) a body made from polypropylene, and (3) bristles made from polypropylene is not explicitly disclosed in D2. Such combination of features is a selection from three lists of a certain length, and must therefore be considered novel (Guidelines, G-VI, 8.i)."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Claim I also covers toothbrushes in which the bristle bundles are joined to the   brush head in a separate step after the body has been produced.",
+                    "answer": "True",
+                    "examiner_note": "The feature \"brush head with a bristle zone for holding bristle bundles\" does not require the presence of bristle bundles, since the bristle zone must only be suitable for holding them. Therefore, a body without bristle bundles is covered by claim I, if the bristle zone of that body is suitable for receiving bristle bundles in a further manufacturing step after e.g. the injection moulding of the body."
+                }
+            ]
+        },
+        {
+            "question_number": "14",
+            "question_type": "True/False",
+            "context": "For questions 14 to 17, assume that claim II is a single independent claim and claims  II.2 to II.5 are dependent claims, the claims being filed with the client's patent  application.     II.  Brush with a body, wherein the body comprises a brush head with a bristle zone,  bristle bundles held by the bristle zone, a handle and a neck between the bristle  zone and the handle, wherein the neck is connected to the handle, and wherein the  body comprises a battery and an electrically operated element, characterised in  that the electrically operated element is an electrically operated vibrator.    II.2  Brush according to claim II, wherein the neck is connected to the handle by means  of a connection section.  II.3  Brush according to claim II, wherein the body comprises a switching means, for  example a push button, for selectively supplying electric energy from the battery to  the electrically operated element.  II.4  Brush according to claim II, wherein the body comprises a push button and a  controller, for selectively supplying electric energy from the battery to the  electrically operated element.  II.5  Brush according to claim II, wherein the brush is designed for human use.      For each of the statements 14.1 - 14.4 indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The toothbrush of the first embodiment of the application is covered by the scope   of claim II.",
+                    "answer": "True",
+                    "examiner_note": "Neck 111 is connected to handle 130. The feature \"connected to\" is not limited to a connection section consisting of a connection hole and a connection protrusion, as in the second or third embodiments in FIGS 2 or 3."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The toothbrush of the second embodiment of the application is covered by the   scope of claim II.2.",
+                    "answer": "True",
+                    "examiner_note": "There is a connection section in FIG. 2, which consists of connection hole 212 and connection protrusion 231. That connection section connects the neck to the handle."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The toothbrush of the third embodiment of the application is covered by the scope   of claim II.3.",
+                    "answer": "True",
+                    "examiner_note": "The feature \"switching means\" is not restricted to a push button, since \"for example a push button\" is an optional feature. Controller 333 is a switching means for selectively supplying electric energy from the battery to the electrically operated element, since controller 333 meets the definition given in paragraph [004] of the application, i.e. it connects and disconnects vibrator 334 from battery 335."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The toothbrush of the third embodiment of the application is covered by the scope   of claim II.4.",
+                    "answer": "False",
+                    "examiner_note": "There is no push button in the third embodiment according to FIG. 3, since the pressure sensor is described as an alternative to the push button (paragraph [008] of the application)."
+                }
+            ]
+        },
+        {
+            "question_number": "15",
+            "question_type": "True/False",
+            "context": "For each of the statements 15.1 - 15.4 indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Claim II.3 excludes that the brush contains a pressure sensor.",
+                    "answer": "False",
+                    "examiner_note": "The formulation \"the body comprises...\" in claim II.3 does not exclude the presence of further elements which are not mentioned in the claim. See Guidelines, F-IV, 4.21. Claim II.3 does not contain any disclaimer. Furthermore, the feature \"switching means\" is not restricted to a push button, since \"for example a push button\" is an optional feature."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Claim II.4 excludes that the brush contains an electrically operated vibrator.",
+                    "answer": "False",
+                    "examiner_note": "Claim II.4 is a dependent claim, and therefore contains all the features of independent claim II. The electrically operated vibrator is claimed in claim II. Furthermore, claim II.4 does not contain any disclaimer."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Claim II.4 is limited to a brush with a vibrator in the handle.",
+                    "answer": "False",
+                    "examiner_note": "Claim II.4 is a dependent claim, and therefore contains all the features of claim II. The location of the vibrator is not specified in claim II."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Claim II.2 excludes that electric cables are present in the brush head.    The European Search Report established by the European Patent Office cites documents D3 and D4.    Document D3 (published November 2013)   [001] The present invention relates to toothbrushes for human adults. Toothbrushes are used in combination with toothpaste for removing dental plaque from teeth.    [002] It is an object of the present invention to provide toothbrushes which prevent that dental plaque remains on the teeth. The present invention is based on the surprising finding that the amount of dental plaque removal can be increased by transmitting additional vibrations to the bristles of the toothbrush. These vibrations are generated by an electric vibrator in the toothbrush. The location of the vibrator directly below the bristles is required for optimum transmission of the vibrations to the bristles.   [003] The toothbrush of FIG. 1 comprises a brush head with a bristle zone 31 and bristles 32, and a handle 33 with a controller 34, a battery 35 and a push button 36. An electric vibrator 37 is located in the bristle zone 31, right below the bristles. The controller 34 is connected with the battery 35, the push button 36 and the vibrator 37 by means of electric cables. Electric energy is supplied through an electric cable to the vibrator 37, as long as the controller 34 determines that the user's finger is pressing down the push button 36, and vibrations are generated and transmitted to the bristles. Thereby, the amount of dental plaque removal can be increased.    [004] The toothbrush according to FIG. 1 has a total length of 24 cm.",
+                    "answer": "False",
+                    "examiner_note": "There is no indication in the application that electric cables cannot be present in the brush head."
+                }
+            ]
+        },
+        {
+            "question_number": "16",
+            "question_type": "True/False",
+            "context": "For each of the statements 16.1 - 16.4 indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Document D4 is useless for attacking novelty of claim II, because it relates to   dental cleaning of zoo animals.",
+                    "answer": "False",
+                    "examiner_note": "Claim II is not restricted to (tooth)brushes for humans. Claim II therefore does not exclude toothbrushes for zoo animals. In addition to that, claim II is not restricted to brushes with replaceable brush heads, nor mentions any length of the brush."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The additional feature \"wherein the brush is designed for human use\" in claim II.5  distinguishes the claim from document D4.",
+                    "answer": "False",
+                    "examiner_note": "A \u201cbrush designed for human use\u201d is considered to be a brush suitable for human use. D4 \u2013 notwithstanding its suitability for human dental cleaning - explicitly discloses the \"human use\u201d of scratching one's back (paragraph [004] of D4)."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The introduction of the disclaimer \"wherein the brush is not for use on dangerous zoo animals such as tigers and lions\u201d into claim II during substantive examination is allowable under Article 123(2) EPC.",
+                    "answer": "False",
+                    "examiner_note": "That would be an undisclosed disclaimer within the meaning of G1/03. Document D4 belongs to the state of the art under Article 54(2), and belongs to a neighbouring field. As D4 is potentially relevant for the assessment of inventive step, it may not be disclaimed by means of an undisclosed disclaimer. The criteria set out in G1/03 are therefore not met."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The subject-matter of claim II.2 is novel with respect to D4.",
+                    "answer": "False",
+                    "examiner_note": "All features of claim II.2 are present in D4. D4 discloses a brush with a body, wherein the body comprises a brush head with a bristle zone, bristle bundles held by the bristle zone, a handle and a neck between the bristle zone and the handle, wherein the neck is connected to the handle (see paragraph [002] and figure 1 of D4). The body comprises a battery (45) and an electrically operated element (47), wherein the electrically operated element is an electrically operated vibrator (see paragraph [002] of D4), wherein the neck is connected to the handle by means of a connection section (paragraph [002] of D4)."
+                }
+            ]
+        },
+        {
+            "question_number": "17",
+            "question_type": "True/False",
+            "context": "For each of the statements 17.1 - 17.4 indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The introduction of the feature \"wherein the body comprises a push button for  selectively supplying electric energy from the battery to the electrically operated  element\" into claim II during substantive examination is allowable under  Article 123(2) EPC.",
+                    "answer": "True",
+                    "examiner_note": "The statement is directed to claims filed with the client\u2019s patent application. These claims may therefore serve as a basis for the amendment, even if there might not be a corresponding disclosure in the description. The feature is disclosed in dependent claim II.3, which was directly dependent on claim II. The original disclosure \u201cswitching means, for example a push button\u201d in claim II.3 may be restricted to a push button, since claim II.3 must be construed in the sense that a push button is a switching means. Claim II.4, which also mentions a controller that is not recited in the proposed amendment, therefore does not have to serve as basis for the amendment."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The introduction of the feature \"wherein the body comprises a push button in the handle and a pressure sensor in the bristle zone\" into claim II during substantive examination is allowable under Article 123(2) EPC.",
+                    "answer": "False",
+                    "examiner_note": "A pressure sensor in the bristle zone is disclosed in paragraph 008 as an alternative to a push button in the handle. The client's patent application does not contain any statement which would justify the combination of these features."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The introduction of the feature \"wherein the brush is a toothbrush for human use\" into claim II during substantive examination is allowable under  Article 123(2) EPC.",
+                    "answer": "True",
+                    "examiner_note": "This feature is disclosed in the general part of the description (paragraph 001)."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The introduction of the feature \"wherein the electrically operated vibrator is located in the handle\" into claim II during substantive examination constitutes an intermediate generalisation.",
+                    "answer": "True",
+                    "examiner_note": "This statement does not ask whether the amendment constitutes an unallowable intermediate generalisation under Article 123(2) EPC. An electrically operated vibrator in the handle is disclosed in paragraph [004] or in any of FIG. 1 to FIG. 4 only in combination with a controller in the handle and a battery in the handle. Claim II neither contains a feature directed to a controller, nor does it restrict the location of the battery to a battery in the handle. The amendment therefore is an intermediate generalisation, i.e. an amendment extracting a specific feature in isolation from an originally disclosed combination of features and using it to delimit claimed subject-matter, see Guidelines, H-V, 3.2.1)."
+                }
+            ]
+        },
+        {
+            "question_number": "18",
+            "question_type": "True/False",
+            "context": "For questions 18 to 20, assume that claim III is a single independent claim filed with the  client's patent application.     III.  Toothbrush with a body, wherein the body comprises a brush head with a bristle  zone, bristle bundles held by the bristle zone, a handle and a neck between the  bristle zone and the handle, wherein the neck is connected to the handle by means  of a connection section, and wherein the body comprises a battery and an  electrically operated element, and wherein the battery is located in the handle,  characterised in that   \u2212 the electrically operated element is an electrically operated vibrator located in  the handle;   \u2212 the connection section comprises a connection hole and a connection  protrusion; and   \u2212 the toothbrush has a total length of between 18 and 25 cm.     For each of the statements 18.1 - 18.4 indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "According to the client's patent application, a technical effect resulting from the feature \"the connection section comprises a connection hole and a connection protrusion\" of claim III may be identified as replacement of the brush head.",
+                    "answer": "True",
+                    "examiner_note": "The application mentions that the replaceability of the brush head is achieved by the provision of a connection hole at the end of the neck, which will engage with a connection protrusion on the handle (paragraph [007] of the application)."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "With respect to D2 as potentially closest prior art and applying the problem-and-solution approach, the objective technical problem underlying the feature \"the electrically operated element is an electrically operated vibrator located in the handle\" of claim III may be formulated as providing the possibility for easy replacement of the brush head.",
+                    "answer": "False",
+                    "examiner_note": "The replaceability of the brush head is already achieved by the provision of a connection hole at the end of the brush head, which will engage with a connection protrusion on the handle (paragraph [007] of the application). Such a configuration is already disclosed in D2, which thereby at least implicitly relates to easy replacement of the brush head (paragraph [004] of D2). The objective technical problem, however, must be based on a feature which is not disclosed in the closest prior art."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "According to the client's patent application, a technical effect resulting from the feature \"electrically operated vibrator\" of claim III may be identified as transmitting additional vibrations to the bristles.",
+                    "answer": "True",
+                    "examiner_note": "This effect is achieved by the presence of a vibrator in the toothbrush (paragraphs [004] and [006] of the application)."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The technical feature \"the electrically operated element is an electrically operated vibrator located in the handle\" distinguishes claim III from document D2.",
+                    "answer": "False",
+                    "examiner_note": "Although there is a slight difference of the German language version compared to the French and English versions[*], paragraph [003] of D2 clearly discloses in all three languages that vibrations are generated via the loudspeaker. The melody is played over the loudspeaker of the music module, which is located in the handle. The loudspeaker converts the electrical signal so as to play a melody and generate vibrations in the air. Hence, the music module 26 and its loudspeaker is an electrically operated vibrator in the handle. [*] See D 0001/17."
+                }
+            ]
+        },
+        {
+            "question_number": "19",
+            "question_type": "True/False",
+            "context": "For each of the statements 19.1 - 19.4 indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "With respect to D3 as potentially closest prior art, the two-part form of claim III is correctly formulated.",
+                    "answer": "False",
+                    "examiner_note": "The disclosure of a length of 24 cm in D3 takes away novelty of the claimed range of from 18 to 25 cm. Said range should therefore be placed in the preamble."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "With respect to D3 as potentially closest prior art, the skilled person would consider a combination with D2 for providing a connection section comprising a connection hole and a connection protrusion between the neck and the handle of the toothbrush.",
+                    "answer": "True",
+                    "examiner_note": "The objective technical problem underlying the above feature may be regarded as allowing users to replace a worn brush head (paragraph [007] of the patent application). D2 discloses the combination of a connection hole and a connection protrusion as solution to that problem (paragraph [004] of D2). The fact that D2 is directed to children\u2019s toothbrushes does not render D3 and D2 incompatible."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "D2 prompts the skilled person to locate the vibrator of D3 in the handle.",
+                    "answer": "False",
+                    "examiner_note": "The vibrator of D2 serves a different purpose (paragraph [003] of D2: music) than that of D3 (paragraph [002] of D3: increasing the amount of dental plaque removed from the teeth)."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "A valid argument as to why the skilled person would combine D2 and D3 is that both documents relate to children's toothbrushes.",
+                    "answer": "False",
+                    "examiner_note": "D3 relates to toothbrushes for adults (paragraph [001] of D3)."
+                }
+            ]
+        },
+        {
+            "question_number": "20",
+            "question_type": "True/False",
+            "context": "For each of the statements 20.1 - 20.4 indicate on the answer sheet whether the  statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The two-part form of claim III is correctly formulated with respect to D4.",
+                    "answer": "False",
+                    "examiner_note": "D4 already discloses a first embodiment in which the connection section comprises a connection hole and a connection protrusion. In the second embodiment of D4, the electrically operated vibrator is already located in the handle."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Document D4 suggests to brush one\u2019s teeth using a brush with an electrically operated vibrator in the handle.",
+                    "answer": "False",
+                    "examiner_note": "The second embodiment of D4, in which the vibrator is located in the handle, only suggests scratching one's back while taking a shower."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Document D4 is the closest prior art for the subject-matter of claim III.",
+                    "answer": "False",
+                    "examiner_note": "The first embodiment of D4 discloses a minimum length of 40 cm, and hints at much longer brushes. The first embodiment of D4 therefore does not represent the most promising starting point, at least in view of the feature \u201clength of the toothbrush is between 18 and 25 cm.\u201d. The second embodiment of D4 only relates to scratching a human's back. That second embodiment therefore belongs to an entirely different technical field. Compared to D4, D2 or D3 are more promising starting points."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "A combination of the first embodiment and the second embodiment of D4 renders the subject-matter of claim III obvious.  2016",
+                    "answer": "False",
+                    "examiner_note": "Even that combination does not disclose all the features of claim III, since none of the two embodiments of D4 discloses the feature \u201clength of the toothbrush is between 18 and 25 cm\u201d."
+                }
+            ]
+        }
+    ]
+}

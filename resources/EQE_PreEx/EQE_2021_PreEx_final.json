@@ -1,0 +1,623 @@
+{
+    "exam_type": "EQE",
+    "year": "2021",
+    "exam_name": "PreEx",
+    "exercices": [
+        {
+            "question_number": "1",
+            "question_type": "True/False",
+            "context": "The European patent application EP-A was filed on 07 September 2017.  The mention of grant of the patent was published in the European Patent  Bulletin on 10 February 2021. The applicant validly filed a divisional  application from EP-A (EP-A-DIV) on 05 February 2021.      For each of the statements 1.1 \u2013 1.4, indicate on the answer sheet  whether the statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The renewal fee for EP-A in respect of the third year could have been validly paid on 03 May 2019.",
+                    "answer": "True",
+                    "examiner_note": "\u2013 the renewal fee in respect of the third year (only) may be validly paid up to 6 months before it falls due (30 September 2019), Rule 51(1) EPC; Guidelines A-X 5.2.4, OJ EPO 2018 A2 (effective from 01 April 2018)."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The renewal fee for EP-A in respect of the fourth year was due on 07 September 2020.",
+                    "answer": "False",
+                    "examiner_note": "\u2013 the renewal fee for the fourth year is due on the last day of the month containing the third anniversary of filing (i.e. 30 September 2020), (Article 86 EPC, R51(1) EPC)."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The renewal fee for EP-A in respect of the fifth year shall be paid to the EPO.",
+                    "answer": "False",
+                    "examiner_note": "\u2013 the obligation to pay renewal fees (to the EPO) shall terminate with the payment of the renewal fee due in respect of the year in which the mention of the grant of the European Patent is published in the European Patent Bulletin (Article 86(2) EPC; Article 141(1) EPC; GL 2018 A-X, 5.1.2) i.e. the renewal fee in respect of the fifth year is due 30 September 2021; the patent is granted before this date and therefore, the renewal fee is paid to national offices."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "All renewal fees due in respect of EP-A-DIV can be validly paid without an additional fee on 07 June 2021.",
+                    "answer": "True",
+                    "examiner_note": "\u2013 all renewal fees already due in respect of the earlier application at the date on which the divisional application is filed are due on filing (i.e. the renewal in respect of the 3rd year and the 4th year for EP-A, due on 30 Sept 2019 and 30 Sept 2020). These fees and any renewal fee due within 4 months of filing the divisional may be paid within the same 4 months i.e. 07 June 2021 (05 June 2021 is a Saturday, so that the time limit is extended to 07June 2021) without an additional fee (Rule 51(3) EPC); the deadline may be extended under Rule 134 (1) EPC to the next working day (J4/91)."
+                }
+            ]
+        },
+        {
+            "question_number": "2",
+            "question_type": "True/False",
+            "context": "Anna, a French citizen, validly filed a French patent application FR-1 on  06 February 2020. On 08 February 2021 she filed an international  application PCT-1 in respect of the same subject-matter as FR-1 at the  EPO. Anna intends for PCT-1 to claim priority from FR-1.      For each of the statements 2.1 \u2013 2.4, indicate on the answer sheet  whether the statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "PCT-1 can validly claim priority from FR-1.",
+                    "answer": "True",
+                    "examiner_note": "- Priority can be claimed in an international application filed within 12 months from the priority date (Art. 8(2)a) and Rule 4 PCT, Art. 4C(1) Paris Convention). The applicant and the subject matter is the same. The last day of the 12-month period is 6. February 2021 according to the calculation of periods in Rule 2.4 PCT. Since the 6. February 2021 is a Saturday, the time limit is extended to the next working day (8. February 2021) according to R. 80.5 PCT."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Anna can validly file the priority declaration in May 2021.",
+                    "answer": "True",
+                    "examiner_note": "- The priority declaration can be added within a time limit of 16 months from the priority date (which would expire on 7 June 2021, since the 6 June 2021 is a Sunday). Rule 26.bis PCT."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "PCT-1 cannot validly claim priority from FR-1, if FR-1 has been abandoned before the filing of PCT-1.",
+                    "answer": "False",
+                    "examiner_note": "- Once the priority application has a filing date, the fate of the priority application is not relevant for the priority claim (Art. 8.2(a) PCT and Art 4A(3) Paris Convention)."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The filing fee for PCT-1 shall be paid directly to the International Bureau.",
+                    "answer": "False",
+                    "examiner_note": "-The filing fee shall be paid within one month from the date of receipt of PCT-1 to the receiving Office. Rule 15.1 and 15.3 PCT."
+                }
+            ]
+        },
+        {
+            "question_number": "3",
+            "question_type": "True/False",
+            "context": "European patent application EP-P was filed as a first filing on 16  December 2018. EP-P was published on 17 June 2020. Application EP-  P-DIV1 was filed with the EPO on 06 December 2019 as a divisional  application from EP-P. A second divisional application from EP-P (EP-P-  DIV2) was filed with the EPO on 06 November 2020. Today, EP-P is still  pending. Some of the claims of EP-P-DIV2 contain subject-matter that  was not originally disclosed in EP-P.      For each of the statements 3.1 \u2013 3.4, indicate on the answer sheet  whether the statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "EP-P-DIV1 was not validly filed as a divisional application of EP-P, because EP-P-DIV1 was filed before the publication of EP-P.",
+                    "answer": "False",
+                    "examiner_note": "The earlier patent application must be pending (Rule 36(1) EPC). There is no requirement that the earlier patent application is published."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If EP-P was filed in Portuguese and translated into English, EP-P- DIV1 must be filed in English.",
+                    "answer": "False",
+                    "examiner_note": "EP-DIV1 may be filed in the language on which the earlier application was filed (Portuguese) or translated (English)( Rule 36(2) EPC)."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "For EP-P-DIV2 an additional fee as part of the filing fee for a divisional application of a second generation had to be paid.",
+                    "answer": "False",
+                    "examiner_note": "- EP-DIV2, as it derives from EP-P, is not a second generation divisional application. Thus, an additional fee in accordance with R. 38(4) EPC and Art. 2(1b) RRF has not to be paid."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "EP-P will be regarded as prior art under Art. 54(2) EPC against EP- P-DIV2.",
+                    "answer": "False",
+                    "examiner_note": "\u2013 According to Article 76(1) EPC, the date of filing is that of the earlier application. Even if EP-DIV2 contains subject-matter extending beyond the content of the earlier application as originally filed, it cannot be converted to an independent application taking 6 November 2020 as its date of filing (G1/05 and G1/06, GL C-IX, 1.4). Therefore, the filing date of EP-DIV2 remains 16 December 2018 and EP-P is not prior art under Art. 54(2) EPC."
+                }
+            ]
+        },
+        {
+            "question_number": "4",
+            "question_type": "True/False",
+            "context": "Applicant A files today, 01 March 2021, an international application, PCT-  A, with the EPO. PCT-A claims priority from the applicant\u2019s European  patent application, EP-A, filed on 27 February 2020.  For each of the statements 4.1 \u2013 4.4, indicate on the answer sheet  whether the statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "If PCT-A contains 20 claims, claims fees shall be paid for five claims within one month of the date of filing.",
+                    "answer": "False",
+                    "examiner_note": "\u2013 There is no claims fee for PCT applications. A claims fee is not foreseen in PCT (Art. 3(4)(iv) and Rules 14-16 PCT)."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The period for entering the European phase will expire on 02 October 2023.",
+                    "answer": "False",
+                    "examiner_note": "- The time limit is 31-months from the priority date, i.e. 27.9.2022 (Art. 22(1) PCT and R. 159(1) EPC)."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The publication date of PCT-A can be postponed, if the claim to priority is validly withdrawn before completion of the technical preparations for international publication.",
+                    "answer": "True",
+                    "examiner_note": "- R. 90bis.3 (d) and (e) PCT allows the postponement of the international publication by withdrawing its claim for priority."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "For PCT-A to be considered as comprised in the state of the art under Article 54(3) EPC, it is sufficient that PCT-A is published in English.",
+                    "answer": "False",
+                    "examiner_note": "\u2013 In order that PCT-A is comprised in the art under Article 54(3) EPC, the requirements of Article 153(5) together with Rule 165 EPC have to be met so that also the filing fee under Rule 159(1)(c) EPC has to be paid."
+                }
+            ]
+        },
+        {
+            "question_number": "5",
+            "question_type": "True/False",
+            "context": "The mention of the grant of the European patent EP-G was published in  the European Patent Bulletin. Competitor B filed a notice of opposition  against EP-G on the last day of the opposition period.  One month after expiry of the opposition period and following a request  from the proprietor of EP-G to competitor Z to cease alleged  infringement, competitor Z instituted proceedings for a ruling that  competitor Z is not infringing patent EP-G.      For each of the statements 5.1 \u2013 5.4, indicate on the answer sheet  whether the statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "If the notice of opposition has not been signed by the opponent or by his representative before expiry of the opposition period, the opposition division shall reject the opposition as inadmissible.",
+                    "answer": "False",
+                    "examiner_note": "- Rule 76(3) EPC in conjunction with Rule 50(3)EPC require that the notice of opposition is signed by the opponent or the opponent\u2019s representative. If the notice of opposition has not been signed within the opposition period, the EPO will invite the opponent to correct this deficiency and if the opponent does not correct this deficiency within the specified time limit, the opposition is deemed not to have been filed. (Rule 77(2) EPC in conjunction with Rule 50(3) EPC, Guidelines D-III, 3.4 and D-IV, 1.2.1 (ii) and D-IV, 1.4.1."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Competitor B shall file a statement setting out for the first time the grounds of opposition within two months from the date of filing the notice of opposition.",
+                    "answer": "False",
+                    "examiner_note": "- The notice of opposition shall contain the grounds on which the opposition is based and has to be filed within 9 months of the mention of the publication of the mention of the grant of the EP patent (Article 99(1) and Rule 76(2)(c) EPC)."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Provided that the opposition proceedings are still pending, competitor Z can file an admissible notice of intervention within three months of the date on which the proceedings for a ruling that competitor Z is not infringing patent EP-G are instituted.",
+                    "answer": "True",
+                    "examiner_note": "- Article 105(1)(b) EPC in conjunction with Rule 89(1) EPC."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If W files third party observations before expiry of the nine-month opposition period, W will be summoned to any oral proceedings taking place before the opposition division. Part 2 of Pre-examination 2021",
+                    "answer": "False",
+                    "examiner_note": "\u2013 A third party filing observations does not become party to the opposition proceedings (Article 115 EPC last sentence) and, in consequence, W will not be summoned to any oral proceedings (Rule 115(1) EPC). PART 2"
+                }
+            ]
+        },
+        {
+            "question_number": "6",
+            "question_type": "True/False",
+            "context": "A European patent application, EP-X, relating to invention X was filed in  January 2020. EP-X includes two alternative embodiments: X1 and X2.  Embodiment X1 is not sufficiently disclosed as essential technical  information is missing. Embodiment X2 is sufficiently disclosed.      For each of the statements 6.1 \u2013 6.4, indicate on the answer sheet  whether the statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "An objection from the examining division under Article 83 EPC regarding embodiment X1 can be overcome by filing additional technical information.",
+                    "answer": "False",
+                    "examiner_note": "- The European patent application must disclose the invention in a manner sufficiently clear and complete for it to be carried out by a person skilled in the art (Article 83 EPC)."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If the examining division does not raise any objection under Article 83 EPC, lack of sufficiency of disclosure will not be a valid ground for opposition against the patent granted on the basis of EP-X.",
+                    "answer": "False",
+                    "examiner_note": "- A valid ground for opposition is lack of sufficiency of disclosure, Article 100(b) EPC. It is irrelevant if the examining division did not raise an objection under Article 83 EPC."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "If the missing essential technical information regarding embodiment X1 is present in the abstract, the essential technical information can be incorporated into EP-X as missing parts within one month from the date of filing.",
+                    "answer": "False",
+                    "examiner_note": "- The abstract is not part of the disclosure (Article 85 EPC) so including the essential technical information from the abstract would offend Article 123(2) EPC."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "An objection from the examining division under Article 83 EPC can be overcome by restricting EP-X to embodiment X2.",
+                    "answer": "True",
+                    "examiner_note": "- If X2 is sufficiently disclosed, a patent may be granted based on X2 (Guidelines F-III, 5.1)."
+                }
+            ]
+        },
+        {
+            "question_number": "7",
+            "question_type": "True/False",
+            "context": "The applicant Mr Y filed a European patent application EP-Y. In the  summons to oral proceedings, the examining division objected to claim 1  of EP-Y as not having an inventive step in view of document D1 in  combination with the skilled person\u00b4s common general knowledge.  At the oral proceedings before the examining division, the professional  representative of Mr Y is accompanied by Professor N. The professional  representative requests that Professor N is allowed to make oral  submissions during the oral proceedings. Professor N is a well-known  expert in the technical field of the patent application and has recently  been awarded a Nobel prize for her work in that technical field.  Moreover, Professor N is accompanied by five of her students who also  wish to attend the oral proceedings. Neither the presence of Professor N  nor that of her students had been announced prior to the oral  proceedings.      For each of the statements 7.1 \u2013 7.4, indicate on the answer sheet  whether the statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The examining division may admit auxiliary requests filed and signed by Professor N during the oral proceedings.",
+                    "answer": "False",
+                    "examiner_note": "- Professor N is not the representative of the party Article 134(1) EPC Guidelines, E-III, 8.5, G 4/95)."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The EPC does not provide for the hearing of witnesses during examination proceedings.",
+                    "answer": "False",
+                    "examiner_note": "- Article 117 EPC applies to any proceedings before the EPO including examination proceedings so that a witness can be heard during examination proceedings."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The students of Professor N may attend the oral proceedings as members of the public.",
+                    "answer": "False",
+                    "examiner_note": "- Article 116(3) EPC: the oral proceedings before the examining division are not public. Therefore, the students of Professor N may not attend the oral proceedings as members of the public."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Professor N has the right to make oral submissions during the oral proceedings, since she must be considered by the examining division to represent the \u201cperson skilled in the art\u201d.",
+                    "answer": "False",
+                    "examiner_note": "- The EPC does not provide a right for experts to make oral submissions in representation of the skilled person. The requirements for making oral submissions as accompanying person are set in G4/95 and Guidelines E-III, 8.5."
+                }
+            ],
+            "examiner_note": "The applicant Mr Y filed a European patent application EP-Y. In the summons to oral  proceedings, the examining division objected to claim 1 of EP-Y as not having an inventive step  in view of document D1 in combination with the skilled person\u00b4s common general knowledge.  At the oral proceedings before the examining division, the professional representative of Mr Y  is accompanied by Professor N. The professional representative requests that Professor N is  allowed to make oral submissions during the oral proceedings. Professor N is a well-known  expert in the technical field of the patent application and has recently been awarded a Nobel  prize for her work in that technical field.    Moreover, Professor N is accompanied by five of her students who also wish to attend the oral  proceedings. Neither the presence of Professor N nor that of her students had been  announced prior to the oral proceedings."
+        },
+        {
+            "question_number": "8",
+            "question_type": "True/False",
+            "context": "European patent EP-C was opposed on the grounds of lack of novelty  and lack of an inventive step. The opposition division rejected the  opposition. The opponent filed an admissible appeal against the decision  of the opposition division. Appeal proceedings concerning European  patent EP-C are currently pending.      For each of the statements 8.1 \u2013 8.4, indicate on the answer sheet  whether the statement is true or false:      A fresh ground of opposition under Article 100(b) EPC can now be  introduced into the appeal procedure\u2026",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "\u2026 since the patent proprietor is party to the appeal proceedings as of right.",
+                    "answer": "False",
+                    "examiner_note": "\u2013 The criteria for the admissibility of a fresh ground of opposition as set out in G10/91. This situation is not a criteria for the admissibility of a fresh ground for opposition according to G10/91."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "\u2026 provided that the board of appeal considers the ground of opposition as prima facie relevant, even if the patent proprietor does not agree to its introduction.",
+                    "answer": "False",
+                    "examiner_note": "- Such a fresh ground cannot be introduced by the board of appeal at this stage of the proceedings, even using its powers under Article 114(1) EPC (G10/91)."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "\u2026 provided that the fresh ground is raised by third party observations under Article 115 EPC, even if the patent proprietor does not agree to its introduction.",
+                    "answer": "False",
+                    "examiner_note": "- The same applies to third party observations under Article 115 EPC as third party observations are also not one of the criteria set out in G10/91."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "\u2026 provided that the fresh ground is raised in an admissible notice of intervention filed during the pending appeal proceedings, even if the patent proprietor does not agree to its introduction.",
+                    "answer": "True",
+                    "examiner_note": "- According to G1/94, intervention under Article 105 EPC in pending appeal proceedings may be based on any ground for opposition under Article 100 EPC."
+                }
+            ]
+        },
+        {
+            "question_number": "9",
+            "question_type": "True/False",
+            "context": "European patent application EP-F has been filed in French and oral  proceedings have been scheduled before the examining division. At the  beginning of the oral proceedings, the professional representative  requests to speak in English without providing for interpretation into  French. He also requests that the minutes be written in English and  declares that he is aware that, if both his requests are permitted, no  interpretation and translation into French will be provided, neither for the  oral proceedings nor for the minutes.      For each of the statements 9.1 \u20139.4, indicate on the answer sheet  whether the statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The examining division may reject the request to speak English in the oral proceedings, even though English is an official language of the EPO.",
+                    "answer": "True",
+                    "examiner_note": "- The language of the proceedings is French, see Art. 14(3) EPC. Rule 4(1): \u201cAny party to oral proceedings before the European Patent Office may use an official language of the European Patent Office other than the language of the proceedings, if such party gives notice to the European Patent Office at least one month before the date of such oral proceedings or provides for interpretation into the language of the proceedings.\u201d"
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The examining division may agree to the request that the minutes be written in English, except for amendments to EP-F, which will be entered in the minutes in French.",
+                    "answer": "True",
+                    "examiner_note": "- Statements by employees of the European Patent Office, parties, witnesses or experts, made in an official language of the European Patent Office, shall be entered in the minutes in that language and amendments to a European patent application or European patent shall be entered in the minutes in the language of the proceedings (R. 4(6) EPC and Guidelines E-V, 6)."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "During the oral proceedings, the representative can validly file a new amended set of claims in English.",
+                    "answer": "False",
+                    "examiner_note": "- Amendments to a European patent application or European patent shall be filed in the language of the proceedings, i.e. French (Rule 3(2) EPC)."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If the examining division agrees, the representative may make a part of his oral statements during the oral proceedings in Swedish.",
+                    "answer": "True",
+                    "examiner_note": "- If the parties and the European Patent Office agree, any language may be used (Rule 4(4) EPC. Guidelines E-V, 2)."
+                }
+            ]
+        },
+        {
+            "question_number": "10",
+            "question_type": "True/False",
+            "context": "Applicant B validly files an international application, PCT-B, in 2019  without claiming priority and elects the European Patent Office as  competent International Searching Authority (ISA). The European Patent  Office is of the opinion that PCT-B does not comply with the  requirements of unity of invention and relates to four inventions: B1, B2,  B3 and B4. In response to the invitation from the EPO as ISA to pay  additional search fees for B2, B3 and B4, applicant A pays additional  search fees for B2 and B3 under protest and the protest fee is duly paid.  Four months later, applicant A receives the International Search Report.      For each of the statements 10.1 \u201310.4, indicate on the answer sheet  whether the statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "If the review body of the ISA finds that the protest was entirely justified, the additional search fees will be refunded but not the protest fee."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "If PCT-B has validly entered the European phase without any amendments to the claims, the EPO will invite the applicant to pay a search fee for invention B4 within a period of two months."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "In order to receive a refund of an additional search fee paid in the European phase, the applicant must pay the additional search fee under protest."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "If applicant A files a divisional application, EP-B-DIV, for invention B2 at the EPO, after PCT-B validly entered the European phase, the search fee paid for EP-B-DIV shall be refunded at 100%. Part 3 of Pre-examination 2021"
+                }
+            ],
+            "examiner_note": "Applicant B validly files an international application, PCT-B, in 2019 without claiming priority  and elects the European Patent Office as competent International Searching Authority (ISA).  The European Patent Office is of the opinion that PCT-B does not comply with the  requirements of unity of invention and relates to four inventions: B1, B2, B3 and B4. In  response to the invitation from the EPO as ISA to pay additional search fees for B2, B3 and  B4, applicant A pays additional search fees for B2 and B3 under protest and the protest fee is  duly paid. Four months later, applicant A receives the International Search Report.    Question 10 mistakenly refers to applicant B and applicant A while it was intended to refer to  only one applicant B different from applicant A of question 4. To avoid any disadvantage due to  this mistake, it has been decided that for this question 10 all answers are awarded the full marks  of 5 points.          PART 3"
+        },
+        {
+            "question_number": "11",
+            "question_type": "True/False",
+            "context": "For each of the statements 11.1 - 11.4, indicate on the answer sheet  whether the statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Claim I-1 is limited to a glass composition which is only for use as a photochromic lens.",
+                    "answer": "False",
+                    "examiner_note": "\u2013 The wording \u201cfor use\u201d in this context is equivalent to \u201csuitable for use\u201d. This means that the glass composition may be used for other purposes, but must be suitable for use in a photochromic lens and therefore is not only for use in a photochromic lens [GL 2019 F-IV, 4.13]."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Claim I-4 covers a glass composition for use as a photochromic lens, comprising silicon dioxide, sodium oxide in a content of 10% to 30% by weight of the composition, component M in a content of 5% to 10% by weight of the composition, and component X.",
+                    "answer": "True",
+                    "examiner_note": "\u2013 Claim I-4 is dependent on claim I-1 and therefore covers a glass composition comprising silicon dioxide, any component A (e.g. sodium oxide) in any amount, component M and component X (in any amount), wherein component M is present in the composition in 5 to 10% by weight content. Therefore, claim I-4 covers the embodiment of this statement, despite the missing dependency on claim I-3 which provides component A as being sodium oxide."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The protection of claim I-8 extends to the photochromic lens directly obtained by the process.",
+                    "answer": "True",
+                    "examiner_note": "\u2013 If the subject-matter of a patent (i.e. by virtue of the claim I-8) is a process, the protection conferred by the patent (or claim) shall extend to the products directly obtained by such process [Article 64(2) EPC]."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "A photochromic lens which is identical to the photochromic lens of claim I-9, but which is not obtained by a process of claim I-8, falls under the scope of claim I-9.",
+                    "answer": "True",
+                    "examiner_note": "\u2013 The product is identical to the product of claim I-9. A product-by- process claim is not limited by the specified process, thus claim I-9 relates to the product per se [GL 2019 F-IV 4.12]."
+                }
+            ]
+        },
+        {
+            "question_number": "12",
+            "question_type": "True/False",
+            "context": "For each of the statements 12.1 - 12.4, indicate on the answer sheet  whether the statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Claim I-1 contains all essential features of the glass composition of the invention.",
+                    "answer": "False",
+                    "examiner_note": "\u2013 The amount of component M is essential, it must be about 5% to about 10% by weight of the class composition, see paragraph [009]. This essential feature is missing in claim I-1, thus claim I-1 does not contain all essential features of the glass composition of the invention [GL 2019 F-IV 4.5]."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Claim I-5 is clear.",
+                    "answer": "False",
+                    "examiner_note": "\u2013 The preferred value given as an optional feature falls outside of the broader range given in claim I-4. The optional feature being outside of the broader range introduces a lack of clarity [GL 2019 F-IV, 4.9]. It is also unclear as there is no support in the description [Article 84 EPC]."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Claim I-7 is unclear due to its dependency on claims I-1 to I-6.",
+                    "answer": "True",
+                    "examiner_note": "\u2013 Claim I-7 relates to a process, but is dependent on composition claims. Therefore, claim I-7 is unclear."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Claim I-8 is unclear due to the use of the term low.",
+                    "answer": "False",
+                    "examiner_note": "\u2013 The term \u201clow\u201d in feature (vi) in claim I-8 is clearly distinguished from the term \u201chigh\u201d in feature (ii) of claim I-8. Furthermore, the description of the application defines the term \u201chigh\u201d in paragraph [009]. Accordingly, in the context of the whole disclosure of the application, the term \u201clow\u201d is considered to be clear. In any case, if a relative term is not the only feature to distinguish the subject- matter of a claim from the prior art, the use of the relative term may not be objected to under Article 84 EPC. The word \u201clow\u201d is not the only feature to distinguish the claim from the prior art, as none of the prior art discloses the claimed process. Although broad, the term is not necessarily unclear [GL 2019 F-IV 4.6.1]."
+                }
+            ]
+        },
+        {
+            "question_number": "13",
+            "question_type": "True/False",
+            "context": "For each of the statements 13.1 - 13.4, indicate on the answer sheet  whether the statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The subject-matter of claim I-1 lacks novelty over D1.",
+                    "answer": "False",
+                    "examiner_note": "\u2013 D1 does not disclose the specific combination of a glass composition comprising silicon dioxide; component A; component M; and component X. Component A, component M and component X are disclosed in lists of certain lengths and therefore a selection from multiple lists must be made. Therefore, the claim is novel [GL 2019 G-VI, 8(i)]."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The subject-matter of claim I-2 lacks novelty over Example 2 of D2.",
+                    "answer": "True",
+                    "examiner_note": "\u2013 D2 discloses a glass composition comprising silicon dioxide (44% by weight content); component A (30% by weight content); component M (6% by weight content); and component X (20% by weight content), see Example 2. Claim I-2 discloses a glass composition comprising silicon dioxide, component A in 10 to 30% by weight content, component M and component X. Thus, all features of claim I-2 are present in Example 2 of D2. In particular, Example 2 in D2 discloses the end point of the range of component A and therefore claim I-2 lacks novelty [GL 2019 G-VI 8(iii)]."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The subject-matter of claim I-4 is novel over Example 3 of D2.",
+                    "answer": "False",
+                    "examiner_note": "\u2013 The specific disclosure of 7% in Example 3 of D2 anticipates the generic range of 5 to 10% in claim I-4. Thus, the subject-matter of claim I-4 is not novel over Example 3 of D2 [GL 2019 G-VI, 5]."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "D1 discloses a component X being selected from the group consisting of compound alpha, compound beta and compound gamma. During examination the applicant files a new set of claims (claim set II) to replace the originally filed claim set I.",
+                    "answer": "False",
+                    "examiner_note": "\u2013 D1 does not mention any of the compounds alpha, beta and gamma \u2013 a specific disclosure is novel over a generic one [GL 2019 G-VI-5]."
+                }
+            ]
+        },
+        {
+            "question_number": "14",
+            "question_type": "True/False",
+            "context": "For each of the statements 14.1 to 14.4, indicate on the answer sheet  whether the statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Claim II-1 is allowable under Article 123(2) EPC.",
+                    "answer": "False",
+                    "examiner_note": "\u2013 The removal of Component X which is an essential feature is not allowable under Article 123(2) EPC. Component X is an essential feature because it is required to provide the photochromic effect. Furthermore, the description only describes compositions which all contain component X, see paragraphs [006] and [013] [GL 2019 H-V 3.1]."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Claim II-3 is allowable under Article 123(2) EPC.",
+                    "answer": "True",
+                    "examiner_note": "\u2013 Claim II-3 is dependent on claim II-2 which adds back the essential feature. The zinc oxide is a disclosed disclaimer as it is mentioned in [010] of the description of the application as an alternative to lime and alumina. Only one of the possible alternatives to the components M is disclaimed in claim II-3. Furthermore, zinc oxide is not described in the description of the application as being the preferred one of these alternatives or being specifically mentioned in an example. The removal of zinc oxide is a narrowing amendment, i.e. this disclaimer does not extend beyond the content of the application as originally filed. Thus, this disclaimer in claim II-3 is allowable (see also G2/10 and GL 2019 H-V, 4.2)."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Claim II-4 is allowable under Article 123(2) EPC.",
+                    "answer": "True",
+                    "examiner_note": "\u2013 The subject-matter of claim II.4 combines the features of II.2 and II. 1 and corresponds to the features of originally filed claim I-2. If no error margins are specified in the application, the word \u201cabout\u201d before a numerical value is ignored so that the value is interpreted as having the same round-off as the value itself. Therefore the amendment is allowable under Article 123(2) EPC [GL 2019 F-IV 4.7.1]."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Claim II-5 is allowable under Article 123(2) EPC. A further amended set of claims is filed during examination (claim set III):",
+                    "answer": "True",
+                    "examiner_note": "\u2013 The subject-matter of claim II.5 combines the features of II.2 and II. 1 and corresponds to the features of originally filed claim I-6. Claim II-5 provides a single list of alternatives; the deletion of a single feature from a single list of alternatives is allowable [GL 2019 H-V 3.3]."
+                }
+            ]
+        },
+        {
+            "question_number": "15",
+            "question_type": "True/False",
+            "context": "For each of the statements 15.1 to 15.4, indicate on the answer sheet  whether the statement is true or false.",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "D2 can be considered to be the closest prior art for claim III-3 because it relates to the same technical field, i.e. the field of photochromic lenses.",
+                    "answer": "True",
+                    "examiner_note": "\u2013 The technical field of D2 relates to a glass composition for use as a photochromic lens and therefore is the same as the present invention as defined claim III-3. D1 relates to compositions suitable for use as glass bottles. D1 makes no reference to photochromic lenses. D3 is not available for inventive step (Article 54(3) EPC) [GL G-VII 5.1 and G-VII 2]."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The objective technical problem to be solved by the subject-matter of claim III-1 with respect to D2 is the provision of a photochromic lens, the colour change of which is resistant to temperature changes.",
+                    "answer": "True",
+                    "examiner_note": "\u2013 D2 discloses a glass composition comprising silicon dioxide; component A which is present in an amount of 16% by weight content; component M which is present in 5 to 10% by weight content of the glass composition; and component X which is present in 10% by weight of the glass composition, see Example 1 of D2. The difference between D2 and the invention is the use of compound alpha as component X. D2 does not mention that component X should be resistant to temperature changes. The technical effect of compound alpha is that the colour change of the glass composition for use as a photochromic lens is resistant to temperature changes (see [012] of the application). This same technical effect would be observed with a photochromic lens made of this glass composition. Therefore, the objective technical problem to be solved with respect to D2 is the provision of a photochromic lens, the colour of which is resistant to temperature changes [GL 2019 VII 5.2]."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "A valid argument for why the subject-matter of claim III-1 has an inventive step over D2 is because using compound alpha as component X results in a photochromic lens, the colour of which is surprisingly more resistant to temperature changes than when compound beta or compound gamma is used.",
+                    "answer": "True",
+                    "examiner_note": "\u2013 The compound alpha results in a photochromic lens, the colour change of which is surprisingly resistant to temperature. Therefore, the use of compound alpha is likely to be considered inventive over D2 which does not disclose the compound alpha, but discloses alternatives which are not mentioned as being resistant to temperature changes [GL 2019 G-VII-10.2]."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "A combination of D2 and D3 could be used to validly attack claim III-1 for lack of inventive step. Part 4 of Pre-examination 2021",
+                    "answer": "False",
+                    "examiner_note": "\u2013 Although the combination of D2 and D3 provides all features of claim III-1, D3 is Article 54(3) prior art and therefore is not available for inventive step analysis [GL 2019 G-VII 2]. PART 4"
+                }
+            ]
+        },
+        {
+            "question_number": "16",
+            "question_type": "True/False",
+            "context": "For each of the statements 16.1 \u2013 16.4, indicate on the answer sheet  whether the statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Claim IV.4 lacks clarity because of an incorrect dependency.",
+                    "answer": "False",
+                    "examiner_note": "- The dependency of the claims is correct, since the tablet computer and the receiving part are already defined in claim IV.1."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Claim IV.3 meets the requirements of Art. 84 EPC.",
+                    "answer": "False",
+                    "examiner_note": "- A reference to the figures is only allowed in the claims when absolutely necessary (see Guidelines F-IV, 4.17). The feature of a flat base is not even shown in Fig. 1."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Claim IV.7 defines that the cover part is divided along its longer dimension into three parallel sections that are respectively joined by parallel hinges, and which are foldable into a triangular prism shape.",
+                    "answer": "False",
+                    "examiner_note": "- The wording \u201calong its longer dimension\u201d is not defined in the claim IV.7. Thus, claim IV.7 does not define in which direction the cover part is divided into three parallel sections."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "A protection device comprising a receiving part for receiving a tablet computer and a cover part having two hinges between the cover part and receiving part falls within the scope of claim IV.2.",
+                    "answer": "True",
+                    "examiner_note": "- Claim IV.2 does not exclude a protection device having two hinges. Claim IV.2 defines the protection device as comprising a hinge which implies also more than one hinge."
+                }
+            ]
+        },
+        {
+            "question_number": "17",
+            "question_type": "True/False",
+            "context": "For each of the statements 17.1 \u2013 17.4, indicate on the answer sheet  whether the statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "D1 destroys the novelty of the subject-matter of claim IV.2.",
+                    "answer": "True",
+                    "examiner_note": "- The shipping packaging of D1 protects the tablet computer when the tablet computer is received in the shipping packaging. D1 further implicitly discloses a hinge between the receiving part and the flap, since the flaps of the shipping box can be folded over. Thus, D1 destroys the novelty of the subject- matter of claim IV.2."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "D1 destroys the novelty of the subject-matter of claim IV.4.",
+                    "answer": "True",
+                    "examiner_note": "- D1 further discloses that the frame is made from elastic material to secure the tablet computer in place. Thus, D1 destroys the novelty of the subject-matter of claim IV.4."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "D1 destroys the novelty of the subject-matter of claim IV.6.",
+                    "answer": "True",
+                    "examiner_note": "- D1 describes that the flap is flat and D1 specifies that the shipping packaging is made of rigid material. Thus, D1 destroys the novelty of the subject-matter of claim IV.6."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "D1 destroys the novelty of the subject-matter of claim IV.7.",
+                    "answer": "False",
+                    "examiner_note": "- D1 does not disclose a cover that is divided into three parallel sections that are joined by respective parallel hinges, and which are foldable into a triangular prism shape. Thus, D1 does not destroy the novelty of the subject- matter of claim IV.7."
+                }
+            ]
+        },
+        {
+            "question_number": "18",
+            "question_type": "True/False",
+            "context": "For each of the statements 18.1 \u2013 18.4, indicate on the answer sheet  whether the statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "The subject-matter of claim IV.7 is novel over D2.",
+                    "answer": "False",
+                    "examiner_note": "- In D2, the cover part is described as divided into three foldable parts forming a triangular prism, as clearly shown in Fig. 3 of D2. Thus, the subject- matter of claim IV.7 is not novel over D2."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "The subject-matter of claim IV.6 is novel over D2.",
+                    "answer": "False",
+                    "examiner_note": "- In D2, one of the rigid and flat sections is a cover part as claimed (see paragraph [004] of the description of D2). Thus, the subject-matter of claim IV.6 is not novel over D2."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "The subject-matter of claim IV.4 is novel over D2.",
+                    "answer": "False",
+                    "examiner_note": "- D2 describes a peripheral wall which deforms elastically for receiving and securing the tablet, and since the peripheral wall extends along the entire periphery (see paragraph [002] of the description of D2). Thus, the subject- matter of claim IV.4 is not novel over D2."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "The subject-matter of claim IV.5 is novel over D2.",
+                    "answer": "False",
+                    "examiner_note": "- D2 discloses a receiving part comprising an elastically deformable means for securing the tablet computer in place including the four corners (par. [002] of D2). Thus, the subject-matter of claim IV.5 is not novel over D2."
+                }
+            ]
+        },
+        {
+            "question_number": "19",
+            "question_type": "True/False",
+            "context": "For each of the statements 19.1 \u2013 19.4, indicate on the answer sheet  whether the statement is true or false: Under Article 123(2) EPC, there is  basis for amending claim IV.1 of the originally filed application as follows:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Protection device comprising a receiving part for receiving a tablet computer and a cover part, and further comprising a hinge between the receiving part and the cover part, the receiving part comprising a base, the base being flat.",
+                    "answer": "True",
+                    "examiner_note": "- This amendment is based on the combination of claims IV.1, IV.2, IV.3. The reference to Fig. 1 is not limiting and therefore can be excluded [GL 2019 F-IV, 4.9]. Thus, this amendment complies with Article 123(2) EPC."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "Protection device comprising a receiving part for receiving a tablet computer and a cover part, wherein the receiving part comprises a flat base and four elastically deformable corners for securing the tablet computer within the receiving part, and wherein the cover part comprises a flat and rigid section.",
+                    "answer": "True",
+                    "examiner_note": "- This amendment is based on the combination of claims IV.1, IV.3, IV.4, IV.5, IV.6. Thus, this amendment complies with Article 123(2) EPC."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "Protection device comprising a receiving part for receiving a tablet computer and a cover part, wherein the receiving part comprises a flat base and four elastically deformable corners for securing the tablet computer within the receiving part, and wherein the cover part is flat.",
+                    "answer": "False",
+                    "examiner_note": "- This claim covers a cover being flat without the further limitation to comprise a rigid section as defined in claim IV.6. For example, this means that the cover can be flat and fully flexible, which is not disclosed. Thus, this amendment constitutes an intermediate generalisation [GL 2019 H V-3.2.1]. Whilst all embodiments describe cover parts being at least partially flat and rigid, the second embodiment having rigid sections is not fully flexible. Thus, the application does not disclose a flat cover being fully flexible. This means that there is no basis for amending claim IV.1 in this manner and this amendment does not comply with Article 123(2) EPC."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "Protection device comprising a receiving part for receiving a tablet computer and a cover part, wherein the cover part is divided into three parallel sections that are respectively joined by parallel hinges, and is foldable into a triangular prism shape, each section being flat and rigid, and wherein the hinges and the sections are made from the same material such that the hinges are formed by folds of the cover part.",
+                    "answer": "True",
+                    "examiner_note": "- This amendment is based on the combination of IV.1, IV.7 and [005] of the description of the application. The invention is defined in paragraph [003] of the description of the application to have the receiving part being a flat base and having four elastically deformable corners. Thus, this receiving part applies to all embodiments of the invention. Therefore, it is not necessary to include the flat base and the four elastically deformable corners in the claim. Thus, this amendment complies with Article 123(2) EPC."
+                }
+            ],
+            "examiner_note": "Under Article 123(2) EPC, there is basis for amending claim IV.1 of the originally filed application  as follows:"
+        },
+        {
+            "question_number": "20",
+            "question_type": "True/False",
+            "context": "For this question, assume that the following Claim V.1 was the original  claim filed in the client patent application.  V.1 Protection device comprising a receiving part for receiving a tablet  computer and a cover part, wherein the receiving part comprises a  flat and rigid plastic base and four corners for securing the tablet  computer within the receiving part, characterised in that the four  corners are elastically deformable and the four corners extend  from the peripheral edge of the base and the four corners are  made of silicone having a greater thickness than the base.      For each of the statements 20.1 \u2013 20.4, indicate on the answer sheet  whether the statement is true or false:",
+            "questions": [
+                {
+                    "question_code": "1",
+                    "question_text": "Claim V.1 is in the correct two-part form with respect to the disclosure of D2.",
+                    "answer": "False",
+                    "examiner_note": "- D2 discloses a receiving part comprising a flat base and a peripheral wall that deform elastically. Thus, the peripheral wall comprises four elastically deformable corners extending from the flat base. These features should be placed in the preamble and not in the characterising portion of claim V.1. Furthermore, D2 does not disclose a flat and rigid base portion and therefore should be in the characterising portion of claim V.1 [Rule 43(1) EPC]. Thus, claim V.1 is not in the correct two part form with respect to the disclosure of D2."
+                },
+                {
+                    "question_code": "2",
+                    "question_text": "A valid argument as to why D2 may be considered the closest prior art is that it discloses a base made from the same material as the corners.",
+                    "answer": "False",
+                    "examiner_note": "D2 has a base that is made from the same material as the corners of the peripheral wall, but this argument is not relevant since it is not a feature of the claim V.1. Thus, this argument is not a valid one."
+                },
+                {
+                    "question_code": "3",
+                    "question_text": "A possible technical effect of the invention defined in claim V.1 with respect to D2 is that it allows better protection of the screen of the tablet computer.",
+                    "answer": "False",
+                    "examiner_note": "- D2 teaches that the thickness can be increased uniformly for better protection of the screen (paragraph [003] of the description of D2). The advantage of the present invention with respect to D2 is that it uses less silicone material overall. The protection is actually slightly decreased by the protection device of claim V.1 (paragraph [003] of the description of the application). Thus, the invention defined in claim V.1 does not provide better protection of the screen of the tablet computer with respect to D2. Thus, this is not a possible technical effect of the invention defined in claim V.1."
+                },
+                {
+                    "question_code": "4",
+                    "question_text": "For the purpose of assessing inventive step of claim V.1, a valid argument is that D1 does not relate to the technical field of protection devices .",
+                    "answer": "False",
+                    "examiner_note": "- Although D1 describes shipping packaging, the purpose of the packaging it to protect the tablet computer and thus belongs to the technical field of a protection device for a tablet computer as with D2. Therefore, it is a valid argument to use D1 in assessing inventive step of claim V.1."
+                }
+            ],
+            "examiner_note": "V.1  Protection device comprising a receiving part for receiving a tablet computer and a cover  part, wherein the receiving part comprises a flat and rigid plastic base and four corners for  securing the tablet computer within the receiving part, characterised in that the four corners are  elastically deformable and the  four corners extend from the peripheral edge of the base and the four corners are made of  silicone having a greater thickness than the base."
+        }
+    ]
+}
