@@ -157,7 +157,7 @@ class RAG(BaseSystem):
         documents = self.retriever.retrieve_documents(self.question, rerank=rerank)
         retrieved_context = self._get_text_from_documents(documents)
         self.st_memory.append(SystemMessage(f"Here are some articles that may be related to this question:  use them to source and justify your explanation :\n\n{retrieved_context}"))
-        self.st_memory.append(HumanMessage(f"reminders, this is the quesion you asked me : \n\"{self.question}\"\n\nhere is my answer : \"{input}\"\n\nLet's think step by step..."))
+        self.st_memory.append(HumanMessage(f"reminders, this is the quesion you asked me : \n\"{self.question}\"\n\nhere is my answer : \"{input}\""))
 
         response = ""
         for chunk in self.LLM.stream(self.st_memory):
@@ -167,7 +167,7 @@ class RAG(BaseSystem):
         self.st_memory.append(AIMessage(response))
 
 
-    def run(self, input: str, rerank: bool=True) -> str:
+    def run(self, input: str, rerank: bool=False) -> str:
 
         response = ""
         for chunk in self.run_flux(input, rerank=rerank):
@@ -179,7 +179,10 @@ class RAG(BaseSystem):
 
     def generate_question(self, topic: str, type:str) -> Generator:
         examples = self._fetch_examples(topic)
-        examples_string = "\n\n\t- Question Example :".join(examples)
+        if examples:
+            examples_string = "\n\n\t- Question Example :".join(examples)
+        else:
+            examples_string = ""
         print(examples_string)
 
         self.st_memory.clear()

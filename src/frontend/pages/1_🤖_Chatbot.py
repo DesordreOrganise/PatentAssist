@@ -119,7 +119,7 @@ def parse_qcm_response(response):
     """
     Extracts QCM choices from the model response, supports formats: (A), A), A. and A-
     """
-    choices = re.findall(r"(?:\([A-Z]\)|[A-Z]\.|[A-Z]-)\s.*", response)
+    choices = re.findall(r"(?:\([A-Z]\)|[A-Z]-)\s.*", response)
     return [choice.strip() for choice in choices]
 
 def get_context_prompt(prompt):
