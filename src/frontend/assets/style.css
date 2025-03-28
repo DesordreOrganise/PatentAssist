@@ -1,0 +1,23 @@
+body {
+    --user: #94e2d5;
+    --model: #cba6f7;
+}
+
+a {
+    color: rgb(137, 180, 250) !important;
+}
+
+.stMainBlockContainer{
+    width: 70em !important;
+}
+.st-emotion-cache-mtjnbi, .st-emotion-cache-1d2o6qs {
+    max-width: none !important;
+}
+
+/* icons of user and model chat not working :( */
+.st-emotion-cache-jmw8un .st-emotion-cache-bho8sy{
+    background-color: var(--model) !important;
+}
+.st-emotion-cache-4zpzjl{
+    background-color: var(--user) !important;
+}

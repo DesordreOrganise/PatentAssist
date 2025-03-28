@@ -1,3 +1,3 @@
 vector_store_location: "./vector_store"
-initial_k: 20
-rerank_k: 4
+initial_k: 5
+rerank_k: 5
