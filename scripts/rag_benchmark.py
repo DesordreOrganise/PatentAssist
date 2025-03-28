@@ -80,7 +80,7 @@ def _setup_metrics():
 def benchmark_rag(rag: RAG, dataset: Optional[pd.DataFrame] = None):
     if dataset is None:
         dataset_eqe = EQE_Dataset_Explaination(
-            ["../../resources/EQE_PaperD/EQE_2024_PaperD_final_documentLess.json"])
+            ["../resources/EQE_PaperD/EQE_2024_PaperD_final_documentLess.json"])
         dataset = dataset_eqe.get_dataset()
 
     measurable_rag = Benchmark_rag(rag)
@@ -96,10 +96,8 @@ def benchmark_rag(rag: RAG, dataset: Optional[pd.DataFrame] = None):
 
     rag_time = np.sum(measurable_rag.execution_time)
 
-    logging.info(f"{code_Green}Average execution time for the retriever: {
-                 np.mean(measurable_rag.execution_time)} s{code_end}")
-    logging.info(f"{code_Green}Average execution time for metrics computation: {
-                 (dt - rag_time) / len(dataset)} s{code_end}")
+    logging.info(f"{code_Green}Average execution time for the retriever: {np.mean(measurable_rag.execution_time)} s{code_end}")
+    logging.info(f"{code_Green}Average execution time for metrics computation: {(dt - rag_time) / len(dataset)} s{code_end}")
 
     for name, metric in output.items():
         logging.info(f"\t-{code_Green}{name}: {metric}{code_end}")
@@ -159,7 +157,7 @@ def benchmark_rag(rag: RAG, dataset: Optional[pd.DataFrame] = None):
 if __name__ == "__main__":
 
     logging.info("Loading graph")
-    with open("../../resources/LegalBases/graph.pkl", "rb") as f:
+    with open("../resources/LegalBases/graph.pkl", "rb") as f:
         g = pickle.load(f)
 
     print('loading files')
@@ -177,14 +175,14 @@ if __name__ == "__main__":
     articles["metadatas"] = metadatas
 
     print("Loading retriever")
-    config_path = "../../config/retriever_config.yaml"
-    local_embeddings = OllamaEmbeddings(model="all-minilm")
+    config_path = "../config/retriever_config.yaml"
+    local_embeddings = OllamaEmbeddings(model="nomic-embed-text")
     retriever = Retriever(config_path, articles, local_embeddings)
 
     print("Loading Rag")
     # llm = ChatOllama(model="gemma3:1b")
-    llm = ChatOllama(model="gemma:2b")
-    rag_config_path = "../../config/config.yaml"
+    llm = ChatOllama(model="mistral")
+    rag_config_path = "../config/config.yaml"
     rag = RAG(rag_config_path, llm, retriever, g, None)
 
     benchmark_rag(rag)

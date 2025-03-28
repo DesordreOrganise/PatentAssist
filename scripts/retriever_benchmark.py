@@ -64,7 +64,7 @@ def benchmark_retriever(retriever: Retriever, dataset: Optional[pd.DataFrame] = 
         dataset = dataset_eqe.get_dataset()
 
     measurable_retriever = Benchmark_retriever(retriever, rerank=rerank)
-    adapter = Retriever_Adapter(measurable_retriever)
+    adapter = Retriever_Adapter(measurable_retriever, rerank=rerank)
 
     benchmark = EvaluationFramework([
         NDCG(),
@@ -162,7 +162,8 @@ if __name__ == "__main__":
 
     print("Loading retriever")
     config_path = "../config/retriever_config.yaml"
-    local_embeddings = OllamaEmbeddings(model="nomic-embed-text")
+    local_embeddings = OllamaEmbeddings(model="bge-m3")
     retriever = Retriever(config_path, articles, local_embeddings)
     retriever.purge_store()
+    print("let's go")
     benchmark_retriever(retriever, rerank=False)
