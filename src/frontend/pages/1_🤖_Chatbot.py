@@ -264,15 +264,15 @@ if prompt:
 if st.session_state.clicked_question:
     print("clicked question")
     print(str(st.session_state.category_2_idx[category]) + '. ' + category)
-    context_prompt = generate_question(type, str(st.session_state.category_2_idx[category]) + '. ' + category)
+    context_prompt = generate_question(type, category)
 
     st.session_state["messages"].append({"role": "user", "content": context_prompt})
     with st.chat_message("user"):
         st.markdown(context_prompt)
 
     with st.chat_message("assistant"):
-        message = st.write_stream(model_res_generator()) # generate_question
-        #linked_message = linkify_articles(message, st.session_state.g)   # HERE TO GET HYPERLINKS
+        message = st.write_stream(st.session_state.rag.generate_question(str(st.session_state.category_2_idx[category]) + '. ' + category, type=type)) # generate_question
+        linked_message = linkify_articles(message, st.session_state.g)   # HERE TO GET HYPERLINKS
         st.session_state["messages"].append({"role": "assistant", "content": message})  # remember to switch to linked_message here
 
         qcm_choices = parse_qcm_response(message)
