@@ -1,6 +1,8 @@
 # PatentAssist
 Our base repo for the Data Battle 2025
 
+<img src="src/frontend/assets/logo.png" width="500em">
+
 # Prerequisites
 
 From project root, install all dependencies with :
