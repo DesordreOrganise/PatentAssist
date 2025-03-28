@@ -4,7 +4,7 @@ import pickle
 import networkx as nx
 
 
-def default_rag(model="gemma3:4b", embedder="nomic-embed-text") -> tuple[RAG, nx.MultiGraph]:
+def default_rag(model="llama3", embedder="nomic-embed-text") -> tuple[RAG, nx.MultiGraph]:
     with open("./resources/LegalBases/graph.pkl", "rb") as f:
         g = pickle.load(f)
 
